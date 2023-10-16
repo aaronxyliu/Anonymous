@@ -27,18 +27,14 @@ example url: 127.0.0.1:6543/test/jquery/12
 
 
 #### File Structure
-
-**crawler:** data collection scripts.
-
-**data:** collection results.
-
-**exp:** experiment scripts.
-
-**log:** experiment log.
-
-**static:** static files for the testing website.
-
-**app.py:** hosts a local server to load library, should be run before pTree generation.
+| Folder or File| Description|
+|--|--|
+| **crawler/**| Data collection scripts.|
+| **data/** |   Collection results.|
+| **exp/** |  Experiment scripts. |
+| **log/** |   Experiment log.|
+| **static/** |  Static resources used for the testing website. |
+| **app.py** |  Hosts a local server to load library, should be run before pTree generation. |
 
 
 
