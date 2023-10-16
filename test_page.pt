@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Test Page</title>
+    <script src="${request.static_path('static/test_page1.js')}"></script>
+</head>
+<body>
+    <h3>This is the test page.</h3>
+    <h4>Library ${libname} (${version}) : ${filename} is loaded.</h4>
+    <div id="version">${version}</div>
+    <div id="js-errors"></div>
+    <button onclick="getGlobalV();">Get Global Variables</button>
+    <button onclick="createObjectTree(5, 500, true);">Generate pTree</button>
+    <div id="tree-size"></div>
+    <!-- <div id="tree-depth"></div> -->
+    <div id="circle-num"></div>
+    <div id="gloabl-v"></div>
+    <div id="obj-tree"></div>
+</body>
+<script>
+    window.onerror=function(msg){
+        var error_div = document.getElementById('js-errors');
+        error_div.innerHTML += msg;
+    }
+</script>
+
+
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.0.0/core.js"></script> -->
+<tal:block tal:repeat="lib libs">
+    <script src="${lib}"></script>
+</tal:block>
+
+</html>
