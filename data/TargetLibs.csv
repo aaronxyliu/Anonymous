@@ -1,0 +1,66 @@
+Library,Url,CDNJS,GitHub Star,avg. |V|,avg. |Vm|,# Versions,# Sep by PT,# Sep by LDC,No Version by LDC,Fineness (PT),Fineness (LDC),F(PT)/F(LDC),False (LDC),|V|
+Bootstrap,http://getbootstrap.com/,https://cdnjs.com/libraries/bootstrap,165563.0,164.0,5.8,27,12,5,,0.37,0.19,2.0,,4429
+D3,https://d3js.org/,https://cdnjs.com/libraries/d3,106418.0,708.5,3.0,261,261,261,,1.0,1.0,1.0,,184908
+three.js,https://threejs.org/,https://cdnjs.com/libraries/three.js,94993.0,756.9,3.6,248,139,103,,0.55,0.42,1.32,,187710
+Socket.IO,https://socket.io/,https://cdnjs.com/libraries/socket.io,59115.0,49.1,3.3,126,42,33,,0.33,0.26,1.27,,6187
+jQuery,http://jquery.com,https://cdnjs.com/libraries/jquery,57871.0,995.1,4.0,82,82,82,,1.0,1.0,1.0,,81600
+Lo-Dash,https://lodash.com/,https://cdnjs.com/libraries/lodash.js,57667.0,640.7,3.0,112,109,109,,0.97,0.97,1.0,,71761
+Moment.js,http://momentjs.com/,https://cdnjs.com/libraries/moment.js,47549.0,184.7,3.0,76,76,76,,1.0,1.0,1.0,,14040
+Pixi.js,http://www.pixijs.com/,https://cdnjs.com/libraries/pixi.js,41100.0,775.7,3.1,99,94,80,,0.89,0.89,1.0,6.0,76799
+Leaflet,http://leafletjs.com,https://cdnjs.com/libraries/leaflet,38621.0,986.0,3.1,51,48,51,,1.0,1.0,1.0,,50287
+Material Design Lite,https://getmdl.io/,https://cdnjs.com/libraries/material-design-lite,32215.0,25.2,2.8,18,4,1,Y,0.11,0.06,2.0,,454
+Backbone,http://backbonejs.org/,https://cdnjs.com/libraries/backbone.js,28026.0,86.3,3.3,33,31,29,,0.88,0.88,1.0,1.0,2848
+Fabric.js,http://fabricjs.com/,https://cdnjs.com/libraries/fabric.js,25961.0,820.0,3.5,131,131,108,,0.83,0.82,1.01,22.0,107419
+Modernizr,https://modernizr.com/,https://cdnjs.com/libraries/modernizr,25560.0,110.8,3.1,21,21,21,,1.0,1.0,1.0,,2326
+Hammer.js,http://eightmedia.github.io/hammer.js/,https://cdnjs.com/libraries/hammer.js,23705.0,93.7,3.7,26,23,18,,0.73,0.69,1.06,5.0,2435
+core-js,https://github.com/zloirock/core-js,https://cdnjs.com/libraries/core-js,23071.0,230.0,3.5,206,161,96,,0.8,0.47,1.71,,47376
+FastClick,https://github.com/ftlabs/fastclick,https://cdnjs.com/libraries/fastclick,18721.0,4.1,2.4,33,7,1,Y,0.18,0.03,6.0,,135
+Handsontable,https://handsontable.com/,https://cdnjs.com/libraries/handsontable,18337.0,223.7,3.8,183,147,44,,0.77,0.24,3.2,,40929
+Handlebars,http://handlebarsjs.com/,https://cdnjs.com/libraries/handlebars.js,17429.0,147.2,3.1,78,68,78,,1.0,1.0,1.0,,11479
+Velocity.js,http://velocityjs.org/,https://cdnjs.com/libraries/velocity,17241.0,92.4,4.4,72,29,7,,0.43,0.1,4.14,,6656
+FuseJS,http://fusejs.io/,https://cdnjs.com/libraries/fuse.js,16622.0,12.6,3.1,76,46,1,Y,0.61,0.01,46.0,,956
+Mustache,http://mustache.github.io/,https://cdnjs.com/libraries/mustache.js,16068.0,24.7,3.0,46,44,44,,0.96,0.96,1.0,2.0,1134
+Matter.js,http://brm.io/matter-js/,https://cdnjs.com/libraries/matter-js,15117.0,709.8,3.5,22,19,1,Y,0.86,0.05,19.0,3.0,15615
+Zepto.js,http://zeptojs.com,https://cdnjs.com/libraries/zepto,14996.0,872.8,4.9,19,8,1,Y,0.42,0.05,8.0,,16583
+Riot,http://riotjs.com/,https://cdnjs.com/libraries/riot,14807.0,47.5,3.2,271,251,190,,0.79,0.7,1.13,7.0,12872
+Paper.js,http://paperjs.org/,https://cdnjs.com/libraries/paper.js,13949.0,15.6,4.0,50,7,50,,1.0,1.0,1.0,,781
+RequireJS,http://requirejs.org/,https://cdnjs.com/libraries/require.js,12906.0,80.9,3.0,69,69,69,,1.0,1.0,1.0,,5582
+Highcharts,http://www.highcharts.com,https://cdnjs.com/libraries/highcharts,11493.0,515.2,3.0,86,86,86,,1.0,1.0,1.0,,44308
+jQuery UI,http://jqueryui.com,https://cdnjs.com/libraries/jqueryui,11178.0,178.0,4.0,27,27,27,,1.0,1.0,1.0,,4807
+Isotope,https://isotope.metafizzy.co/,https://cdnjs.com/libraries/jquery.isotope,10906.0,139.6,3.8,14,4,1,Y,0.29,0.07,4.0,,1954
+Knockout,http://knockoutjs.com/,https://cdnjs.com/libraries/knockout,10376.0,971.7,3.1,15,15,15,,1.0,1.0,1.0,,14576
+jQuery Mobile,http://jquerymobile.com/,https://cdnjs.com/libraries/jquery-mobile,9718.0,81.4,3.3,11,6,7,,0.7,0.7,1.0,,895
+Numeral.js,http://numeraljs.com/,https://cdnjs.com/libraries/numeral.js,9505.0,61.5,3.0,31,30,30,,0.97,0.97,1.0,1.0,1907
+Tween.js,https://github.com/tweenjs/tween.js,https://cdnjs.com/libraries/tween.js,9444.0,76.6,3.8,57,17,1,Y,0.3,0.02,17.0,,4365
+WebFont Loader,https://github.com/typekit/webfontloader,https://cdnjs.com/libraries/webfont,9139.0,7.5,3.6,49,7,1,Y,0.14,0.02,7.0,,369
+Sea.js,https://seajs.github.io/seajs/docs/,https://cdnjs.com/libraries/seajs,8295.0,62.1,3.0,18,17,17,,0.94,0.94,1.0,1.0,1117
+Two,https://two.js.org/,https://cdnjs.com/libraries/two.js,8077.0,392.4,3.1,36,34,34,,0.94,0.94,1.0,2.0,14125
+DC.js,http://dc-js.github.io/dc.js/,https://cdnjs.com/libraries/dc,7395.0,242.1,3.0,113,109,86,,0.76,0.76,1.0,1.0,27356
+FlotCharts,http://www.flotcharts.org/,https://cdnjs.com/libraries/flot,5949.0,15.4,4.0,54,10,9,,0.19,0.17,1.11,,834
+FlexSlider,https://woocommerce.com/flexslider/,https://cdnjs.com/libraries/flexslider,4928.0,8.0,0.0,15,1,1,Y,0.07,0.07,1.0,,120
+Closure Library,https://developers.google.com/closure/library/,https://cdnjs.com/libraries/google-closure-library,4777.0,270.2,4.8,15,6,1,Y,0.4,0.07,6.0,,4053
+Sugar,https://sugarjs.com,https://cdnjs.com/libraries/sugar,4514.0,214.9,3.7,38,16,3,,0.42,0.08,5.33,,8166
+Head JS,http://headjs.com/,https://cdnjs.com/libraries/headjs,4170.0,34.6,4.0,9,6,1,Y,0.56,0.11,5.0,,311
+YUI 3,https://yuilibrary.com/,https://cdnjs.com/libraries/yui,4105.0,114.1,4.5,69,32,18,,0.46,0.26,1.78,,7870
+Moment Timezone,http://momentjs.com/timezone/,https://cdnjs.com/libraries/moment-timezone,3758.0,22.7,3.9,60,57,60,,1.0,1.0,1.0,,1363
+Prototype,http://prototypejs.org,https://cdnjs.com/libraries/prototype,3519.0,788.0,3.0,5,5,5,,1.0,1.0,1.0,,3940
+CamanJS,http://camanjs.com/,https://cdnjs.com/libraries/camanjs,3513.0,170.9,5.1,18,17,14,,0.94,0.78,1.21,,3076
+Processing.js,http://processingjs.org,https://cdnjs.com/libraries/processing.js,3090.0,104.2,3.6,51,32,26,,0.63,0.51,1.23,6.0,5313
+Sammy,http://sammyjs.org,https://cdnjs.com/libraries/sammy.js,2993.0,30.7,3.0,6,6,6,,1.0,1.0,1.0,,184
+MooTools,http://mootools.net,https://cdnjs.com/libraries/mootools,2628.0,997.0,3.3,3,3,3,,1.0,1.0,1.0,,2991
+yepnope,http://yepnopejs.com/,https://cdnjs.com/libraries/yepnope,2522.0,21.5,3.8,11,4,1,Y,0.36,0.09,4.0,,236
+LABjs,https://github.com/getify/LABjs,https://cdnjs.com/libraries/labjs,2278.0,24.0,2.0,3,2,1,Y,0.67,0.33,2.0,,72
+SPF,https://youtube.github.io/spfjs/,https://cdnjs.com/libraries/spf,2194.0,86.5,1.5,11,2,1,Y,0.18,0.09,2.0,,951
+Pusher,https://pusher.com/docs/,https://cdnjs.com/libraries/pusher,1989.0,128.2,3.1,60,19,16,,0.32,0.27,1.19,,7690
+IfVisible.js,http://serkanyersen.github.io/ifvisible.js/,https://cdnjs.com/libraries/ifvisible,1947.0,31.2,2.0,6,2,1,Y,0.33,0.17,2.0,,187
+Ink,http://ink.sapo.pt/,https://cdnjs.com/libraries/ink,1908.0,1.0,0.0,3,1,1,Y,0.33,0.33,1.0,,3
+Mapbox,https://www.mapbox.com/,https://cdnjs.com/libraries/mapbox.js,1903.0,997.0,4.0,4,4,4,,1.0,1.0,1.0,,3988
+Visibility.js,https://github.com/ai/visibilityjs,https://cdnjs.com/libraries/visibility.js,1815.0,43.9,5.0,11,11,1,Y,0.55,0.09,6.0,,483
+jQuery Tools,http://jquerytools.github.io/,https://cdnjs.com/libraries/jquery-tools,1804.0,995.0,4.0,2,2,2,,1.0,1.0,1.0,,1990
+Dojo,http://dojotoolkit.org,https://cdnjs.com/libraries/dojo,1531.0,957.9,4.2,75,75,75,,1.0,1.0,1.0,,71842
+InfoVis,http://philogb.github.com/jit/,https://cdnjs.com/libraries/jit,1508.0,761.5,4.0,2,2,2,,1.0,1.0,1.0,,1523
+AmplifyJS,http://amplifyjs.com/,https://cdnjs.com/libraries/amplifyjs,1457.0,7.0,0.0,3,1,1,Y,0.33,0.33,1.0,,21
+Qooxdoo,http://www.qooxdoo.org/,https://cdnjs.com/libraries/qooxdoo,758.0,908.7,4.9,15,15,1,Y,1.0,0.07,15.0,,13631
+Ext JS,https://www.sencha.com/products/extjs/,https://cdnjs.com/libraries/extjs,,991.2,4.0,4,4,4,,1.0,1.0,1.0,,3965
+Rapha&euml;l,http://dmitrybaranovskiy.github.io/raphael/,https://cdnjs.com/libraries/raphael,,684.3,3.6,30,25,25,,0.83,0.83,1.0,5.0,20529
+Underscore,http://underscorejs.org/,https://cdnjs.com/libraries/underscore.js,,289.1,3.0,75,75,75,,1.0,1.0,1.0,,21685

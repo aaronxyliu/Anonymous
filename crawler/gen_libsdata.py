@@ -16,15 +16,23 @@ file_select_dict = [
     },
     {
         'libname': 'bootstrap',
-        'filenames': ['js/bootstrap.js', 'bootstrap.js']
+        'filenames': ['js/bootstrap.js', 'bootstrap.js'],
+        'part_deps': [{
+            'versions': ['4.5.3', '4.6.0', '4.6.1', '4.6.2'],
+            'out_deps': ['https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.0/jquery.min.js']
+        }]
     },
     {
         'libname': 'camanjs',
-        'filenames': ['caman.js', 'caman.full.min.js']
+        'filenames': ['caman.js', 'caman.full.min.js'],
+        # 'part_deps': [{
+        #     'versions': ['1.0.0', '1.1.0', '1.2.0', '1.2.1', '2.0.0'],
+        #     'out_deps': ['https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js']
+        # }]
     },
     {
         'libname': 'core-js',
-        'filenames': ['core.min.js', 'minified.js']
+        'filenames': ['minified.js', 'core.min.js']
     },
     {
         'libname': 'd3',
@@ -32,11 +40,20 @@ file_select_dict = [
     },
     {
         'libname': 'dc',
-        'filenames': ["dc.min.js", "dc.js"]
+        'filenames': ["dc.min.js", "dc.js"],
+        'out_deps': ['https://cdnjs.cloudflare.com/ajax/libs/d3/3.0.0/d3.min.js', 'https://cdnjs.cloudflare.com/ajax/libs/crossfilter/1.3.12/crossfilter.min.js'],
+        'part_deps': [{
+            'versions': ['>=3.0.0'],
+            'out_deps': ['https://cdnjs.cloudflare.com/ajax/libs/d3/4.0.0/d3.min.js', 'https://cdnjs.cloudflare.com/ajax/libs/crossfilter/1.3.12/crossfilter.min.js']
+        }]
     },
     {
         'libname': 'dojo',
         'filenames': ['dojo.js']
+    },
+    {
+        'libname': 'extjs',
+        'filenames': ['ext-all.js']
     },
     {
         'libname': 'fabric.js',
@@ -48,11 +65,17 @@ file_select_dict = [
     },
     {
         'libname': 'flexslider',
-        'filenames': ['jquery.flexslider.js']
+        'filenames': ['jquery.flexslider.js'],
+        'out_deps': ['https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.0/jquery.min.js']
     },
     {
         'libname': 'flot',
-        'filenames': ['jquery.flot.js', "jquery.flot.min.js"]
+        'filenames': ['jquery.flot.js', "jquery.flot.min.js"],
+        'out_deps': ['https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js'],
+        'part_deps': [{
+            'versions': ['>=2.1.1'],
+            'out_deps': ['https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js', 'jquery.canvaswrapper.min.js']
+        }]
     },
     {
         'libname': 'fuse.js',
@@ -64,7 +87,7 @@ file_select_dict = [
     },
     {
         'libname': 'graphiql',
-        'filenames': ['graphiql.js']
+        'filenames': ['graphiql.min.js', 'graphiql.js']
     },
     {
         'libname': 'hammer.js',
@@ -76,7 +99,8 @@ file_select_dict = [
     },
     {
         'libname': 'handsontable',
-        'filenames': ['handsontable.js', 'jquery.handsontable.js', 'jquery.handsontable.full.js']
+        'filenames': ['handsontable.full.js', 'handsontable.js', 'jquery.handsontable.full.js', 'jquery.handsontable.js'],
+        'out_deps': ['https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js']
     },
     {
         'libname': 'headjs',
@@ -92,7 +116,7 @@ file_select_dict = [
     },
     {
         'libname': 'ink',
-        'filenames': ['js/ink.js']
+        'filenames': ['js/ink-all.js', 'js/ink.js']
     },
     {
         'libname': 'jit',
@@ -104,7 +128,8 @@ file_select_dict = [
     },
     {
         'libname': 'jquery-mobile',
-        'filenames': ['jquery.mobile.js']
+        'filenames': ['jquery.mobile.js'],
+        'out_deps': ['https://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery.min.js']
     },
     {
         'libname': 'jquery-tools',
@@ -157,7 +182,8 @@ file_select_dict = [
     },
     {
         'libname': 'moment-timezone',
-        'filenames': ['moment-timezone.js']
+        'filenames': ['moment-timezone.js'],
+        'out_deps': ['https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js']
     },
     {
         'libname': 'moment.js',
@@ -221,7 +247,8 @@ file_select_dict = [
     },
     {
         'libname': 'sammy.js',
-        'filenames': ['sammy.min.js', 'sammy.js']
+        'filenames': ['sammy.min.js', 'sammy.js'],
+        'out_deps': ['https://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery.min.js']
     },
     {
         'libname': 'scriptaculous',
@@ -256,6 +283,10 @@ file_select_dict = [
         'filenames': ['three.min.js', 'three.js', 'Three.js',  'ROME/Three.min.js']
     },
     {
+        'libname': 'tween.js',
+        'filenames': ["Tween.js", "Tween.min.js", "tween.esm.js", "tween.esm.min.js"]
+    },
+    {
         'libname': 'two.js',
         'filenames': ['two.js']
     },
@@ -265,7 +296,12 @@ file_select_dict = [
     },
     {
         'libname': 'velocity',
-        'filenames': ["jquery.velocity.min.js", "jquery.velocity.js", "velocity.min.js", "velocity.js"]
+        'filenames': ["jquery.velocity.min.js", "jquery.velocity.js", "velocity.min.js", "velocity.js"],
+        'out_deps': ['https://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery.min.js'],
+        'part_deps': [{
+            'versions': ['>=1.0.0'],
+            'out_deps': []
+        }]
     },
     {
         'libname': 'visibility.js',
@@ -299,17 +335,50 @@ def gen_libdata(file_select_item):
     with open(f'data/lib_versions/{LIB_NAME}_v.json', 'r') as openfile:
         data = json.load(openfile)
     print(f'Start converting version data of {LIB_NAME}.')
+
+    # Arrange dependencies
+    deps_dict = {}
+    if 'part_deps' in file_select_item:
+        for part in file_select_item['part_deps']:
+            for v in part['versions']:
+                if v[:2] == '>=':
+                    v_ = v[2:]
+                    start_enter = False
+                    for v_info in data:
+                        version = v_info['version']
+                        if version == v_:
+                            start_enter = True
+                        if start_enter: 
+                            deps_dict[version] = part['out_deps']
+                else:
+                    deps_dict[v] = part['out_deps']
+
+    # Start converting
     for v_info in data:
         fname_found = False
         for fname in FILE_NAMES:
             if fname in v_info['files']:
+
+                # Check whether the version is mentioned in deps_dict
+                version = v_info['version']
+                out_deps = OUT_DEPS
+                if version in deps_dict:
+                    out_deps = deps_dict[version]
+                
+                # Handle non-url dependency
+                for i in range(len(out_deps)):
+                    df = out_deps[i]    # dependency file
+                    if len(df) < 4 or df[:4] != 'http':   # Not a complete url
+                        out_deps[i] = f"https://cdnjs.cloudflare.com/ajax/libs/{LIB_NAME}/{version}/{df}"
+
+
                 file_dict[cnt] = {
                     'libname': LIB_NAME,
                     'filename': fname,
-                    'url': f"https://cdnjs.cloudflare.com/ajax/libs/{LIB_NAME}/{v_info['version']}/{fname}",
+                    'url': f"https://cdnjs.cloudflare.com/ajax/libs/{LIB_NAME}/{version}/{fname}",
                     'version': v_info['version'],
                     'in_deps': [],
-                    'out_deps': OUT_DEPS,
+                    'out_deps': out_deps,
                 }
                 fname_found = True
                 cnt += 1

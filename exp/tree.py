@@ -1,4 +1,5 @@
 # Classes implemented according to the Version Detection paper
+import time
 
 class Label:
     def __init__(self, _name):
@@ -228,6 +229,7 @@ class Gamma:
         Update:
             self.trees
         """
+        T1 = time.time()
         r = 0
         eq = []    # eq[i] = {1, 3, 5} means 1, 3, 5 belong to a equivalence class
         n = len(self.trees)
@@ -258,7 +260,6 @@ class Gamma:
                 break
 
         new_trees = []
-        print(eq)
         while len(U):
             i = U.pop()
             U -= eq[i]
@@ -290,6 +291,45 @@ class Gamma:
             new_trees.append(self.trees[i])
         self.trees = new_trees
 
+        T2 = time.time()
+        return [T2 - T1]
+
+
+    def path_in_tree(self, fpath, tree):
+        """
+        Check whether fpath is a root path in tree. 
+
+        Parameters:
+            fpath - full path
+            tree - <LabeledTree> 
+
+        Return:
+            True or False
+        """
+        
+        assert(isinstance(fpath, LabeledPath))
+        assert(isinstance(tree, LabeledTree))
+        path_len = len(fpath.vn)
+        assert(path_len > 0)
+
+        v = tree.root
+        if fpath.vn[0] != v.name:
+            return False
+        
+        for i in range(1, path_len):
+            found_child = False
+            for c in v.children:
+                if c.name == fpath.vn[i]:
+                    v = c
+                    found_child = True
+                    break
+            if not found_child:
+                return False
+            
+        if v.label != fpath.label:
+                return False
+        return True
+
 
 
 
@@ -303,18 +343,24 @@ class Gamma:
         Returns:
             <LabeledTree>.Omega - the path coloring collection for each tree
             <LabeledTree>.S - the supertree set of each tree
+            time log - an array of time records for each stage in the algorithm
         """
         self.mtrees = []
+        time_log = [0] * 4
+        timestamp = [0] * 5
         for t in self.trees:
             # Generate the coloring set gamma for each path in t.
+            timestamp[0] = time.time()
             t.Omega = []
             for i in range(len(t.fpaths)):
                 p = t.fpaths[i]
                 omega = set()  # the coloring set of p
                 for j in range(len(self.trees)):
-                    if p in self.trees[j].rpaths:
+                    if self.path_in_tree(p, self.trees[j]):
+                    # if p in self.trees[j].rpaths:
                         omega.add(j)
                 t.Omega.append(omega)
+            timestamp[1] = time.time()
             
             # Generate the supertree set of t.
             U = set(range(len(self.trees))) # Full set
@@ -324,13 +370,23 @@ class Gamma:
             
             for i in range(len(t.Omega)):
                 t.Omega[i] = U - t.Omega[i]
+            timestamp[2] = time.time()
 
             # Find the minimum cover sets of the coloring collection
             I = t.min_cover_set(len(U))
+            timestamp[3] = time.time()
 
             # Generate minified tree
             mtree = LabeledTree(t.generate_minified_tree(I), t.name)
             self.mtrees.append(mtree)
+            timestamp[4] = time.time()
+        
+            # Record the time spent on each stage
+            for i in range(len(time_log)):
+                time_log[i] += timestamp[i + 1] - timestamp[i]
+        
+        return time_log
+    
         
     def strict_supertree_set_minify(self):
         """
@@ -342,7 +398,7 @@ class Gamma:
         Returns:
             <LabeledTree>.Sm - minified strict supertree set of each tree
         """
-
+        T1 = time.time()
         # Generate the equavalence class of each tree
         for i in range(len(self.trees)):
             t = self.trees[i]
@@ -358,6 +414,9 @@ class Gamma:
                         max_k = k
                 S_st -= self.trees[max_k].S
                 t.Sm.add(max_k)
+
+        T2 = time.time()
+        return [T2 - T1]
 
 
 

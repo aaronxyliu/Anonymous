@@ -52,13 +52,13 @@
 50,4.3.3,Y,
 51,4.3.4,Y,
 52,4.3.5,Y,
-53,4.4.0,Y,
-54,4.4.1,Y,
-55,4.4.2,Y,
-56,4.4.3,Y,
-57,4.4.4,Y,
-58,4.4.5,Y,
-59,4.5.0,Y,
+53,4.4.0,N,Unknown fault.
+54,4.4.1,N,Unknown fault.
+55,4.4.2,N,Unknown fault.
+56,4.4.3,N,Unknown fault.
+57,4.4.4,N,Unknown fault.
+58,4.4.5,N,Unknown fault.
+59,4.5.0,N,Unknown fault.
 60,4.5.1,N,Unknown fault.
 61,4.5.2,N,Unknown fault.
 62,4.5.3,N,Unknown fault.
@@ -82,7 +82,7 @@
 80,4.8.7,N,Unknown fault.
 81,4.8.8,N,Unknown fault.
 82,5.0.0,N,Unknown fault.
-83,5.0.0-alpha,Y,
+83,5.0.0-alpha,N,Unknown fault.
 84,5.0.0-alpha.3,N,Unknown fault.
 85,5.0.0-rc,N,Unknown fault.
 86,5.0.0-rc.2,N,Unknown fault.
@@ -196,13 +196,13 @@
 194,7.3.0-rc,Y,
 195,7.3.0-rc.2,Y,
 196,7.3.1,Y,
-197,8.0.0-alpha.0,N,Unknown fault.
-198,8.0.0-alpha.1,N,Unknown fault.
-199,8.0.0-alpha.2,N,Unknown fault.
-200,8.0.0-alpha.3,N,Unknown fault.
-201,8.0.0-beta.0,N,Unknown fault.
-202,8.0.0-beta.1,N,Unknown fault.
-203,8.0.0-beta.2,N,Unknown fault.
-204,8.0.0-beta.3,N,Unknown fault.
+197,8.0.0-alpha.0,Y,
+198,8.0.0-alpha.1,Y,
+199,8.0.0-alpha.2,Y,
+200,8.0.0-alpha.3,Y,
+201,8.0.0-beta.0,Y,
+202,8.0.0-beta.1,Y,
+203,8.0.0-beta.2,Y,
+204,8.0.0-beta.3,Y,
 205,8.0.0-beta.4,N,Library loading error.
-206,8.0.0-beta.5,N,Unknown fault.
+206,8.0.0-beta.5,Y,

@@ -2,12 +2,12 @@
 
 from tree import *
 import json
-from database_conn import connect_to_planetscale
+import pandas as pd
+from database_conn import connect_to_localdb
 import time
+import sys
+import os
 
-# TABLE NAMEs
-INPUT_TABLE = 'jqueryui_version'
-OUTPUT_TABLE = INPUT_TABLE + '_m'
 
 # corejs: 21.43 s
 # requirejs: 1.52 s
@@ -15,7 +15,7 @@ OUTPUT_TABLE = INPUT_TABLE + '_m'
 # jqueryui: 1.5 s
 
 
-connection = connect_to_planetscale()
+connection = connect_to_localdb()
 cursor = connection.cursor()
 
 
@@ -73,9 +73,21 @@ def print_S(G):
         print("    " + str(G.trees[i].S))
 
 
-if __name__ == '__main__':
+def minify_pTs(libname):
+
+    INPUT_TABLE = f'{libname}_version'
+    OUTPUT_TABLE = f'{libname}_version_m2'
+
+
+    # Check wehther the table exist
+    query = f"SELECT COUNT(*) FROM information_schema.tables WHERE table_name = '{INPUT_TABLE}'"
+    cursor.execute(query)
+    if cursor.fetchone()[0] != 1:
+        print(f'Library {libname} doesn\'t have pTrees information stored in the database. Skipped.')
+        return None
+
     G = Gamma()
-    cursor.execute(f"SELECT `pTree`, `version` FROM {INPUT_TABLE};")
+    cursor.execute(f"SELECT `pTree`, `version` FROM `{INPUT_TABLE}`;")
     res = cursor.fetchall()
 
     # Read pTrees from dataset
@@ -89,25 +101,29 @@ if __name__ == '__main__':
     T1 = time.time()    # Timer starts
 
     # Minification
-    G.get_equivalence()
+    t1 = G.get_equivalence()
     G.get_trees_metas()
 
     print('Get equivalence finished.')
 
-    G.tree_size_reduction()
+    t2 = G.tree_size_reduction()
     G.get_mtrees_metas()
 
     print('Tree size reduction finished.')
 
     # print_S(G)
 
-    G.strict_supertree_set_minify()
+    t3 = G.strict_supertree_set_minify()
     T2 = time.time()    # Timer ends
 
     print('Strict supertree set minification finished.')
 
-    # Create output table if not exist
-    cursor.execute(f'''CREATE TABLE IF NOT EXISTS `{OUTPUT_TABLE}` (
+    # Drop table if exists
+    cursor.execute(f'DROP TABLE IF EXISTS `{OUTPUT_TABLE}`;')
+    connection.commit()
+
+    # Create a new output table
+    cursor.execute(f'''CREATE TABLE `{OUTPUT_TABLE}` (
         `pTree` json DEFAULT NULL,
         `size` int DEFAULT NULL,
         `depth` int DEFAULT NULL,
@@ -129,7 +145,7 @@ if __name__ == '__main__':
 
         mTree = LT2Json(mTree)
 
-        sql = f'''INSERT INTO {OUTPUT_TABLE} 
+        sql = f'''INSERT INTO `{OUTPUT_TABLE}` 
                 (pTree, size, depth, version, file_id, Sm, version_list) 
                 VALUES (%s, %s, %s, %s, %s, %s, %s);'''
         val = (json.dumps(mTree), G.mtrees[i].size, G.mtrees[i].depth, version, i, json.dumps(list(Sm)), json.dumps(version_list))
@@ -138,3 +154,30 @@ if __name__ == '__main__':
         print(f'   Version {version} entry added to {OUTPUT_TABLE}.')
     
     print(f'Tree minification completed. Time spent: {(T2 - T1)} seconds.')
+    return t1 + t2 + t3 + [T2 - T1]
+
+
+def minifyAll():
+    # Iterate through all libraries with information under the static/libs_data folder
+    libfiles_list = os.listdir('static/libs_data')
+    libfiles_list.sort()
+
+    log = []
+    for fname in libfiles_list:
+        
+        libname = fname[:-5]
+        res = minify_pTs(libname)
+        if res:
+            log.append([libname] + res)
+
+    df = pd.DataFrame(log, columns =['Library', 'Equivalence', 'Color Set', 'Supertree Set', 'Min Cover Set', 'Get mT', 'Get Sm', 'Total']) 
+    df.to_csv(f'log/mini_pTs2.csv', index=True)
+
+if __name__ == '__main__':
+    # Usage: > python3 mini_pTs.py <lib name>
+
+    if len(sys.argv) > 1:
+        minify_pTs(sys.argv[1])
+    else:
+        minifyAll()
+    connection.close()

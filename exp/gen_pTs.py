@@ -8,6 +8,7 @@ from selenium.webdriver.support.expected_conditions import text_to_be_present_in
 import json
 import pandas as pd
 import os
+import sys
 from database_conn import connect_to_localdb
 from TreeCredit import CreditCalculator
 
@@ -221,9 +222,13 @@ def updateOne(libname, file_index, limit_globalV=[]):
 
 
 def updateLibrary(libname, start_id = 0):
+    if not f'{libname}.json' in os.listdir('static/libs_data'):
+        print(f'library {libname} has no record in the static/libs_data directory.')
+        return
 
     with open(f'static/libs_data/{libname}.json', 'r') as openfile:
         file_list = json.load(openfile)
+    
 
     log = []    # Store log information during the process
     start = False
@@ -264,8 +269,11 @@ def updateAll():
         updateLibrary(libname)
 
 if __name__ == '__main__':
-    updateAll()
-    # updateLibrary('core-js')
+    # Usage: > python3 gen_pTs.py <lib name>
+    if len(sys.argv) > 1:
+        updateLibrary(sys.argv[1])
+    else:
+        updateAll()
     driver.close()
     connection.close()
 

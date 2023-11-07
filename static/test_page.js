@@ -24,10 +24,16 @@ function createObjectTree(depth_limit = 5, node_limit = 50, debug = false, bl = 
             v_info = { dict: { 'type': 'null' }, 'children': [] }
         }
         else if (isArraySetMap(v)) {
-            v_info = { dict: { 'type': 'array', 'value': v.length }, 'children': [] }
+            value = 0
+            try{
+                value = CryptoJS.MD5(JSON.stringify(v)).toString()
+            } catch (e) {
+                value = v.length
+            }
+            v_info = { dict: { 'type': 'array', 'value': value }, 'children': [] }
         }
         else if (typeof (v) == 'string') {
-            v_info = { dict: { 'type': 'string', 'value': v.slice(0, 10) }, 'children': [] }
+            v_info = { dict: { 'type': 'string', 'value': v.slice(0, 24) }, 'children': [] }
         }
         else if (typeof (v) == 'object') {
             let vlist = Object.getOwnPropertyNames(v)
@@ -89,7 +95,7 @@ function createObjectTree(depth_limit = 5, node_limit = 50, debug = false, bl = 
     function Sanitazer(str) {
         if (str.includes('"'))
             return false
-        if (str.length > 15)
+        if (str.length > 24)
             return false
         return true
     }
@@ -136,8 +142,9 @@ function createObjectTree(depth_limit = 5, node_limit = 50, debug = false, bl = 
             cur_node.dict = v_info.dict
 
             // Remove global variables in blacklist
-            if (v_path.length == 0)
+            if (v_path.length == 0) {
                 v_info['children'] = v_info['children'].filter(val => !blacklist.includes(val));
+            }
             
             if (v_path.length < depth_limit) {
                 for (let child of v_info['children']) {
@@ -145,7 +152,7 @@ function createObjectTree(depth_limit = 5, node_limit = 50, debug = false, bl = 
                         break
                     if (!Sanitazer(child))
                         continue    
-                    let c_node = new TreeNode(child)    
+                    let c_node = new TreeNode(child)
                     cur_node.children.push(c_node)
                     q.push([...v_path])              // shallow copy
                     q[q.length - 1].push(child)
@@ -164,7 +171,6 @@ function createObjectTree(depth_limit = 5, node_limit = 50, debug = false, bl = 
     })
         .then((response) => response.json())
         .then((origin_vlist) => {
-            console.log(origin_vlist)
             let tree_info = genPTree(node_limit, depth_limit, [...origin_vlist, ...bl])
             let tree = tree_info[0]
 

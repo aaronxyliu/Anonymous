@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
     <title>Test Page</title>
-    <script src="${request.static_path('static/test_page1.js')}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>
+    <script src="${request.static_path('static/test_page.js')}"></script>
 </head>
 <body>
     <h3>This is the test page.</h3>
@@ -25,9 +27,9 @@
 </script>
 
 
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.0.0/core.js"></script> -->
 <tal:block tal:repeat="lib libs">
-    <script src="${lib}"></script>
+    <!-- <script type="module" src="${lib}"></script> -->
+    <script type="text/javascript" src="${lib}"></script>
 </tal:block>
 
 </html>

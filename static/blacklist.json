@@ -1153,5 +1153,7 @@
     "monitorEvents",
     "unmonitorEvents",
     "$$",
-    "$x"
+    "$x",
+    "CryptoJS",
+    "CSSScopeRule"
 ]

@@ -1,0 +1,33 @@
+Library,Url,CDNJS,Github Star,# Versions,PTV # True Sep,PTV Fineness,LDC # True Sep,LDC # False Sep,LDC Fineness
+Backbone,http://backbonejs.org/,https://cdnjs.com/libraries/backbone.js,28026,33,31,0.94,31,0,0.94
+D3,https://d3js.org/,https://cdnjs.com/libraries/d3,106418,261,261,1.00,261,0,1.00
+Dojo,http://dojotoolkit.org,https://cdnjs.com/libraries/dojo,1531,75,75,1.00,75,0,1.00
+Ext JS,https://www.sencha.com/products/extjs/,https://cdnjs.com/libraries/extjs,0,4,4,1.00,4,0,1.00
+Highcharts,http://www.highcharts.com,https://cdnjs.com/libraries/highcharts,11493,86,86,1.00,86,0,1.00
+InfoVis,http://philogb.github.com/jit/,https://cdnjs.com/libraries/jit,1508,2,2,1.00,2,0,1.00
+jQuery,http://jquery.com,https://cdnjs.com/libraries/jquery,57871,82,82,1.00,82,0,1.00
+jQuery Tools,http://jquerytools.github.io/,https://cdnjs.com/libraries/jquery-tools,1804,2,2,1.00,2,0,1.00
+jQuery UI,http://jqueryui.com,https://cdnjs.com/libraries/jqueryui,11178,27,27,1.00,27,0,1.00
+Mapbox,https://www.mapbox.com/,https://cdnjs.com/libraries/mapbox.js,1903,4,4,1.00,4,0,1.00
+Moment.js,http://momentjs.com/,https://cdnjs.com/libraries/moment.js,47549,76,76,1.00,76,0,1.00
+MooTools,http://mootools.net,https://cdnjs.com/libraries/mootools,2628,3,3,1.00,3,0,1.00
+Prototype,http://prototypejs.org,https://cdnjs.com/libraries/prototype,3519,5,5,1.00,5,0,1.00
+RequireJS,http://requirejs.org/,https://cdnjs.com/libraries/require.js,12906,69,69,1.00,69,0,1.00
+Sammy,http://sammyjs.org,https://cdnjs.com/libraries/sammy.js,2993,6,6,1.00,6,0,1.00
+Underscore,http://underscorejs.org/,https://cdnjs.com/libraries/underscore.js,27086,75,75,1.00,75,0,1.00
+Leaflet,http://leafletjs.com,https://cdnjs.com/libraries/leaflet,38621,51,48,0.94,48,1,0.92
+three.js,https://threejs.org/,https://cdnjs.com/libraries/three.js,94993,248,139,0.56,134,0,0.54
+Lo-Dash,https://lodash.com/,https://cdnjs.com/libraries/lodash.js,57667,112,109,0.97,109,3,0.95
+Numeral.js,http://numeraljs.com/,https://cdnjs.com/libraries/numeral.js,9505,31,30,0.97,30,1,0.94
+DC.js,http://dc-js.github.io/dc.js/,https://cdnjs.com/libraries/dc,7395,113,109,0.96,109,4,0.93
+Paper.js,http://paperjs.org/,https://cdnjs.com/libraries/paper.js,13949,50,50,1.00,49,1,0.96
+Mustache,http://mustache.github.io/,https://cdnjs.com/libraries/mustache.js,16068,46,44,0.96,44,2,0.91
+Moment Timezone,http://momentjs.com/timezone/,https://cdnjs.com/libraries/moment-timezone,3758,60,57,0.95,57,3,0.90
+Pixi.js,http://www.pixijs.com/,https://cdnjs.com/libraries/pixi.js,41100,90,85,0.94,85,5,0.89
+Sea.js,https://seajs.github.io/seajs/docs/,https://cdnjs.com/libraries/seajs,8295,18,17,0.94,17,1,0.89
+Two,https://two.js.org/,https://cdnjs.com/libraries/two.js,8077,36,34,0.94,34,2,0.89
+Knockout,http://knockoutjs.com/,https://cdnjs.com/libraries/knockout,10376,15,15,1.00,14,0,0.93
+Fabric.js,http://fabricjs.com/,https://cdnjs.com/libraries/fabric.js,25961,131,131,1.00,126,5,0.92
+Handlebars,http://handlebarsjs.com/,https://cdnjs.com/libraries/handlebars.js,17429,78,68,0.87,67,11,0.72
+Modernizr,https://modernizr.com/,https://cdnjs.com/libraries/modernizr,25560,21,21,1.00,17,0,0.81
+Hammer.js,http://eightmedia.github.io/hammer.js/,https://cdnjs.com/libraries/hammer.js,23705,26,23,0.88,11,3,0.31
