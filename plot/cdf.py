@@ -9,8 +9,8 @@ def cdf(list_data, list_data2):
     data2 = np.array(list_data2)
 
     # getting data of the histogram 
-    count, bins_count = np.histogram(data, bins=30) 
-    count2, bins_count2 = np.histogram(data2, bins=30) 
+    count, bins_count = np.histogram(data, bins=100) 
+    count2, bins_count2 = np.histogram(data2, bins=100) 
 
     # finding the PDF of the histogram using count values 
     pdf = count / sum(count) 
