@@ -1,5 +1,5 @@
 Library,Url,CDNJS,Github Star,# Versions,PTV # True Sep,PTV Fineness,LDC # True Sep,LDC # False Sep,LDC Fineness,# Labeled Versions
-jQuery Mobile,http://jquerymobile.com/,https://cdnjs.com/libraries/jquery-mobile,9718,10,10,1.00,10,0,1.00,6
+jQuery Mobile,http://jquerymobile.com/,https://cdnjs.com/libraries/jquery-mobile,9718,10,6,0.60,6,0,0.60,6
 Pusher,https://pusher.com/docs/,https://cdnjs.com/libraries/pusher,1989,60,19,0.32,16,0,0.27,15
 FuseJS,http://fusejs.io/,https://cdnjs.com/libraries/fuse.js,16622,76,46,0.61,42,2,0.53,41
 Socket.IO,https://socket.io/,https://cdnjs.com/libraries/socket.io,59115,126,42,0.33,33,2,0.25,32

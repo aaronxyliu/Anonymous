@@ -4,16 +4,16 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 df= pd.read_csv("./plot/time.csv")
-y_ = df['T'].tolist()
-x_ = df['n|V|'].tolist()
-k = 1 / 300000
+y_ = df['T'].tolist()[:-1]
+x_ = df['n|V|'].tolist()[:-1]
+k = 1 / 270000
 
 x = np.arange(0, 50000000, 100000)
 y = []
 for t in x:
     y_1 = k * t
     y.append(y_1)
-plt.plot(x, y, label="Time = n ⋅ N / 300000", linestyle='--', color='#1c4586')
+plt.plot(x, y, label="Time = n ⋅ N / 270000", linestyle='--', color='#1c4586')
 plt.xlabel("n ⋅ N")
 plt.ylabel("Time (sec)")
 # y2 = []

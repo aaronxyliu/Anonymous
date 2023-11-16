@@ -30,24 +30,12 @@ def cdf(list_data, list_data2):
 
 
 if __name__ == '__main__':
-    plt.figure(figsize=(14,4))
+    plt.figure(figsize=(4,4))
 
-    df= pd.read_csv("./plot/Full.csv")
+    df= pd.read_csv("./plot/fineness.csv")
     ptv_f = df['PTV Fineness'].tolist()
     ldc_f = df['LDC Fineness'].tolist()
-    plt.subplot(1, 3, 1)
     cdf(ptv_f, ldc_f)
 
-    df= pd.read_csv("./plot/Part.csv")
-    ptv_f = df['PTV Fineness'].tolist()
-    ldc_f = df['LDC Fineness'].tolist()
-    plt.subplot(1, 3, 2)
-    cdf(ptv_f, ldc_f)
-
-    df= pd.read_csv("./plot/None.csv")
-    ptv_f = df['PTV Fineness'].tolist()
-    ldc_f = df['LDC Fineness'].tolist()
-    plt.subplot(1, 3, 3)
-    cdf(ptv_f, ldc_f)
 
     plt.show()

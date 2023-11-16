@@ -34,6 +34,7 @@ example url: 127.0.0.1:6543/test/jquery/12
 | **exp/** |  Experiment scripts. |
 | **log/** |   Experiment log.|
 | **static/** |  Static resources used for the testing website. |
+| **plot/** |  Scripts to draw paper plots. |
 | **app.py** |  Hosts a local server to load library, should be run before pTree generation. |
 
 

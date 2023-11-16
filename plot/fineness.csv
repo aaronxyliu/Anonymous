@@ -54,7 +54,7 @@ Ext JS,https://www.sencha.com/products/extjs/,https://cdnjs.com/libraries/extjs,
 Mapbox,https://www.mapbox.com/,https://cdnjs.com/libraries/mapbox.js,1903,4,1.00,1.00,0.00
 Prototype,http://prototypejs.org,https://cdnjs.com/libraries/prototype,3519,5,1.00,1.00,0.00
 Sammy,http://sammyjs.org,https://cdnjs.com/libraries/sammy.js,2993,6,1.00,1.00,0.00
-jQuery Mobile,http://jquerymobile.com/,https://cdnjs.com/libraries/jquery-mobile,9718,10,1.00,1.00,0.00
+jQuery Mobile,http://jquerymobile.com/,https://cdnjs.com/libraries/jquery-mobile,9718,10,0.60,0.60,0.00
 jQuery UI,http://jqueryui.com,https://cdnjs.com/libraries/jqueryui,11178,27,1.00,1.00,0.00
 RequireJS,http://requirejs.org/,https://cdnjs.com/libraries/require.js,12906,69,1.00,1.00,0.00
 Dojo,http://dojotoolkit.org,https://cdnjs.com/libraries/dojo,1531,75,1.00,1.00,0.00
