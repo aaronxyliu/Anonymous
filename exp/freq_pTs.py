@@ -1,4 +1,4 @@
-# Minify pTree size for each version
+# Find the maximum frequrent subtree
 
 from tree import *
 import json
@@ -8,15 +8,10 @@ import time
 import sys
 import os
 
-
-# corejs: 21.43 s
-# requirejs: 1.52 s
-# momentjs: 5.15 s
-# jqueryui: 1.5 s
-
-
 connection = connect_to_localdb()
 cursor = connection.cursor()
+
+OUTPUT_TABLE = 'max_freq_subtree'
 
 
 def Json2LT(root, par_v=None):
@@ -65,18 +60,9 @@ def LT2Json(root, par_v=None):
         LT2Json(child, v_obj)
     return v_obj
 
-def print_S(G):
-    assert(isinstance(G, Gamma))
-    print("\n== Supertree Set Display ==\n")
-    for i in range(len(G.trees)):
-        print(G.trees[i].name + ':')
-        print("    " + str(G.trees[i].S))
 
-
-def minify_pTs(libname):
-
+def freq_pTs(libname):
     INPUT_TABLE = f'{libname}_version'
-    OUTPUT_TABLE = f'{libname}_version_m2'
 
 
     # Check wehther the table exist
@@ -94,29 +80,24 @@ def minify_pTs(libname):
     for entry in res:
         pTree = Json2LT(json.loads(entry[0]))
         G.addt(LabeledTree(pTree, str(entry[1])))
-        # if entry[1] == '4.16.5' or entry[1] == '4.16.6':
-        #     pTree = Json2LT(json.loads(entry[0]))
-        #     G.addt(LabeledTree(pTree, str(entry[1])))
 
-    T1 = time.time()    # Timer starts
+    # Generate the maximun frequent subtree
+    freqT = G.max_freq_subtree()
+    freqT.get_metas()
 
-    # Minification
-    t1 = G.get_equivalence()
-    G.get_trees_metas()
+    # Save to dataset
+    sql = f'''INSERT INTO `{OUTPUT_TABLE}` 
+            (pTree, size, depth, libname) 
+            VALUES (%s, %s, %s, %s);'''
+    val = (json.dumps(LT2Json(freqT.root)), freqT.size, freqT.depth,libname)
+    cursor.execute(sql, val)
+    connection.commit()
+    print(f'   Library {libname} entry added to {OUTPUT_TABLE}.')
+    
 
-    print('Get equivalence finished.')
 
-    t2 = G.tree_size_reduction()
-    G.get_mtrees_metas()
-
-    print('Tree size reduction finished.')
-
-    # print_S(G)
-
-    t3 = G.strict_supertree_set_minify()
-    T2 = time.time()    # Timer ends
-
-    print('Strict supertree set minification finished.')
+def freqAll():
+    
 
     # Drop table if exists
     cursor.execute(f'DROP TABLE IF EXISTS `{OUTPUT_TABLE}`;')
@@ -127,57 +108,25 @@ def minify_pTs(libname):
         `pTree` json DEFAULT NULL,
         `size` int DEFAULT NULL,
         `depth` int DEFAULT NULL,
-        `version` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
-        `file_id` int DEFAULT NULL,
-        `Sm` json DEFAULT NULL,
-        `version_list` json DEFAULT NULL
+        `libname` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL
         );''')
     connection.commit()
-    print(f'Create table {OUTPUT_TABLE} to store minified pTrees.')
+    print(f'Create table {OUTPUT_TABLE} to store maximun frequent subtrees.')
 
-    # Save minified pTrees to dataset
-    for i in range(len(G.trees)):
-        assert(len(G.trees) == len(G.mtrees))
-        mTree = G.mtrees[i].root
-        version = G.mtrees[i].name
-        Sm = G.trees[i].Sm
-        version_list = G.trees[i].eq_name_list
-
-        mTree = LT2Json(mTree)
-
-        sql = f'''INSERT INTO `{OUTPUT_TABLE}` 
-                (pTree, size, depth, version, file_id, Sm, version_list) 
-                VALUES (%s, %s, %s, %s, %s, %s, %s);'''
-        val = (json.dumps(mTree), G.mtrees[i].size, G.mtrees[i].depth, version, i, json.dumps(list(Sm)), json.dumps(version_list))
-        cursor.execute(sql, val)
-        connection.commit()
-        print(f'   Version {version} entry added to {OUTPUT_TABLE}.')
-    
-    print(f'Tree minification completed. Time spent: {(T2 - T1)} seconds.')
-    return t1 + t2 + t3 + [T2 - T1]
-
-
-def minifyAll():
     # Iterate through all libraries with information under the static/libs_data folder
     libfiles_list = os.listdir('static/libs_data')
     libfiles_list.sort()
 
-    log = []
     for fname in libfiles_list:
-        
         libname = fname[:-5]
-        res = minify_pTs(libname)
-        if res:
-            log.append([libname] + res)
-
-    df = pd.DataFrame(log, columns =['Library', 'Equivalence', 'Color Set', 'Supertree Set', 'Min Cover Set', 'Get mT', 'Get Sm', 'Total']) 
-    df.to_csv(f'log/mini_pTs2.csv', index=True)
+        freq_pTs(libname)
+        
 
 if __name__ == '__main__':
     # Usage: > python3 mini_pTs.py <lib name>
 
     if len(sys.argv) > 1:
-        minify_pTs(sys.argv[1])
+        freq_pTs(sys.argv[1])
     else:
-        minifyAll()
+        freqAll()
     connection.close()

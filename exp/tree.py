@@ -417,8 +417,84 @@ class Gamma:
 
         T2 = time.time()
         return [T2 - T1]
+    
+
+    def max_freq_subtree(self):
+        """
+        Generate the maximum frequent subtree in Gamma.
+
+        Required:
+            self.trees
+
+        Return:
+            freqT - the maximum frequent subtree
+        """
+
+        n = len(self.trees)
+        if n < 1:
+            return None
+        
+        queues = [[]] * n
+        for i in range(n):
+            if  self.trees[i].root == None:
+                return None
+            queues[i].append(self.trees[i].root)
+        
+        freqT = LabeledTree(Vertex('window'), 'max freq subtree')
+        queue_f = [freqT.root]
+
+        while len(queues[0]):
+            ptr_f = queue_f.pop(0)
+            ptrs = [None] * n
+            for i in range(n):
+                ptrs[i] = queues[i].pop(0)
+
+            for c in ptrs[0].children:
+                # print(c.name)
+                clist = self.__child_with_given_name(c.name, ptrs[1:])
+                # print(clist)
+                if None in clist:
+                    # if one vertex doesn't have a child with the name same as the first tree's child
+                    continue
+
+                queues[0].append(c)
+                for i in range(1, n):
+                    queues[i].append(clist[i - 1])
+                new_vertex = Vertex(c.name)
+                queue_f.append(new_vertex)
+                ptr_f.addc(new_vertex)
+
+        return freqT
 
 
+
+    def __child_with_given_name(self, name, vertex_list):
+        """
+        Find the child of each vertex with the given name. If no such child, return None.
+
+        Required:
+            name <string>
+            vertex_list = [v1, v2, ..., vn]
+
+        Return:
+            child_list = [ptr1, ptr2, ..., ptrn]
+        """
+        n = len(vertex_list)
+        child_list = [None] * n
+        for i in range(n):
+            v = vertex_list[i]
+            assert(v != None)
+            for c in v.children:
+                if c.name == name:
+                    child_list[i] = c
+                    break
+        return child_list
+
+
+
+
+        
+        
 
 
             

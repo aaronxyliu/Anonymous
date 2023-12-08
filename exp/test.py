@@ -1,5 +1,4 @@
 import pandas as pd
 
-log = [[1,3,5]]
-df = pd.DataFrame(log, columns =['Version', 'Success', 'Description']) 
-df.to_csv(f'log/mini_pTs.csv', index=True)
+a = [1,2,3,4]
+print(5 in a)
