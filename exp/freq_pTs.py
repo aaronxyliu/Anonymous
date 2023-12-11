@@ -61,7 +61,7 @@ def LT2Json(root, par_v=None):
     return v_obj
 
 
-def freq_pTs(libname):
+def freq_pTs(libname, start_version=None, end_version=None):
     INPUT_TABLE = f'{libname}_version'
 
 
@@ -76,10 +76,24 @@ def freq_pTs(libname):
     cursor.execute(f"SELECT `pTree`, `version` FROM `{INPUT_TABLE}`;")
     res = cursor.fetchall()
 
+    if start_version == None:
+        start_version = str(res[0][1])
+    if end_version == None:
+        end_version = str(res[len(res) - 1][1])
+
     # Read pTrees from dataset
+    valid_version = False
     for entry in res:
-        pTree = Json2LT(json.loads(entry[0]))
-        G.addt(LabeledTree(pTree, str(entry[1])))
+        version = str(entry[1])
+        if version == start_version:
+            valid_version = True
+        
+        if valid_version:
+            pTree = Json2LT(json.loads(entry[0]))
+            G.addt(LabeledTree(pTree, version))
+
+        if version == end_version:
+            valid_version = False
 
     # Generate the maximun frequent subtree
     freqT = G.max_freq_subtree()
@@ -87,12 +101,12 @@ def freq_pTs(libname):
 
     # Save to dataset
     sql = f'''INSERT INTO `{OUTPUT_TABLE}` 
-            (pTree, size, depth, libname) 
-            VALUES (%s, %s, %s, %s);'''
-    val = (json.dumps(LT2Json(freqT.root)), freqT.size, freqT.depth,libname)
+            (pTree, size, depth, libname, `start version`, `end version`) 
+            VALUES (%s, %s, %s, %s, %s, %s);'''
+    val = (json.dumps(LT2Json(freqT.root)), freqT.size, freqT.depth, libname, start_version, end_version)
     cursor.execute(sql, val)
     connection.commit()
-    print(f'   Library {libname} entry added to {OUTPUT_TABLE}.')
+    print(f'   Library {libname} ({start_version} ~ {end_version}) entry added to {OUTPUT_TABLE}.')
     
 
 
@@ -108,7 +122,9 @@ def freqAll():
         `pTree` json DEFAULT NULL,
         `size` int DEFAULT NULL,
         `depth` int DEFAULT NULL,
-        `libname` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL
+        `libname` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+        `start version` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+        `end version` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL
         );''')
     connection.commit()
     print(f'Create table {OUTPUT_TABLE} to store maximun frequent subtrees.')
@@ -123,10 +139,14 @@ def freqAll():
         
 
 if __name__ == '__main__':
-    # Usage: > python3 mini_pTs.py <lib name>
+    # Usage: > python3 mini_pTs.py <lib name> <start version> <end version>
 
-    if len(sys.argv) > 1:
+    if len(sys.argv) == 2:
         freq_pTs(sys.argv[1])
+    elif len(sys.argv) == 3:
+        freq_pTs(sys.argv[1], sys.argv[2])
+    elif len(sys.argv) == 4:
+        freq_pTs(sys.argv[1], sys.argv[2], sys.argv[3])
     else:
         freqAll()
     connection.close()
