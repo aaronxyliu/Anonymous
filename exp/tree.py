@@ -49,6 +49,8 @@ class LabeledTree:
         self.rpaths = []
         self.depth = 0
         self.size = 0
+        self.root.par = None
+        self.root.depth = 0
         if self.root:
             self.__get_metas__(self.root, 0, [self.root.name])
     
@@ -116,6 +118,7 @@ class LabeledTree:
             self.size - vertex number of the tree
             <Vertex>.depth - the depth of each vertex
             <Vertex>.par - the parent of each vertex
+            <Vertex>.subtree_size - the size of the subtree rooted from each vertex
         """
         if not par:
             return
@@ -123,6 +126,7 @@ class LabeledTree:
         rpath = LabeledPath(p, par.label)
         self.rpaths.append(rpath)
         self.size += 1
+        par.subtree_size = 1
         if len(par.children) == 0:
             # par is a leaf vertex, record this path
             fpath = LabeledPath(p, par.label)
@@ -133,7 +137,8 @@ class LabeledTree:
             for c in par.children:
                 c.depth = d + 1
                 c.par = par
-                self.__get_metas__(c, d + 1, p + [c.name])
+                par.subtree_size += self.__get_metas__(c, d + 1, p + [c.name])
+        return par.subtree_size
         
     def min_cover_set(self, usize):
         """

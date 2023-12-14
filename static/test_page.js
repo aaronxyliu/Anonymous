@@ -17,10 +17,10 @@ function createObjectTree(depth_limit = 5, node_limit = 50, debug = false, bl = 
     
     function analyzeVariable(v) {
         let v_info = {}
-        if (v == undefined) {
+        if (v === undefined) {
             v_info = { dict: { 'type': 'undefined' }, 'children': [] }
         }
-        else if (v == null) {
+        else if (v === null) {
             v_info = { dict: { 'type': 'null' }, 'children': [] }
         }
         else if (isArraySetMap(v)) {

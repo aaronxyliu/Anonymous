@@ -1,67 +1,11 @@
 {
 	"c": [
 		{
-			"c": [],
-			"d": {
-				"t": 7,
-				"v": "5.00"
-			},
-			"n": "uidEvent",
-			"x": 0.012
-		},
-		{
 			"c": [
 				{
-					"c": [
-						{
-							"c": [],
-							"d": {
-								"t": 4,
-								"v": "alert"
-							},
-							"n": "NAME",
-							"x": 0.003
-						},
-						{
-							"c": [],
-							"d": {
-								"t": 6
-							},
-							"n": "jQueryInterface",
-							"x": 0.003
-						}
-					],
-					"d": {
-						"t": 6
-					},
-					"n": "Alert",
-					"x": 0.018
-				},
-				{
-					"c": [
-						{
-							"c": [],
-							"d": {
-								"t": 4,
-								"v": "button"
-							},
-							"n": "NAME",
-							"x": 0.003
-						},
-						{
-							"c": [],
-							"d": {
-								"t": 6
-							},
-							"n": "jQueryInterface",
-							"x": 0.003
-						}
-					],
-					"d": {
-						"t": 6
-					},
-					"n": "Button",
-					"x": 0.018
+					"c": [],
+					"d": {},
+					"n": "VERSION"
 				},
 				{
 					"c": [
@@ -69,1558 +13,169 @@
 							"c": [
 								{
 									"c": [],
-									"d": {
-										"t": 7,
-										"v": "5000.00"
-									},
-									"n": "interval",
-									"x": 0.002
+									"d": {},
+									"n": "arguments"
 								},
 								{
 									"c": [],
-									"d": {
-										"t": 8,
-										"v": true
-									},
-									"n": "keyboard",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 8,
-										"v": false
-									},
-									"n": "slide",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "hover"
-									},
-									"n": "pause",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 8,
-										"v": true
-									},
-									"n": "wrap",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 8,
-										"v": true
-									},
-									"n": "touch",
-									"x": 0.002
+									"d": {},
+									"n": "caller"
 								}
 							],
-							"d": {
-								"t": 5
-							},
-							"n": "Default",
-							"x": 0.022
-						},
-						{
-							"c": [],
-							"d": {
-								"t": 4,
-								"v": "carousel"
-							},
-							"n": "NAME",
-							"x": 0.003
-						},
-						{
-							"c": [],
-							"d": {
-								"t": 6
-							},
-							"n": "carouselInterface",
-							"x": 0.003
-						},
-						{
-							"c": [],
-							"d": {
-								"t": 6
-							},
-							"n": "jQueryInterface",
-							"x": 0.003
-						},
-						{
-							"c": [],
-							"d": {
-								"t": 6
-							},
-							"n": "dataApiClickHandler",
-							"x": 0.003
-						}
-					],
-					"d": {
-						"t": 6
-					},
-					"n": "Carousel",
-					"x": 0.071
-				},
-				{
-					"c": [
-						{
-							"c": [
-								{
-									"c": [],
-									"d": {
-										"t": 8,
-										"v": true
-									},
-									"n": "toggle",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 1
-									},
-									"n": "parent",
-									"x": 0.002
-								}
-							],
-							"d": {
-								"t": 5
-							},
-							"n": "Default",
-							"x": 0.009
-						},
-						{
-							"c": [],
-							"d": {
-								"t": 4,
-								"v": "collapse"
-							},
-							"n": "NAME",
-							"x": 0.003
-						},
-						{
-							"c": [],
-							"d": {
-								"t": 6
-							},
-							"n": "jQueryInterface",
-							"x": 0.003
-						}
-					],
-					"d": {
-						"t": 6
-					},
-					"n": "Collapse",
-					"x": 0.035
-				},
-				{
-					"c": [
-						{
-							"c": [
-								{
-									"c": [],
-									"d": {
-										"t": 3,
-										"v": "70fd3f388413505934da60b43afc4088"
-									},
-									"n": "offset",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "clippingParents"
-									},
-									"n": "boundary",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "toggle"
-									},
-									"n": "reference",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "dynamic"
-									},
-									"n": "display",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 1
-									},
-									"n": "popperConfig",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 8,
-										"v": true
-									},
-									"n": "autoClose",
-									"x": 0.002
-								}
-							],
-							"d": {
-								"t": 5
-							},
-							"n": "Default",
-							"x": 0.022
+							"d": {},
+							"n": "bind"
 						},
 						{
 							"c": [
 								{
 									"c": [],
-									"d": {
-										"t": 4,
-										"v": "(array|string|function)"
-									},
-									"n": "offset",
-									"x": 0.002
+									"d": {},
+									"n": "arguments"
 								},
 								{
 									"c": [],
-									"d": {
-										"t": 4,
-										"v": "(string|element)"
-									},
-									"n": "boundary",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "(string|element|object)"
-									},
-									"n": "reference",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "string"
-									},
-									"n": "display",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "(null|object|function)"
-									},
-									"n": "popperConfig",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "(boolean|string)"
-									},
-									"n": "autoClose",
-									"x": 0.002
+									"d": {},
+									"n": "caller"
 								}
 							],
-							"d": {
-								"t": 5
-							},
-							"n": "DefaultType",
-							"x": 0.022
+							"d": {},
+							"n": "unbind"
 						},
-						{
-							"c": [],
-							"d": {
-								"t": 4,
-								"v": "dropdown"
-							},
-							"n": "NAME",
-							"x": 0.003
-						},
-						{
-							"c": [],
-							"d": {
-								"t": 6
-							},
-							"n": "jQueryInterface",
-							"x": 0.003
-						},
-						{
-							"c": [],
-							"d": {
-								"t": 6
-							},
-							"n": "clearMenus",
-							"x": 0.003
-						},
-						{
-							"c": [],
-							"d": {
-								"t": 6
-							},
-							"n": "getParentFromElement",
-							"x": 0.003
-						},
-						{
-							"c": [],
-							"d": {
-								"t": 6
-							},
-							"n": "dataApiKeydownHandler",
-							"x": 0.003
-						}
-					],
-					"d": {
-						"t": 6
-					},
-					"n": "Dropdown",
-					"x": 0.118
-				},
-				{
-					"c": [
 						{
 							"c": [
 								{
 									"c": [],
-									"d": {
-										"t": 8,
-										"v": true
-									},
-									"n": "backdrop",
-									"x": 0.002
+									"d": {},
+									"n": "arguments"
 								},
 								{
 									"c": [],
-									"d": {
-										"t": 8,
-										"v": true
-									},
-									"n": "keyboard",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 8,
-										"v": true
-									},
-									"n": "focus",
-									"x": 0.002
+									"d": {},
+									"n": "caller"
 								}
 							],
-							"d": {
-								"t": 5
-							},
-							"n": "Default",
-							"x": 0.013
-						},
-						{
-							"c": [],
-							"d": {
-								"t": 4,
-								"v": "modal"
-							},
-							"n": "NAME",
-							"x": 0.003
-						},
-						{
-							"c": [],
-							"d": {
-								"t": 6
-							},
-							"n": "jQueryInterface",
-							"x": 0.003
+							"d": {},
+							"n": "trigger"
 						}
 					],
-					"d": {
-						"t": 6
-					},
-					"n": "Modal",
-					"x": 0.041
+					"d": {},
+					"n": "Events"
 				},
 				{
 					"c": [
 						{
 							"c": [],
-							"d": {
-								"t": 4,
-								"v": "offcanvas"
-							},
-							"n": "NAME",
-							"x": 0.003
+							"d": {},
+							"n": "arguments"
+						},
+						{
+							"c": [],
+							"d": {},
+							"n": "caller"
 						},
 						{
 							"c": [
 								{
 									"c": [],
-									"d": {
-										"t": 8,
-										"v": true
-									},
-									"n": "backdrop",
-									"x": 0.002
+									"d": {},
+									"n": "arguments"
 								},
 								{
 									"c": [],
-									"d": {
-										"t": 8,
-										"v": true
-									},
-									"n": "keyboard",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 8,
-										"v": false
-									},
-									"n": "scroll",
-									"x": 0.002
+									"d": {},
+									"n": "caller"
 								}
 							],
-							"d": {
-								"t": 5
-							},
-							"n": "Default",
-							"x": 0.013
-						},
-						{
-							"c": [],
-							"d": {
-								"t": 6
-							},
-							"n": "jQueryInterface",
-							"x": 0.003
+							"d": {},
+							"n": "extend"
 						}
 					],
-					"d": {
-						"t": 6
-					},
-					"n": "Offcanvas",
-					"x": 0.041
-				},
-				{
-					"c": [
-						{
-							"c": [
-								{
-									"c": [],
-									"d": {
-										"t": 8,
-										"v": true
-									},
-									"n": "animation",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "_div class=\"popover\" rol"
-									},
-									"n": "template",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "click"
-									},
-									"n": "trigger",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": ""
-									},
-									"n": "title",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 7,
-										"v": "0.00"
-									},
-									"n": "delay",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 8,
-										"v": false
-									},
-									"n": "html",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 8,
-										"v": false
-									},
-									"n": "selector",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "right"
-									},
-									"n": "placement",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 3,
-										"v": "61464d90bc2ae67b93035582c6e220af"
-									},
-									"n": "offset",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 8,
-										"v": false
-									},
-									"n": "container",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 3,
-										"v": "5aed1a9a02cafb051a63a4c6cc5b7717"
-									},
-									"n": "fallbackPlacements",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "clippingParents"
-									},
-									"n": "boundary",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": ""
-									},
-									"n": "customClass",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 8,
-										"v": true
-									},
-									"n": "sanitize",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 1
-									},
-									"n": "sanitizeFn",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 5
-									},
-									"n": "allowList",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 1
-									},
-									"n": "popperConfig",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": ""
-									},
-									"n": "content",
-									"x": 0.002
-								}
-							],
-							"d": {
-								"t": 5
-							},
-							"n": "Default",
-							"x": 0.06
-						},
-						{
-							"c": [],
-							"d": {
-								"t": 4,
-								"v": "popover"
-							},
-							"n": "NAME",
-							"x": 0.003
-						},
-						{
-							"c": [
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "hide.bs.popover"
-									},
-									"n": "HIDE",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "hidden.bs.popover"
-									},
-									"n": "HIDDEN",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "show.bs.popover"
-									},
-									"n": "SHOW",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "shown.bs.popover"
-									},
-									"n": "SHOWN",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "inserted.bs.popover"
-									},
-									"n": "INSERTED",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "click.bs.popover"
-									},
-									"n": "CLICK",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "focusin.bs.popover"
-									},
-									"n": "FOCUSIN",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "focusout.bs.popover"
-									},
-									"n": "FOCUSOUT",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "mouseenter.bs.popover"
-									},
-									"n": "MOUSEENTER",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "mouseleave.bs.popover"
-									},
-									"n": "MOUSELEAVE",
-									"x": 0.002
-								}
-							],
-							"d": {
-								"t": 5
-							},
-							"n": "Event",
-							"x": 0.035
-						},
-						{
-							"c": [
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "boolean"
-									},
-									"n": "animation",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "string"
-									},
-									"n": "template",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "(string|element|function"
-									},
-									"n": "title",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "string"
-									},
-									"n": "trigger",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "(number|object)"
-									},
-									"n": "delay",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "boolean"
-									},
-									"n": "html",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "(string|boolean)"
-									},
-									"n": "selector",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "(string|function)"
-									},
-									"n": "placement",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "(array|string|function)"
-									},
-									"n": "offset",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "(string|element|boolean)"
-									},
-									"n": "container",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "array"
-									},
-									"n": "fallbackPlacements",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "(string|element)"
-									},
-									"n": "boundary",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "(string|function)"
-									},
-									"n": "customClass",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "boolean"
-									},
-									"n": "sanitize",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "(null|function)"
-									},
-									"n": "sanitizeFn",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "object"
-									},
-									"n": "allowList",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "(null|object|function)"
-									},
-									"n": "popperConfig",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "(string|element|function"
-									},
-									"n": "content",
-									"x": 0.002
-								}
-							],
-							"d": {
-								"t": 5
-							},
-							"n": "DefaultType",
-							"x": 0.06
-						},
-						{
-							"c": [],
-							"d": {
-								"t": 6
-							},
-							"n": "jQueryInterface",
-							"x": 0.003
-						}
-					],
-					"d": {
-						"t": 6
-					},
-					"n": "Popover",
-					"x": 0.306
-				},
-				{
-					"c": [
-						{
-							"c": [
-								{
-									"c": [],
-									"d": {
-										"t": 7,
-										"v": "10.00"
-									},
-									"n": "offset",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "auto"
-									},
-									"n": "method",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": ""
-									},
-									"n": "target",
-									"x": 0.002
-								}
-							],
-							"d": {
-								"t": 5
-							},
-							"n": "Default",
-							"x": 0.013
-						},
-						{
-							"c": [],
-							"d": {
-								"t": 4,
-								"v": "scrollspy"
-							},
-							"n": "NAME",
-							"x": 0.003
-						},
-						{
-							"c": [],
-							"d": {
-								"t": 6
-							},
-							"n": "jQueryInterface",
-							"x": 0.003
-						}
-					],
-					"d": {
-						"t": 6
-					},
-					"n": "ScrollSpy",
-					"x": 0.041
+					"d": {},
+					"n": "Model"
 				},
 				{
 					"c": [
 						{
 							"c": [],
-							"d": {
-								"t": 4,
-								"v": "tab"
-							},
-							"n": "NAME",
-							"x": 0.003
+							"d": {},
+							"n": "arguments"
 						},
 						{
 							"c": [],
-							"d": {
-								"t": 6
-							},
-							"n": "jQueryInterface",
-							"x": 0.003
+							"d": {},
+							"n": "caller"
+						},
+						{
+							"c": [
+								{
+									"c": [],
+									"d": {},
+									"n": "arguments"
+								},
+								{
+									"c": [],
+									"d": {},
+									"n": "caller"
+								}
+							],
+							"d": {},
+							"n": "extend"
 						}
 					],
-					"d": {
-						"t": 6
-					},
-					"n": "Tab",
-					"x": 0.018
+					"d": {},
+					"n": "Collection"
 				},
 				{
 					"c": [
 						{
-							"c": [
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "boolean"
-									},
-									"n": "animation",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "boolean"
-									},
-									"n": "autohide",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "number"
-									},
-									"n": "delay",
-									"x": 0.002
-								}
-							],
-							"d": {
-								"t": 5
-							},
-							"n": "DefaultType",
-							"x": 0.013
+							"c": [],
+							"d": {},
+							"n": "arguments"
+						},
+						{
+							"c": [],
+							"d": {},
+							"n": "caller"
 						},
 						{
 							"c": [
 								{
 									"c": [],
-									"d": {
-										"t": 8,
-										"v": true
-									},
-									"n": "animation",
-									"x": 0.002
+									"d": {},
+									"n": "arguments"
 								},
 								{
 									"c": [],
-									"d": {
-										"t": 8,
-										"v": true
-									},
-									"n": "autohide",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 7,
-										"v": "5000.00"
-									},
-									"n": "delay",
-									"x": 0.002
+									"d": {},
+									"n": "caller"
 								}
 							],
-							"d": {
-								"t": 5
-							},
-							"n": "Default",
-							"x": 0.013
-						},
-						{
-							"c": [],
-							"d": {
-								"t": 4,
-								"v": "toast"
-							},
-							"n": "NAME",
-							"x": 0.003
-						},
-						{
-							"c": [],
-							"d": {
-								"t": 6
-							},
-							"n": "jQueryInterface",
-							"x": 0.003
+							"d": {},
+							"n": "extend"
 						}
 					],
-					"d": {
-						"t": 6
-					},
-					"n": "Toast",
-					"x": 0.065
+					"d": {},
+					"n": "View"
 				},
 				{
 					"c": [
 						{
-							"c": [
-								{
-									"c": [],
-									"d": {
-										"t": 8,
-										"v": true
-									},
-									"n": "animation",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "_div class=\"tooltip\" rol"
-									},
-									"n": "template",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "hover focus"
-									},
-									"n": "trigger",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": ""
-									},
-									"n": "title",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 7,
-										"v": "0.00"
-									},
-									"n": "delay",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 8,
-										"v": false
-									},
-									"n": "html",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 8,
-										"v": false
-									},
-									"n": "selector",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "top"
-									},
-									"n": "placement",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 3,
-										"v": "e013e067435150802e1c67877ce69879"
-									},
-									"n": "offset",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 8,
-										"v": false
-									},
-									"n": "container",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 3,
-										"v": "5aed1a9a02cafb051a63a4c6cc5b7717"
-									},
-									"n": "fallbackPlacements",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "clippingParents"
-									},
-									"n": "boundary",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": ""
-									},
-									"n": "customClass",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 8,
-										"v": true
-									},
-									"n": "sanitize",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 1
-									},
-									"n": "sanitizeFn",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 5
-									},
-									"n": "allowList",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 1
-									},
-									"n": "popperConfig",
-									"x": 0.002
-								}
-							],
-							"d": {
-								"t": 5
-							},
-							"n": "Default",
-							"x": 0.057
+							"c": [],
+							"d": {},
+							"n": "arguments"
 						},
 						{
 							"c": [],
-							"d": {
-								"t": 4,
-								"v": "tooltip"
-							},
-							"n": "NAME",
-							"x": 0.003
-						},
-						{
-							"c": [
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "hide.bs.tooltip"
-									},
-									"n": "HIDE",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "hidden.bs.tooltip"
-									},
-									"n": "HIDDEN",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "show.bs.tooltip"
-									},
-									"n": "SHOW",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "shown.bs.tooltip"
-									},
-									"n": "SHOWN",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "inserted.bs.tooltip"
-									},
-									"n": "INSERTED",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "click.bs.tooltip"
-									},
-									"n": "CLICK",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "focusin.bs.tooltip"
-									},
-									"n": "FOCUSIN",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "focusout.bs.tooltip"
-									},
-									"n": "FOCUSOUT",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "mouseenter.bs.tooltip"
-									},
-									"n": "MOUSEENTER",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "mouseleave.bs.tooltip"
-									},
-									"n": "MOUSELEAVE",
-									"x": 0.002
-								}
-							],
-							"d": {
-								"t": 5
-							},
-							"n": "Event",
-							"x": 0.035
-						},
-						{
-							"c": [
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "boolean"
-									},
-									"n": "animation",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "string"
-									},
-									"n": "template",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "(string|element|function"
-									},
-									"n": "title",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "string"
-									},
-									"n": "trigger",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "(number|object)"
-									},
-									"n": "delay",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "boolean"
-									},
-									"n": "html",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "(string|boolean)"
-									},
-									"n": "selector",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "(string|function)"
-									},
-									"n": "placement",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "(array|string|function)"
-									},
-									"n": "offset",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "(string|element|boolean)"
-									},
-									"n": "container",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "array"
-									},
-									"n": "fallbackPlacements",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "(string|element)"
-									},
-									"n": "boundary",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "(string|function)"
-									},
-									"n": "customClass",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "boolean"
-									},
-									"n": "sanitize",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "(null|function)"
-									},
-									"n": "sanitizeFn",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "object"
-									},
-									"n": "allowList",
-									"x": 0.002
-								},
-								{
-									"c": [],
-									"d": {
-										"t": 4,
-										"v": "(null|object|function)"
-									},
-									"n": "popperConfig",
-									"x": 0.002
-								}
-							],
-							"d": {
-								"t": 5
-							},
-							"n": "DefaultType",
-							"x": 0.057
-						},
-						{
-							"c": [],
-							"d": {
-								"t": 6
-							},
-							"n": "jQueryInterface",
-							"x": 0.003
+							"d": {},
+							"n": "caller"
 						}
 					],
-					"d": {
-						"t": 6
-					},
-					"n": "Tooltip",
-					"x": 0.295
+					"d": {},
+					"n": "sync"
 				}
 			],
-			"d": {
-				"t": 5
-			},
-			"n": "bootstrap",
-			"x": 2.122
+			"d": {},
+			"n": "Backbone"
 		}
 	],
 	"d": {},
