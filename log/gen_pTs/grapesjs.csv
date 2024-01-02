@@ -1,0 +1,185 @@
+,Version,Success,Description
+0,0.0.5,N,Library loading error.
+1,0.0.51,N,Library loading error.
+2,0.1.0-alpha,N,Library loading error.
+3,0.1.1,N,Library loading error.
+4,0.10.2,Y,
+5,0.10.4,Y,
+6,0.10.6,Y,
+7,0.10.7,Y,
+8,0.10.8,Y,
+9,0.11.3-rc,Y,
+10,0.12.15,Y,
+11,0.12.17,Y,
+12,0.12.25,Y,
+13,0.12.30,Y,
+14,0.12.37,Y,
+15,0.12.45,Y,
+16,0.12.5,Y,
+17,0.12.50,Y,
+18,0.12.52,Y,
+19,0.12.55,Y,
+20,0.12.58,Y,
+21,0.12.6,Y,
+22,0.12.60,Y,
+23,0.12.7,Y,
+24,0.12.8,Y,
+25,0.13.5,Y,
+26,0.13.8,Y,
+27,0.14.10,Y,
+28,0.14.15,Y,
+29,0.14.17,Y,
+30,0.14.20,Y,
+31,0.14.21,Y,
+32,0.14.23,Y,
+33,0.14.25,Y,
+34,0.14.27,Y,
+35,0.14.28-rc-touch,Y,
+36,0.14.28-rc.2-touch,Y,
+37,0.14.29,Y,
+38,0.14.33,Y,
+39,0.14.40,Y,
+40,0.14.43,Y,
+41,0.14.48,Y,
+42,0.14.49,Y,
+43,0.14.5,Y,
+44,0.14.50,Y,
+45,0.14.52,Y,
+46,0.14.55,Y,
+47,0.14.57,Y,
+48,0.14.6,Y,
+49,0.14.61,Y,
+50,0.14.62,Y,
+51,0.14.9,Y,
+52,0.15.10,Y,
+53,0.15.3,Y,
+54,0.15.3-rc,Y,
+55,0.15.3-rc.2,Y,
+56,0.15.5,Y,
+57,0.15.8,Y,
+58,0.15.9,Y,
+59,0.16.12,Y,
+60,0.16.17,Y,
+61,0.16.18,Y,
+62,0.16.2,Y,
+63,0.16.22,Y,
+64,0.16.27,Y,
+65,0.16.3,Y,
+66,0.16.30,Y,
+67,0.16.34,Y,
+68,0.16.41,Y,
+69,0.16.43,Y,
+70,0.16.44,Y,
+71,0.16.45,Y,
+72,0.17.19,Y,
+73,0.17.2-rc.1,Y,
+74,0.17.22,Y,
+75,0.17.25,Y,
+76,0.17.26,Y,
+77,0.17.27,Y,
+78,0.17.28,Y,
+79,0.17.29,Y,
+80,0.17.3,Y,
+81,0.17.4,Y,
+82,0.18.1,Y,
+83,0.18.2,Y,
+84,0.18.3,Y,
+85,0.18.4,Y,
+86,0.19.4,Y,
+87,0.19.5,Y,
+88,0.2.2,N,Library loading error.
+89,0.2.5,N,Library loading error.
+90,0.20.1,Y,
+91,0.20.2,Y,
+92,0.20.3,Y,
+93,0.20.4,Y,
+94,0.21.1,Y,
+95,0.21.2,Y,
+96,0.21.3,Y,
+97,0.21.4,Y,
+98,0.21.5,Y,
+99,0.21.6,Y,
+100,0.21.7,Y,
+101,0.21.8,Y,
+102,0.3.0,N,Library loading error.
+103,0.3.1,N,Library loading error.
+104,0.3.10,N,Library loading error.
+105,0.3.12,N,Library loading error.
+106,0.3.13,N,Library loading error.
+107,0.3.14,N,Library loading error.
+108,0.3.17,N,Library loading error.
+109,0.3.18,N,Library loading error.
+110,0.3.2,N,Library loading error.
+111,0.3.20,N,Library loading error.
+112,0.3.21,N,Library loading error.
+113,0.3.23,N,Library loading error.
+114,0.3.24,N,Library loading error.
+115,0.3.25,N,Library loading error.
+116,0.3.27,N,Library loading error.
+117,0.3.30,N,Library loading error.
+118,0.3.32,N,Library loading error.
+119,0.3.33,N,Library loading error.
+120,0.3.34,N,Library loading error.
+121,0.3.35,N,Library loading error.
+122,0.3.4,N,Library loading error.
+123,0.3.40,N,Library loading error.
+124,0.3.41,N,Library loading error.
+125,0.3.5,N,Library loading error.
+126,0.3.50,N,Library loading error.
+127,0.3.55,N,Library loading error.
+128,0.3.57,N,Library loading error.
+129,0.3.6,N,Library loading error.
+130,0.3.67,N,Library loading error.
+131,0.3.68,N,Library loading error.
+132,0.3.7,N,Library loading error.
+133,0.3.70,N,Library loading error.
+134,0.3.71,N,Library loading error.
+135,0.3.8,N,Library loading error.
+136,0.4.15,N,Library loading error.
+137,0.4.17,N,Library loading error.
+138,0.4.23,N,Library loading error.
+139,0.4.25,N,Library loading error.
+140,0.4.30,N,Library loading error.
+141,0.4.33,N,Library loading error.
+142,0.4.38,N,Library loading error.
+143,0.4.5,N,Library loading error.
+144,0.4.8,N,Library loading error.
+145,0.5.1,N,Library loading error.
+146,0.5.12,N,Library loading error.
+147,0.5.15,N,Library loading error.
+148,0.5.17,N,Library loading error.
+149,0.5.2,N,Library loading error.
+150,0.5.20,N,Library loading error.
+151,0.5.23,N,Library loading error.
+152,0.5.3,N,Library loading error.
+153,0.5.30,N,Library loading error.
+154,0.5.32,N,Library loading error.
+155,0.5.35,N,Library loading error.
+156,0.5.37,N,Library loading error.
+157,0.5.4,N,Library loading error.
+158,0.5.40,N,Library loading error.
+159,0.5.41,N,Library loading error.
+160,0.5.7,N,Library loading error.
+161,0.7.2,Y,
+162,0.7.3,Y,
+163,0.7.6,Y,
+164,0.7.7,Y,
+165,0.8.1,Y,
+166,0.8.16,Y,
+167,0.8.17,Y,
+168,0.8.18,Y,
+169,0.8.19,Y,
+170,0.8.4,Y,
+171,0.8.8,Y,
+172,0.9.1,Y,
+173,0.9.10,Y,
+174,0.9.11,Y,
+175,0.9.12,Y,
+176,0.9.13,Y,
+177,0.9.15,Y,
+178,0.9.2,Y,
+179,0.9.32,Y,
+180,0.9.5,Y,
+181,0.9.6,Y,
+182,0.9.7,Y,
+183,0.9.8,Y,

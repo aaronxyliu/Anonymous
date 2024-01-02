@@ -1,0 +1,34 @@
+,Version,Success,Description
+0,0.0.1,Y,
+1,0.0.2,Y,
+2,0.0.3,Y,
+3,0.0.4,N,Library loading error.
+4,0.0.5,N,Library loading error.
+5,0.0.6,N,Library loading error.
+6,1.0.0,Y,
+7,1.1.0,Y,
+8,1.2.0,Y,
+9,1.2.1,Y,
+10,1.3.0,Y,
+11,1.4.0,Y,
+12,1.4.1,Y,
+13,1.5.0,Y,
+14,1.5.1,Y,
+15,1.6.0,Y,
+16,1.7.0,Y,
+17,1.7.1,Y,
+18,1.8.0,Y,
+19,1.8.1,Y,
+20,1.8.1-pre.4,Y,
+21,1.8.1-pre.5,Y,
+22,1.8.2,Y,
+23,2.0.0,N,Library loading error.
+24,2.0.0-pre.1,Y,
+25,2.0.0-pre.4,Y,
+26,2.0.0-pre.5,Y,
+27,2.0.0-pre.6,Y,
+28,2.0.0-pre.7,N,Library loading error.
+29,2.0.0-pre.8,N,Library loading error.
+30,2.1.1,N,Library loading error.
+31,2.1.2,N,Library loading error.
+32,2.1.2-pre.1,N,Library loading error.

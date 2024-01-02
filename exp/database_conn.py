@@ -17,16 +17,12 @@ def connect_to_planetscale():
     )
     return connection
 
-def connect_to_localdb():
+def connect_to_localdb(database_name='Library Version pTrees'):
     connection = MySQLdb.connect(
         host= '127.0.0.1',
         user='root',
         passwd= '12345678',
-        db= 'Library Version pTrees',
+        db= database_name,
         autocommit = True
-        # ssl_mode = "VERIFY_IDENTITY",
-        # ssl      = {
-        #     "ca": "/etc/ssl/cert.pem"
-        # }
     )
     return connection

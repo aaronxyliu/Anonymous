@@ -1,0 +1,159 @@
+,Version,Success,Description
+0,1.0,Y,
+1,1.1,Y,
+2,1.2,Y,
+3,1.2.1,Y,
+4,1.2.2,Y,
+5,1.2.3,Y,
+6,1.3.0,Y,
+7,1.3.1,Y,
+8,1.3.2,Y,
+9,1.3.3,Y,
+10,1.3.4,Y,
+11,1.3.5,Y,
+12,1.3.6,Y,
+13,1.3.7,Y,
+14,1.4.0,Y,
+15,1.4.1,Y,
+16,1.5.0,Y,
+17,1.5.1,Y,
+18,1.5.2,Y,
+19,2.0.0,Y,
+20,2.0.1,Y,
+21,3.0.0,Y,
+22,3.0.0-alpha.2,Y,
+23,3.0.0-alpha.3,Y,
+24,4.0.0,N,Library loading error.
+25,4.0.0-1,N,Library loading error.
+26,4.0.0-10,N,Library loading error.
+27,4.0.0-11,N,Library loading error.
+28,4.0.0-12,N,Library loading error.
+29,4.0.0-13,N,Library loading error.
+30,4.0.0-14,N,Library loading error.
+31,4.0.0-15,N,Library loading error.
+32,4.0.0-16,N,Library loading error.
+33,4.0.0-17,N,Library loading error.
+34,4.0.0-18,N,Library loading error.
+35,4.0.0-19,N,Library loading error.
+36,4.0.0-2,N,Library loading error.
+37,4.0.0-3,N,Library loading error.
+38,4.0.0-4,N,Library loading error.
+39,4.0.0-5,N,Library loading error.
+40,4.0.0-6,N,Library loading error.
+41,4.0.0-7,N,Library loading error.
+42,4.0.0-8,N,Library loading error.
+43,4.0.0-9,N,Library loading error.
+44,4.1.0,N,Library loading error.
+45,4.1.0-0,N,Library loading error.
+46,4.1.1,N,Library loading error.
+47,4.1.2,N,Library loading error.
+48,4.2.0,N,Library loading error.
+49,4.2.1,N,Library loading error.
+50,4.2.2,N,Library loading error.
+51,4.2.3,N,Library loading error.
+52,4.2.4,N,Library loading error.
+53,4.2.5,N,Library loading error.
+54,4.2.6,N,Library loading error.
+55,4.3.0,N,Library loading error.
+56,4.4.0,N,Library loading error.
+57,4.4.1,N,Library loading error.
+58,4.4.2,N,Library loading error.
+59,4.4.3,N,Library loading error.
+60,4.4.4,N,Library loading error.
+61,4.4.5,N,Library loading error.
+62,4.4.6,N,Library loading error.
+63,4.4.7,N,Library loading error.
+64,4.4.8,N,Library loading error.
+65,4.5.0,N,Library loading error.
+66,4.5.0-0,N,Library loading error.
+67,4.5.0-1,N,Library loading error.
+68,4.5.0-2,N,Library loading error.
+69,4.5.0-3,N,Library loading error.
+70,4.5.1,N,Library loading error.
+71,4.5.2,N,Library loading error.
+72,4.5.2-0,N,Library loading error.
+73,4.5.3,N,Library loading error.
+74,4.5.4,N,Library loading error.
+75,4.5.5,N,Library loading error.
+76,4.5.6,N,Library loading error.
+77,4.6.1,N,Library loading error.
+78,4.6.3,N,Library loading error.
+79,5.0.0,N,Library loading error.
+80,5.0.1,N,Library loading error.
+81,5.1.0,N,Library loading error.
+82,5.1.0-0,N,Library loading error.
+83,5.1.1,N,Library loading error.
+84,5.1.2,N,Library loading error.
+85,5.2.0,N,Library loading error.
+86,5.2.1,N,Library loading error.
+87,5.2.2,N,Library loading error.
+88,5.2.3,N,Library loading error.
+89,5.3.0,N,Library loading error.
+90,5.3.1-0,N,Library loading error.
+91,5.3.1-1,N,Library loading error.
+92,5.4.0,N,Library loading error.
+93,5.5.0,N,Library loading error.
+94,5.5.0-0,N,Library loading error.
+95,5.5.0-1,N,Library loading error.
+96,5.5.1,N,Library loading error.
+97,5.5.2,N,Library loading error.
+98,5.5.2-0,N,Library loading error.
+99,5.5.3,N,Library loading error.
+100,5.5.4,N,Library loading error.
+101,5.5.4-0,N,Library loading error.
+102,5.5.4-10,N,Library loading error.
+103,6.0.0,N,Library loading error.
+104,6.0.0-0,N,Library loading error.
+105,6.0.1,N,Library loading error.
+106,6.0.1-0,N,Library loading error.
+107,6.0.1-1,N,Library loading error.
+108,6.0.2,N,Library loading error.
+109,6.0.3,N,Library loading error.
+110,6.0.4,N,Library loading error.
+111,6.0.4-0,N,Library loading error.
+112,6.0.5-dev.11668789115.11e9471b,N,Library loading error.
+113,6.0.5-dev.11674180419.10e45c0f,N,Library loading error.
+114,6.1.0,N,Library loading error.
+115,6.1.0-0,N,Library loading error.
+116,6.1.1,N,Library loading error.
+117,6.1.1-dev.11675347292.1bdc16a2,N,Library loading error.
+118,6.1.2,N,Library loading error.
+119,6.1.2-dev.11675863592.172f0936,N,Library loading error.
+120,6.1.3,N,Library loading error.
+121,6.1.3-dev.11675958242.15132c48,N,Library loading error.
+122,7.0.0,N,Library loading error.
+123,7.0.1-dev.11679510424.1ffdf3ba,N,Library loading error.
+124,7.1.0,N,Library loading error.
+125,7.1.1,N,Library loading error.
+126,7.1.1-dev.11682363824.1febd6e6,N,Library loading error.
+127,7.1.1-dev.11684440744.15dddc23,N,Library loading error.
+128,7.1.1-dev.11684760936.1ad1f9bd,N,Library loading error.
+129,7.1.2,N,Library loading error.
+130,7.1.2-dev.11685057169.16864e5e,N,Library loading error.
+131,7.1.2-dev.11685057891.13d969d9,N,Library loading error.
+132,7.1.2-dev.11685060310.1437f93d,N,Library loading error.
+133,7.1.2-dev.11685061287.104eb6c7,N,Library loading error.
+134,7.1.2-dev.11685062324.14756aae,N,Library loading error.
+135,7.1.3-dev.11689001487.15dc2e02,N,Library loading error.
+136,7.1.3-dev.11692303755.1355a5ec,N,Library loading error.
+137,7.1.3-dev.11692630068.1f5f09ee,N,Library loading error.
+138,7.1.3-dev.11694201549.18d36e66,N,Library loading error.
+139,7.1.3-dev.11694203763.11b7e8aa,N,Library loading error.
+140,7.1.3-dev.11694458521.1371c58f,N,Library loading error.
+141,7.1.3-dev.11694459486.1371c58f,N,Library loading error.
+142,7.1.3-dev.11694468279.1c23df00,N,Library loading error.
+143,7.1.3-dev.11694532816.102dc510,N,Library loading error.
+144,7.1.3-dev.11695669134.18369c36,N,Library loading error.
+145,7.1.3-dev.11696883183.18297018,N,Library loading error.
+146,7.1.3-dev.11699459714.11b7e8aa,N,Library loading error.
+147,7.1.3-dev.11699990705.17f7f346,N,Library loading error.
+148,7.2.0,N,Library loading error.
+149,7.2.1,N,Library loading error.
+150,7.2.1-dev.11696955471.13a81796,N,Library loading error.
+151,7.2.2,N,Library loading error.
+152,7.2.2-dev.11698847812.196aa17e,N,Library loading error.
+153,7.2.2-dev.11699018299.154342d5,N,Library loading error.
+154,7.2.2-dev.11699021910.19a0f06d,N,Library loading error.
+155,7.2.2-dev.11699022363.15a70775,N,Library loading error.
+156,7.2.2-dev.11700519177.13b28f3a,N,Library loading error.
+157,7.2.2-dev.11702425420.1d582e62,N,Library loading error.

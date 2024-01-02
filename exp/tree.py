@@ -49,9 +49,9 @@ class LabeledTree:
         self.rpaths = []
         self.depth = 0
         self.size = 0
-        self.root.par = None
-        self.root.depth = 0
         if self.root:
+            self.root.par = None
+            self.root.depth = 0
             self.__get_metas__(self.root, 0, [self.root.name])
     
     def __eq__(self, x):

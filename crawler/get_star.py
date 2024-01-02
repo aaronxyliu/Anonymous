@@ -47,5 +47,6 @@ for i in range(df.shape[0]):
     if repo_info['stargazers_count']:
         star = repo_info['stargazers_count']
         df.loc[i, 'Star'] = int(star)
+    
 
 df.to_csv(FILE_NAME, index=False)

@@ -39,8 +39,8 @@ def convert(libname, index_set):
                 'version_list': json.loads(entry[4])
             }        
 
-
-    with open(f'extension/output/{libname}.json', 'w') as f:
+    clean_libname = f'{libname}'.replace('.', '').replace('-', '')
+    with open(f'extension/output/{clean_libname}.json', 'w') as f:
        json.dump(output_json, f)
 
 
