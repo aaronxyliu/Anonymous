@@ -173,6 +173,8 @@ def freq_pTs(libname, start_version=None, end_version=None):
     cursor.execute(sql, val)
     connection.commit()
     print(f'   Library {libname} ({start_version} ~ {end_version}) entry added to {OUTPUT_TABLE}.')
+    print(str(feature_properties).replace('\'','"'))
+    print('')
     
 
 

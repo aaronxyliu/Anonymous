@@ -1,0 +1,186 @@
+
+{
+    "name": "window",
+    "dict": {
+        "type": "object"
+    },
+    "children": [
+        {
+            "name": "CookieDeprecationLabel",
+            "dict": {
+                "type": "function"
+            },
+            "children": [
+                {
+                    "name": "arguments",
+                    "dict": {
+                        "type": "null"
+                    },
+                    "children": []
+                },
+                {
+                    "name": "caller",
+                    "dict": {
+                        "type": "null"
+                    },
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "IdentityCredentialError",
+            "dict": {
+                "type": "function"
+            },
+            "children": [
+                {
+                    "name": "arguments",
+                    "dict": {
+                        "type": "null"
+                    },
+                    "children": []
+                },
+                {
+                    "name": "caller",
+                    "dict": {
+                        "type": "null"
+                    },
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "NavigatorLogin",
+            "dict": {
+                "type": "function"
+            },
+            "children": [
+                {
+                    "name": "arguments",
+                    "dict": {
+                        "type": "null"
+                    },
+                    "children": []
+                },
+                {
+                    "name": "caller",
+                    "dict": {
+                        "type": "null"
+                    },
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "CloseWatcher",
+            "dict": {
+                "type": "function"
+            },
+            "children": [
+                {
+                    "name": "arguments",
+                    "dict": {
+                        "type": "null"
+                    },
+                    "children": []
+                },
+                {
+                    "name": "caller",
+                    "dict": {
+                        "type": "null"
+                    },
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "brain",
+            "dict": {
+                "type": "object"
+            },
+            "children": [
+                {
+                    "name": "NeuralNetwork",
+                    "dict": {
+                        "type": "function"
+                    },
+                    "children": [
+                        {
+                            "name": "arguments",
+                            "dict": {
+                                "type": "null"
+                            },
+                            "children": []
+                        },
+                        {
+                            "name": "caller",
+                            "dict": {
+                                "type": "null"
+                            },
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "crossValidate",
+                    "dict": {
+                        "type": "function"
+                    },
+                    "children": [
+                        {
+                            "name": "arguments",
+                            "dict": {
+                                "type": "null"
+                            },
+                            "children": []
+                        },
+                        {
+                            "name": "caller",
+                            "dict": {
+                                "type": "null"
+                            },
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "_createTimeoutHelper",
+            "dict": {
+                "type": "function"
+            },
+            "children": [
+                {
+                    "name": "arguments",
+                    "dict": {
+                        "type": "null"
+                    },
+                    "children": []
+                },
+                {
+                    "name": "caller",
+                    "dict": {
+                        "type": "null"
+                    },
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "UNKNOWN_VERSION",
+            "dict": {
+                "type": "null"
+            },
+            "children": []
+        },
+        {
+            "name": "DetectorHasRun",
+            "dict": {
+                "type": "boolean",
+                "value": true
+            },
+            "children": []
+        }
+    ]
+}

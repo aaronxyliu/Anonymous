@@ -19,7 +19,6 @@
         "libname": "acorn",
         "url": "https://cdnjs.com/libraries/acorn",
         "function": "test_acorn",
-        "versionfile": "acorn.json",
         "feature1": [
             [
                 "acorn",
@@ -34,7 +33,6 @@
     {
         "libname": "acorn-walk",
         "url": "https://cdnjs.com/libraries/acorn-walk",
-        "function": "test_acornwalk",
         "versionfile": "acornwalk.json",
         "feature1": [
             [
@@ -50,8 +48,6 @@
     {
         "libname": "admin-lte",
         "url": "https://cdnjs.com/libraries/admin-lte",
-        "function": "test_adminlte",
-        "versionfile": "adminlte.json",
         "feature1": [
             [
                 "adminlte",
@@ -71,11 +67,11 @@
         "feature1": [
             [
                 "THREE",
-                "REVISION"
+                "RGBFormat"
             ],
             [
                 "THREE",
-                "MOUSE"
+                "Object3D"
             ]
         ]
     },
@@ -83,7 +79,6 @@
         "libname": "alasql",
         "url": "https://cdnjs.com/libraries/alasql",
         "function": "test_alasql",
-        "versionfile": "alasql.json",
         "feature1": [
             [
                 "alasql",
@@ -98,17 +93,39 @@
     {
         "libname": "alertify.js",
         "url": "https://cdnjs.com/libraries/alertify.js",
-        "function": "test_alertifyjs",
         "versionfile": "alertifyjs.json",
-        "feature1": [
-            []
-        ]
+        "feature1": [[
+                "alertify",
+                "labels"
+            ],
+            [
+                "alertify",
+                "alert"
+            ]],
+        "feature2": [[
+                "alertify",
+                "confirm"
+            ],
+            [
+                "alertify",
+                "alert"
+            ],[
+                "alertify",
+                "settings"
+            ]],
+        "feature3": [[
+                "Alertify",
+                "log"
+            ],
+            [
+                "Alertify",
+                "dialog"
+            ]]
     },
     {
         "libname": "alpinejs",
         "url": "https://cdnjs.com/libraries/alpinejs",
         "function": "test_alpinejs",
-        "versionfile": "alpinejs.json",
         "feature1": [
             [
                 "Alpine",
@@ -121,19 +138,8 @@
         ]
     },
     {
-        "libname": "alt",
-        "url": "https://cdnjs.com/libraries/alt",
-        "function": "test_alt",
-        "versionfile": "alt.json",
-        "feature1": [
-            []
-        ]
-    },
-    {
         "libname": "amazeui",
         "url": "https://cdnjs.com/libraries/amazeui",
-        "function": "test_amazeui",
-        "versionfile": "amazeui.json",
         "feature1": [
             [
                 "respond",
@@ -148,7 +154,6 @@
     {
         "libname": "amplitudejs",
         "url": "https://cdnjs.com/libraries/amplitudejs",
-        "function": "test_amplitudejs",
         "versionfile": "amplitudejs.json",
         "feature1": [
             [
@@ -165,7 +170,6 @@
         "libname": "analytics.js",
         "url": "https://cdnjs.com/libraries/analytics.js",
         "function": "test_analyticsjs",
-        "versionfile": "analyticsjs.json",
         "feature1": [
             [
                 "analytics",
@@ -180,8 +184,6 @@
     {
         "libname": "angular-loader",
         "url": "https://cdnjs.com/libraries/angular-loader",
-        "function": "test_angularloader",
-        "versionfile": "angularloader.json",
         "feature1": [
             [
                 "angular",
@@ -196,7 +198,6 @@
     {
         "libname": "AniJS",
         "url": "https://cdnjs.com/libraries/AniJS",
-        "function": "test_AniJS",
         "versionfile": "AniJS.json",
         "feature1": [
             [
@@ -213,7 +214,6 @@
         "libname": "animejs",
         "url": "https://cdnjs.com/libraries/animejs",
         "function": "test_animejs",
-        "versionfile": "animejs.json",
         "feature1": [
             [
                 "anime",
@@ -228,7 +228,6 @@
     {
         "libname": "annyang",
         "url": "https://cdnjs.com/libraries/annyang",
-        "function": "test_annyang",
         "versionfile": "annyang.json",
         "feature1": [
             [
@@ -244,17 +243,14 @@
     {
         "libname": "ant-design-pro",
         "url": "https://cdnjs.com/libraries/ant-design-pro",
-        "function": "test_antdesignpro",
-        "versionfile": "antdesignpro.json",
         "feature1": [
-            []
+            ["core", "inspectSource"], ["core", "String", "endsWith"]
         ]
     },
     {
         "libname": "ant-design-vue",
         "url": "https://cdnjs.com/libraries/ant-design-vue",
         "function": "test_antdesignvue",
-        "versionfile": "antdesignvue.json",
         "feature1": [
             [
                 "antd",
@@ -275,6 +271,23 @@
             [
                 "G2",
                 "Chart"
+            ],
+            [
+                "G2",
+                "render"
+            ]
+        ],
+        "feature2": [
+            [
+                "G2",
+                "Chart"
+            ],
+            [
+                "G2",
+                "DIRECTION"
+            ],[
+                "G2",
+                "Util"
             ]
         ]
     },
@@ -282,31 +295,48 @@
         "libname": "antv-g6",
         "url": "https://cdnjs.com/libraries/antv-g6",
         "function": "test_antvg6",
-        "versionfile": "antvg6.json",
         "feature1": [
-            []
+            [
+                "G6V5",
+                "stdLib"
+            ],
+            [
+                "G6V5",
+                "default"
+            ]
+        ],
+        "feature2": [
+            [
+                "G6",
+                "version"
+            ],
+            [
+                "G6",
+                "Graph"
+            ]
         ]
     },
     {
         "libname": "aos",
         "url": "https://cdnjs.com/libraries/aos",
-        "function": "test_aos",
         "versionfile": "aos.json",
         "feature1": [
             [
                 "AOS",
                 "init"
-            ]
-        ]
-    },
-    {
-        "libname": "aplayer",
-        "url": "https://cdnjs.com/libraries/aplayer",
-        "function": "test_aplayer",
-        "versionfile": "aplayer.json",
-        "feature1": [
+            ],
             [
-                "APlayer"
+                "AOS",
+                "refresh"
+            ]
+        ],
+        "feature2": [
+            [
+                "AOS",
+                "init"
+            ],
+            [
+                "observe"
             ]
         ]
     },
@@ -314,7 +344,6 @@
         "libname": "aspnet-signalr",
         "url": "https://cdnjs.com/libraries/aspnet-signalr",
         "function": "test_aspnetsignalr",
-        "versionfile": "aspnetsignalr.json",
         "feature1": [
             [
                 "signalR",
@@ -329,7 +358,6 @@
     {
         "libname": "async",
         "url": "https://cdnjs.com/libraries/async",
-        "function": "test_async",
         "versionfile": "async.json",
         "feature1": [
             [
@@ -345,30 +373,29 @@
     {
         "libname": "autosize.js",
         "url": "https://cdnjs.com/libraries/autosize.js",
-        "function": "test_autosizejs",
-        "versionfile": "autosizejs.json",
         "feature1": [
             [
-                "autosize"
+                "autosize", "destroy"
+            ],
+            [
+                "autosize", "update"
             ]
         ]
     },
     {
         "libname": "autotrack",
         "url": "https://cdnjs.com/libraries/autotrack",
-        "function": "test_autotrack",
-        "versionfile": "autotrack.json",
         "feature1": [
             [
                 "gaDevIds"
-            ]
+            ],
+            ["ga", "q"]
         ]
     },
     {
         "libname": "avalon.js",
         "url": "https://cdnjs.com/libraries/avalon.js",
         "function": "test_avalonjs",
-        "versionfile": "avalonjs.json",
         "feature1": [
             [
                 "avalon",
@@ -383,8 +410,6 @@
     {
         "libname": "awesomplete",
         "url": "https://cdnjs.com/libraries/awesomplete",
-        "function": "test_awesomplete",
-        "versionfile": "awesomplete.json",
         "feature1": [
             [
                 "Awesomplete",
@@ -403,7 +428,22 @@
         "versionfile": "axios.json",
         "feature1": [
             [
-                "axios"
+                "axios",
+                "defaults"
+            ],
+            [
+                "axios",
+                "AxiosError"
+            ]
+        ],
+        "feature2": [
+            [
+                "axios",
+                "defaults"
+            ],
+            [
+                "axios",
+                "interceptors"
             ]
         ]
     },
@@ -411,24 +451,17 @@
         "libname": "babel-core",
         "url": "https://cdnjs.com/libraries/babel-core",
         "function": "test_babelcore",
-        "versionfile": "babelcore.json",
         "feature1": [
-            []
-        ]
-    },
-    {
-        "libname": "babel-polyfill",
-        "url": "https://cdnjs.com/libraries/babel-polyfill",
-        "function": "test_babelpolyfill",
-        "versionfile": "babelpolyfill.json",
-        "feature1": [
+            ["to5", "load"], ["to5", "transform"]
+        ],
+        "feature2": [
             [
-                "core",
-                "Array"
+                "babel",
+                "fromAst"
             ],
             [
-                "core",
-                "String"
+                "babel",
+                "transform"
             ]
         ]
     },
@@ -436,7 +469,6 @@
         "libname": "babel-standalone",
         "url": "https://cdnjs.com/libraries/babel-standalone",
         "function": "test_babelstandalone",
-        "versionfile": "babelstandalone.json",
         "feature1": [
             [
                 "Babel",
@@ -451,8 +483,6 @@
     {
         "libname": "background-check",
         "url": "https://cdnjs.com/libraries/background-check",
-        "function": "test_backgroundcheck",
-        "versionfile": "backgroundcheck.json",
         "feature1": [
             [
                 "BackgroundCheck",
@@ -468,7 +498,6 @@
         "libname": "barba.js",
         "url": "https://cdnjs.com/libraries/barba.js",
         "function": "test_barbajs",
-        "versionfile": "barbajs.json",
         "feature1": [
             [
                 "Barba",
@@ -483,8 +512,6 @@
     {
         "libname": "basicscroll",
         "url": "https://cdnjs.com/libraries/basicscroll",
-        "function": "test_basicscroll",
-        "versionfile": "basicscroll.json",
         "feature1": [
             [
                 "basicScroll",
@@ -499,8 +526,6 @@
     {
         "libname": "basket.js",
         "url": "https://cdnjs.com/libraries/basket.js",
-        "function": "test_basketjs",
-        "versionfile": "basketjs.json",
         "feature1": [
             [
                 "RSVP",
@@ -515,8 +540,6 @@
     {
         "libname": "bcryptjs",
         "url": "https://cdnjs.com/libraries/bcryptjs",
-        "function": "test_bcryptjs",
-        "versionfile": "bcryptjs.json",
         "feature1": [
             [
                 "dcodeIO",
@@ -528,18 +551,21 @@
         "libname": "benchmark",
         "url": "https://cdnjs.com/libraries/benchmark",
         "function": "test_benchmark",
-        "versionfile": "benchmark.json",
         "feature1": [
             [
-                "Benchmark"
+                "Benchmark",
+                "platform"
+            ],
+            [
+                "Benchmark",
+                "version"
             ]
-        ]
+        ],
+        "feature2": ["Benchmark", "runInContext"]
     },
     {
         "libname": "bespoke.js",
         "url": "https://cdnjs.com/libraries/bespoke.js",
-        "function": "test_bespokejs",
-        "versionfile": "bespokejs.json",
         "feature1": [
             [
                 "bespoke",
@@ -551,7 +577,6 @@
         "libname": "big.js",
         "url": "https://cdnjs.com/libraries/big.js",
         "function": "test_bigjs",
-        "versionfile": "bigjs.json",
         "feature1": [
             [
                 "Big",
@@ -566,7 +591,6 @@
     {
         "libname": "bignumber.js",
         "url": "https://cdnjs.com/libraries/bignumber.js",
-        "function": "test_bignumberjs",
         "versionfile": "bignumberjs.json",
         "feature1": [
             [
@@ -583,7 +607,6 @@
         "libname": "billboard.js",
         "url": "https://cdnjs.com/libraries/billboard.js",
         "function": "test_billboardjs",
-        "versionfile": "billboardjs.json",
         "feature1": [
             [
                 "bb",
@@ -598,8 +621,6 @@
     {
         "libname": "bitcoinjs-lib",
         "url": "https://cdnjs.com/libraries/bitcoinjs-lib",
-        "function": "test_bitcoinjslib",
-        "versionfile": "bitcoinjslib.json",
         "feature1": [
             [
                 "Bitcoin",
@@ -615,7 +636,6 @@
         "libname": "blockly",
         "url": "https://cdnjs.com/libraries/blockly",
         "function": "test_blockly",
-        "versionfile": "blockly.json",
         "feature1": [
             [
                 "goog",
@@ -631,16 +651,20 @@
         "libname": "bluebird",
         "url": "https://cdnjs.com/libraries/bluebird",
         "function": "test_bluebird",
-        "versionfile": "bluebird.json",
         "feature1": [
-            []
+            [
+                "P",
+                "TypeError"
+            ],
+            [
+                "P",
+                "RangeError"
+            ]
         ]
     },
     {
         "libname": "blueimp-gallery",
         "url": "https://cdnjs.com/libraries/blueimp-gallery",
-        "function": "test_blueimpgallery",
-        "versionfile": "blueimpgallery.json",
         "feature1": [
             [
                 "blueimp",
@@ -651,7 +675,6 @@
     {
         "libname": "blueimp-load-image",
         "url": "https://cdnjs.com/libraries/blueimp-load-image",
-        "function": "test_blueimploadimage",
         "versionfile": "blueimploadimage.json",
         "feature1": [
             [
@@ -665,21 +688,9 @@
         ]
     },
     {
-        "libname": "blueimp-md5",
-        "url": "https://cdnjs.com/libraries/blueimp-md5",
-        "function": "test_blueimpmd5",
-        "versionfile": "blueimpmd5.json",
-        "feature1": [
-            [
-                "md5"
-            ]
-        ]
-    },
-    {
         "libname": "bodymovin",
         "url": "https://cdnjs.com/libraries/bodymovin",
         "function": "test_bodymovin",
-        "versionfile": "bodymovin.json",
         "feature1": [
             [
                 "bodymovin",
@@ -695,7 +706,6 @@
         "libname": "bokeh",
         "url": "https://cdnjs.com/libraries/bokeh",
         "function": "test_bokeh",
-        "versionfile": "bokeh.json",
         "feature1": [
             [
                 "Bokeh",
@@ -726,60 +736,27 @@
     {
         "libname": "bootstrap-calendar",
         "url": "https://cdnjs.com/libraries/bootstrap-calendar",
-        "function": "test_bootstrapcalendar",
         "versionfile": "bootstrapcalendar.json",
         "feature1": [
-            []
-        ]
-    },
-    {
-        "libname": "bootstrap-slider",
-        "url": "https://cdnjs.com/libraries/bootstrap-slider",
-        "function": "test_bootstrapslider",
-        "versionfile": "bootstrapslider.json",
-        "feature1": [
             [
-                "Slider"
-            ]
-        ]
-    },
-    {
-        "libname": "bootstrap-tour",
-        "url": "https://cdnjs.com/libraries/bootstrap-tour",
-        "function": "test_bootstraptour",
-        "versionfile": "bootstraptour.json",
-        "feature1": [
-            [
-                "Tour",
-                "arguments"
+                "language",
+                "error_noview"
             ],
             [
-                "Tour",
-                "caller"
+                "language",
+                "error_dateformat"
             ]
-        ]
-    },
-    {
-        "libname": "bootswatch",
-        "url": "https://cdnjs.com/libraries/bootswatch",
-        "function": "test_bootswatch",
-        "versionfile": "bootswatch.json",
-        "feature1": [
+        ],
+        "feature2": [
             [
-                "$",
-                "fn"
-            ],
-            [
-                "$",
-                "attrFn"
+                "calendar_languages",
+                "es-ES"
             ]
         ]
     },
     {
         "libname": "bounce.js",
         "url": "https://cdnjs.com/libraries/bounce.js",
-        "function": "test_bouncejs",
-        "versionfile": "bouncejs.json",
         "feature1": [
             [
                 "Bounce",
@@ -794,35 +771,53 @@
     {
         "libname": "bowser",
         "url": "https://cdnjs.com/libraries/bowser",
-        "function": "test_bowser",
         "versionfile": "bowser.json",
         "feature1": [
             [
-                "bowser"
+                "bowser", "getParser"
+            ],
+            [
+                "bowser", "parse"
+            ]
+        ],
+        "feature2": [
+            [
+                "bowser",
+                "name"
+            ],
+            [
+                "bowser",
+                "webkit"
+            ]
+        ],
+        "feature3": [
+            [
+                "bowser",
+                "_detect"
+            ],
+            [
+                "bowser",
+                "name"
             ]
         ]
     },
     {
         "libname": "brain",
         "url": "https://cdnjs.com/libraries/brain",
-        "function": "test_brain",
-        "versionfile": "brain.json",
         "feature1": [
             [
-                "$",
-                "fn"
+                "brain",
+                "NeuralNetwork"
             ],
             [
-                "$",
-                "attrFn"
+                "brain",
+                "crossValidate"
             ]
         ]
     },
     {
         "libname": "brain.js",
         "url": "https://cdnjs.com/libraries/brain.js",
-        "function": "test_brainjs",
-        "versionfile": "brainjs.json",
         "feature1": [
             [
                 "brain",
@@ -835,21 +830,8 @@
         ]
     },
     {
-        "libname": "bricks.js",
-        "url": "https://cdnjs.com/libraries/bricks.js",
-        "function": "test_bricksjs",
-        "versionfile": "bricksjs.json",
-        "feature1": [
-            [
-                "Bricks"
-            ]
-        ]
-    },
-    {
         "libname": "brython",
         "url": "https://cdnjs.com/libraries/brython",
-        "function": "test_brython",
-        "versionfile": "brython.json",
         "feature1": [
             [
                 "__BRYTHON__",
@@ -864,8 +846,6 @@
     {
         "libname": "bytemd",
         "url": "https://cdnjs.com/libraries/bytemd",
-        "function": "test_bytemd",
-        "versionfile": "bytemd.json",
         "feature1": [
             [
                 "bytemd",
@@ -881,7 +861,6 @@
         "libname": "c3",
         "url": "https://cdnjs.com/libraries/c3",
         "function": "test_c3",
-        "versionfile": "c3.json",
         "feature1": [
             [
                 "c3",
@@ -893,7 +872,6 @@
         "libname": "cannon.js",
         "url": "https://cdnjs.com/libraries/cannon.js",
         "function": "test_cannonjs",
-        "versionfile": "cannonjs.json",
         "feature1": [
             [
                 "CANNON",
@@ -906,26 +884,8 @@
         ]
     },
     {
-        "libname": "canvas-nest.js",
-        "url": "https://cdnjs.com/libraries/canvas-nest.js",
-        "function": "test_canvasnestjs",
-        "versionfile": "canvasnestjs.json",
-        "feature1": [
-            [
-                "0",
-                "Object"
-            ],
-            [
-                "0",
-                "Function"
-            ]
-        ]
-    },
-    {
         "libname": "canvaskit-wasm",
         "url": "https://cdnjs.com/libraries/canvaskit-wasm",
-        "function": "test_canvaskitwasm",
-        "versionfile": "canvaskitwasm.json",
         "feature1": [
             [
                 "CanvasKitInit",
@@ -940,18 +900,17 @@
     {
         "libname": "canvg",
         "url": "https://cdnjs.com/libraries/canvg",
-        "function": "test_canvg",
-        "versionfile": "canvg.json",
         "feature1": [
             [
-                "canvg"
+                "canvg", "AElement"
+            ],[
+                "canvg", "AnimateColorElement"
             ]
         ]
     },
     {
         "libname": "card",
         "url": "https://cdnjs.com/libraries/card",
-        "function": "test_card",
         "versionfile": "card.json",
         "feature1": [
             [
@@ -967,16 +926,14 @@
     {
         "libname": "cash",
         "url": "https://cdnjs.com/libraries/cash",
-        "function": "test_cash",
-        "versionfile": "cash.json",
         "feature1": [
             [
-                "$",
-                "fn"
+                "cash",
+                "unique"
             ],
             [
-                "$",
-                "each"
+                "cash",
+                "fn"
             ]
         ]
     },
@@ -984,7 +941,6 @@
         "libname": "ccxt",
         "url": "https://cdnjs.com/libraries/ccxt",
         "function": "test_ccxt",
-        "versionfile": "ccxt.json",
         "feature1": [
             [
                 "ccxt",
@@ -1000,7 +956,6 @@
         "libname": "cesium",
         "url": "https://cdnjs.com/libraries/cesium",
         "function": "test_cesium",
-        "versionfile": "cesium.json",
         "feature1": [
             [
                 "Cesium",
@@ -1016,7 +971,6 @@
         "libname": "chai",
         "url": "https://cdnjs.com/libraries/chai",
         "function": "test_chai",
-        "versionfile": "chai.json",
         "feature1": [
             [
                 "chai",
@@ -1031,7 +985,6 @@
     {
         "libname": "chance",
         "url": "https://cdnjs.com/libraries/chance",
-        "function": "test_chance",
         "versionfile": "chance.json",
         "feature1": [
             [
@@ -1047,11 +1000,15 @@
     {
         "libname": "Chart.js",
         "url": "https://cdnjs.com/libraries/Chart.js",
-        "function": "test_Chartjs",
         "versionfile": "Chartjs.json",
         "feature1": [
             [
-                "Chart"
+                "Chart",
+                "helpers"
+            ],
+            [
+                "Chart",
+                "Tooltip"
             ]
         ]
     },
@@ -1059,7 +1016,6 @@
         "libname": "chartist",
         "url": "https://cdnjs.com/libraries/chartist",
         "function": "test_chartist",
-        "versionfile": "chartist.json",
         "feature1": [
             [
                 "Chartist",
@@ -1072,34 +1028,12 @@
         ]
     },
     {
-        "libname": "chess.js",
-        "url": "https://cdnjs.com/libraries/chess.js",
-        "function": "test_chessjs",
-        "versionfile": "chessjs.json",
-        "feature1": [
-            [
-                "Chess"
-            ]
-        ]
-    },
-    {
         "libname": "choices.js",
         "url": "https://cdnjs.com/libraries/choices.js",
-        "function": "test_choicesjs",
-        "versionfile": "choicesjs.json",
         "feature1": [
             [
-                "Choices"
+                "Choices", "userDefaults"
             ]
-        ]
-    },
-    {
-        "libname": "choo",
-        "url": "https://cdnjs.com/libraries/choo",
-        "function": "test_choo",
-        "versionfile": "choo.json",
-        "feature1": [
-            []
         ]
     },
     {
@@ -1121,8 +1055,6 @@
     {
         "libname": "chrono-node",
         "url": "https://cdnjs.com/libraries/chrono-node",
-        "function": "test_chrononode",
-        "versionfile": "chrononode.json",
         "feature1": [
             [
                 "chrono",
@@ -1135,31 +1067,8 @@
         ]
     },
     {
-        "libname": "clarity-icons",
-        "url": "https://cdnjs.com/libraries/clarity-icons",
-        "function": "test_clarityicons",
-        "versionfile": "clarityicons.json",
-        "feature1": [
-            [
-                "ClarityIcons"
-            ]
-        ]
-    },
-    {
-        "libname": "classnames",
-        "url": "https://cdnjs.com/libraries/classnames",
-        "function": "test_classnames",
-        "versionfile": "classnames.json",
-        "feature1": [
-            [
-                "classNames"
-            ]
-        ]
-    },
-    {
         "libname": "cleave.js",
         "url": "https://cdnjs.com/libraries/cleave.js",
-        "function": "test_cleavejs",
         "versionfile": "cleavejs.json",
         "feature1": [
             [
@@ -1175,7 +1084,6 @@
     {
         "libname": "clipboard.js",
         "url": "https://cdnjs.com/libraries/clipboard.js",
-        "function": "test_clipboardjs",
         "versionfile": "clipboardjs.json",
         "feature1": [
             [
@@ -1201,20 +1109,8 @@
         ]
     },
     {
-        "libname": "clusterize.js",
-        "url": "https://cdnjs.com/libraries/clusterize.js",
-        "function": "test_clusterizejs",
-        "versionfile": "clusterizejs.json",
-        "feature1": [
-            [
-                "Clusterize"
-            ]
-        ]
-    },
-    {
         "libname": "co",
         "url": "https://cdnjs.com/libraries/co",
-        "function": "test_co",
         "versionfile": "co.json",
         "feature1": [
             [
@@ -1231,7 +1127,6 @@
         "libname": "codemirror",
         "url": "https://cdnjs.com/libraries/codemirror",
         "function": "test_codemirror",
-        "versionfile": "codemirror.json",
         "feature1": [
             [
                 "CodeMirror",
@@ -1247,7 +1142,6 @@
         "libname": "coffee-script",
         "url": "https://cdnjs.com/libraries/coffee-script",
         "function": "test_coffeescript",
-        "versionfile": "coffeescript.json",
         "feature1": [
             [
                 "CoffeeScript",
@@ -1262,8 +1156,6 @@
     {
         "libname": "collect.js",
         "url": "https://cdnjs.com/libraries/collect.js",
-        "function": "test_collectjs",
-        "versionfile": "collectjs.json",
         "feature1": [
             [
                 "collect",
@@ -1274,8 +1166,6 @@
     {
         "libname": "color-thief",
         "url": "https://cdnjs.com/libraries/color-thief",
-        "function": "test_colorthief",
-        "versionfile": "colorthief.json",
         "feature1": [
             [
                 "pv",
@@ -1290,8 +1180,6 @@
     {
         "libname": "colors",
         "url": "https://cdnjs.com/libraries/colors",
-        "function": "test_colors",
-        "versionfile": "colors.json",
         "feature1": [
             [
                 "colors",
@@ -1306,7 +1194,6 @@
     {
         "libname": "ContentTools",
         "url": "https://cdnjs.com/libraries/ContentTools",
-        "function": "test_ContentTools",
         "versionfile": "ContentTools.json",
         "feature1": [
             [
@@ -1322,8 +1209,6 @@
     {
         "libname": "convnetjs",
         "url": "https://cdnjs.com/libraries/convnetjs",
-        "function": "test_convnetjs",
-        "versionfile": "convnetjs.json",
         "feature1": [
             [
                 "convnetjs",
@@ -1336,18 +1221,8 @@
         ]
     },
     {
-        "libname": "countup.js",
-        "url": "https://cdnjs.com/libraries/countup.js",
-        "function": "test_countupjs",
-        "versionfile": "countupjs.json",
-        "feature1": [
-            []
-        ]
-    },
-    {
         "libname": "crafty",
         "url": "https://cdnjs.com/libraries/crafty",
-        "function": "test_crafty",
         "versionfile": "crafty.json",
         "feature1": [
             [
@@ -1363,7 +1238,6 @@
     {
         "libname": "cropperjs",
         "url": "https://cdnjs.com/libraries/cropperjs",
-        "function": "test_cropperjs",
         "versionfile": "cropperjs.json",
         "feature1": [
             [
@@ -1380,7 +1254,6 @@
         "libname": "crossfilter",
         "url": "https://cdnjs.com/libraries/crossfilter",
         "function": "test_crossfilter",
-        "versionfile": "crossfilter.json",
         "feature1": [
             [
                 "crossfilter",
@@ -1393,48 +1266,13 @@
         ]
     },
     {
-        "libname": "css-doodle",
-        "url": "https://cdnjs.com/libraries/css-doodle",
-        "function": "test_cssdoodle",
-        "versionfile": "cssdoodle.json",
-        "feature1": [
-            [
-                "CSSDoodle"
-            ]
-        ]
-    },
-    {
         "libname": "css-element-queries",
         "url": "https://cdnjs.com/libraries/css-element-queries",
-        "function": "test_csselementqueries",
-        "versionfile": "csselementqueries.json",
-        "feature1": [
-            [
-                "ElementQueries"
-            ]
-        ]
-    },
-    {
-        "libname": "css-layout",
-        "url": "https://cdnjs.com/libraries/css-layout",
-        "function": "test_csslayout",
-        "versionfile": "csslayout.json",
-        "feature1": [
-            [
-                "computeLayout",
-                "arguments"
-            ],
-            [
-                "computeLayout",
-                "caller"
-            ]
-        ]
+        "feature1": [["ElementQueries", "instance"], ["ElementQueries", "update"]]
     },
     {
         "libname": "cuid",
         "url": "https://cdnjs.com/libraries/cuid",
-        "function": "test_cuid",
-        "versionfile": "cuid.json",
         "feature1": [
             [
                 "cuid",
@@ -1447,33 +1285,18 @@
         ]
     },
     {
-        "libname": "cyclejs-core",
-        "url": "https://cdnjs.com/libraries/cyclejs-core",
-        "function": "test_cyclejscore",
-        "versionfile": "cyclejscore.json",
-        "feature1": [
-            [
-                "Cycle"
-            ]
-        ]
-    },
-    {
         "libname": "d3-cloud",
         "url": "https://cdnjs.com/libraries/d3-cloud",
-        "function": "test_d3cloud",
-        "versionfile": "d3cloud.json",
         "feature1": [
             [
                 "d3",
-                "layout"
+                "layout", "cloud"
             ]
         ]
     },
     {
         "libname": "danialfarid-angular-file-upload",
         "url": "https://cdnjs.com/libraries/danialfarid-angular-file-upload",
-        "function": "test_danialfaridangularfileupload",
-        "versionfile": "danialfaridangularfileupload.json",
         "feature1": [
             [
                 "FileAPI",
@@ -1488,8 +1311,6 @@
     {
         "libname": "darkreader",
         "url": "https://cdnjs.com/libraries/darkreader",
-        "function": "test_darkreader",
-        "versionfile": "darkreader.json",
         "feature1": [
             [
                 "DarkReader",
@@ -1507,13 +1328,13 @@
         "function": "test_dashjs",
         "versionfile": "dashjs.json",
         "feature1": [
-            []
-        ]
+            [["MediaPlayer", "dependencies"], ["MediaPlayer", "utils"]]
+        ],
+        "feature2": [["dashjs", "MediaPlayer"], ["dashjs", "Protection"]]
     },
     {
         "libname": "dat-gui",
         "url": "https://cdnjs.com/libraries/dat-gui",
-        "function": "test_datgui",
         "versionfile": "datgui.json",
         "feature1": [
             [
@@ -1529,8 +1350,6 @@
     {
         "libname": "datamaps",
         "url": "https://cdnjs.com/libraries/datamaps",
-        "function": "test_datamaps",
-        "versionfile": "datamaps.json",
         "feature1": [
             [
                 "Datamaps",
@@ -1545,7 +1364,6 @@
     {
         "libname": "date-fns",
         "url": "https://cdnjs.com/libraries/date-fns",
-        "function": "test_datefns",
         "versionfile": "datefns.json",
         "feature1": [
             [
@@ -1561,18 +1379,11 @@
     {
         "libname": "dayjs",
         "url": "https://cdnjs.com/libraries/dayjs",
-        "function": "test_dayjs",
-        "versionfile": "dayjs.json",
-        "feature1": [
-            [
-                "dayjs"
-            ]
-        ]
+        "feature1": [["dayjs", "en"], ["dayjs", "extend"]]
     },
     {
         "libname": "decimal.js",
         "url": "https://cdnjs.com/libraries/decimal.js",
-        "function": "test_decimaljs",
         "versionfile": "decimaljs.json",
         "feature1": [
             [
@@ -1598,6 +1409,10 @@
             [
                 "device",
                 "iphone"
+            ],
+            [
+                "device",
+                "landscape"
             ]
         ]
     },
@@ -1605,7 +1420,6 @@
         "libname": "dexie",
         "url": "https://cdnjs.com/libraries/dexie",
         "function": "test_dexie",
-        "versionfile": "dexie.json",
         "feature1": [
             [
                 "Dexie",
@@ -1620,8 +1434,6 @@
     {
         "libname": "dinero.js",
         "url": "https://cdnjs.com/libraries/dinero.js",
-        "function": "test_dinerojs",
-        "versionfile": "dinerojs.json",
         "feature1": [
             [
                 "Dinero",
@@ -1634,26 +1446,9 @@
         ]
     },
     {
-        "libname": "Director",
-        "url": "https://cdnjs.com/libraries/Director",
-        "function": "test_Director",
-        "versionfile": "Director.json",
-        "feature1": [
-            [
-                "Router",
-                "arguments"
-            ],
-            [
-                "Router",
-                "caller"
-            ]
-        ]
-    },
-    {
         "libname": "docute",
         "url": "https://cdnjs.com/libraries/docute",
         "function": "test_docute",
-        "versionfile": "docute.json",
         "feature1": [
             [
                 "Prism",
@@ -1668,17 +1463,15 @@
     {
         "libname": "dom-to-image",
         "url": "https://cdnjs.com/libraries/dom-to-image",
-        "function": "test_domtoimage",
         "versionfile": "domtoimage.json",
-        "feature1": [
-            []
-        ]
+        "feature1": [["domvas", "toImage"]],
+        "feature2": [["domtoimage", "toImage"]],
+        "feature3": [["domtoimage", "toSvg"]]
     },
     {
         "libname": "dompurify",
         "url": "https://cdnjs.com/libraries/dompurify",
         "function": "test_dompurify",
-        "versionfile": "dompurify.json",
         "feature1": [
             [
                 "DOMPurify",
@@ -1694,7 +1487,6 @@
         "libname": "dot",
         "url": "https://cdnjs.com/libraries/dot",
         "function": "test_dot",
-        "versionfile": "dot.json",
         "feature1": [
             [
                 "doT",
@@ -1707,20 +1499,8 @@
         ]
     },
     {
-        "libname": "dplayer",
-        "url": "https://cdnjs.com/libraries/dplayer",
-        "function": "test_dplayer",
-        "versionfile": "dplayer.json",
-        "feature1": [
-            [
-                "DPlayer"
-            ]
-        ]
-    },
-    {
         "libname": "draggabilly",
         "url": "https://cdnjs.com/libraries/draggabilly",
-        "function": "test_draggabilly",
         "versionfile": "draggabilly.json",
         "feature1": [
             [
@@ -1734,8 +1514,6 @@
     {
         "libname": "draggable",
         "url": "https://cdnjs.com/libraries/draggable",
-        "function": "test_draggable",
-        "versionfile": "draggable.json",
         "feature1": [
             [
                 "Draggable",
@@ -1748,21 +1526,8 @@
         ]
     },
     {
-        "libname": "dragula",
-        "url": "https://cdnjs.com/libraries/dragula",
-        "function": "test_dragula",
-        "versionfile": "dragula.json",
-        "feature1": [
-            [
-                "dragula"
-            ]
-        ]
-    },
-    {
         "libname": "driver-dom",
         "url": "https://cdnjs.com/libraries/driver-dom",
-        "function": "test_driverdom",
-        "versionfile": "driverdom.json",
         "feature1": [
             [
                 "DriverDOM",
@@ -1778,16 +1543,14 @@
         "libname": "driver.js",
         "url": "https://cdnjs.com/libraries/driver.js",
         "function": "test_driverjs",
-        "versionfile": "driverjs.json",
         "feature1": [
-            []
+            ["driver", "js", "driver"]
         ]
     },
     {
         "libname": "dropzone",
         "url": "https://cdnjs.com/libraries/dropzone",
         "function": "test_dropzone",
-        "versionfile": "dropzone.json",
         "feature1": [
             [
                 "Dropzone",
@@ -1819,7 +1582,6 @@
         "libname": "dygraph",
         "url": "https://cdnjs.com/libraries/dygraph",
         "function": "test_dygraph",
-        "versionfile": "dygraph.json",
         "feature1": [
             [
                 "Dygraph",
@@ -1851,7 +1613,6 @@
         "libname": "EaselJS",
         "url": "https://cdnjs.com/libraries/EaselJS",
         "function": "test_EaselJS",
-        "versionfile": "EaselJS.json",
         "feature1": [
             [
                 "createjs",
@@ -1867,24 +1628,20 @@
         "libname": "echarts",
         "url": "https://cdnjs.com/libraries/echarts",
         "function": "test_echarts",
-        "versionfile": "echarts.json",
-        "feature1": [
-            []
-        ]
+        "feature1": [["echarts", "graphic"], ["echarts", "util"]]
     },
     {
         "libname": "editor.js",
         "url": "https://cdnjs.com/libraries/editor.js",
         "function": "test_editorjs",
-        "versionfile": "editorjs.json",
         "feature1": [
             [
-                "core",
-                "Int8Array"
+                "EditorJS",
+                "displayName"
             ],
             [
-                "core",
-                "Uint8Array"
+                "EditorJS",
+                "version"
             ]
         ]
     },
@@ -1896,67 +1653,17 @@
         "feature1": [
             [
                 "ELEMENT",
-                "index"
+                "index", "TimePicker"
             ],
             [
-                "__core-js_shared__",
-                "wks"
-            ]
-        ]
-    },
-    {
-        "libname": "elevator.js",
-        "url": "https://cdnjs.com/libraries/elevator.js",
-        "function": "test_elevatorjs",
-        "versionfile": "elevatorjs.json",
-        "feature1": [
-            [
-                "Elevator"
-            ]
-        ]
-    },
-    {
-        "libname": "elfinder",
-        "url": "https://cdnjs.com/libraries/elfinder",
-        "function": "test_elfinder",
-        "versionfile": "elfinder.json",
-        "feature1": [
-            [
-                "elFinderSupportVer1"
-            ]
-        ]
-    },
-    {
-        "libname": "elm-runtime",
-        "url": "https://cdnjs.com/libraries/elm-runtime",
-        "function": "test_elmruntime",
-        "versionfile": "elmruntime.json",
-        "feature1": [
-            [
-                "Elm",
-                "Native"
-            ],
-            [
-                "Elm",
-                "Graphics"
-            ]
-        ]
-    },
-    {
-        "libname": "embla-carousel",
-        "url": "https://cdnjs.com/libraries/embla-carousel",
-        "function": "test_emblacarousel",
-        "versionfile": "emblacarousel.json",
-        "feature1": [
-            [
-                "EmblaCarousel"
+                "ELEMENT",
+                "index", "DatePicker"
             ]
         ]
     },
     {
         "libname": "emojione",
         "url": "https://cdnjs.com/libraries/emojione",
-        "function": "test_emojione",
         "versionfile": "emojione.json",
         "feature1": [
             [
@@ -1972,8 +1679,6 @@
     {
         "libname": "enquire.js",
         "url": "https://cdnjs.com/libraries/enquire.js",
-        "function": "test_enquirejs",
-        "versionfile": "enquirejs.json",
         "feature1": [
             [
                 "enquire",
@@ -1989,23 +1694,16 @@
         "libname": "epiceditor",
         "url": "https://cdnjs.com/libraries/epiceditor",
         "function": "test_epiceditor",
-        "versionfile": "epiceditor.json",
         "feature1": [
             [
-                "marked",
-                "setOptions"
-            ],
-            [
-                "marked",
-                "options"
+                "EpicEditor",
+                "version"
             ]
         ]
     },
     {
         "libname": "epub.js",
         "url": "https://cdnjs.com/libraries/epub.js",
-        "function": "test_epubjs",
-        "versionfile": "epubjs.json",
         "feature1": [
             [
                 "localforage",
@@ -2021,27 +1719,15 @@
         "libname": "eruda",
         "url": "https://cdnjs.com/libraries/eruda",
         "function": "test_eruda",
-        "versionfile": "eruda.json",
         "feature1": [
             [
-                "eruda"
+                "eruda", "version"
             ]
-        ]
-    },
-    {
-        "libname": "es5-shim",
-        "url": "https://cdnjs.com/libraries/es5-shim",
-        "function": "test_es5shim",
-        "versionfile": "es5shim.json",
-        "feature1": [
-            []
         ]
     },
     {
         "libname": "es6-promise",
         "url": "https://cdnjs.com/libraries/es6-promise",
-        "function": "test_es6promise",
-        "versionfile": "es6promise.json",
         "feature1": [
             [
                 "ES6Promise",
@@ -2056,8 +1742,6 @@
     {
         "libname": "esprima",
         "url": "https://cdnjs.com/libraries/esprima",
-        "function": "test_esprima",
-        "versionfile": "esprima.json",
         "feature1": [
             [
                 "esprima",
@@ -2072,8 +1756,6 @@
     {
         "libname": "ethers",
         "url": "https://cdnjs.com/libraries/ethers",
-        "function": "test_ethers",
-        "versionfile": "ethers.json",
         "feature1": [
             [
                 "ethers",
@@ -2088,11 +1770,9 @@
     {
         "libname": "EventEmitter",
         "url": "https://cdnjs.com/libraries/EventEmitter",
-        "function": "test_EventEmitter",
-        "versionfile": "EventEmitter.json",
         "feature1": [
             [
-                "EventEmitter"
+                "EventEmitter", "noConflict"
             ]
         ]
     },
@@ -2103,15 +1783,18 @@
         "versionfile": "eventemitter3.json",
         "feature1": [
             [
-                "EventEmitter"
+                "EventEmitter", "EE"
+            ]
+        ],
+        "feature2": [
+            [
+                "EventEmitter", "EventEmitter2"
             ]
         ]
     },
     {
         "libname": "eventproxy",
         "url": "https://cdnjs.com/libraries/eventproxy",
-        "function": "test_eventproxy",
-        "versionfile": "eventproxy.json",
         "feature1": [
             [
                 "EventProxy",
@@ -2126,7 +1809,6 @@
     {
         "libname": "exceljs",
         "url": "https://cdnjs.com/libraries/exceljs",
-        "function": "test_exceljs",
         "versionfile": "exceljs.json",
         "feature1": [
             [
@@ -2142,8 +1824,6 @@
     {
         "libname": "exif-js",
         "url": "https://cdnjs.com/libraries/exif-js",
-        "function": "test_exifjs",
-        "versionfile": "exifjs.json",
         "feature1": [
             [
                 "EXIF",
@@ -2180,21 +1860,8 @@
         ]
     },
     {
-        "libname": "favico.js",
-        "url": "https://cdnjs.com/libraries/favico.js",
-        "function": "test_favicojs",
-        "versionfile": "favicojs.json",
-        "feature1": [
-            [
-                "Favico"
-            ]
-        ]
-    },
-    {
         "libname": "feather-icons",
         "url": "https://cdnjs.com/libraries/feather-icons",
-        "function": "test_feathericons",
-        "versionfile": "feathericons.json",
         "feature1": [
             [
                 "feather",
@@ -2209,28 +1876,19 @@
     {
         "libname": "feature.js",
         "url": "https://cdnjs.com/libraries/feature.js",
-        "function": "test_featurejs",
-        "versionfile": "featurejs.json",
-        "feature1": [
-            [
-                "feature"
-            ]
-        ]
+        "feature1": [["feature", "css3Dtransform"], ["feature", "cssTransform"]]
     },
     {
         "libname": "ffmpeg",
         "url": "https://cdnjs.com/libraries/ffmpeg",
         "function": "test_ffmpeg",
         "versionfile": "ffmpeg.json",
-        "feature1": [
-            []
-        ]
+        "feature1": [["FFmpegWASM", "__esModule"], ["FFmpegWASM", "FFmpeg"]]
     },
     {
         "libname": "file-uploader",
         "url": "https://cdnjs.com/libraries/file-uploader",
         "function": "test_fileuploader",
-        "versionfile": "fileuploader.json",
         "feature1": [
             [
                 "qq",
@@ -2245,22 +1903,11 @@
     {
         "libname": "FileSaver.js",
         "url": "https://cdnjs.com/libraries/FileSaver.js",
-        "function": "test_FileSaverjs",
-        "versionfile": "FileSaverjs.json",
         "feature1": [
             [
                 "saveAs"
-            ]
-        ]
-    },
-    {
-        "libname": "fingerprintjs",
-        "url": "https://cdnjs.com/libraries/fingerprintjs",
-        "function": "test_fingerprintjs",
-        "versionfile": "fingerprintjs.json",
-        "feature1": [
-            [
-                "Fingerprint"
+            ],[
+                "FileSaver"
             ]
         ]
     },
@@ -2268,18 +1915,15 @@
         "libname": "fingerprintjs2",
         "url": "https://cdnjs.com/libraries/fingerprintjs2",
         "function": "test_fingerprintjs2",
-        "versionfile": "fingerprintjs2.json",
         "feature1": [
             [
-                "Fingerprint2"
+                "Fingerprint2", "VERSION"
             ]
         ]
     },
     {
         "libname": "fitty",
         "url": "https://cdnjs.com/libraries/fitty",
-        "function": "test_fitty",
-        "versionfile": "fitty.json",
         "feature1": [
             [
                 "fitty",
@@ -2292,46 +1936,23 @@
         ]
     },
     {
-        "libname": "flat-ui",
-        "url": "https://cdnjs.com/libraries/flat-ui",
-        "function": "test_flatui",
-        "versionfile": "flatui.json",
-        "feature1": [
-            [
-                "$",
-                "fn"
-            ],
-            [
-                "$",
-                "support"
-            ]
-        ]
-    },
-    {
         "libname": "flatpickr",
         "url": "https://cdnjs.com/libraries/flatpickr",
-        "function": "test_flatpickr",
-        "versionfile": "flatpickr.json",
-        "feature1": [
-            []
-        ]
+        "feature1": [["flatpickr", "init"]],
+        "feature2": [["flatpickr", "l10ns"], ["flatpickr", "defaultConfig"]]
+
     },
     {
         "libname": "flexibility",
         "url": "https://cdnjs.com/libraries/flexibility",
-        "function": "test_flexibility",
         "versionfile": "flexibility.json",
-        "feature1": [
-            [
-                "flexibility"
-            ]
-        ]
+        "feature1": [["flexibility", "read"], ["flexibility", "write"]],
+        "feature2": [["flexibility", "computeLayout"], ["flexibility", "detect"]],
+        "feature3": [["flexibility", "transform"], ["flexibility", "process"]]
     },
     {
         "libname": "FlexSearch",
         "url": "https://cdnjs.com/libraries/FlexSearch",
-        "function": "test_FlexSearch",
-        "versionfile": "FlexSearch.json",
         "feature1": [
             [
                 "FlexSearch",
@@ -2342,7 +1963,6 @@
     {
         "libname": "flickity",
         "url": "https://cdnjs.com/libraries/flickity",
-        "function": "test_flickity",
         "versionfile": "flickity.json",
         "feature1": [
             [
@@ -2358,8 +1978,6 @@
     {
         "libname": "flight",
         "url": "https://cdnjs.com/libraries/flight",
-        "function": "test_flight",
-        "versionfile": "flight.json",
         "feature1": [
             [
                 "flight",
@@ -2374,20 +1992,20 @@
     {
         "libname": "flowbite",
         "url": "https://cdnjs.com/libraries/flowbite",
-        "function": "test_flowbite",
-        "versionfile": "flowbite.json",
         "feature1": [
             [
                 "Flowbite",
                 "__esModule"
+            ],
+            [
+                "Flowbite",
+                "initDatepickers"
             ]
         ]
     },
     {
         "libname": "flowchart",
         "url": "https://cdnjs.com/libraries/flowchart",
-        "function": "test_flowchart",
-        "versionfile": "flowchart.json",
         "feature1": [
             [
                 "flowchart",
@@ -2402,8 +2020,6 @@
     {
         "libname": "flubber",
         "url": "https://cdnjs.com/libraries/flubber",
-        "function": "test_flubber",
-        "versionfile": "flubber.json",
         "feature1": [
             [
                 "flubber",
@@ -2418,8 +2034,6 @@
     {
         "libname": "flux",
         "url": "https://cdnjs.com/libraries/flux",
-        "function": "test_flux",
-        "versionfile": "flux.json",
         "feature1": [
             [
                 "Flux",
@@ -2431,7 +2045,6 @@
         "libname": "flv.js",
         "url": "https://cdnjs.com/libraries/flv.js",
         "function": "test_flvjs",
-        "versionfile": "flvjs.json",
         "feature1": [
             [
                 "flvjs",
@@ -2446,7 +2059,6 @@
     {
         "libname": "font-awesome",
         "url": "https://cdnjs.com/libraries/font-awesome",
-        "function": "test_fontawesome",
         "versionfile": "fontawesome.json",
         "feature1": [
             [
@@ -2460,59 +2072,9 @@
         ]
     },
     {
-        "libname": "fontfaceobserver",
-        "url": "https://cdnjs.com/libraries/fontfaceobserver",
-        "function": "test_fontfaceobserver",
-        "versionfile": "fontfaceobserver.json",
-        "feature1": [
-            [
-                "FontFaceObserver"
-            ]
-        ]
-    },
-    {
-        "libname": "foundation",
-        "url": "https://cdnjs.com/libraries/foundation",
-        "function": "test_foundation",
-        "versionfile": "foundation.json",
-        "feature1": [
-            [
-                "$",
-                "fn"
-            ],
-            [
-                "$",
-                "support"
-            ]
-        ]
-    },
-    {
-        "libname": "frappe-charts",
-        "url": "https://cdnjs.com/libraries/frappe-charts",
-        "function": "test_frappecharts",
-        "versionfile": "frappecharts.json",
-        "feature1": [
-            [
-                "Chart"
-            ]
-        ]
-    },
-    {
-        "libname": "frappe-gantt",
-        "url": "https://cdnjs.com/libraries/frappe-gantt",
-        "function": "test_frappegantt",
-        "versionfile": "frappegantt.json",
-        "feature1": [
-            [
-                "Gantt"
-            ]
-        ]
-    },
-    {
         "libname": "froala-editor",
         "url": "https://cdnjs.com/libraries/froala-editor",
         "function": "test_froalaeditor",
-        "versionfile": "froalaeditor.json",
         "feature1": [
             [
                 "FroalaEditor",
@@ -2525,29 +2087,10 @@
         ]
     },
     {
-        "libname": "FrozenUI",
-        "url": "https://cdnjs.com/libraries/FrozenUI",
-        "function": "test_FrozenUI",
-        "versionfile": "FrozenUI.json",
-        "feature1": [
-            [
-                "Zepto",
-                "fn"
-            ],
-            [
-                "Zepto",
-                "ajaxSettings"
-            ]
-        ]
-    },
-    {
         "libname": "fullcalendar",
         "url": "https://cdnjs.com/libraries/fullcalendar",
         "function": "test_fullcalendar",
-        "versionfile": "fullcalendar.json",
-        "feature1": [
-            []
-        ]
+        "feature1": [["FullCalendar", "Internal"], ["FullCalendar", "Calendar"]]
     },
     {
         "libname": "fullPage.js",
@@ -2561,7 +2104,6 @@
     {
         "libname": "fuzzysort",
         "url": "https://cdnjs.com/libraries/fuzzysort",
-        "function": "test_fuzzysort",
         "versionfile": "fuzzysort.json",
         "feature1": [
             [
@@ -2577,16 +2119,14 @@
     {
         "libname": "gif.js",
         "url": "https://cdnjs.com/libraries/gif.js",
-        "function": "test_gifjs",
-        "versionfile": "gifjs.json",
         "feature1": [
             [
                 "GIF",
-                "__super__"
+                "__super__", "listeners"
             ],
             [
                 "GIF",
-                "arguments"
+                "__super__", "addListener"
             ]
         ]
     },
@@ -2594,7 +2134,6 @@
         "libname": "gifshot",
         "url": "https://cdnjs.com/libraries/gifshot",
         "function": "test_gifshot",
-        "versionfile": "gifshot.json",
         "feature1": [
             [
                 "gifshot",
@@ -2607,49 +2146,14 @@
         ]
     },
     {
-        "libname": "gitalk",
-        "url": "https://cdnjs.com/libraries/gitalk",
-        "function": "test_gitalk",
-        "versionfile": "gitalk.json",
-        "feature1": [
-            [
-                "Gitalk"
-            ]
-        ]
-    },
-    {
-        "libname": "github-api",
-        "url": "https://cdnjs.com/libraries/github-api",
-        "function": "test_githubapi",
-        "versionfile": "githubapi.json",
-        "feature1": [
-            []
-        ]
-    },
-    {
-        "libname": "gitment",
-        "url": "https://cdnjs.com/libraries/gitment",
-        "function": "test_gitment",
-        "versionfile": "gitment.json",
-        "feature1": [
-            [
-                "Gitment"
-            ]
-        ]
-    },
-    {
         "libname": "gl-matrix",
         "url": "https://cdnjs.com/libraries/gl-matrix",
-        "function": "test_glmatrix",
-        "versionfile": "glmatrix.json",
-        "feature1": [
-            []
-        ]
+        "feature1": [["glMatrix", "setMatrixArrayType"], ["vec2", "clone"]],
+        "feature2": [["glMatrix", "mat4"], ["glMatrix", "vec3"]]
     },
     {
         "libname": "glamor",
         "url": "https://cdnjs.com/libraries/glamor",
-        "function": "test_glamor",
         "versionfile": "glamor.json",
         "feature1": [
             [
@@ -2659,28 +2163,6 @@
             [
                 "Glamor",
                 "simulate"
-            ]
-        ]
-    },
-    {
-        "libname": "Glide.js",
-        "url": "https://cdnjs.com/libraries/Glide.js",
-        "function": "test_Glidejs",
-        "versionfile": "Glidejs.json",
-        "feature1": [
-            [
-                "Glide"
-            ]
-        ]
-    },
-    {
-        "libname": "glider-js",
-        "url": "https://cdnjs.com/libraries/glider-js",
-        "function": "test_gliderjs",
-        "versionfile": "gliderjs.json",
-        "feature1": [
-            [
-                "Glider"
             ]
         ]
     },
@@ -2701,36 +2183,8 @@
         ]
     },
     {
-        "libname": "gmail-js",
-        "url": "https://cdnjs.com/libraries/gmail-js",
-        "function": "test_gmailjs",
-        "versionfile": "gmailjs.json",
-        "feature1": [
-            [
-                "Gmail",
-                "arguments"
-            ],
-            [
-                "Gmail",
-                "caller"
-            ]
-        ]
-    },
-    {
-        "libname": "gmaps.js",
-        "url": "https://cdnjs.com/libraries/gmaps.js",
-        "function": "test_gmapsjs",
-        "versionfile": "gmapsjs.json",
-        "feature1": [
-            [
-                "GMaps"
-            ]
-        ]
-    },
-    {
         "libname": "golden-layout",
         "url": "https://cdnjs.com/libraries/golden-layout",
-        "function": "test_goldenlayout",
         "versionfile": "goldenlayout.json",
         "feature1": [
             [
@@ -2746,8 +2200,6 @@
     {
         "libname": "gpu.js",
         "url": "https://cdnjs.com/libraries/gpu.js",
-        "function": "test_gpujs",
-        "versionfile": "gpujs.json",
         "feature1": [
             [
                 "GPUCore",
@@ -2760,32 +2212,9 @@
         ]
     },
     {
-        "libname": "grade-js",
-        "url": "https://cdnjs.com/libraries/grade-js",
-        "function": "test_gradejs",
-        "versionfile": "gradejs.json",
-        "feature1": [
-            [
-                "Grade"
-            ]
-        ]
-    },
-    {
-        "libname": "granim",
-        "url": "https://cdnjs.com/libraries/granim",
-        "function": "test_granim",
-        "versionfile": "granim.json",
-        "feature1": [
-            [
-                "Granim"
-            ]
-        ]
-    },
-    {
         "libname": "grapesjs",
         "url": "https://cdnjs.com/libraries/grapesjs",
         "function": "test_grapesjs",
-        "versionfile": "grapesjs.json",
         "feature1": [
             [
                 "grapesjs",
@@ -2800,8 +2229,6 @@
     {
         "libname": "gremlins.js",
         "url": "https://cdnjs.com/libraries/gremlins.js",
-        "function": "test_gremlinsjs",
-        "versionfile": "gremlinsjs.json",
         "feature1": [
             [
                 "gremlins",
@@ -2817,15 +2244,11 @@
         "libname": "gsap",
         "url": "https://cdnjs.com/libraries/gsap",
         "function": "test_gsap",
-        "versionfile": "gsap.json",
-        "feature1": [
-            []
-        ]
+        "feature1": [["gsap", "plugins"], ["gsap", "globalTimeline"]]
     },
     {
         "libname": "gss-engine",
         "url": "https://cdnjs.com/libraries/gss-engine",
-        "function": "test_gssengine",
         "versionfile": "gssengine.json",
         "feature1": [
             [
@@ -2841,7 +2264,6 @@
     {
         "libname": "gun",
         "url": "https://cdnjs.com/libraries/gun",
-        "function": "test_gun",
         "versionfile": "gun.json",
         "feature1": [
             [
@@ -2857,8 +2279,6 @@
     {
         "libname": "Halfmoon",
         "url": "https://cdnjs.com/libraries/Halfmoon",
-        "function": "test_Halfmoon",
-        "versionfile": "Halfmoon.json",
         "feature1": [
             [
                 "halfmoon",
@@ -2871,33 +2291,23 @@
         ]
     },
     {
-        "libname": "hashids",
-        "url": "https://cdnjs.com/libraries/hashids",
-        "function": "test_hashids",
-        "versionfile": "hashids.json",
-        "feature1": [
-            [
-                "Hashids"
-            ]
-        ]
-    },
-    {
         "libname": "headroom",
         "url": "https://cdnjs.com/libraries/headroom",
-        "function": "test_headroom",
         "versionfile": "headroom.json",
         "feature1": [
             [
                 "Headroom",
-                "options"
+                "options", "classes"
+            ],
+            [
+                "Headroom",
+                "options", "tolerance"
             ]
         ]
     },
     {
         "libname": "heatmap.js",
         "url": "https://cdnjs.com/libraries/heatmap.js",
-        "function": "test_heatmapjs",
-        "versionfile": "heatmapjs.json",
         "feature1": [
             [
                 "h337",
@@ -2928,7 +2338,6 @@
     {
         "libname": "hellojs",
         "url": "https://cdnjs.com/libraries/hellojs",
-        "function": "test_hellojs",
         "versionfile": "hellojs.json",
         "feature1": [
             [
@@ -2938,17 +2347,6 @@
             [
                 "hello",
                 "settings"
-            ]
-        ]
-    },
-    {
-        "libname": "heti",
-        "url": "https://cdnjs.com/libraries/heti",
-        "function": "test_heti",
-        "versionfile": "heti.json",
-        "feature1": [
-            [
-                "Heti"
             ]
         ]
     },
@@ -2971,7 +2369,6 @@
     {
         "libname": "highlight.js",
         "url": "https://cdnjs.com/libraries/highlight.js",
-        "function": "test_highlightjs",
         "versionfile": "highlightjs.json",
         "feature1": [
             [
@@ -2987,8 +2384,6 @@
     {
         "libname": "highmaps",
         "url": "https://cdnjs.com/libraries/highmaps",
-        "function": "test_highmaps",
-        "versionfile": "highmaps.json",
         "feature1": [
             [
                 "HighchartsAdapter",
@@ -3003,8 +2398,6 @@
     {
         "libname": "history",
         "url": "https://cdnjs.com/libraries/history",
-        "function": "test_history",
-        "versionfile": "history.json",
         "feature1": [
             [
                 "HistoryLibrary",
@@ -3019,8 +2412,6 @@
     {
         "libname": "hogan.js",
         "url": "https://cdnjs.com/libraries/hogan.js",
-        "function": "test_hoganjs",
-        "versionfile": "hoganjs.json",
         "feature1": [
             [
                 "Hogan",
@@ -3037,17 +2428,12 @@
         "url": "https://cdnjs.com/libraries/holder",
         "function": "test_holder",
         "versionfile": "holder.json",
-        "feature1": [
-            [
-                "Holder",
-                "run"
-            ]
-        ]
+        "feature1": [["Holder", "flags"], ["Holder", "add_theme"]],
+        "feature2": [["Holder", "addTheme"], ["Holder", "addImage"]]
     },
     {
         "libname": "hopscotch",
         "url": "https://cdnjs.com/libraries/hopscotch",
-        "function": "test_hopscotch",
         "versionfile": "hopscotch.json",
         "feature1": [
             [
@@ -3063,7 +2449,6 @@
     {
         "libname": "howler",
         "url": "https://cdnjs.com/libraries/howler",
-        "function": "test_howler",
         "versionfile": "howler.json",
         "feature1": [
             [
@@ -3079,8 +2464,6 @@
     {
         "libname": "htm",
         "url": "https://cdnjs.com/libraries/htm",
-        "function": "test_htm",
-        "versionfile": "htm.json",
         "feature1": [
             [
                 "htm",
@@ -3095,33 +2478,27 @@
     {
         "libname": "html-gl",
         "url": "https://cdnjs.com/libraries/html-gl",
-        "function": "test_htmlgl",
-        "versionfile": "htmlgl.json",
         "feature1": [
             [
-                "PIXI",
-                "blendModes"
+                "HTMLGL",
+                "GLContext"
             ],
             [
-                "PIXI",
-                "Texture"
+                "HTMLGL",
+                "GLElementResolver"
             ]
         ]
     },
     {
         "libname": "html-minifier",
         "url": "https://cdnjs.com/libraries/html-minifier",
-        "function": "test_htmlminifier",
-        "versionfile": "htmlminifier.json",
         "feature1": [
-            []
+            ["HTMLParser"], ["HTMLtoXML"], ["HTMLtoDOM"]
         ]
     },
     {
         "libname": "html-to-image",
         "url": "https://cdnjs.com/libraries/html-to-image",
-        "function": "test_htmltoimage",
-        "versionfile": "htmltoimage.json",
         "feature1": [
             [
                 "htmlToImage",
@@ -3136,18 +2513,16 @@
     {
         "libname": "html2canvas",
         "url": "https://cdnjs.com/libraries/html2canvas",
-        "function": "test_html2canvas",
-        "versionfile": "html2canvas.json",
         "feature1": [
             [
-                "html2canvas"
+                "html2canvas", "Renderer"
             ]
-        ]
+        ],
+        "feature2": [["html2canvas", "utils", "parseBackgrounds"]]
     },
     {
         "libname": "html5-qrcode",
         "url": "https://cdnjs.com/libraries/html5-qrcode",
-        "function": "test_html5qrcode",
         "versionfile": "html5qrcode.json",
         "feature1": [
             [
@@ -3163,7 +2538,6 @@
         "libname": "html5shiv",
         "url": "https://cdnjs.com/libraries/html5shiv",
         "function": "test_html5shiv",
-        "versionfile": "html5shiv.json",
         "feature1": [
             [
                 "html5",
@@ -3178,17 +2552,13 @@
     {
         "libname": "hyperapp",
         "url": "https://cdnjs.com/libraries/hyperapp",
-        "function": "test_hyperapp",
-        "versionfile": "hyperapp.json",
         "feature1": [
-            []
+            ["hyperapp", "app"], ["hyperapp", "h"]
         ]
     },
     {
         "libname": "hyperHtml",
         "url": "https://cdnjs.com/libraries/hyperHtml",
-        "function": "test_hyperHtml",
-        "versionfile": "hyperHtml.json",
         "feature1": [
             [
                 "hyperHTML",
@@ -3201,21 +2571,8 @@
         ]
     },
     {
-        "libname": "iframe-resizer",
-        "url": "https://cdnjs.com/libraries/iframe-resizer",
-        "function": "test_iframeresizer",
-        "versionfile": "iframeresizer.json",
-        "feature1": [
-            [
-                "msgIdLen"
-            ]
-        ]
-    },
-    {
         "libname": "imager.js",
         "url": "https://cdnjs.com/libraries/imager.js",
-        "function": "test_imagerjs",
-        "versionfile": "imagerjs.json",
         "feature1": [
             [
                 "Imager",
@@ -3230,7 +2587,6 @@
     {
         "libname": "imask",
         "url": "https://cdnjs.com/libraries/imask",
-        "function": "test_imask",
         "versionfile": "imask.json",
         "feature1": [
             [
@@ -3246,7 +2602,6 @@
     {
         "libname": "immutable",
         "url": "https://cdnjs.com/libraries/immutable",
-        "function": "test_immutable",
         "versionfile": "immutable.json",
         "feature1": [
             [
@@ -3262,8 +2617,6 @@
     {
         "libname": "impress.js",
         "url": "https://cdnjs.com/libraries/impress.js",
-        "function": "test_impressjs",
-        "versionfile": "impressjs.json",
         "feature1": [
             [
                 "impress",
@@ -3274,7 +2627,6 @@
     {
         "libname": "incremental-dom",
         "url": "https://cdnjs.com/libraries/incremental-dom",
-        "function": "test_incrementaldom",
         "versionfile": "incrementaldom.json",
         "feature1": [
             [
@@ -3302,26 +2654,22 @@
     {
         "libname": "inferno-shared",
         "url": "https://cdnjs.com/libraries/inferno-shared",
-        "function": "test_infernoshared",
         "versionfile": "infernoshared.json",
-        "feature1": [
-            []
-        ]
+        "feature1": [["Inferno", "ERROR_MSG"], ["Inferno", "isArray"]],
+        "feature2": [["Inferno", "Shared", "Lifecycle"]],
+        "feature3": [["inferno-shared", "isBrowser"], ["inferno-shared", "NO_OP"]]
     },
     {
         "libname": "inferno-vnode-flags",
         "url": "https://cdnjs.com/libraries/inferno-vnode-flags",
-        "function": "test_infernovnodeflags",
         "versionfile": "infernovnodeflags.json",
-        "feature1": [
-            []
-        ]
+        "feature1": [["Inferno", "VNodeFlags"]],
+        "feature2": [["inferno-vnode-flags", "Component"], ["inferno-vnode-flags", "Element"]],
+        "feature3": [["VNodeFlags", "SelectElement"]]
     },
     {
         "libname": "instafeed.js",
         "url": "https://cdnjs.com/libraries/instafeed.js",
-        "function": "test_instafeedjs",
-        "versionfile": "instafeedjs.json",
         "feature1": [
             [
                 "Instafeed",
@@ -3336,23 +2684,12 @@
     {
         "libname": "instant.page",
         "url": "https://cdnjs.com/libraries/instant.page",
-        "function": "test_instantpage",
         "versionfile": "instantpage.json",
-        "feature1": [
-            [
-                "touchstartListener",
-                "arguments"
-            ],
-            [
-                "touchstartListener",
-                "caller"
-            ]
-        ]
+        "feature1": ["mouseoutListener", "isPreloadable", "preload"]
     },
     {
         "libname": "instantclick",
         "url": "https://cdnjs.com/libraries/instantclick",
-        "function": "test_instantclick",
         "versionfile": "instantclick.json",
         "feature1": [
             [
@@ -3365,18 +2702,13 @@
         "libname": "interact.js",
         "url": "https://cdnjs.com/libraries/interact.js",
         "function": "test_interactjs",
-        "versionfile": "interactjs.json",
-        "feature1": [
-            [
-                "interact"
-            ]
-        ]
+        "feature1": [["interact", "default"], ["_typeof2"]],
+        "feature2": [["interact", "isSet"], ["interact", "on"]]
     },
     {
         "libname": "intro.js",
         "url": "https://cdnjs.com/libraries/intro.js",
         "function": "test_introjs",
-        "versionfile": "introjs.json",
         "feature1": [
             [
                 "introJs",
@@ -3385,26 +2717,9 @@
         ]
     },
     {
-        "libname": "iris-ws",
-        "url": "https://cdnjs.com/libraries/iris-ws",
-        "function": "test_irisws",
-        "versionfile": "irisws.json",
-        "feature1": [
-            [
-                "Ws",
-                "arguments"
-            ],
-            [
-                "Ws",
-                "caller"
-            ]
-        ]
-    },
-    {
         "libname": "is_js",
         "url": "https://cdnjs.com/libraries/is_js",
         "function": "test_is_js",
-        "versionfile": "is_js.json",
         "feature1": [
             [
                 "is",
@@ -3419,7 +2734,6 @@
     {
         "libname": "iScroll",
         "url": "https://cdnjs.com/libraries/iScroll",
-        "function": "test_iScroll",
         "versionfile": "iScroll.json",
         "feature1": [
             [
@@ -3435,8 +2749,6 @@
     {
         "libname": "iview",
         "url": "https://cdnjs.com/libraries/iview",
-        "function": "test_iview",
-        "versionfile": "iview.json",
         "feature1": [
             [
                 "iview",
@@ -3452,38 +2764,32 @@
         "libname": "jade",
         "url": "https://cdnjs.com/libraries/jade",
         "function": "test_jade",
-        "versionfile": "jade.json",
-        "feature1": [
-            []
-        ]
+        "feature1": [["jade", "nodes"], ["jade", "doctypes"]]
     },
     {
         "libname": "javascript-state-machine",
         "url": "https://cdnjs.com/libraries/javascript-state-machine",
         "function": "test_javascriptstatemachine",
-        "versionfile": "javascriptstatemachine.json",
         "feature1": [
             [
-                "StateMachine"
+                "StateMachine", "VERSION"
+            ]
+        ],
+        "feature2": [
+            [
+                "StateMachine", "version"
             ]
         ]
     },
     {
         "libname": "jexcel",
         "url": "https://cdnjs.com/libraries/jexcel",
-        "function": "test_jexcel",
         "versionfile": "jexcel.json",
-        "feature1": [
-            [
-                "jexcel"
-            ]
-        ]
+        "feature1": [["jexcel", "current"], ["jexcel", "timeControl"]]
     },
     {
         "libname": "jimp",
         "url": "https://cdnjs.com/libraries/jimp",
-        "function": "test_jimp",
-        "versionfile": "jimp.json",
         "feature1": [
             [
                 "Jimp",
@@ -3499,7 +2805,6 @@
         "libname": "jointjs",
         "url": "https://cdnjs.com/libraries/jointjs",
         "function": "test_jointjs",
-        "versionfile": "jointjs.json",
         "feature1": [
             [
                 "joint",
@@ -3512,25 +2817,8 @@
         ]
     },
     {
-        "libname": "jquery-compat",
-        "url": "https://cdnjs.com/libraries/jquery-compat",
-        "function": "test_jquerycompat",
-        "versionfile": "jquerycompat.json",
-        "feature1": [
-            [
-                "$",
-                "fn"
-            ],
-            [
-                "$",
-                "support"
-            ]
-        ]
-    },
-    {
         "libname": "jquery-infinitescroll",
         "url": "https://cdnjs.com/libraries/jquery-infinitescroll",
-        "function": "test_jqueryinfinitescroll",
         "versionfile": "jqueryinfinitescroll.json",
         "feature1": [
             [
@@ -3546,8 +2834,6 @@
     {
         "libname": "jquery.imagesloaded",
         "url": "https://cdnjs.com/libraries/jquery.imagesloaded",
-        "function": "test_jqueryimagesloaded",
-        "versionfile": "jqueryimagesloaded.json",
         "feature1": [
             [
                 "eventie",
@@ -3562,8 +2848,6 @@
     {
         "libname": "jquery_lazyload",
         "url": "https://cdnjs.com/libraries/jquery_lazyload",
-        "function": "test_jquery_lazyload",
-        "versionfile": "jquery_lazyload.json",
         "feature1": [
             [
                 "lazyload"
@@ -3574,32 +2858,8 @@
         ]
     },
     {
-        "libname": "js-beautify",
-        "url": "https://cdnjs.com/libraries/js-beautify",
-        "function": "test_jsbeautify",
-        "versionfile": "jsbeautify.json",
-        "feature1": [
-            [
-                "js_beautify"
-            ]
-        ]
-    },
-    {
-        "libname": "js-cookie",
-        "url": "https://cdnjs.com/libraries/js-cookie",
-        "function": "test_jscookie",
-        "versionfile": "jscookie.json",
-        "feature1": [
-            [
-                "Cookies"
-            ]
-        ]
-    },
-    {
         "libname": "js-xss",
         "url": "https://cdnjs.com/libraries/js-xss",
-        "function": "test_jsxss",
-        "versionfile": "jsxss.json",
         "feature1": [
             [
                 "filterXSS",
@@ -3614,7 +2874,6 @@
     {
         "libname": "js-yaml",
         "url": "https://cdnjs.com/libraries/js-yaml",
-        "function": "test_jsyaml",
         "versionfile": "jsyaml.json",
         "feature1": [
             [
@@ -3630,8 +2889,6 @@
     {
         "libname": "jsbarcode",
         "url": "https://cdnjs.com/libraries/jsbarcode",
-        "function": "test_jsbarcode",
-        "versionfile": "jsbarcode.json",
         "feature1": [
             [
                 "JsBarcode",
@@ -3642,48 +2899,28 @@
     {
         "libname": "jsdiff",
         "url": "https://cdnjs.com/libraries/jsdiff",
-        "function": "test_jsdiff",
         "versionfile": "jsdiff.json",
-        "feature1": [
-            []
-        ]
+        "feature1": [["Diff", "Diff"], ["Diff", "diffChars"]],
+        "feature2": [["JsDiff", "diffChars"], ["JsDiff", "diffWords"]]
     },
     {
         "libname": "jsencrypt",
         "url": "https://cdnjs.com/libraries/jsencrypt",
         "function": "test_jsencrypt",
-        "versionfile": "jsencrypt.json",
         "feature1": [
             [
-                "JSEncrypt"
+                "JSEncrypt", "version"
             ]
         ]
     },
     {
         "libname": "jshint",
         "url": "https://cdnjs.com/libraries/jshint",
-        "function": "test_jshint",
-        "versionfile": "jshint.json",
-        "feature1": [
-            []
-        ]
-    },
-    {
-        "libname": "jsmpeg",
-        "url": "https://cdnjs.com/libraries/jsmpeg",
-        "function": "test_jsmpeg",
-        "versionfile": "jsmpeg.json",
-        "feature1": [
-            [
-                "jsmpeg"
-            ]
-        ]
+        "feature1": [["JSHINT", "addModule"], ["JSHINT", "data"]]
     },
     {
         "libname": "jsnes",
         "url": "https://cdnjs.com/libraries/jsnes",
-        "function": "test_jsnes",
-        "versionfile": "jsnes.json",
         "feature1": [
             [
                 "jsnes",
@@ -3694,8 +2931,6 @@
     {
         "libname": "json-editor",
         "url": "https://cdnjs.com/libraries/json-editor",
-        "function": "test_jsoneditor",
-        "versionfile": "jsoneditor.json",
         "feature1": [
             [
                 "JSONEditor",
@@ -3707,27 +2942,12 @@
         "libname": "json-schema-faker",
         "url": "https://cdnjs.com/libraries/json-schema-faker",
         "function": "test_jsonschemafaker",
-        "versionfile": "jsonschemafaker.json",
-        "feature1": [
-            []
-        ]
-    },
-    {
-        "libname": "json2",
-        "url": "https://cdnjs.com/libraries/json2",
-        "function": "test_json2",
-        "versionfile": "json2.json",
-        "feature1": [
-            [
-                "json_parse"
-            ]
-        ]
+        "feature1": [["jsf", "version"]],
+        "feature2": [["JSONSchemaFaker", "version"]]
     },
     {
         "libname": "json5",
         "url": "https://cdnjs.com/libraries/json5",
-        "function": "test_json5",
-        "versionfile": "json5.json",
         "feature1": [
             [
                 "JSON5",
@@ -3743,7 +2963,6 @@
         "libname": "jsondiffpatch",
         "url": "https://cdnjs.com/libraries/jsondiffpatch",
         "function": "test_jsondiffpatch",
-        "versionfile": "jsondiffpatch.json",
         "feature1": [
             [
                 "jsondiffpatch",
@@ -3758,17 +2977,14 @@
     {
         "libname": "jsoneditor",
         "url": "https://cdnjs.com/libraries/jsoneditor",
-        "function": "test_jsoneditor",
         "versionfile": "jsoneditor.json",
-        "feature1": [
-            []
-        ]
+        "feature1": [["JSONEditor", "modes"], ["JSONEditor", "registerMode"]],
+        "feature2": [["jsoneditor", "util"], ["jsoneditor", "JSONEditor"]]
     },
     {
         "libname": "jspdf",
         "url": "https://cdnjs.com/libraries/jspdf",
         "function": "test_jspdf",
-        "versionfile": "jspdf.json",
         "feature1": [
             [
                 "jsPDF",
@@ -3779,8 +2995,6 @@
     {
         "libname": "jsrsasign",
         "url": "https://cdnjs.com/libraries/jsrsasign",
-        "function": "test_jsrsasign",
-        "versionfile": "jsrsasign.json",
         "feature1": [
             [
                 "KJUR",
@@ -3796,10 +3010,14 @@
         "libname": "jss",
         "url": "https://cdnjs.com/libraries/jss",
         "function": "test_jss",
-        "versionfile": "jss.json",
         "feature1": [
             [
-                "jss"
+                "jss", "default", "version"
+            ]
+        ],
+        "feature2": [
+            [
+                "jss", "version"
             ]
         ]
     },
@@ -3816,40 +3034,26 @@
         ]
     },
     {
-        "libname": "jump.js",
-        "url": "https://cdnjs.com/libraries/jump.js",
-        "function": "test_jumpjs",
-        "versionfile": "jumpjs.json",
-        "feature1": [
-            [
-                "Jump"
-            ]
-        ]
-    },
-    {
         "libname": "KaTeX",
         "url": "https://cdnjs.com/libraries/KaTeX",
         "function": "test_KaTeX",
-        "versionfile": "KaTeX.json",
         "feature1": [
             [
-                "katex"
+                "katex", "version"
             ]
         ]
     },
     {
         "libname": "keras-js",
         "url": "https://cdnjs.com/libraries/keras-js",
-        "function": "test_kerasjs",
-        "versionfile": "kerasjs.json",
         "feature1": [
             [
-                "core",
-                "String"
+                "KerasJS",
+                "testUtils"
             ],
             [
-                "core",
-                "Int8Array"
+                "KerasJS",
+                "layers"
             ]
         ]
     },
@@ -3872,11 +3076,12 @@
     {
         "libname": "keypress",
         "url": "https://cdnjs.com/libraries/keypress",
-        "function": "test_keypress",
-        "versionfile": "keypress.json",
         "feature1": [
             [
-                "keypress"
+                "keypress", "Listener"
+            ],
+            [
+                "keypress", "debug"
             ]
         ]
     },
@@ -3884,7 +3089,6 @@
         "libname": "kineticjs",
         "url": "https://cdnjs.com/libraries/kineticjs",
         "function": "test_kineticjs",
-        "versionfile": "kineticjs.json",
         "feature1": [
             [
                 "Kinetic",
@@ -3900,7 +3104,6 @@
         "libname": "konva",
         "url": "https://cdnjs.com/libraries/konva",
         "function": "test_konva",
-        "versionfile": "konva.json",
         "feature1": [
             [
                 "Konva",
@@ -3915,7 +3118,6 @@
     {
         "libname": "kotlin",
         "url": "https://cdnjs.com/libraries/kotlin",
-        "function": "test_kotlin",
         "versionfile": "kotlin.json",
         "feature1": [
             [
@@ -3931,7 +3133,6 @@
     {
         "libname": "labella",
         "url": "https://cdnjs.com/libraries/labella",
-        "function": "test_labella",
         "versionfile": "labella.json",
         "feature1": [
             [
@@ -3947,8 +3148,6 @@
     {
         "libname": "Ladda",
         "url": "https://cdnjs.com/libraries/Ladda",
-        "function": "test_Ladda",
-        "versionfile": "Ladda.json",
         "feature1": [
             [
                 "Ladda",
@@ -3964,26 +3163,14 @@
         "libname": "layui",
         "url": "https://cdnjs.com/libraries/layui",
         "function": "test_layui",
-        "versionfile": "layui.json",
         "feature1": [
             [
                 "layui",
-                "$"
+                "code"
             ],
             [
                 "layui",
-                "jquery"
-            ]
-        ]
-    },
-    {
-        "libname": "layzr.js",
-        "url": "https://cdnjs.com/libraries/layzr.js",
-        "function": "test_layzrjs",
-        "versionfile": "layzrjs.json",
-        "feature1": [
-            [
-                "Layzr"
+                "v"
             ]
         ]
     },
@@ -3991,7 +3178,6 @@
         "libname": "lazy.js",
         "url": "https://cdnjs.com/libraries/lazy.js",
         "function": "test_lazyjs",
-        "versionfile": "lazyjs.json",
         "feature1": [
             [
                 "Lazy",
@@ -4006,7 +3192,6 @@
     {
         "libname": "lazysizes",
         "url": "https://cdnjs.com/libraries/lazysizes",
-        "function": "test_lazysizes",
         "versionfile": "lazysizes.json",
         "feature1": [
             [
@@ -4019,7 +3204,6 @@
         "libname": "less.js",
         "url": "https://cdnjs.com/libraries/less.js",
         "function": "test_lessjs",
-        "versionfile": "lessjs.json",
         "feature1": [
             [
                 "less",
@@ -4034,7 +3218,6 @@
     {
         "libname": "lightgallery-js",
         "url": "https://cdnjs.com/libraries/lightgallery-js",
-        "function": "test_lightgalleryjs",
         "versionfile": "lightgalleryjs.json",
         "feature1": [
             [
@@ -4048,31 +3231,8 @@
         ]
     },
     {
-        "libname": "list.js",
-        "url": "https://cdnjs.com/libraries/list.js",
-        "function": "test_listjs",
-        "versionfile": "listjs.json",
-        "feature1": [
-            [
-                "List"
-            ]
-        ]
-    },
-    {
-        "libname": "loadCSS",
-        "url": "https://cdnjs.com/libraries/loadCSS",
-        "function": "test_loadCSS",
-        "versionfile": "loadCSS.json",
-        "feature1": [
-            [
-                "loadCSS"
-            ]
-        ]
-    },
-    {
         "libname": "localforage",
         "url": "https://cdnjs.com/libraries/localforage",
-        "function": "test_localforage",
         "versionfile": "localforage.json",
         "feature1": [
             [
@@ -4088,7 +3248,6 @@
     {
         "libname": "lokijs",
         "url": "https://cdnjs.com/libraries/lokijs",
-        "function": "test_lokijs",
         "versionfile": "lokijs.json",
         "feature1": [
             [
@@ -4105,22 +3264,16 @@
         "libname": "lottie-web",
         "url": "https://cdnjs.com/libraries/lottie-web",
         "function": "test_lottieweb",
-        "versionfile": "lottieweb.json",
         "feature1": [
             [
-                "bodymovin",
-                "play"
-            ],
-            [
-                "bodymovin",
-                "pause"
+                "lottie",
+                "version"
             ]
         ]
     },
     {
         "libname": "lovefield",
         "url": "https://cdnjs.com/libraries/lovefield",
-        "function": "test_lovefield",
         "versionfile": "lovefield.json",
         "feature1": [
             [
@@ -4134,28 +3287,9 @@
         ]
     },
     {
-        "libname": "lowdb",
-        "url": "https://cdnjs.com/libraries/lowdb",
-        "function": "test_lowdb",
-        "versionfile": "lowdb.json",
-        "feature1": [
-            []
-        ]
-    },
-    {
-        "libname": "lozad.js",
-        "url": "https://cdnjs.com/libraries/lozad.js",
-        "function": "test_lozadjs",
-        "versionfile": "lozadjs.json",
-        "feature1": [
-            []
-        ]
-    },
-    {
         "libname": "lunr.js",
         "url": "https://cdnjs.com/libraries/lunr.js",
         "function": "test_lunrjs",
-        "versionfile": "lunrjs.json",
         "feature1": [
             [
                 "lunr",
@@ -4170,8 +3304,6 @@
     {
         "libname": "lz-string",
         "url": "https://cdnjs.com/libraries/lz-string",
-        "function": "test_lzstring",
-        "versionfile": "lzstring.json",
         "feature1": [
             [
                 "Base64String",
@@ -4186,16 +3318,14 @@
     {
         "libname": "mailcheck",
         "url": "https://cdnjs.com/libraries/mailcheck",
-        "function": "test_mailcheck",
-        "versionfile": "mailcheck.json",
         "feature1": [
-            []
-        ]
+            ["Kicksend", "mailcheck", "splitEmail"]
+        ],
+        "feature2": [["Mailcheck", "encodeEmail"], ["Mailcheck", "splitEmail"]]
     },
     {
         "libname": "mammoth",
         "url": "https://cdnjs.com/libraries/mammoth",
-        "function": "test_mammoth",
         "versionfile": "mammoth.json",
         "feature1": [
             [
@@ -4212,7 +3342,6 @@
         "libname": "mapbox-gl",
         "url": "https://cdnjs.com/libraries/mapbox-gl",
         "function": "test_mapboxgl",
-        "versionfile": "mapboxgl.json",
         "feature1": [
             [
                 "mapboxgl",
@@ -4225,20 +3354,8 @@
         ]
     },
     {
-        "libname": "markdown-it",
-        "url": "https://cdnjs.com/libraries/markdown-it",
-        "function": "test_markdownit",
-        "versionfile": "markdownit.json",
-        "feature1": [
-            [
-                "markdownit"
-            ]
-        ]
-    },
-    {
         "libname": "markdown.js",
         "url": "https://cdnjs.com/libraries/markdown.js",
-        "function": "test_markdownjs",
         "versionfile": "markdownjs.json",
         "feature1": [
             [
@@ -4254,7 +3371,6 @@
     {
         "libname": "marked",
         "url": "https://cdnjs.com/libraries/marked",
-        "function": "test_marked",
         "versionfile": "marked.json",
         "feature1": [
             [
@@ -4286,8 +3402,6 @@
     {
         "libname": "material-kit",
         "url": "https://cdnjs.com/libraries/material-kit",
-        "function": "test_materialkit",
-        "versionfile": "materialkit.json",
         "feature1": [
             [
                 "setAttributes",
@@ -4302,7 +3416,6 @@
     {
         "libname": "materialize",
         "url": "https://cdnjs.com/libraries/materialize",
-        "function": "test_materialize",
         "versionfile": "materialize.json",
         "feature1": [
             [
@@ -4318,8 +3431,6 @@
     {
         "libname": "mdb-ui-kit",
         "url": "https://cdnjs.com/libraries/mdb-ui-kit",
-        "function": "test_mdbuikit",
-        "versionfile": "mdbuikit.json",
         "feature1": [
             [
                 "mdb",
@@ -4334,7 +3445,6 @@
     {
         "libname": "mdui",
         "url": "https://cdnjs.com/libraries/mdui",
-        "function": "test_mdui",
         "versionfile": "mdui.json",
         "feature1": [
             [
@@ -4351,7 +3461,6 @@
         "libname": "mediaelement",
         "url": "https://cdnjs.com/libraries/mediaelement",
         "function": "test_mediaelement",
-        "versionfile": "mediaelement.json",
         "feature1": [
             [
                 "mejs",
@@ -4367,12 +3476,8 @@
         "libname": "medium-editor",
         "url": "https://cdnjs.com/libraries/medium-editor",
         "function": "test_mediumeditor",
-        "versionfile": "mediumeditor.json",
-        "feature1": [
-            [
-                "MediumEditor"
-            ]
-        ]
+        "feature1": [["MediumEditor", "util"], ["MediumEditor", "extensions"]],
+        "feature2": [["MediumEditor", "statics"]]
     },
     {
         "libname": "melonjs",
@@ -4393,7 +3498,6 @@
     {
         "libname": "mercury",
         "url": "https://cdnjs.com/libraries/mercury",
-        "function": "test_mercury",
         "versionfile": "mercury.json",
         "feature1": [
             [
@@ -4410,32 +3514,26 @@
         "libname": "metrics-graphics",
         "url": "https://cdnjs.com/libraries/metrics-graphics",
         "function": "test_metricsgraphics",
-        "versionfile": "metricsgraphics.json",
-        "feature1": [
-            []
-        ]
+        "feature1": [["MG", "deprecations"], ["MG", "convert"]]
     },
     {
         "libname": "metro",
         "url": "https://cdnjs.com/libraries/metro",
         "function": "test_metro",
-        "versionfile": "metro.json",
         "feature1": [
             [
-                "m4q",
-                "fn"
+                "Metro",
+                "version"
             ],
             [
-                "m4q",
-                "easing"
+                "Metro",
+                "validator"
             ]
         ]
     },
     {
         "libname": "micromodal",
         "url": "https://cdnjs.com/libraries/micromodal",
-        "function": "test_micromodal",
-        "versionfile": "micromodal.json",
         "feature1": [
             [
                 "MicroModal",
@@ -4451,7 +3549,6 @@
         "libname": "microsoft-signalr",
         "url": "https://cdnjs.com/libraries/microsoft-signalr",
         "function": "test_microsoftsignalr",
-        "versionfile": "microsoftsignalr.json",
         "feature1": [
             [
                 "signalR",
@@ -4466,8 +3563,6 @@
     {
         "libname": "midi.js",
         "url": "https://cdnjs.com/libraries/midi.js",
-        "function": "test_midijs",
-        "versionfile": "midijs.json",
         "feature1": [
             [
                 "MIDI",
@@ -4482,7 +3577,6 @@
     {
         "libname": "mint-ui",
         "url": "https://cdnjs.com/libraries/mint-ui",
-        "function": "test_mintui",
         "versionfile": "mintui.json",
         "feature1": [
             [
@@ -4495,7 +3589,6 @@
         "libname": "mithril",
         "url": "https://cdnjs.com/libraries/mithril",
         "function": "test_mithril",
-        "versionfile": "mithril.json",
         "feature1": [
             [
                 "m",
@@ -4511,7 +3604,6 @@
         "libname": "mixitup",
         "url": "https://cdnjs.com/libraries/mixitup",
         "function": "test_mixitup",
-        "versionfile": "mixitup.json",
         "feature1": [
             [
                 "mixitup",
@@ -4527,7 +3619,6 @@
         "libname": "mo-js",
         "url": "https://cdnjs.com/libraries/mo-js",
         "function": "test_mojs",
-        "versionfile": "mojs.json",
         "feature1": [
             [
                 "mojs",
@@ -4536,22 +3627,6 @@
             [
                 "mojs",
                 "tweener"
-            ]
-        ]
-    },
-    {
-        "libname": "mobile-angular-ui",
-        "url": "https://cdnjs.com/libraries/mobile-angular-ui",
-        "function": "test_mobileangularui",
-        "versionfile": "mobileangularui.json",
-        "feature1": [
-            [
-                "angular",
-                "version"
-            ],
-            [
-                "angular",
-                "element"
             ]
         ]
     },
@@ -4575,7 +3650,6 @@
         "libname": "Mock.js",
         "url": "https://cdnjs.com/libraries/Mock.js",
         "function": "test_Mockjs",
-        "versionfile": "Mockjs.json",
         "feature1": [
             [
                 "Mock",
@@ -4591,15 +3665,12 @@
         "libname": "moonjs",
         "url": "https://cdnjs.com/libraries/moonjs",
         "function": "test_moonjs",
-        "versionfile": "moonjs.json",
-        "feature1": [
-            []
-        ]
+        "feature1": [["Moon", "config"], ["Moon", "use"]],
+        "feature2": [["Moonjs", "util"], ["Moonjs", "config"]]
     },
     {
         "libname": "mori",
         "url": "https://cdnjs.com/libraries/mori",
-        "function": "test_mori",
         "versionfile": "mori.json",
         "feature1": [
             [
@@ -4615,8 +3686,6 @@
     {
         "libname": "morris.js",
         "url": "https://cdnjs.com/libraries/morris.js",
-        "function": "test_morrisjs",
-        "versionfile": "morrisjs.json",
         "feature1": [
             [
                 "Morris",
@@ -4627,7 +3696,6 @@
     {
         "libname": "most",
         "url": "https://cdnjs.com/libraries/most",
-        "function": "test_most",
         "versionfile": "most.json",
         "feature1": [
             [
@@ -4643,7 +3711,6 @@
     {
         "libname": "mousetrap",
         "url": "https://cdnjs.com/libraries/mousetrap",
-        "function": "test_mousetrap",
         "versionfile": "mousetrap.json",
         "feature1": [
             [
@@ -4660,11 +3727,10 @@
         "libname": "move.js",
         "url": "https://cdnjs.com/libraries/move.js",
         "function": "test_movejs",
-        "versionfile": "movejs.json",
         "feature1": [
             [
                 "move",
-                "ease"
+                "version"
             ],
             [
                 "move",
@@ -4675,7 +3741,6 @@
     {
         "libname": "mqtt",
         "url": "https://cdnjs.com/libraries/mqtt",
-        "function": "test_mqtt",
         "versionfile": "mqtt.json",
         "feature1": [
             [
@@ -4691,7 +3756,6 @@
     {
         "libname": "mui",
         "url": "https://cdnjs.com/libraries/mui",
-        "function": "test_mui",
         "versionfile": "mui.json",
         "feature1": [
             [
@@ -4707,7 +3771,6 @@
     {
         "libname": "muuri",
         "url": "https://cdnjs.com/libraries/muuri",
-        "function": "test_muuri",
         "versionfile": "muuri.json",
         "feature1": [
             [
@@ -4717,45 +3780,16 @@
         ]
     },
     {
-        "libname": "nanobar",
-        "url": "https://cdnjs.com/libraries/nanobar",
-        "function": "test_nanobar",
-        "versionfile": "nanobar.json",
-        "feature1": [
-            [
-                "Nanobar"
-            ]
-        ]
-    },
-    {
-        "libname": "nedb",
-        "url": "https://cdnjs.com/libraries/nedb",
-        "function": "test_nedb",
-        "versionfile": "nedb.json",
-        "feature1": [
-            [
-                "Nedb",
-                "arguments"
-            ],
-            [
-                "Nedb",
-                "caller"
-            ]
-        ]
-    },
-    {
         "libname": "nlp_compromise",
         "url": "https://cdnjs.com/libraries/nlp_compromise",
         "function": "test_nlp_compromise",
-        "versionfile": "nlp_compromise.json",
         "feature1": [
-            []
+            ["nlp_compromise", "version"]
         ]
     },
     {
         "libname": "node-waves",
         "url": "https://cdnjs.com/libraries/node-waves",
-        "function": "test_nodewaves",
         "versionfile": "nodewaves.json",
         "feature1": [
             [
@@ -4767,7 +3801,6 @@
     {
         "libname": "notie",
         "url": "https://cdnjs.com/libraries/notie",
-        "function": "test_notie",
         "versionfile": "notie.json",
         "feature1": [
             [
@@ -4783,8 +3816,6 @@
     {
         "libname": "noty",
         "url": "https://cdnjs.com/libraries/noty",
-        "function": "test_noty",
-        "versionfile": "noty.json",
         "feature1": [
             [
                 "Noty",
@@ -4800,7 +3831,6 @@
         "libname": "noUiSlider",
         "url": "https://cdnjs.com/libraries/noUiSlider",
         "function": "test_noUiSlider",
-        "versionfile": "noUiSlider.json",
         "feature1": [
             [
                 "noUiSlider",
@@ -4827,7 +3857,6 @@
     {
         "libname": "nunjucks",
         "url": "https://cdnjs.com/libraries/nunjucks",
-        "function": "test_nunjucks",
         "versionfile": "nunjucks.json",
         "feature1": [
             [
@@ -4841,21 +3870,8 @@
         ]
     },
     {
-        "libname": "oboe.js",
-        "url": "https://cdnjs.com/libraries/oboe.js",
-        "function": "test_oboejs",
-        "versionfile": "oboejs.json",
-        "feature1": [
-            [
-                "oboe"
-            ]
-        ]
-    },
-    {
         "libname": "odometer.js",
         "url": "https://cdnjs.com/libraries/odometer.js",
-        "function": "test_odometerjs",
-        "versionfile": "odometerjs.json",
         "feature1": [
             [
                 "Odometer",
@@ -4870,8 +3886,6 @@
     {
         "libname": "offline-js",
         "url": "https://cdnjs.com/libraries/offline-js",
-        "function": "test_offlinejs",
-        "versionfile": "offlinejs.json",
         "feature1": [
             [
                 "Offline",
@@ -4887,7 +3901,6 @@
         "libname": "ol3",
         "url": "https://cdnjs.com/libraries/ol3",
         "function": "test_ol3",
-        "versionfile": "ol3.json",
         "feature1": [
             [
                 "goog",
@@ -4903,7 +3916,6 @@
         "libname": "omi",
         "url": "https://cdnjs.com/libraries/omi",
         "function": "test_omi",
-        "versionfile": "omi.json",
         "feature1": [
             [
                 "Omi",
@@ -4919,7 +3931,6 @@
         "libname": "onnxruntime-web",
         "url": "https://cdnjs.com/libraries/onnxruntime-web",
         "function": "test_onnxruntimeweb",
-        "versionfile": "onnxruntimeweb.json",
         "feature1": [
             [
                 "ort",

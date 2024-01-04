@@ -125,7 +125,7 @@ for entry in res:
                 outfile.write(f'{libcnt} {libname}: {version}    {str(pattern_dict)}\n')
         cnt += 1
     
-    with open(f'static/more_libs_data/{libname}.json', "w") as outfile:
+    with open(f'static/libs_data/{libname}.json', "w") as outfile:
         outfile.write(json.dumps(file_dict))
 
     print(f'{libcnt} {libname} results saved.')
