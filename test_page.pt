@@ -29,7 +29,8 @@
 
 <tal:block tal:repeat="lib libs">
     <!-- <script type="module" src="${lib}"></script> -->
-    <script type="text/javascript" src="${lib}"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tsparticles/3.0.3/tsparticles.js"></script>
+    <!-- <script type="text/javascript" src="${lib}"></script> -->
 </tal:block>
 
 </html>

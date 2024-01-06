@@ -3945,7 +3945,6 @@
     {
         "libname": "onsen",
         "url": "https://cdnjs.com/libraries/onsen",
-        "function": "test_onsen",
         "versionfile": "onsen.json",
         "feature1": [
             [
@@ -3961,8 +3960,6 @@
     {
         "libname": "opal",
         "url": "https://cdnjs.com/libraries/opal",
-        "function": "test_opal",
-        "versionfile": "opal.json",
         "feature1": [
             [
                 "Opal",
@@ -3977,8 +3974,6 @@
     {
         "libname": "openlocationcode",
         "url": "https://cdnjs.com/libraries/openlocationcode",
-        "function": "test_openlocationcode",
-        "versionfile": "openlocationcode.json",
         "feature1": [
             [
                 "OpenLocationCode",
@@ -3994,7 +3989,6 @@
         "libname": "openpgp",
         "url": "https://cdnjs.com/libraries/openpgp",
         "function": "test_openpgp",
-        "versionfile": "openpgp.json",
         "feature1": [
             [
                 "openpgp",
@@ -4009,7 +4003,6 @@
     {
         "libname": "opentype.js",
         "url": "https://cdnjs.com/libraries/opentype.js",
-        "function": "test_opentypejs",
         "versionfile": "opentypejs.json",
         "feature1": [
             [
@@ -4025,8 +4018,6 @@
     {
         "libname": "outdated-browser",
         "url": "https://cdnjs.com/libraries/outdated-browser",
-        "function": "test_outdatedbrowser",
-        "versionfile": "outdatedbrowser.json",
         "feature1": [
             [
                 "outdatedBrowser",
@@ -4041,32 +4032,29 @@
     {
         "libname": "overlayscrollbars",
         "url": "https://cdnjs.com/libraries/overlayscrollbars",
-        "function": "test_overlayscrollbars",
         "versionfile": "overlayscrollbars.json",
         "feature1": [
-            []
-        ]
+            [["OverlayScrollbarsGlobal", "OverlayScrollbars"], ["OverlayScrollbarsGlobal", "ClickScrollPlugin"]]
+        ],
+        "feature2": [["OverlayScrollbars", "globals"], ["OverlayScrollbars", "defaultOptions"]]
     },
     {
         "libname": "p5.js",
         "url": "https://cdnjs.com/libraries/p5.js",
-        "function": "test_p5js",
         "versionfile": "p5js.json",
         "feature1": [
             [
-                "reqwest",
-                "arguments"
+                "p5"
             ],
             [
                 "reqwest",
-                "caller"
+                "ajaxSetup"
             ]
         ]
     },
     {
         "libname": "pace",
         "url": "https://cdnjs.com/libraries/pace",
-        "function": "test_pace",
         "versionfile": "pace.json",
         "feature1": [
             [
@@ -4082,7 +4070,6 @@
     {
         "libname": "packery",
         "url": "https://cdnjs.com/libraries/packery",
-        "function": "test_packery",
         "versionfile": "packery.json",
         "feature1": [
             [
@@ -4098,7 +4085,6 @@
     {
         "libname": "page.js",
         "url": "https://cdnjs.com/libraries/page.js",
-        "function": "test_pagejs",
         "versionfile": "pagejs.json",
         "feature1": [
             [
@@ -4114,7 +4100,6 @@
     {
         "libname": "pako",
         "url": "https://cdnjs.com/libraries/pako",
-        "function": "test_pako",
         "versionfile": "pako.json",
         "feature1": [
             [
@@ -4130,7 +4115,6 @@
     {
         "libname": "PapaParse",
         "url": "https://cdnjs.com/libraries/PapaParse",
-        "function": "test_PapaParse",
         "versionfile": "PapaParse.json",
         "feature1": [
             [
@@ -4144,36 +4128,18 @@
         ]
     },
     {
-        "libname": "parallax",
-        "url": "https://cdnjs.com/libraries/parallax",
-        "function": "test_parallax",
-        "versionfile": "parallax.json",
-        "feature1": [
-            [
-                "Parallax"
-            ]
-        ]
-    },
-    {
         "libname": "particles.js",
         "url": "https://cdnjs.com/libraries/particles.js",
-        "function": "test_particlesjs",
         "versionfile": "particlesjs.json",
         "feature1": [
             [
-                "hexToRgb",
-                "arguments"
-            ],
-            [
-                "hexToRgb",
-                "caller"
-            ]
+                "hexToRgb"
+            ], ["particlesJS"], ["requestAnimFrame"]
         ]
     },
     {
         "libname": "pdf-lib",
         "url": "https://cdnjs.com/libraries/pdf-lib",
-        "function": "test_pdflib",
         "versionfile": "pdflib.json",
         "feature1": [
             [
@@ -4189,19 +4155,13 @@
     {
         "libname": "pdfmake",
         "url": "https://cdnjs.com/libraries/pdfmake",
-        "function": "test_pdfmake",
-        "versionfile": "pdfmake.json",
         "feature1": [
-            [
-                "pdfMake"
-            ]
+            ["pdfMake", "createPdf"], ["saveAs", "saveAs"]
         ]
     },
     {
         "libname": "peaks.js",
         "url": "https://cdnjs.com/libraries/peaks.js",
-        "function": "test_peaksjs",
-        "versionfile": "peaksjs.json",
         "feature1": [
             [
                 "peaks",
@@ -4212,13 +4172,9 @@
     {
         "libname": "peerjs",
         "url": "https://cdnjs.com/libraries/peerjs",
-        "function": "test_peerjs",
         "versionfile": "peerjs.json",
-        "feature1": [
-            [
-                "Peer"
-            ]
-        ]
+        "feature1": [["peerjs", "util"], ["peerjs", "Peer"]],
+        "feature2": [["Peer"], ["BinaryPack", "pack"]]
     },
     {
         "libname": "pegjs",
@@ -4256,28 +4212,18 @@
         "libname": "phaser",
         "url": "https://cdnjs.com/libraries/phaser",
         "function": "test_phaser",
-        "versionfile": "phaser.json",
-        "feature1": [
-            []
-        ]
-    },
-    {
-        "libname": "photoswipe",
-        "url": "https://cdnjs.com/libraries/photoswipe",
-        "function": "test_photoswipe",
-        "versionfile": "photoswipe.json",
-        "feature1": [
-            []
-        ]
+        "feature1": [["Phaser", "Game"], ["Phaser", "VERSION"]]
     },
     {
         "libname": "pica",
         "url": "https://cdnjs.com/libraries/pica",
         "function": "test_pica",
-        "versionfile": "pica.json",
         "feature1": [
             [
-                "pica"
+                "pica", "resizeCanvas"
+            ],
+            [
+                "pica", "resizeBuffer"
             ]
         ]
     },
@@ -4285,29 +4231,15 @@
         "libname": "picturefill",
         "url": "https://cdnjs.com/libraries/picturefill",
         "function": "test_picturefill",
-        "versionfile": "picturefill.json",
         "feature1": [
             [
-                "picturefill"
-            ]
-        ]
-    },
-    {
-        "libname": "pikaday",
-        "url": "https://cdnjs.com/libraries/pikaday",
-        "function": "test_pikaday",
-        "versionfile": "pikaday.json",
-        "feature1": [
-            [
-                "Pikaday"
+                "picturefill", "_", "picturefill"
             ]
         ]
     },
     {
         "libname": "pinyin-pro",
         "url": "https://cdnjs.com/libraries/pinyin-pro",
-        "function": "test_pinyinpro",
-        "versionfile": "pinyinpro.json",
         "feature1": [
             [
                 "pinyinPro",
@@ -4323,22 +4255,16 @@
         "libname": "places.js",
         "url": "https://cdnjs.com/libraries/places.js",
         "function": "test_placesjs",
-        "versionfile": "placesjs.json",
         "feature1": [
             [
-                "__algolia",
-                "debug"
-            ],
-            [
-                "__algolia",
-                "algoliasearch"
+                "version",
+                "places"
             ]
         ]
     },
     {
         "libname": "planck-js",
         "url": "https://cdnjs.com/libraries/planck-js",
-        "function": "test_planckjs",
         "versionfile": "planckjs.json",
         "feature1": [
             [
@@ -4355,7 +4281,6 @@
         "libname": "playcanvas",
         "url": "https://cdnjs.com/libraries/playcanvas",
         "function": "test_playcanvas",
-        "versionfile": "playcanvas.json",
         "feature1": [
             [
                 "pc",
@@ -4371,56 +4296,28 @@
         "libname": "plottable.js",
         "url": "https://cdnjs.com/libraries/plottable.js",
         "function": "test_plottablejs",
-        "versionfile": "plottablejs.json",
-        "feature1": [
-            [
-                "__extends",
-                "arguments"
-            ],
-            [
-                "__extends",
-                "caller"
-            ]
-        ]
-    },
-    {
-        "libname": "plupload",
-        "url": "https://cdnjs.com/libraries/plupload",
-        "function": "test_plupload",
-        "versionfile": "plupload.json",
-        "feature1": [
-            [
-                "MXI_DEBUG"
-            ],
-            [
-                "define"
-            ]
-        ]
+        "feature1": [["Plottable", "Component"], ["Plottable", "Scale"]]
     },
     {
         "libname": "plyr",
         "url": "https://cdnjs.com/libraries/plyr",
-        "function": "test_plyr",
         "versionfile": "plyr.json",
-        "feature1": [
-            []
-        ]
+        "feature1": [["plyr", "supported"], ["plyr", "setup"]],
+        "feature2": [["Plyr", "supported"], ["Plyr", "loadSprite"]]
     },
     {
         "libname": "polyglot.js",
         "url": "https://cdnjs.com/libraries/polyglot.js",
         "function": "test_polyglotjs",
-        "versionfile": "polyglotjs.json",
         "feature1": [
             [
-                "Polyglot"
+                "Polyglot", "VERSION"
             ]
         ]
     },
     {
         "libname": "popmotion",
         "url": "https://cdnjs.com/libraries/popmotion",
-        "function": "test_popmotion",
         "versionfile": "popmotion.json",
         "feature1": [
             [
@@ -4436,13 +4333,8 @@
     {
         "libname": "popper.js",
         "url": "https://cdnjs.com/libraries/popper.js",
-        "function": "test_popperjs",
         "versionfile": "popperjs.json",
-        "feature1": [
-            [
-                "Popper"
-            ]
-        ]
+        "feature1": [["Popper", "Utils"]]
     },
     {
         "libname": "pouchdb",
@@ -4463,8 +4355,6 @@
     {
         "libname": "prefixfree",
         "url": "https://cdnjs.com/libraries/prefixfree",
-        "function": "test_prefixfree",
-        "versionfile": "prefixfree.json",
         "feature1": [
             [
                 "StyleFix",
@@ -4480,7 +4370,6 @@
         "libname": "prettier",
         "url": "https://cdnjs.com/libraries/prettier",
         "function": "test_prettier",
-        "versionfile": "prettier.json",
         "feature1": [
             [
                 "prettier",
@@ -4488,14 +4377,13 @@
             ],
             [
                 "prettier",
-                "util"
+                "version"
             ]
         ]
     },
     {
         "libname": "prism",
         "url": "https://cdnjs.com/libraries/prism",
-        "function": "test_prism",
         "versionfile": "prism.json",
         "feature1": [
             [
@@ -4511,7 +4399,6 @@
     {
         "libname": "progressbar.js",
         "url": "https://cdnjs.com/libraries/progressbar.js",
-        "function": "test_progressbarjs",
         "versionfile": "progressbarjs.json",
         "feature1": [
             [
@@ -4527,7 +4414,6 @@
     {
         "libname": "prop-types",
         "url": "https://cdnjs.com/libraries/prop-types",
-        "function": "test_proptypes",
         "versionfile": "proptypes.json",
         "feature1": [
             [
@@ -4543,8 +4429,6 @@
     {
         "libname": "protobufjs",
         "url": "https://cdnjs.com/libraries/protobufjs",
-        "function": "test_protobufjs",
-        "versionfile": "protobufjs.json",
         "feature1": [
             [
                 "protobuf",
@@ -4576,7 +4460,6 @@
         "libname": "pubsub-js",
         "url": "https://cdnjs.com/libraries/pubsub-js",
         "function": "test_pubsubjs",
-        "versionfile": "pubsubjs.json",
         "feature1": [
             [
                 "PubSub",
@@ -4613,29 +4496,15 @@
         ]
     },
     {
-        "libname": "pyodide",
-        "url": "https://cdnjs.com/libraries/pyodide",
-        "function": "test_pyodide",
-        "versionfile": "pyodide.json",
-        "feature1": [
-            [
-                "_createPyodideModule"
-            ]
-        ]
-    },
-    {
         "libname": "q.js",
         "url": "https://cdnjs.com/libraries/q.js",
-        "function": "test_qjs",
         "versionfile": "qjs.json",
-        "feature1": [
-            []
-        ]
+        "feature1": [["Q", "defer"], ["Q", "makePromise"]],
+        "feature2": [["/q", "enqueue"], ["/q", "defer"]]
     },
     {
         "libname": "qartjs",
         "url": "https://cdnjs.com/libraries/qartjs",
-        "function": "test_qartjs",
         "versionfile": "qartjs.json",
         "feature1": [
             [
@@ -4647,8 +4516,6 @@
     {
         "libname": "qrcode",
         "url": "https://cdnjs.com/libraries/qrcode",
-        "function": "test_qrcode",
-        "versionfile": "qrcode.json",
         "feature1": [
             [
                 "QRCode",
@@ -4663,23 +4530,16 @@
     {
         "libname": "qrcodejs",
         "url": "https://cdnjs.com/libraries/qrcodejs",
-        "function": "test_qrcodejs",
-        "versionfile": "qrcodejs.json",
         "feature1": [
             [
                 "QRCode",
-                "CorrectLevel"
-            ],
-            [
-                "QRCode",
-                "arguments"
+                "CorrectLevel", "H"
             ]
         ]
     },
     {
         "libname": "qs",
         "url": "https://cdnjs.com/libraries/qs",
-        "function": "test_qs",
         "versionfile": "qs.json",
         "feature1": [
             [
@@ -4695,7 +4555,6 @@
     {
         "libname": "quagga",
         "url": "https://cdnjs.com/libraries/quagga",
-        "function": "test_quagga",
         "versionfile": "quagga.json",
         "feature1": [
             [
@@ -4709,25 +4568,12 @@
         ]
     },
     {
-        "libname": "quasar-framework",
-        "url": "https://cdnjs.com/libraries/quasar-framework",
-        "function": "test_quasarframework",
-        "versionfile": "quasarframework.json",
-        "feature1": [
-            [
-                "ES6",
-                "isPromise"
-            ]
-        ]
-    },
-    {
         "libname": "quill",
         "url": "https://cdnjs.com/libraries/quill",
         "function": "test_quill",
-        "versionfile": "quill.json",
         "feature1": [
             [
-                "Quill"
+                "Quill", "version"
             ]
         ]
     },
@@ -4735,7 +4581,6 @@
         "libname": "qunit",
         "url": "https://cdnjs.com/libraries/qunit",
         "function": "test_qunit",
-        "versionfile": "qunit.json",
         "feature1": [
             [
                 "QUnit",
@@ -4751,15 +4596,10 @@
         "libname": "ractive.js",
         "url": "https://cdnjs.com/libraries/ractive.js",
         "function": "test_ractivejs",
-        "versionfile": "ractivejs.json",
         "feature1": [
             [
                 "Ractive",
-                "eventDefinitions"
-            ],
-            [
-                "Ractive",
-                "easing"
+                "VERSION"
             ]
         ]
     },
@@ -4769,14 +4609,15 @@
         "function": "test_ramda",
         "versionfile": "ramda.json",
         "feature1": [
-            []
+            ["R", "curry"], ["R", "curryN"]
+        ],
+        "feature2": [
+            ["ramda", "curry"], ["ramda", "nAry"]
         ]
     },
     {
         "libname": "ramjet.js",
         "url": "https://cdnjs.com/libraries/ramjet.js",
-        "function": "test_ramjetjs",
-        "versionfile": "ramjetjs.json",
         "feature1": [
             [
                 "ramjet",
@@ -4789,48 +4630,15 @@
         ]
     },
     {
-        "libname": "randomcolor",
-        "url": "https://cdnjs.com/libraries/randomcolor",
-        "function": "test_randomcolor",
-        "versionfile": "randomcolor.json",
-        "feature1": [
-            [
-                "randomColor",
-                "arguments"
-            ],
-            [
-                "randomColor",
-                "caller"
-            ]
-        ]
-    },
-    {
-        "libname": "ratchet",
-        "url": "https://cdnjs.com/libraries/ratchet",
-        "function": "test_ratchet",
-        "versionfile": "ratchet.json",
-        "feature1": [
-            [
-                "PUSH"
-            ]
-        ]
-    },
-    {
         "libname": "raven.js",
         "url": "https://cdnjs.com/libraries/raven.js",
         "function": "test_ravenjs",
-        "versionfile": "ravenjs.json",
-        "feature1": [
-            [
-                "Raven"
-            ]
-        ]
+        "feature1": [["Raven", "VERSION"]]
     },
     {
         "libname": "rax",
         "url": "https://cdnjs.com/libraries/rax",
         "function": "test_rax",
-        "versionfile": "rax.json",
         "feature1": [
             [
                 "Rax",
@@ -4838,7 +4646,7 @@
             ],
             [
                 "Rax",
-                "createElement"
+                "version"
             ]
         ]
     },
@@ -4846,7 +4654,6 @@
         "libname": "react-ace",
         "url": "https://cdnjs.com/libraries/react-ace",
         "function": "test_reactace",
-        "versionfile": "reactace.json",
         "feature1": [
             [
                 "ace",
@@ -4861,8 +4668,6 @@
     {
         "libname": "react-flip-move",
         "url": "https://cdnjs.com/libraries/react-flip-move",
-        "function": "test_reactflipmove",
-        "versionfile": "reactflipmove.json",
         "feature1": [
             [
                 "FlipMove",
@@ -4877,8 +4682,6 @@
     {
         "libname": "react-intl",
         "url": "https://cdnjs.com/libraries/react-intl",
-        "function": "test_reactintl",
-        "versionfile": "reactintl.json",
         "feature1": [
             [
                 "IntlMessageFormat",
@@ -4902,40 +4705,18 @@
             ],
             [
                 "ReactRouterRedux",
-                "__esModule"
-            ]
-        ]
-    },
-    {
-        "libname": "react-select",
-        "url": "https://cdnjs.com/libraries/react-select",
-        "function": "test_reactselect",
-        "versionfile": "reactselect.json",
-        "feature1": [
-            [
-                "require",
-                "arguments"
-            ],
-            [
-                "require",
-                "caller"
+                "routerMiddleware"
             ]
         ]
     },
     {
         "libname": "react-sortable-hoc",
         "url": "https://cdnjs.com/libraries/react-sortable-hoc",
-        "function": "test_reactsortablehoc",
-        "versionfile": "reactsortablehoc.json",
-        "feature1": [
-            []
-        ]
+        "feature1": [["SortableHOC", "SortableElement"], ["SortableHOC", "SortableContainer"]]
     },
     {
         "libname": "readability",
         "url": "https://cdnjs.com/libraries/readability",
-        "function": "test_readability",
-        "versionfile": "readability.json",
         "feature1": [
             [
                 "REGEXPS",
@@ -4948,17 +4729,6 @@
         ]
     },
     {
-        "libname": "recharts",
-        "url": "https://cdnjs.com/libraries/recharts",
-        "function": "test_recharts",
-        "versionfile": "recharts.json",
-        "feature1": [
-            [
-                "chart"
-            ]
-        ]
-    },
-    {
         "libname": "recompose",
         "url": "https://cdnjs.com/libraries/recompose",
         "function": "test_recompose",
@@ -4966,7 +4736,7 @@
         "feature1": [
             [
                 "Recompose",
-                "__esModule"
+                "withProps"
             ],
             [
                 "Recompose",
@@ -4977,8 +4747,6 @@
     {
         "libname": "reconnecting-websocket",
         "url": "https://cdnjs.com/libraries/reconnecting-websocket",
-        "function": "test_reconnectingwebsocket",
-        "versionfile": "reconnectingwebsocket.json",
         "feature1": [
             [
                 "ReconnectingWebSocket",
@@ -4993,8 +4761,6 @@
     {
         "libname": "recorderjs",
         "url": "https://cdnjs.com/libraries/recorderjs",
-        "function": "test_recorderjs",
-        "versionfile": "recorderjs.json",
         "feature1": [
             [
                 "Recorder",
@@ -5009,19 +4775,18 @@
         "versionfile": "RecordRTC.json",
         "feature1": [
             [
-                "DiskStorage",
-                "init"
+                "RecordRTC",
+                "getFromDisk"
             ],
             [
-                "DiskStorage",
-                "Fetch"
+                "RecordRTC",
+                "writeToDisk"
             ]
         ]
     },
     {
         "libname": "redom",
         "url": "https://cdnjs.com/libraries/redom",
-        "function": "test_redom",
         "versionfile": "redom.json",
         "feature1": [
             [
@@ -5037,7 +4802,6 @@
     {
         "libname": "redux",
         "url": "https://cdnjs.com/libraries/redux",
-        "function": "test_redux",
         "versionfile": "redux.json",
         "feature1": [
             [
@@ -5053,32 +4817,31 @@
     {
         "libname": "redux-logger",
         "url": "https://cdnjs.com/libraries/redux-logger",
-        "function": "test_reduxlogger",
         "versionfile": "reduxlogger.json",
         "feature1": [
             [
-                "reduxLogger"
+                "reduxLogger", "default"
+            ],
+            [
+                "reduxLogger", "logger"
             ]
         ]
     },
     {
         "libname": "redux-persist",
         "url": "https://cdnjs.com/libraries/redux-persist",
-        "function": "test_reduxpersist",
         "versionfile": "reduxpersist.json",
-        "feature1": [
-            []
-        ]
+        "feature1": [["ReduxPersist", "createTransform"], ["ReduxPersist", "getStoredState"]],
+        "feature2": [["redux-persist", "createTransform"], ["redux-persist", "getStoredState"]]
     },
     {
         "libname": "redux-saga",
         "url": "https://cdnjs.com/libraries/redux-saga",
-        "function": "test_reduxsaga",
         "versionfile": "reduxsaga.json",
         "feature1": [
             [
                 "ReduxSaga",
-                "__esModule"
+                "default"
             ],
             [
                 "ReduxSaga",
@@ -5089,18 +4852,15 @@
     {
         "libname": "redux-thunk",
         "url": "https://cdnjs.com/libraries/redux-thunk",
-        "function": "test_reduxthunk",
-        "versionfile": "reduxthunk.json",
         "feature1": [
             [
-                "ReduxThunk"
+                "ReduxThunk", "withExtraArgument"
             ]
         ]
     },
     {
         "libname": "reflux",
         "url": "https://cdnjs.com/libraries/reflux",
-        "function": "test_reflux",
         "versionfile": "reflux.json",
         "feature1": [
             [
@@ -5114,70 +4874,27 @@
         ]
     },
     {
-        "libname": "regl",
-        "url": "https://cdnjs.com/libraries/regl",
-        "function": "test_regl",
-        "versionfile": "regl.json",
-        "feature1": [
-            []
-        ]
-    },
-    {
-        "libname": "rellax",
-        "url": "https://cdnjs.com/libraries/rellax",
-        "function": "test_rellax",
-        "versionfile": "rellax.json",
-        "feature1": [
-            [
-                "Rellax"
-            ]
-        ]
-    },
-    {
-        "libname": "remark",
-        "url": "https://cdnjs.com/libraries/remark",
-        "function": "test_remark",
-        "versionfile": "remark.json",
-        "feature1": [
-            [
-                "remark"
-            ]
-        ]
-    },
-    {
         "libname": "remarkable",
         "url": "https://cdnjs.com/libraries/remarkable",
         "function": "test_remarkable",
-        "versionfile": "remarkable.json",
         "feature1": [
-            []
+            ["Remarkable", "utils", "assign"]
         ]
     },
     {
         "libname": "reqwest",
         "url": "https://cdnjs.com/libraries/reqwest",
-        "function": "test_reqwest",
         "versionfile": "reqwest.json",
-        "feature1": [
-            [
-                "reqwest",
-                "arguments"
-            ],
-            [
-                "reqwest",
-                "caller"
-            ]
-        ]
+        "feature1": [["reqwest", "serialize"], ["reqwest", "serializeArray"]]
     },
     {
         "libname": "reselect",
         "url": "https://cdnjs.com/libraries/reselect",
         "function": "test_reselect",
-        "versionfile": "reselect.json",
         "feature1": [
             [
                 "Reselect",
-                "__esModule"
+                "createSelectorCreator"
             ],
             [
                 "Reselect",
@@ -5188,7 +4905,6 @@
     {
         "libname": "respond.js",
         "url": "https://cdnjs.com/libraries/respond.js",
-        "function": "test_respondjs",
         "versionfile": "respondjs.json",
         "feature1": [
             [
@@ -5202,66 +4918,15 @@
         ]
     },
     {
-        "libname": "responsive-nav.js",
-        "url": "https://cdnjs.com/libraries/responsive-nav.js",
-        "function": "test_responsivenavjs",
-        "versionfile": "responsivenavjs.json",
-        "feature1": [
-            [
-                "responsiveNav"
-            ]
-        ]
-    },
-    {
-        "libname": "rest.js",
-        "url": "https://cdnjs.com/libraries/rest.js",
-        "function": "test_restjs",
-        "versionfile": "restjs.json",
-        "feature1": [
-            [
-                "Octokit",
-                "arguments"
-            ],
-            [
-                "Octokit",
-                "caller"
-            ]
-        ]
-    },
-    {
-        "libname": "resumable.js",
-        "url": "https://cdnjs.com/libraries/resumable.js",
-        "function": "test_resumablejs",
-        "versionfile": "resumablejs.json",
-        "feature1": [
-            [
-                "Resumable"
-            ]
-        ]
-    },
-    {
-        "libname": "retina.js",
-        "url": "https://cdnjs.com/libraries/retina.js",
-        "function": "test_retinajs",
-        "versionfile": "retinajs.json",
-        "feature1": [
-            []
-        ]
-    },
-    {
         "libname": "reveal.js",
         "url": "https://cdnjs.com/libraries/reveal.js",
         "function": "test_revealjs",
         "versionfile": "revealjs.json",
-        "feature1": [
-            []
-        ]
+        "feature1": [["Reveal", "initialize"], ["Reveal", "navigateTo"]]
     },
     {
         "libname": "rickshaw",
         "url": "https://cdnjs.com/libraries/rickshaw",
-        "function": "test_rickshaw",
-        "versionfile": "rickshaw.json",
         "feature1": [
             [
                 "Rickshaw",
@@ -5276,7 +4941,6 @@
     {
         "libname": "rivets",
         "url": "https://cdnjs.com/libraries/rivets",
-        "function": "test_rivets",
         "versionfile": "rivets.json",
         "feature1": [
             [
@@ -5293,7 +4957,6 @@
         "libname": "rollup",
         "url": "https://cdnjs.com/libraries/rollup",
         "function": "test_rollup",
-        "versionfile": "rollup.json",
         "feature1": [
             [
                 "rollup",
@@ -5301,32 +4964,26 @@
             ],
             [
                 "rollup",
-                "rollup"
+                "VERSION"
             ]
         ]
     },
     {
         "libname": "rome",
         "url": "https://cdnjs.com/libraries/rome",
-        "function": "test_rome",
-        "versionfile": "rome.json",
-        "feature1": [
-            []
-        ]
+        "feature1": [["rome", "moment"], ["rome", "find"]]
     },
     {
         "libname": "rough.js",
         "url": "https://cdnjs.com/libraries/rough.js",
-        "function": "test_roughjs",
         "versionfile": "roughjs.json",
         "feature1": [
-            []
+            ["rough", "canvas"], ["rough", "svg"]
         ]
     },
     {
         "libname": "rsvp",
         "url": "https://cdnjs.com/libraries/rsvp",
-        "function": "test_rsvp",
         "versionfile": "rsvp.json",
         "feature1": [
             [
@@ -5340,21 +4997,9 @@
         ]
     },
     {
-        "libname": "rythm.js",
-        "url": "https://cdnjs.com/libraries/rythm.js",
-        "function": "test_rythmjs",
-        "versionfile": "rythmjs.json",
-        "feature1": [
-            [
-                "Rythm"
-            ]
-        ]
-    },
-    {
         "libname": "san",
         "url": "https://cdnjs.com/libraries/san",
         "function": "test_san",
-        "versionfile": "san.json",
         "feature1": [
             [
                 "san",
@@ -5362,15 +5007,13 @@
             ],
             [
                 "san",
-                "defineComponent"
+                "version"
             ]
         ]
     },
     {
         "libname": "sanitize-html",
         "url": "https://cdnjs.com/libraries/sanitize-html",
-        "function": "test_sanitizehtml",
-        "versionfile": "sanitizehtml.json",
         "feature1": [
             [
                 "sanitizeHtml",
@@ -5401,18 +5044,12 @@
     {
         "libname": "scribbletune",
         "url": "https://cdnjs.com/libraries/scribbletune",
-        "function": "test_scribbletune",
         "versionfile": "scribbletune.json",
-        "feature1": [
-            [
-                "scribble"
-            ]
-        ]
+        "feature1": [["scribble", "scale"], ["scribble", "mode"]]
     },
     {
         "libname": "script.js",
         "url": "https://cdnjs.com/libraries/script.js",
-        "function": "test_scriptjs",
         "versionfile": "scriptjs.json",
         "feature1": [
             [
@@ -5426,20 +5063,8 @@
         ]
     },
     {
-        "libname": "scrollama",
-        "url": "https://cdnjs.com/libraries/scrollama",
-        "function": "test_scrollama",
-        "versionfile": "scrollama.json",
-        "feature1": [
-            [
-                "scrollama"
-            ]
-        ]
-    },
-    {
         "libname": "scrollmonitor",
         "url": "https://cdnjs.com/libraries/scrollmonitor",
-        "function": "test_scrollmonitor",
         "versionfile": "scrollmonitor.json",
         "feature1": [
             [
@@ -5456,26 +5081,25 @@
         "libname": "scrollReveal.js",
         "url": "https://cdnjs.com/libraries/scrollReveal.js",
         "function": "test_scrollRevealjs",
-        "versionfile": "scrollRevealjs.json",
         "feature1": [
-            []
+            ["ScrollReveal", "isSupported"], ["ScrollReveal", "debug"]
         ]
     },
     {
         "libname": "ScrollTrigger",
         "url": "https://cdnjs.com/libraries/ScrollTrigger",
         "function": "test_ScrollTrigger",
-        "versionfile": "ScrollTrigger.json",
         "feature1": [
             [
-                "ScrollTrigger"
+                "ScrollTrigger", "Trigger"
+            ],[
+                "ScrollTrigger", "TriggerCollection"
             ]
         ]
     },
     {
         "libname": "seamless-immutable",
         "url": "https://cdnjs.com/libraries/seamless-immutable",
-        "function": "test_seamlessimmutable",
         "versionfile": "seamlessimmutable.json",
         "feature1": [
             [
@@ -5492,23 +5116,6 @@
         "libname": "sentry-browser",
         "url": "https://cdnjs.com/libraries/sentry-browser",
         "function": "test_sentrybrowser",
-        "versionfile": "sentrybrowser.json",
-        "feature1": [
-            [
-                "Sentry",
-                "Integrations"
-            ],
-            [
-                "Sentry",
-                "Severity"
-            ]
-        ]
-    },
-    {
-        "libname": "sentry-tracing",
-        "url": "https://cdnjs.com/libraries/sentry-tracing",
-        "function": "test_sentrytracing",
-        "versionfile": "sentrytracing.json",
         "feature1": [
             [
                 "Sentry",
@@ -5523,7 +5130,6 @@
     {
         "libname": "shepherd",
         "url": "https://cdnjs.com/libraries/shepherd",
-        "function": "test_shepherd",
         "versionfile": "shepherd.json",
         "feature1": [
             [
@@ -5539,47 +5145,25 @@
     {
         "libname": "showdown",
         "url": "https://cdnjs.com/libraries/showdown",
-        "function": "test_showdown",
         "versionfile": "showdown.json",
-        "feature1": [
-            []
-        ]
+        "feature1": [["showdown", "helper"], ["showdown", "extensions"]],
+        "feature2": [["Showdown", "forEach"], ["Showdown", "converter"]]
     },
     {
         "libname": "sigma.js",
         "url": "https://cdnjs.com/libraries/sigma.js",
-        "function": "test_sigmajs",
-        "versionfile": "sigmajs.json",
-        "feature1": [
-            []
-        ]
-    },
-    {
-        "libname": "signature_pad",
-        "url": "https://cdnjs.com/libraries/signature_pad",
-        "function": "test_signature_pad",
-        "versionfile": "signature_pad.json",
-        "feature1": [
-            [
-                "SignaturePad"
-            ]
-        ]
+        "feature1": [["Sigma", "Camera"], ["Sigma", "QuadTree"]]
     },
     {
         "libname": "simple-peer",
         "url": "https://cdnjs.com/libraries/simple-peer",
-        "function": "test_simplepeer",
         "versionfile": "simplepeer.json",
-        "feature1": [
-            [
-                "SimplePeer"
-            ]
-        ]
+        "feature1": [["SimplePeer", "super_"], ["SimplePeer", "config"]],
+        "feature2": [["SimplePeer", "config"], ["SimplePeer", "WEBRTC_SUPPORT"]]
     },
     {
         "libname": "simple-statistics",
         "url": "https://cdnjs.com/libraries/simple-statistics",
-        "function": "test_simplestatistics",
         "versionfile": "simplestatistics.json",
         "feature1": [
             [
@@ -5595,16 +5179,13 @@
     {
         "libname": "simplebar",
         "url": "https://cdnjs.com/libraries/simplebar",
-        "function": "test_simplebar",
-        "versionfile": "simplebar.json",
         "feature1": [
-            []
+            ["SimpleBar", "globalObserver"], ["SimpleBar", "defaultOptions"]
         ]
     },
     {
         "libname": "single-spa",
         "url": "https://cdnjs.com/libraries/single-spa",
-        "function": "test_singlespa",
         "versionfile": "singlespa.json",
         "feature1": [
             [
@@ -5620,7 +5201,6 @@
     {
         "libname": "sir-trevor-js",
         "url": "https://cdnjs.com/libraries/sir-trevor-js",
-        "function": "test_sirtrevorjs",
         "versionfile": "sirtrevorjs.json",
         "feature1": [
             [
@@ -5636,7 +5216,6 @@
     {
         "libname": "sizzle",
         "url": "https://cdnjs.com/libraries/sizzle",
-        "function": "test_sizzle",
         "versionfile": "sizzle.json",
         "feature1": [
             [
@@ -5652,7 +5231,6 @@
     {
         "libname": "sjcl",
         "url": "https://cdnjs.com/libraries/sjcl",
-        "function": "test_sjcl",
         "versionfile": "sjcl.json",
         "feature1": [
             [
@@ -5668,7 +5246,6 @@
     {
         "libname": "sketch.js",
         "url": "https://cdnjs.com/libraries/sketch.js",
-        "function": "test_sketchjs",
         "versionfile": "sketchjs.json",
         "feature1": [
             [
@@ -5685,7 +5262,6 @@
         "libname": "skrollr",
         "url": "https://cdnjs.com/libraries/skrollr",
         "function": "test_skrollr",
-        "versionfile": "skrollr.json",
         "feature1": [
             [
                 "skrollr",
@@ -5698,20 +5274,8 @@
         ]
     },
     {
-        "libname": "slideout",
-        "url": "https://cdnjs.com/libraries/slideout",
-        "function": "test_slideout",
-        "versionfile": "slideout.json",
-        "feature1": [
-            [
-                "Slideout"
-            ]
-        ]
-    },
-    {
         "libname": "smartcrop",
         "url": "https://cdnjs.com/libraries/smartcrop",
-        "function": "test_smartcrop",
         "versionfile": "smartcrop.json",
         "feature1": [
             [
@@ -5727,32 +5291,24 @@
     {
         "libname": "smooth-scroll",
         "url": "https://cdnjs.com/libraries/smooth-scroll",
-        "function": "test_smoothscroll",
         "versionfile": "smoothscroll.json",
         "feature1": [
-            []
+            ["smoothScroll", "animateScroll"], ["smoothScroll", "destroy"]
         ]
     },
     {
         "libname": "smooth-scrollbar",
         "url": "https://cdnjs.com/libraries/smooth-scrollbar",
         "function": "test_smoothscrollbar",
-        "versionfile": "smoothscrollbar.json",
         "feature1": [
             [
-                "__core-js_shared__",
-                "wks"
-            ],
-            [
-                "Scrollbar"
+                "Scrollbar", "version"
             ]
         ]
     },
     {
         "libname": "snabbdom",
         "url": "https://cdnjs.com/libraries/snabbdom",
-        "function": "test_snabbdom",
-        "versionfile": "snabbdom.json",
         "feature1": [
             [
                 "snabbdom",
@@ -5764,21 +5320,11 @@
         "libname": "snabbt.js",
         "url": "https://cdnjs.com/libraries/snabbt.js",
         "function": "test_snabbtjs",
-        "versionfile": "snabbtjs.json",
         "feature1": [
             [
-                "snabbt"
-            ]
-        ]
-    },
-    {
-        "libname": "snap.js",
-        "url": "https://cdnjs.com/libraries/snap.js",
-        "function": "test_snapjs",
-        "versionfile": "snapjs.json",
-        "feature1": [
-            [
-                "Snap"
+                "snabbt", "createMatrix"
+            ],[
+                "snabbt", "setElementTransform"
             ]
         ]
     },
@@ -5786,7 +5332,6 @@
         "libname": "snap.svg",
         "url": "https://cdnjs.com/libraries/snap.svg",
         "function": "test_snapsvg",
-        "versionfile": "snapsvg.json",
         "feature1": [
             [
                 "Snap",
@@ -5794,23 +5339,7 @@
             ],
             [
                 "Snap",
-                "filter"
-            ]
-        ]
-    },
-    {
-        "libname": "social-share.js",
-        "url": "https://cdnjs.com/libraries/social-share.js",
-        "function": "test_socialsharejs",
-        "versionfile": "socialsharejs.json",
-        "feature1": [
-            [
-                "QRCode",
-                "CorrectLevel"
-            ],
-            [
-                "QRCode",
-                "arguments"
+                "version"
             ]
         ]
     },
@@ -5818,7 +5347,6 @@
         "libname": "sockjs-client",
         "url": "https://cdnjs.com/libraries/sockjs-client",
         "function": "test_sockjsclient",
-        "versionfile": "sockjsclient.json",
         "feature1": [
             [
                 "SockJS",
@@ -5834,7 +5362,6 @@
         "libname": "Sortable",
         "url": "https://cdnjs.com/libraries/Sortable",
         "function": "test_Sortable",
-        "versionfile": "Sortable.json",
         "feature1": [
             [
                 "Sortable",
@@ -5850,16 +5377,14 @@
         "libname": "SoundJS",
         "url": "https://cdnjs.com/libraries/SoundJS",
         "function": "test_SoundJS",
-        "versionfile": "SoundJS.json",
         "feature1": [
-            []
+            ["createjs", "SoundJS", "version"]
         ]
     },
     {
         "libname": "soundmanager2",
         "url": "https://cdnjs.com/libraries/soundmanager2",
         "function": "test_soundmanager2",
-        "versionfile": "soundmanager2.json",
         "feature1": [
             [
                 "soundManager",
@@ -5874,11 +5399,9 @@
     {
         "libname": "spin.js",
         "url": "https://cdnjs.com/libraries/spin.js",
-        "function": "test_spinjs",
-        "versionfile": "spinjs.json",
         "feature1": [
             [
-                "Spinner"
+                "Spinner", "defaults"
             ]
         ]
     },
@@ -5886,7 +5409,6 @@
         "libname": "spinejs",
         "url": "https://cdnjs.com/libraries/spinejs",
         "function": "test_spinejs",
-        "versionfile": "spinejs.json",
         "feature1": [
             [
                 "Spine",
@@ -5901,8 +5423,6 @@
     {
         "libname": "splidejs",
         "url": "https://cdnjs.com/libraries/splidejs",
-        "function": "test_splidejs",
-        "versionfile": "splidejs.json",
         "feature1": [
             [
                 "SplideRenderer",
@@ -5911,35 +5431,9 @@
         ]
     },
     {
-        "libname": "split.js",
-        "url": "https://cdnjs.com/libraries/split.js",
-        "function": "test_splitjs",
-        "versionfile": "splitjs.json",
-        "feature1": [
-            [
-                "Split"
-            ]
-        ]
-    },
-    {
-        "libname": "sprint",
-        "url": "https://cdnjs.com/libraries/sprint",
-        "function": "test_sprint",
-        "versionfile": "sprint.json",
-        "feature1": [
-            [
-                "Sprint"
-            ],
-            [
-                "$"
-            ]
-        ]
-    },
-    {
         "libname": "spritejs",
         "url": "https://cdnjs.com/libraries/spritejs",
         "function": "test_spritejs",
-        "versionfile": "spritejs.json",
         "feature1": [
             [
                 "spritejs",
@@ -5952,75 +5446,25 @@
         ]
     },
     {
-        "libname": "sql.js",
-        "url": "https://cdnjs.com/libraries/sql.js",
-        "function": "test_sqljs",
-        "versionfile": "sqljs.json",
-        "feature1": [
-            []
-        ]
-    },
-    {
         "libname": "squire-rte",
         "url": "https://cdnjs.com/libraries/squire-rte",
-        "function": "test_squirerte",
-        "versionfile": "squirerte.json",
-        "feature1": [
-            [
-                "Squire"
-            ]
-        ]
+        "feature1": [["Squire", "contentWalker"], ["Squire", "getNodeBefore"]]
     },
     {
         "libname": "stacktrace.js",
         "url": "https://cdnjs.com/libraries/stacktrace.js",
-        "function": "test_stacktracejs",
         "versionfile": "stacktracejs.json",
-        "feature1": [
-            []
-        ]
+        "feature1": [["StackTrace", "get"], ["StackTrace", "fromError"]],
+        "feature2": [["printStackTrace", "implementation"]]
     },
     {
         "libname": "stampit",
         "url": "https://cdnjs.com/libraries/stampit",
-        "function": "test_stampit",
         "versionfile": "stampit.json",
         "feature1": [
             [
                 "stampit",
                 "compose"
-            ]
-        ]
-    },
-    {
-        "libname": "startbootstrap-sb-admin",
-        "url": "https://cdnjs.com/libraries/startbootstrap-sb-admin",
-        "function": "test_startbootstrapsbadmin",
-        "versionfile": "startbootstrapsbadmin.json",
-        "feature1": [
-            [
-                "$",
-                "fn"
-            ],
-            [
-                "$",
-                "support"
-            ]
-        ]
-    },
-    {
-        "libname": "stats.js",
-        "url": "https://cdnjs.com/libraries/stats.js",
-        "function": "test_statsjs",
-        "versionfile": "statsjs.json",
-        "feature1": [
-            [
-                "Stats",
-                "arguments"
-            ],
-            [
-                "Stats",
-                "caller"
             ]
         ]
     },
@@ -6043,11 +5487,12 @@
     {
         "libname": "stroll.js",
         "url": "https://cdnjs.com/libraries/stroll.js",
-        "function": "test_strolljs",
         "versionfile": "strolljs.json",
         "feature1": [
             [
                 "requestAnimFrame"
+            ],[
+                "stroll", "bind"
             ]
         ]
     },
@@ -6070,7 +5515,6 @@
     {
         "libname": "svg.js",
         "url": "https://cdnjs.com/libraries/svg.js",
-        "function": "test_svgjs",
         "versionfile": "svgjs.json",
         "feature1": [
             [
@@ -6084,25 +5528,8 @@
         ]
     },
     {
-        "libname": "svg4everybody",
-        "url": "https://cdnjs.com/libraries/svg4everybody",
-        "function": "test_svg4everybody",
-        "versionfile": "svg4everybody.json",
-        "feature1": [
-            [
-                "svg4everybody",
-                "arguments"
-            ],
-            [
-                "svg4everybody",
-                "caller"
-            ]
-        ]
-    },
-    {
         "libname": "sw-toolbox",
         "url": "https://cdnjs.com/libraries/sw-toolbox",
-        "function": "test_swtoolbox",
         "versionfile": "swtoolbox.json",
         "feature1": [
             [
@@ -6118,14 +5545,12 @@
     {
         "libname": "sweetalert",
         "url": "https://cdnjs.com/libraries/sweetalert",
-        "function": "test_sweetalert",
-        "versionfile": "sweetalert.json",
         "feature1": [
             [
-                "sweetAlert"
+                "sweetAlert", "getState"
             ],
             [
-                "swal"
+                "sweetAlert", "setActionValue"
             ]
         ]
     },
@@ -6133,7 +5558,6 @@
         "libname": "sweetalert2",
         "url": "https://cdnjs.com/libraries/sweetalert2",
         "function": "test_sweetalert2",
-        "versionfile": "sweetalert2.json",
         "feature1": [
             [
                 "Sweetalert2",
@@ -6149,11 +5573,10 @@
         "libname": "swig",
         "url": "https://cdnjs.com/libraries/swig",
         "function": "test_swig",
-        "versionfile": "swig.json",
         "feature1": [
             [
                 "swig",
-                "setDefaults"
+                "version"
             ],
             [
                 "swig",
@@ -6162,31 +5585,8 @@
         ]
     },
     {
-        "libname": "swipe",
-        "url": "https://cdnjs.com/libraries/swipe",
-        "function": "test_swipe",
-        "versionfile": "swipe.json",
-        "feature1": [
-            [
-                "Swipe"
-            ]
-        ]
-    },
-    {
-        "libname": "swup",
-        "url": "https://cdnjs.com/libraries/swup",
-        "function": "test_swup",
-        "versionfile": "swup.json",
-        "feature1": [
-            [
-                "Swup"
-            ]
-        ]
-    },
-    {
         "libname": "synaptic",
         "url": "https://cdnjs.com/libraries/synaptic",
-        "function": "test_synaptic",
         "versionfile": "synaptic.json",
         "feature1": [
             [
@@ -6202,8 +5602,6 @@
     {
         "libname": "tabletop.js",
         "url": "https://cdnjs.com/libraries/tabletop.js",
-        "function": "test_tabletopjs",
-        "versionfile": "tabletopjs.json",
         "feature1": [
             [
                 "Tabletop",
@@ -6218,45 +5616,17 @@
     {
         "libname": "tabulator",
         "url": "https://cdnjs.com/libraries/tabulator",
-        "function": "test_tabulator",
         "versionfile": "tabulator.json",
-        "feature1": [
-            [
-                "Tabulator"
-            ]
-        ]
-    },
-    {
-        "libname": "tagify",
-        "url": "https://cdnjs.com/libraries/tagify",
-        "function": "test_tagify",
-        "versionfile": "tagify.json",
-        "feature1": [
-            [
-                "Tagify"
-            ]
-        ]
-    },
-    {
-        "libname": "tarekraafat-autocomplete.js",
-        "url": "https://cdnjs.com/libraries/tarekraafat-autocomplete.js",
-        "function": "test_tarekraafatautocompletejs",
-        "versionfile": "tarekraafatautocompletejs.json",
-        "feature1": [
-            [
-                "autoComplete"
-            ]
-        ]
+        "feature1": [["Tabulator", "moduleBindings"], ["Tabulator", "extendModule"]]
     },
     {
         "libname": "tempus-dominus",
         "url": "https://cdnjs.com/libraries/tempus-dominus",
         "function": "test_tempusdominus",
-        "versionfile": "tempusdominus.json",
         "feature1": [
             [
                 "tempusDominus",
-                "DefaultOptions"
+                "version"
             ],
             [
                 "tempusDominus",
@@ -6268,7 +5638,6 @@
         "libname": "tensorflow",
         "url": "https://cdnjs.com/libraries/tensorflow",
         "function": "test_tensorflow",
-        "versionfile": "tensorflow.json",
         "feature1": [
             [
                 "tf",
@@ -6276,23 +5645,18 @@
             ],
             [
                 "tf",
-                "util"
+                "version"
             ]
         ]
     },
     {
         "libname": "tesseract.js",
         "url": "https://cdnjs.com/libraries/tesseract.js",
-        "function": "test_tesseractjs",
-        "versionfile": "tesseractjs.json",
-        "feature1": [
-            []
-        ]
+        "feature1": [["regeneratorRuntime", "wrap"], ["regeneratorRuntime", "isGeneratorFunction"]]
     },
     {
         "libname": "tether",
         "url": "https://cdnjs.com/libraries/tether",
-        "function": "test_tether",
         "versionfile": "tether.json",
         "feature1": [
             [
@@ -6306,31 +5670,8 @@
         ]
     },
     {
-        "libname": "timeago.js",
-        "url": "https://cdnjs.com/libraries/timeago.js",
-        "function": "test_timeagojs",
-        "versionfile": "timeagojs.json",
-        "feature1": [
-            [
-                "timeago"
-            ]
-        ]
-    },
-    {
-        "libname": "tiny-slider",
-        "url": "https://cdnjs.com/libraries/tiny-slider",
-        "function": "test_tinyslider",
-        "versionfile": "tinyslider.json",
-        "feature1": [
-            [
-                "tinySlider"
-            ]
-        ]
-    },
-    {
         "libname": "tinycolor",
         "url": "https://cdnjs.com/libraries/tinycolor",
-        "function": "test_tinycolor",
         "versionfile": "tinycolor.json",
         "feature1": [
             [
@@ -6346,8 +5687,6 @@
     {
         "libname": "tinycon",
         "url": "https://cdnjs.com/libraries/tinycon",
-        "function": "test_tinycon",
-        "versionfile": "tinycon.json",
         "feature1": [
             [
                 "Tinycon",
@@ -6363,27 +5702,14 @@
         "libname": "tippy.js",
         "url": "https://cdnjs.com/libraries/tippy.js",
         "function": "test_tippyjs",
-        "versionfile": "tippyjs.json",
         "feature1": [
-            []
-        ]
-    },
-    {
-        "libname": "to-markdown",
-        "url": "https://cdnjs.com/libraries/to-markdown",
-        "function": "test_tomarkdown",
-        "versionfile": "tomarkdown.json",
-        "feature1": [
-            [
-                "toMarkdown"
-            ]
+            ["tippy", "version"]
         ]
     },
     {
         "libname": "toastr.js",
         "url": "https://cdnjs.com/libraries/toastr.js",
         "function": "test_toastrjs",
-        "versionfile": "toastrjs.json",
         "feature1": [
             [
                 "toastr",
@@ -6391,7 +5717,7 @@
             ],
             [
                 "toastr",
-                "error"
+                "version"
             ]
         ]
     },
@@ -6399,17 +5725,15 @@
         "libname": "topojson",
         "url": "https://cdnjs.com/libraries/topojson",
         "function": "test_topojson",
-        "versionfile": "topojson.json",
         "feature1": [
             [
-                "topojson"
+                "topojson", "version"
             ]
         ]
     },
     {
         "libname": "tota11y",
         "url": "https://cdnjs.com/libraries/tota11y",
-        "function": "test_tota11y",
         "versionfile": "tota11y.json",
         "feature1": [
             [
@@ -6418,15 +5742,17 @@
             ],
             [
                 "axs",
-                "utils"
+                "AuditResults"
+            ],
+            [
+                "axs",
+                "AuditConfiguration"
             ]
         ]
     },
     {
         "libname": "trianglify",
         "url": "https://cdnjs.com/libraries/trianglify",
-        "function": "test_trianglify",
-        "versionfile": "trianglify.json",
         "feature1": [
             [
                 "Trianglify",
@@ -6441,7 +5767,6 @@
     {
         "libname": "trix",
         "url": "https://cdnjs.com/libraries/trix",
-        "function": "test_trix",
         "versionfile": "trix.json",
         "feature1": [
             [
@@ -6455,785 +5780,32 @@
         ]
     },
     {
-        "libname": "tsparticles-all",
-        "url": "https://cdnjs.com/libraries/tsparticles-all",
-        "function": "test_tsparticlesall",
-        "versionfile": "tsparticlesall.json",
-        "feature1": [
-            [
-                "tsParticles",
-                "plugins"
-            ],
-            [
-                "tsParticles",
-                "_eventDispatcher"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-basic",
-        "url": "https://cdnjs.com/libraries/tsparticles-basic",
-        "function": "test_tsparticlesbasic",
-        "versionfile": "tsparticlesbasic.json",
-        "feature1": [
-            [
-                "tsParticles",
-                "plugins"
-            ],
-            [
-                "tsParticles",
-                "_eventDispatcher"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-confetti",
-        "url": "https://cdnjs.com/libraries/tsparticles-confetti",
-        "function": "test_tsparticlesconfetti",
-        "versionfile": "tsparticlesconfetti.json",
-        "feature1": [
-            [
-                "tsParticles",
-                "plugins"
-            ],
-            [
-                "tsParticles",
-                "_eventDispatcher"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-demo-configs",
-        "url": "https://cdnjs.com/libraries/tsparticles-demo-configs",
-        "function": "test_tsparticlesdemoconfigs",
-        "versionfile": "tsparticlesdemoconfigs.json",
-        "feature1": [
-            []
-        ]
-    },
-    {
         "libname": "tsparticles-engine",
         "url": "https://cdnjs.com/libraries/tsparticles-engine",
-        "function": "test_tsparticlesengine",
         "versionfile": "tsparticlesengine.json",
         "feature1": [
             [
-                "Vector",
-                "origin"
+                "tsParticles"
             ],
             [
-                "Vector",
-                "clone"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-fireworks",
-        "url": "https://cdnjs.com/libraries/tsparticles-fireworks",
-        "function": "test_tsparticlesfireworks",
-        "versionfile": "tsparticlesfireworks.json",
-        "feature1": [
-            [
-                "tsParticles",
-                "plugins"
+                "visibilityChangeEvent"
             ],
-            [
-                "tsParticles",
-                "_eventDispatcher"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-move-base",
-        "url": "https://cdnjs.com/libraries/tsparticles-move-base",
-        "function": "test_tsparticlesmovebase",
-        "versionfile": "tsparticlesmovebase.json",
-        "feature1": [
-            [
-                "loadBaseMover"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-move-parallax",
-        "url": "https://cdnjs.com/libraries/tsparticles-move-parallax",
-        "function": "test_tsparticlesmoveparallax",
-        "versionfile": "tsparticlesmoveparallax.json",
-        "feature1": [
-            [
-                "loadParallaxMover"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-particles.js",
-        "url": "https://cdnjs.com/libraries/tsparticles-particles.js",
-        "function": "test_tsparticlesparticlesjs",
-        "versionfile": "tsparticlesparticlesjs.json",
-        "feature1": [
-            [
-                "Vector",
-                "origin"
-            ],
-            [
-                "Vector",
-                "clone"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-path-curves",
-        "url": "https://cdnjs.com/libraries/tsparticles-path-curves",
-        "function": "test_tsparticlespathcurves",
-        "versionfile": "tsparticlespathcurves.json",
-        "feature1": [
-            [
-                "curvesPathName"
-            ],
-            [
-                "loadCurvesPath"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-path-perlin-noise",
-        "url": "https://cdnjs.com/libraries/tsparticles-path-perlin-noise",
-        "function": "test_tsparticlespathperlinnoise",
-        "versionfile": "tsparticlespathperlinnoise.json",
-        "feature1": [
-            [
-                "loadPerlinNoisePath"
-            ],
-            [
-                "perlinNoisePathName"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-path-polygon",
-        "url": "https://cdnjs.com/libraries/tsparticles-path-polygon",
-        "function": "test_tsparticlespathpolygon",
-        "versionfile": "tsparticlespathpolygon.json",
-        "feature1": [
-            [
-                "loadPolygonPath"
-            ],
-            [
-                "polygonPathName"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-path-simplex-noise",
-        "url": "https://cdnjs.com/libraries/tsparticles-path-simplex-noise",
-        "function": "test_tsparticlespathsimplexnoise",
-        "versionfile": "tsparticlespathsimplexnoise.json",
-        "feature1": [
-            [
-                "loadSimplexNoisePath"
-            ],
-            [
-                "simplexNoisePathName"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-path-svg",
-        "url": "https://cdnjs.com/libraries/tsparticles-path-svg",
-        "function": "test_tsparticlespathsvg",
-        "versionfile": "tsparticlespathsvg.json",
-        "feature1": [
-            [
-                "loadSVGPath"
-            ],
-            [
-                "svgPathName"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-plugin-absorbers",
-        "url": "https://cdnjs.com/libraries/tsparticles-plugin-absorbers",
-        "function": "test_tsparticlespluginabsorbers",
-        "versionfile": "tsparticlespluginabsorbers.json",
-        "feature1": [
-            [
-                "loadAbsorbersPlugin"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-plugin-canvas-mask",
-        "url": "https://cdnjs.com/libraries/tsparticles-plugin-canvas-mask",
-        "function": "test_tsparticlesplugincanvasmask",
-        "versionfile": "tsparticlesplugincanvasmask.json",
-        "feature1": [
-            [
-                "loadCanvasMaskPlugin"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-plugin-easing-back",
-        "url": "https://cdnjs.com/libraries/tsparticles-plugin-easing-back",
-        "function": "test_tsparticlesplugineasingback",
-        "versionfile": "tsparticlesplugineasingback.json",
-        "feature1": [
-            [
-                "loadEasingBackPlugin"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-plugin-easing-circ",
-        "url": "https://cdnjs.com/libraries/tsparticles-plugin-easing-circ",
-        "function": "test_tsparticlesplugineasingcirc",
-        "versionfile": "tsparticlesplugineasingcirc.json",
-        "feature1": [
-            [
-                "loadEasingCircPlugin"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-plugin-easing-cubic",
-        "url": "https://cdnjs.com/libraries/tsparticles-plugin-easing-cubic",
-        "function": "test_tsparticlesplugineasingcubic",
-        "versionfile": "tsparticlesplugineasingcubic.json",
-        "feature1": [
-            [
-                "loadEasingCubicPlugin"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-plugin-easing-expo",
-        "url": "https://cdnjs.com/libraries/tsparticles-plugin-easing-expo",
-        "function": "test_tsparticlesplugineasingexpo",
-        "versionfile": "tsparticlesplugineasingexpo.json",
-        "feature1": [
-            [
-                "loadEasingExpoPlugin"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-plugin-easing-quad",
-        "url": "https://cdnjs.com/libraries/tsparticles-plugin-easing-quad",
-        "function": "test_tsparticlesplugineasingquad",
-        "versionfile": "tsparticlesplugineasingquad.json",
-        "feature1": [
-            [
-                "loadEasingQuadPlugin"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-plugin-easing-quart",
-        "url": "https://cdnjs.com/libraries/tsparticles-plugin-easing-quart",
-        "function": "test_tsparticlesplugineasingquart",
-        "versionfile": "tsparticlesplugineasingquart.json",
-        "feature1": [
-            [
-                "loadEasingQuartPlugin"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-plugin-easing-quint",
-        "url": "https://cdnjs.com/libraries/tsparticles-plugin-easing-quint",
-        "function": "test_tsparticlesplugineasingquint",
-        "versionfile": "tsparticlesplugineasingquint.json",
-        "feature1": [
-            [
-                "loadEasingQuintPlugin"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-plugin-easing-sine",
-        "url": "https://cdnjs.com/libraries/tsparticles-plugin-easing-sine",
-        "function": "test_tsparticlesplugineasingsine",
-        "versionfile": "tsparticlesplugineasingsine.json",
-        "feature1": [
-            [
-                "loadEasingSinePlugin"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-plugin-emitters",
-        "url": "https://cdnjs.com/libraries/tsparticles-plugin-emitters",
-        "function": "test_tsparticlespluginemitters",
-        "versionfile": "tsparticlespluginemitters.json",
-        "feature1": [
-            [
-                "loadEmittersPlugin"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-plugin-export-image",
-        "url": "https://cdnjs.com/libraries/tsparticles-plugin-export-image",
-        "function": "test_tsparticlespluginexportimage",
-        "versionfile": "tsparticlespluginexportimage.json",
-        "feature1": [
-            [
-                "loadExportImagePlugin"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-plugin-export-json",
-        "url": "https://cdnjs.com/libraries/tsparticles-plugin-export-json",
-        "function": "test_tsparticlespluginexportjson",
-        "versionfile": "tsparticlespluginexportjson.json",
-        "feature1": [
-            [
-                "loadExportJSONPlugin"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-plugin-export-video",
-        "url": "https://cdnjs.com/libraries/tsparticles-plugin-export-video",
-        "function": "test_tsparticlespluginexportvideo",
-        "versionfile": "tsparticlespluginexportvideo.json",
-        "feature1": [
-            [
-                "loadExportVideoPlugin"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-plugin-hsv-color",
-        "url": "https://cdnjs.com/libraries/tsparticles-plugin-hsv-color",
-        "function": "test_tsparticlespluginhsvcolor",
-        "versionfile": "tsparticlespluginhsvcolor.json",
-        "feature1": [
-            [
-                "loadHsvColorPlugin"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-plugin-motion",
-        "url": "https://cdnjs.com/libraries/tsparticles-plugin-motion",
-        "function": "test_tsparticlespluginmotion",
-        "versionfile": "tsparticlespluginmotion.json",
-        "feature1": [
-            [
-                "loadMotionPlugin"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-plugin-polygon-mask",
-        "url": "https://cdnjs.com/libraries/tsparticles-plugin-polygon-mask",
-        "function": "test_tsparticlespluginpolygonmask",
-        "versionfile": "tsparticlespluginpolygonmask.json",
-        "feature1": [
-            [
-                "loadPolygonMaskPlugin"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-plugin-sounds",
-        "url": "https://cdnjs.com/libraries/tsparticles-plugin-sounds",
-        "function": "test_tsparticlespluginsounds",
-        "versionfile": "tsparticlespluginsounds.json",
-        "feature1": [
-            [
-                "loadSoundsPlugin"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-shape-arrow",
-        "url": "https://cdnjs.com/libraries/tsparticles-shape-arrow",
-        "function": "test_tsparticlesshapearrow",
-        "versionfile": "tsparticlesshapearrow.json",
-        "feature1": [
-            [
-                "loadArrowShape"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-shape-bubble",
-        "url": "https://cdnjs.com/libraries/tsparticles-shape-bubble",
-        "function": "test_tsparticlesshapebubble",
-        "versionfile": "tsparticlesshapebubble.json",
-        "feature1": [
-            [
-                "loadBubbleShape"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-shape-cards",
-        "url": "https://cdnjs.com/libraries/tsparticles-shape-cards",
-        "function": "test_tsparticlesshapecards",
-        "versionfile": "tsparticlesshapecards.json",
-        "feature1": [
-            [
-                "loadCardsShape"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-shape-circle",
-        "url": "https://cdnjs.com/libraries/tsparticles-shape-circle",
-        "function": "test_tsparticlesshapecircle",
-        "versionfile": "tsparticlesshapecircle.json",
-        "feature1": [
-            [
-                "loadCircleShape"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-shape-cog",
-        "url": "https://cdnjs.com/libraries/tsparticles-shape-cog",
-        "function": "test_tsparticlesshapecog",
-        "versionfile": "tsparticlesshapecog.json",
-        "feature1": [
-            [
-                "loadCogShape"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-shape-heart",
-        "url": "https://cdnjs.com/libraries/tsparticles-shape-heart",
-        "function": "test_tsparticlesshapeheart",
-        "versionfile": "tsparticlesshapeheart.json",
-        "feature1": [
-            [
-                "loadHeartShape"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-shape-image",
-        "url": "https://cdnjs.com/libraries/tsparticles-shape-image",
-        "function": "test_tsparticlesshapeimage",
-        "versionfile": "tsparticlesshapeimage.json",
-        "feature1": [
-            [
-                "loadImageShape"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-shape-line",
-        "url": "https://cdnjs.com/libraries/tsparticles-shape-line",
-        "function": "test_tsparticlesshapeline",
-        "versionfile": "tsparticlesshapeline.json",
-        "feature1": [
-            [
-                "loadLineShape"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-shape-multiline-text",
-        "url": "https://cdnjs.com/libraries/tsparticles-shape-multiline-text",
-        "function": "test_tsparticlesshapemultilinetext",
-        "versionfile": "tsparticlesshapemultilinetext.json",
-        "feature1": [
-            [
-                "loadMultilineTextShape"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-shape-path",
-        "url": "https://cdnjs.com/libraries/tsparticles-shape-path",
-        "function": "test_tsparticlesshapepath",
-        "versionfile": "tsparticlesshapepath.json",
-        "feature1": [
-            [
-                "loadPathShape"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-shape-polygon",
-        "url": "https://cdnjs.com/libraries/tsparticles-shape-polygon",
-        "function": "test_tsparticlesshapepolygon",
-        "versionfile": "tsparticlesshapepolygon.json",
-        "feature1": [
-            [
-                "loadGenericPolygonShape"
-            ],
-            [
-                "loadPolygonShape"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-shape-rounded-polygon",
-        "url": "https://cdnjs.com/libraries/tsparticles-shape-rounded-polygon",
-        "function": "test_tsparticlesshaperoundedpolygon",
-        "versionfile": "tsparticlesshaperoundedpolygon.json",
-        "feature1": [
-            [
-                "loadRoundedPolygonShape"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-shape-rounded-rect",
-        "url": "https://cdnjs.com/libraries/tsparticles-shape-rounded-rect",
-        "function": "test_tsparticlesshaperoundedrect",
-        "versionfile": "tsparticlesshaperoundedrect.json",
-        "feature1": [
-            [
-                "loadRoundedRectShape"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-shape-spiral",
-        "url": "https://cdnjs.com/libraries/tsparticles-shape-spiral",
-        "function": "test_tsparticlesshapespiral",
-        "versionfile": "tsparticlesshapespiral.json",
-        "feature1": [
-            [
-                "loadSpiralShape"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-shape-square",
-        "url": "https://cdnjs.com/libraries/tsparticles-shape-square",
-        "function": "test_tsparticlesshapesquare",
-        "versionfile": "tsparticlesshapesquare.json",
-        "feature1": [
-            [
-                "loadSquareShape"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-shape-star",
-        "url": "https://cdnjs.com/libraries/tsparticles-shape-star",
-        "function": "test_tsparticlesshapestar",
-        "versionfile": "tsparticlesshapestar.json",
-        "feature1": [
-            [
-                "loadStarShape"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-shape-text",
-        "url": "https://cdnjs.com/libraries/tsparticles-shape-text",
-        "function": "test_tsparticlesshapetext",
-        "versionfile": "tsparticlesshapetext.json",
-        "feature1": [
-            [
-                "loadTextShape"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-slim",
-        "url": "https://cdnjs.com/libraries/tsparticles-slim",
-        "function": "test_tsparticlesslim",
-        "versionfile": "tsparticlesslim.json",
-        "feature1": [
-            [
-                "Vector",
-                "origin"
-            ],
-            [
-                "Vector",
-                "clone"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-updater-angle",
-        "url": "https://cdnjs.com/libraries/tsparticles-updater-angle",
-        "function": "test_tsparticlesupdaterangle",
-        "versionfile": "tsparticlesupdaterangle.json",
-        "feature1": [
-            [
-                "loadAngleUpdater"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-updater-color",
-        "url": "https://cdnjs.com/libraries/tsparticles-updater-color",
-        "function": "test_tsparticlesupdatercolor",
-        "versionfile": "tsparticlesupdatercolor.json",
-        "feature1": [
-            [
-                "loadColorUpdater"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-updater-gradient",
-        "url": "https://cdnjs.com/libraries/tsparticles-updater-gradient",
-        "function": "test_tsparticlesupdatergradient",
-        "versionfile": "tsparticlesupdatergradient.json",
-        "feature1": [
-            [
-                "loadGradientUpdater"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-updater-life",
-        "url": "https://cdnjs.com/libraries/tsparticles-updater-life",
-        "function": "test_tsparticlesupdaterlife",
-        "versionfile": "tsparticlesupdaterlife.json",
-        "feature1": [
-            [
-                "loadLifeUpdater"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-updater-opacity",
-        "url": "https://cdnjs.com/libraries/tsparticles-updater-opacity",
-        "function": "test_tsparticlesupdateropacity",
-        "versionfile": "tsparticlesupdateropacity.json",
-        "feature1": [
-            [
-                "loadOpacityUpdater"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-updater-orbit",
-        "url": "https://cdnjs.com/libraries/tsparticles-updater-orbit",
-        "function": "test_tsparticlesupdaterorbit",
-        "versionfile": "tsparticlesupdaterorbit.json",
-        "feature1": [
-            [
-                "loadOrbitUpdater"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-updater-out-modes",
-        "url": "https://cdnjs.com/libraries/tsparticles-updater-out-modes",
-        "function": "test_tsparticlesupdateroutmodes",
-        "versionfile": "tsparticlesupdateroutmodes.json",
-        "feature1": [
-            [
-                "loadOutModesUpdater"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-updater-roll",
-        "url": "https://cdnjs.com/libraries/tsparticles-updater-roll",
-        "function": "test_tsparticlesupdaterroll",
-        "versionfile": "tsparticlesupdaterroll.json",
-        "feature1": [
-            [
-                "loadRollUpdater"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-updater-size",
-        "url": "https://cdnjs.com/libraries/tsparticles-updater-size",
-        "function": "test_tsparticlesupdatersize",
-        "versionfile": "tsparticlesupdatersize.json",
-        "feature1": [
-            [
-                "loadSizeUpdater"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-updater-stroke-color",
-        "url": "https://cdnjs.com/libraries/tsparticles-updater-stroke-color",
-        "function": "test_tsparticlesupdaterstrokecolor",
-        "versionfile": "tsparticlesupdaterstrokecolor.json",
-        "feature1": [
-            [
-                "loadStrokeColorUpdater"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-updater-tilt",
-        "url": "https://cdnjs.com/libraries/tsparticles-updater-tilt",
-        "function": "test_tsparticlesupdatertilt",
-        "versionfile": "tsparticlesupdatertilt.json",
-        "feature1": [
-            [
-                "loadTiltUpdater"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-updater-twinkle",
-        "url": "https://cdnjs.com/libraries/tsparticles-updater-twinkle",
-        "function": "test_tsparticlesupdatertwinkle",
-        "versionfile": "tsparticlesupdatertwinkle.json",
-        "feature1": [
-            [
-                "loadTwinkleUpdater"
-            ]
-        ]
-    },
-    {
-        "libname": "tsparticles-updater-wobble",
-        "url": "https://cdnjs.com/libraries/tsparticles-updater-wobble",
-        "function": "test_tsparticlesupdaterwobble",
-        "versionfile": "tsparticlesupdaterwobble.json",
-        "feature1": [
-            [
-                "loadWobbleUpdater"
-            ]
+            ["stringToAlpha"]
         ]
     },
     {
         "libname": "tui-chart",
         "url": "https://cdnjs.com/libraries/tui-chart",
-        "function": "test_tuichart",
-        "versionfile": "tuichart.json",
         "feature1": [
             [
                 "tui",
-                "chart"
-            ],
-            [
-                "__core-js_shared__",
-                "wks"
-            ]
-        ]
-    },
-    {
-        "libname": "tui-image-editor",
-        "url": "https://cdnjs.com/libraries/tui-image-editor",
-        "function": "test_tuiimageeditor",
-        "versionfile": "tuiimageeditor.json",
-        "feature1": [
-            [
-                "fabric",
-                "util"
-            ],
-            [
-                "fabric",
-                "Color"
+                "chart", "colorutil"
             ]
         ]
     },
     {
         "libname": "turbolinks",
         "url": "https://cdnjs.com/libraries/turbolinks",
-        "function": "test_turbolinks",
         "versionfile": "turbolinks.json",
         "feature1": [
             [
@@ -7245,28 +5817,13 @@
     {
         "libname": "Turf.js",
         "url": "https://cdnjs.com/libraries/Turf.js",
-        "function": "test_Turfjs",
         "versionfile": "Turfjs.json",
-        "feature1": [
-            []
-        ]
-    },
-    {
-        "libname": "turndown",
-        "url": "https://cdnjs.com/libraries/turndown",
-        "function": "test_turndown",
-        "versionfile": "turndown.json",
-        "feature1": [
-            [
-                "TurndownService"
-            ]
-        ]
+        "feature1": [["turf", "isolines"], ["turf", "convex"]]
     },
     {
         "libname": "tweenjs",
         "url": "https://cdnjs.com/libraries/tweenjs",
         "function": "test_tweenjs",
-        "versionfile": "tweenjs.json",
         "feature1": [
             [
                 "createjs",
@@ -7279,67 +5836,21 @@
         ]
     },
     {
-        "libname": "twitter-bootstrap",
-        "url": "https://cdnjs.com/libraries/twitter-bootstrap",
-        "function": "test_twitterbootstrap",
-        "versionfile": "twitterbootstrap.json",
-        "feature1": [
-            [
-                "bootstrap",
-                "Popover"
-            ],
-            [
-                "bootstrap",
-                "Tooltip"
-            ]
-        ]
-    },
-    {
-        "libname": "typed.js",
-        "url": "https://cdnjs.com/libraries/typed.js",
-        "function": "test_typedjs",
-        "versionfile": "typedjs.json",
-        "feature1": [
-            [
-                "Typed"
-            ]
-        ]
-    },
-    {
-        "libname": "typeit",
-        "url": "https://cdnjs.com/libraries/typeit",
-        "function": "test_typeit",
-        "versionfile": "typeit.json",
-        "feature1": [
-            [
-                "TypeIt"
-            ]
-        ]
-    },
-    {
         "libname": "UAParser.js",
         "url": "https://cdnjs.com/libraries/UAParser.js",
         "function": "test_UAParserjs",
-        "versionfile": "UAParserjs.json",
-        "feature1": [
-            [
-                "UAParser"
-            ]
-        ]
+        "feature1": [["UAParser", "DEVICE"], ["UAParser", "VERSION"]]
     },
     {
         "libname": "underscore.string",
         "url": "https://cdnjs.com/libraries/underscore.string",
         "function": "test_underscorestring",
-        "versionfile": "underscorestring.json",
-        "feature1": [
-            []
-        ]
+        "feature1": [["_", "string"], ["_", "str"]],
+        "feature2": [["s", "sprintf"], ["s", "isBlank"]]
     },
     {
         "libname": "uppy",
         "url": "https://cdnjs.com/libraries/uppy",
-        "function": "test_uppy",
         "versionfile": "uppy.json",
         "feature1": [
             [
@@ -7355,8 +5866,6 @@
     {
         "libname": "UpUp",
         "url": "https://cdnjs.com/libraries/UpUp",
-        "function": "test_UpUp",
-        "versionfile": "UpUp.json",
         "feature1": [
             [
                 "UpUp",
@@ -7371,7 +5880,6 @@
     {
         "libname": "URI.js",
         "url": "https://cdnjs.com/libraries/URI.js",
-        "function": "test_URIjs",
         "versionfile": "URIjs.json",
         "feature1": [
             [
@@ -7385,19 +5893,8 @@
         ]
     },
     {
-        "libname": "uswds",
-        "url": "https://cdnjs.com/libraries/uswds",
-        "function": "test_uswds",
-        "versionfile": "uswds.json",
-        "feature1": [
-            []
-        ]
-    },
-    {
         "libname": "uuid",
         "url": "https://cdnjs.com/libraries/uuid",
-        "function": "test_uuid",
-        "versionfile": "uuid.json",
         "feature1": [
             [
                 "uuidv5",
@@ -7412,7 +5909,6 @@
     {
         "libname": "v-charts",
         "url": "https://cdnjs.com/libraries/v-charts",
-        "function": "test_vcharts",
         "versionfile": "vcharts.json",
         "feature1": [
             [
@@ -7426,21 +5922,8 @@
         ]
     },
     {
-        "libname": "vanilla-lazyload",
-        "url": "https://cdnjs.com/libraries/vanilla-lazyload",
-        "function": "test_vanillalazyload",
-        "versionfile": "vanillalazyload.json",
-        "feature1": [
-            [
-                "LazyLoad"
-            ]
-        ]
-    },
-    {
         "libname": "vanilla-tilt",
         "url": "https://cdnjs.com/libraries/vanilla-tilt",
-        "function": "test_vanillatilt",
-        "versionfile": "vanillatilt.json",
         "feature1": [
             [
                 "VanillaTilt",
@@ -7452,7 +5935,6 @@
         "libname": "vanta",
         "url": "https://cdnjs.com/libraries/vanta",
         "function": "test_vanta",
-        "versionfile": "vanta.json",
         "feature1": [
             [
                 "VANTA",
@@ -7468,27 +5950,14 @@
         "libname": "vConsole",
         "url": "https://cdnjs.com/libraries/vConsole",
         "function": "test_vConsole",
-        "versionfile": "vConsole.json",
         "feature1": [
-            []
-        ]
-    },
-    {
-        "libname": "vditor",
-        "url": "https://cdnjs.com/libraries/vditor",
-        "function": "test_vditor",
-        "versionfile": "vditor.json",
-        "feature1": [
-            [
-                "Vditor"
-            ]
+            ["vConsole", "version"], ["VConsole", "VConsolePlugin"]
         ]
     },
     {
         "libname": "vega",
         "url": "https://cdnjs.com/libraries/vega",
         "function": "test_vega",
-        "versionfile": "vega.json",
         "feature1": [
             [
                 "vega",
@@ -7496,15 +5965,13 @@
             ],
             [
                 "vega",
-                "id"
+                "version"
             ]
         ]
     },
     {
         "libname": "vex-js",
         "url": "https://cdnjs.com/libraries/vex-js",
-        "function": "test_vexjs",
-        "versionfile": "vexjs.json",
         "feature1": [
             [
                 "vex",
@@ -7519,7 +5986,6 @@
     {
         "libname": "vexflow",
         "url": "https://cdnjs.com/libraries/vexflow",
-        "function": "test_vexflow",
         "versionfile": "vexflow.json",
         "feature1": [
             [
@@ -7536,7 +6002,6 @@
         "libname": "vibrant.js",
         "url": "https://cdnjs.com/libraries/vibrant.js",
         "function": "test_vibrantjs",
-        "versionfile": "vibrantjs.json",
         "feature1": [
             [
                 "Vibrant",
@@ -7551,8 +6016,6 @@
     {
         "libname": "viewerjs",
         "url": "https://cdnjs.com/libraries/viewerjs",
-        "function": "test_viewerjs",
-        "versionfile": "viewerjs.json",
         "feature1": [
             [
                 "Viewer",
@@ -7567,7 +6030,6 @@
     {
         "libname": "vis",
         "url": "https://cdnjs.com/libraries/vis",
-        "function": "test_vis",
         "versionfile": "vis.json",
         "feature1": [
             [
@@ -7584,7 +6046,6 @@
         "libname": "vivagraphjs",
         "url": "https://cdnjs.com/libraries/vivagraphjs",
         "function": "test_vivagraphjs",
-        "versionfile": "vivagraphjs.json",
         "feature1": [
             [
                 "Viva",
@@ -7603,25 +6064,15 @@
         "versionfile": "vivus.json",
         "feature1": [
             [
-                "Vivus"
-            ]
-        ]
-    },
-    {
-        "libname": "viz.js",
-        "url": "https://cdnjs.com/libraries/viz.js",
-        "function": "test_vizjs",
-        "versionfile": "vizjs.json",
-        "feature1": [
-            [
-                "Viz"
+                "Vivus", "EASE"
+            ],[
+                "Vivus", "EASE_OUT"
             ]
         ]
     },
     {
         "libname": "vizceral",
         "url": "https://cdnjs.com/libraries/vizceral",
-        "function": "test_vizceral",
         "versionfile": "vizceral.json",
         "feature1": [
             [
@@ -7629,7 +6080,7 @@
                 "VERSION"
             ],
             [
-                "Hammer",
+                "Vizceral",
                 "defaults"
             ]
         ]
@@ -7638,7 +6089,6 @@
         "libname": "voca",
         "url": "https://cdnjs.com/libraries/voca",
         "function": "test_voca",
-        "versionfile": "voca.json",
         "feature1": [
             [
                 "v",
@@ -7653,8 +6103,6 @@
     {
         "libname": "vonic",
         "url": "https://cdnjs.com/libraries/vonic",
-        "function": "test_vonic",
-        "versionfile": "vonic.json",
         "feature1": [
             [
                 "Scroller",
@@ -7685,8 +6133,6 @@
     {
         "libname": "vue-echarts",
         "url": "https://cdnjs.com/libraries/vue-echarts",
-        "function": "test_vueecharts",
-        "versionfile": "vueecharts.json",
         "feature1": [
             [
                 "VueECharts",
@@ -7699,21 +6145,8 @@
         ]
     },
     {
-        "libname": "vue-lazyload",
-        "url": "https://cdnjs.com/libraries/vue-lazyload",
-        "function": "test_vuelazyload",
-        "versionfile": "vuelazyload.json",
-        "feature1": [
-            [
-                "VueLazyload"
-            ]
-        ]
-    },
-    {
         "libname": "vue-multiselect",
         "url": "https://cdnjs.com/libraries/vue-multiselect",
-        "function": "test_vuemultiselect",
-        "versionfile": "vuemultiselect.json",
         "feature1": [
             [
                 "VueMultiselect",
@@ -7723,75 +6156,6 @@
                 "VueMultiselect",
                 "Multiselect"
             ]
-        ]
-    },
-    {
-        "libname": "vue-resource",
-        "url": "https://cdnjs.com/libraries/vue-resource",
-        "function": "test_vueresource",
-        "versionfile": "vueresource.json",
-        "feature1": [
-            [
-                "VueResource"
-            ]
-        ]
-    },
-    {
-        "libname": "vue-router",
-        "url": "https://cdnjs.com/libraries/vue-router",
-        "function": "test_vuerouter",
-        "versionfile": "vuerouter.json",
-        "feature1": [
-            [
-                "VueRouter",
-                "install"
-            ]
-        ]
-    },
-    {
-        "libname": "vue-select",
-        "url": "https://cdnjs.com/libraries/vue-select",
-        "function": "test_vueselect",
-        "versionfile": "vueselect.json",
-        "feature1": [
-            [
-                "VueSelect",
-                "mixins"
-            ]
-        ]
-    },
-    {
-        "libname": "vue-strap",
-        "url": "https://cdnjs.com/libraries/vue-strap",
-        "function": "test_vuestrap",
-        "versionfile": "vuestrap.json",
-        "feature1": [
-            [
-                "VueStrap",
-                "datepicker"
-            ],
-            [
-                "VueStrap",
-                "typeahead"
-            ]
-        ]
-    },
-    {
-        "libname": "Vue.Draggable",
-        "url": "https://cdnjs.com/libraries/Vue.Draggable",
-        "function": "test_VueDraggable",
-        "versionfile": "VueDraggable.json",
-        "feature1": [
-            []
-        ]
-    },
-    {
-        "libname": "vuefire",
-        "url": "https://cdnjs.com/libraries/vuefire",
-        "function": "test_vuefire",
-        "versionfile": "vuefire.json",
-        "feature1": [
-            []
         ]
     },
     {
@@ -7814,53 +6178,23 @@
         "libname": "wade",
         "url": "https://cdnjs.com/libraries/wade",
         "function": "test_wade",
-        "versionfile": "wade.json",
         "feature1": [
             [
                 "Wade",
-                "arguments"
-            ],
-            [
-                "Wade",
-                "caller"
+                "version"
             ]
-        ]
-    },
-    {
-        "libname": "wangEditor",
-        "url": "https://cdnjs.com/libraries/wangEditor",
-        "function": "test_wangEditor",
-        "versionfile": "wangEditor.json",
-        "feature1": [
-            [
-                "wangEditor"
-            ]
-        ]
-    },
-    {
-        "libname": "web-animations",
-        "url": "https://cdnjs.com/libraries/web-animations",
-        "function": "test_webanimations",
-        "versionfile": "webanimations.json",
-        "feature1": [
-            []
         ]
     },
     {
         "libname": "webcomponentsjs",
         "url": "https://cdnjs.com/libraries/webcomponentsjs",
-        "function": "test_webcomponentsjs",
         "versionfile": "webcomponentsjs.json",
-        "feature1": [
-            [
-                "WebComponents"
-            ]
-        ]
+        "feature1": [["WebComponents", "ready"], ["WebComponents", "_batchCustomElements"]],
+        "feature2": [["WebComponents", "flags"]]
     },
     {
         "libname": "webrtc-adapter",
         "url": "https://cdnjs.com/libraries/webrtc-adapter",
-        "function": "test_webrtcadapter",
         "versionfile": "webrtcadapter.json",
         "feature1": [
             [
@@ -7876,7 +6210,6 @@
     {
         "libname": "when",
         "url": "https://cdnjs.com/libraries/when",
-        "function": "test_when",
         "versionfile": "when.json",
         "feature1": [
             [
@@ -7892,34 +6225,16 @@
     {
         "libname": "whitestorm.js",
         "url": "https://cdnjs.com/libraries/whitestorm.js",
-        "function": "test_whitestormjs",
-        "versionfile": "whitestormjs.json",
         "feature1": [
             [
-                "__core-js_shared__",
-                "keys"
-            ],
-            [
-                "__core-js_shared__",
-                "wks"
-            ]
-        ]
-    },
-    {
-        "libname": "winjs",
-        "url": "https://cdnjs.com/libraries/winjs",
-        "function": "test_winjs",
-        "versionfile": "winjs.json",
-        "feature1": [
-            [
-                "strings"
+                "WHS",
+                "Loop"
             ]
         ]
     },
     {
         "libname": "workbox-sw",
         "url": "https://cdnjs.com/libraries/workbox-sw",
-        "function": "test_workboxsw",
         "versionfile": "workboxsw.json",
         "feature1": [
             [
@@ -7929,70 +6244,25 @@
         ]
     },
     {
-        "libname": "wow",
-        "url": "https://cdnjs.com/libraries/wow",
-        "function": "test_wow",
-        "versionfile": "wow.json",
-        "feature1": [
-            [
-                "WOW",
-                "arguments"
-            ],
-            [
-                "WOW",
-                "caller"
-            ]
-        ]
-    },
-    {
         "libname": "wretch",
         "url": "https://cdnjs.com/libraries/wretch",
         "function": "test_wretch",
-        "versionfile": "wretch.json",
-        "feature1": [
-            [
-                "wretch",
-                "default"
-            ]
-        ]
+        "feature1": [["wretch", "default"], ["wretch", "options"]]
     },
     {
         "libname": "wysihtml",
         "url": "https://cdnjs.com/libraries/wysihtml",
         "function": "test_wysihtml",
-        "versionfile": "wysihtml.json",
         "feature1": [
             [
                 "wysihtml5",
-                "dom"
-            ],
-            [
-                "wysihtml5",
-                "commands"
-            ]
-        ]
-    },
-    {
-        "libname": "wysihtml5",
-        "url": "https://cdnjs.com/libraries/wysihtml5",
-        "function": "test_wysihtml5",
-        "versionfile": "wysihtml5.json",
-        "feature1": [
-            [
-                "wysihtml5",
-                "dom"
-            ],
-            [
-                "wysihtml5",
-                "commands"
+                "version"
             ]
         ]
     },
     {
         "libname": "xdomain",
         "url": "https://cdnjs.com/libraries/xdomain",
-        "function": "test_xdomain",
-        "versionfile": "xdomain.json",
         "feature1": [
             [
                 "xhook",
@@ -8008,7 +6278,6 @@
         "libname": "xls",
         "url": "https://cdnjs.com/libraries/xls",
         "function": "test_xls",
-        "versionfile": "xls.json",
         "feature1": [
             [
                 "XLS",
@@ -8016,7 +6285,7 @@
             ],
             [
                 "XLS",
-                "utils"
+                "version"
             ]
         ]
     },
@@ -8024,11 +6293,10 @@
         "libname": "xlsx",
         "url": "https://cdnjs.com/libraries/xlsx",
         "function": "test_xlsx",
-        "versionfile": "xlsx.json",
         "feature1": [
             [
                 "XLSX",
-                "utils"
+                "version"
             ],
             [
                 "XLSX",
@@ -8040,7 +6308,6 @@
         "libname": "xregexp",
         "url": "https://cdnjs.com/libraries/xregexp",
         "function": "test_xregexp",
-        "versionfile": "xregexp.json",
         "feature1": [
             [
                 "XRegExp",
@@ -8056,7 +6323,6 @@
         "libname": "zeroclipboard",
         "url": "https://cdnjs.com/libraries/zeroclipboard",
         "function": "test_zeroclipboard",
-        "versionfile": "zeroclipboard.json",
         "feature1": [
             [
                 "ZeroClipboard",
@@ -8068,11 +6334,10 @@
         "libname": "zrender",
         "url": "https://cdnjs.com/libraries/zrender",
         "function": "test_zrender",
-        "versionfile": "zrender.json",
         "feature1": [
             [
                 "zrender",
-                "util"
+                "version"
             ],
             [
                 "zrender",
@@ -8081,24 +6346,950 @@
         ]
     },
     {
-        "libname": "zuck.js",
-        "url": "https://cdnjs.com/libraries/zuck.js",
-        "function": "test_zuckjs",
-        "versionfile": "zuckjs.json",
+        "libname": "amplifyjs",
+        "url": "cdnjs.com/libraries/amplifyjs",
+        "function": "test_amplifyjs",
         "feature1": [
             [
-                "Zuck"
+                "amplify",
+                "publish"
+            ],
+            [
+                "amplify",
+                "subscribe"
             ]
         ]
     },
     {
-        "libname": "zxcvbn",
-        "url": "https://cdnjs.com/libraries/zxcvbn",
-        "function": "test_zxcvbn",
-        "versionfile": "zxcvbn.json",
+        "libname": "backbone.js",
+        "url": "cdnjs.com/libraries/backbone.js",
+        "function": "test_backbonejs",
+        "versionfile": "backbonejs.json",
         "feature1": [
             [
-                "zxcvbn"
+                "Backbone",
+                "Events"
+            ],
+            [
+                "Backbone",
+                "Model"
+            ]
+        ]
+    },
+    {
+        "libname": "bootstrap",
+        "url": "cdnjs.com/libraries/bootstrap",
+        "versionfile": "bootstrap.json",
+        "feature1": [
+            [
+                "bootstrap",
+                "Alert"
+            ],
+            [
+                "bootstrap",
+                "Button"
+            ]
+        ]
+    },
+    {
+        "libname": "camanjs",
+        "url": "cdnjs.com/libraries/camanjs",
+        "function": "test_camanjs",
+        "versionfile": "camanjs.json",
+        "feature1": [
+            [
+                "Caman",
+                "arguments"
+            ],
+            [
+                "Caman",
+                "caller"
+            ]
+        ]
+    },
+    {
+        "libname": "core-js",
+        "url": "github.com/zloirock/core-js",
+        "function": "test_corejs",
+        "versionfile": "corejs.json",
+        "feature1": [["core", "locale"], ["core", "addLocale"]],
+        "feature2": [["__core-js_shared__", "wks"], ["__core-js_shared__", "symbols"]]
+    },
+    {
+        "libname": "d3",
+        "url": "cdnjs.com/libraries/d3",
+        "function": "test_d3",
+        "feature1": [
+            [
+                "d3",
+                "version"
+            ],
+            [
+                "d3",
+                "ascending"
+            ]
+        ]
+    },
+    {
+        "libname": "dc",
+        "url": "cdnjs.com/libraries/dc",
+        "function": "test_dc",
+        "versionfile": "dc.json",
+        "feature1": [
+            [
+                "dc",
+                "units"
+            ],
+            [
+                "dc",
+                "version"
+            ]
+        ]
+    },
+    {
+        "libname": "dojo",
+        "url": "cdnjs.com/libraries/dojo",
+        "postfunction": "test_dojo",
+        "versionfile": "dojo.json",
+        "feature1": [
+            [
+                "dojo",
+                "keys"
+            ],
+            [
+                "dojo",
+                "version"
+            ]
+        ]
+    },
+    {
+        "libname": "extjs",
+        "url": "cdnjs.com/libraries/extjs",
+        "versionfile": "extjs.json",
+        "feature1": [
+            [
+                "Ext",
+                "data"
+            ],
+            [
+                "Ext",
+                "form"
+            ]
+        ]
+    },
+    {
+        "libname": "fabric.js",
+        "url": "cdnjs.com/libraries/fabric.js",
+        "postfunction": "test_fabricjs",
+        "versionfile": "fabricjs.json",
+        "feature1": [
+            [
+                "fabric",
+                "util"
+            ],
+            [
+                "fabric",
+                "Image"
+            ]
+        ]
+    },
+    {
+        "libname": "fastclick",
+        "url": "cdnjs.com/libraries/fastclick",
+        "versionfile": "fastclick.json",
+        "feature1": [["FastClick", "arguments"]],
+        "feature2": [["FastClick", "notNeeded"]],
+        "feature3": [["FastClick", "attach"]]
+    },
+    {
+        "libname": "flexslider",
+        "url": "cdnjs.com/libraries/flexslider",
+        "feature1": [
+            ["$", "flexslider", "defaults"], ["$", "flexslider", "arguments"]
+        ]
+    },
+    {
+        "libname": "flot",
+        "url": "cdnjs.com/libraries/flot",
+        "function": "test_flot",
+        "versionfile": "flot.json",
+        "feature1": [
+            [
+                "$",
+                "plot"
+            ]],
+        "feature2": [
+            [
+                "jQuery",
+                "plot"
+            ]
+        ]
+    },
+    {
+        "libname": "fuse.js",
+        "url": "cdnjs.com/libraries/fuse.js",
+        "function": "test_fusejs",
+        "feature1": [["Fuse", "arguments"], ["Fuse", "caller"]],
+        "feature2": [["Fuse", "version"]],
+        "feature3": [["Fuse", "VERSION"]]
+    },
+    {
+        "libname": "google-closure-library",
+        "url": "cdnjs.com/libraries/google-closure-library",
+        "versionfile": "googleclosurelibrary.json",
+        "feature1": [
+            [
+                "goog",
+                "module"
+            ],
+            [
+                "goog",
+                "defineClass"
+            ]
+        ]
+    },
+    {
+        "libname": "hammer.js",
+        "url": "cdnjs.com/libraries/hammer.js",
+        "function": "test_hammerjs",
+        "versionfile": "hammerjs.json",
+        "feature1": [["Hammer", "arguments"], ["Hammer", "caller"]],
+        "feature2": [["Hammer", "defaults"], ["Hammer", "DIRECTION_DOWN"]]
+    },
+    {
+        "libname": "handlebars.js",
+        "url": "cdnjs.com/libraries/handlebars.js",
+        "function": "test_handlebarsjs",
+        "feature1": [
+            [
+                "Handlebars",
+                "JavaScriptCompiler"
+            ],
+            [
+                "Handlebars",
+                "helpers"
+            ]
+        ]
+    },
+    {
+        "libname": "handsontable",
+        "url": "cdnjs.com/libraries/handsontable",
+        "function": "test_handsontable",
+        "versionfile": "handsontable.json",
+        "feature1": [
+            [
+                "Handsontable",
+                "helper"
+            ],
+            [
+                "Handsontable",
+                "Core"
+            ]
+        ]
+    },
+    {
+        "libname": "headjs",
+        "url": "cdnjs.com/libraries/headjs",
+        "versionfile": "headjs.json",
+        "feature1": [
+            [
+                "head",
+                "browser"
+            ],
+            [
+                "head",
+                "feature"
+            ]
+        ]
+    },
+    {
+        "libname": "highcharts",
+        "url": "cdnjs.com/libraries/highcharts",
+        "function": "test_highcharts",
+        "feature1": [
+            [
+                "Highcharts",
+                "seriesTypes"
+            ],
+            [
+                "Highcharts",
+                "product"
+            ]
+        ]
+    },
+    {
+        "libname": "ifvisible",
+        "url": "cdnjs.com/libraries/ifvisible",
+        "feature1": [
+            [
+                "ifvisible",
+                "setIdleDuration"
+            ],
+            [
+                "ifvisible",
+                "getIdleDuration"
+            ]
+        ]
+    },
+    {
+        "libname": "ink",
+        "url": "cdnjs.com/libraries/ink",
+        "feature1": [
+            ["Ink", "createModule"]
+        ]
+    },
+    {
+        "libname": "jit",
+        "url": "cdnjs.com/libraries/jit",
+        "versionfile": "jit.json",
+        "feature1": [
+            [
+                "$jit",
+                "Graph"
+            ],
+            [
+                "$jit",
+                "id"
+            ]
+        ]
+    },
+    {
+        "libname": "jquery-mobile",
+        "url": "cdnjs.com/libraries/jquery-mobile",
+        "function": "test_jquerymobile",
+        "feature1": [["jQuery", "mobile"]],
+        "feature2": [["$", "mobile"]]
+    },
+    {
+        "libname": "jquery-tools",
+        "url": "cdnjs.com/libraries/jquery-tools",
+        "function": "test_jquerytools",
+        "feature1": [["jQuery", "tools"]],
+        "feature2": [["$", "tools"]]
+    },
+    {
+        "libname": "jquery.isotope",
+        "url": "cdnjs.com/libraries/jquery.isotope",
+        "versionfile": "jqueryisotope.json",
+        "feature1": [
+            [
+                "Isotope",
+                "defaults"
+            ],
+            [
+                "Isotope",
+                "sortDataParsers"
+            ]
+        ]
+    },
+    {
+        "libname": "jquery",
+        "url": "cdnjs.com/libraries/jquery",
+        "function": "test_jquery",
+        "feature1": [
+            [
+                "$",
+                "fn"
+            ],
+            [
+                "$",
+                "event"
+            ],
+            [
+                "$",
+                "ajax"
+            ]
+        ],
+        "feature2": [
+            [
+                "jQuery",
+                "fn"
+            ],
+            [
+                "jQuery",
+                "ajax"
+            ]
+        ]
+    },
+    {
+        "libname": "jqueryui",
+        "url": "cdnjs.com/libraries/jqueryui",
+        "function": "test_jqueryui",
+        "feature1": [["jQuery", "ui"]],
+        "feature2": [["$", "ui"]]
+    },
+    {
+        "libname": "knockout",
+        "url": "cdnjs.com/libraries/knockout",
+        "function": "test_knockout",
+        "feature1": [
+            [
+                "ko",
+                "a"
+            ],
+            [
+                "ko",
+                "utils"
+            ]
+        ]
+    },
+    {
+        "libname": "labjs",
+        "url": "cdnjs.com/libraries/labjs",
+        "feature1": [
+            [
+                "$LAB",
+                "setGlobalDefaults"
+            ],
+            [
+                "$LAB",
+                "setOptions"
+            ]
+        ]
+    },
+    {
+        "libname": "leaflet",
+        "url": "cdnjs.com/libraries/leaflet",
+        "function": "test_leaflet",
+        "feature1": [
+            [
+                "L",
+                "DomUtil"
+            ],
+            [
+                "L",
+                "Browser"
+            ]
+        ]
+    },
+    {
+        "libname": "lodash.js",
+        "url": "lodash.com/",
+        "function": "test_lodashjs",
+        "feature1": [
+            [
+                "_",
+                "templateSettings"
+            ],
+            [
+                "_",
+                "VERSION"
+            ]
+        ]
+    },
+    {
+        "libname": "mapbox.js",
+        "url": "cdnjs.com/libraries/mapbox.js",
+        "function": "test_mapboxjs",
+        "feature1": [
+            [
+                "L",
+                "mapbox",
+                "geocoder"
+            ]
+        ]
+    },
+    {
+        "libname": "material-design-lite",
+        "url": "cdnjs.com/libraries/material-design-lite",
+        "versionfile": "materialdesignlite.json",
+        "feature1": [
+            [
+                "componentHandler",
+                "upgradeDom"
+            ],
+            [
+                "componentHandler",
+                "upgradeElement"
+            ]
+        ]
+    },
+    {
+        "libname": "matter-js",
+        "url": "cdnjs.com/libraries/matter-js",
+        "function": "test_matterjs",
+        "versionfile": "matterjs.json",
+        "feature1": [
+            [
+                "Matter",
+                "Vector"
+            ],
+            [
+                "Matter",
+                "Common"
+            ]
+        ]
+    },
+    {
+        "libname": "modernizr",
+        "url": "cdnjs.com/libraries/modernizr",
+        "function": "test_modernizr",
+        "feature1": [
+            [
+                "Modernizr",
+                "inputtypes"
+            ],
+            [
+                "Modernizr",
+                "input"
+            ]
+        ]
+    },
+    {
+        "libname": "moment-timezone",
+        "url": "cdnjs.com/libraries/moment-timezone",
+        "function": "test_momenttimezone",
+        "feature1": [
+            ["moment", "tz"]
+        ]
+    },
+    {
+        "libname": "moment.js",
+        "url": "cdnjs.com/libraries/moment.js",
+        "function": "test_momentjs",
+        "feature1": [
+            [
+                "moment",
+                "fn"
+            ],
+            [
+                "moment",
+                "lang"
+            ]
+        ]
+    },
+    {
+        "libname": "mootools",
+        "url": "cdnjs.com/libraries/mootools",
+        "function": "test_mootools",
+        "feature1": [
+            [
+                "MooTools",
+                "build"
+            ]
+        ]
+    },
+    {
+        "libname": "mustache.js",
+        "url": "cdnjs.com/libraries/mustache.js",
+        "function": "test_mustachejs",
+        "feature1": [
+            [
+                "Mustache",
+                "name"
+            ],
+            [
+                "Mustache",
+                "version"
+            ]
+        ]
+    },
+    {
+        "libname": "numeral.js",
+        "url": "cdnjs.com/libraries/numeral.js",
+        "function": "test_numeraljs",
+        "feature1": [
+            [
+                "numeral",
+                "fn"
+            ],
+            [
+                "numeral",
+                "isNumeral"
+            ]
+        ]
+    },
+    {
+        "libname": "paper.js",
+        "url": "cdnjs.com/libraries/paper.js",
+        "versionfile": "paperjs.json",
+        "feature1": [
+            [
+                "paper",
+                "project"
+            ],
+            [
+                "paper",
+                "projects"
+            ]
+        ]
+    },
+    {
+        "libname": "pixi.js",
+        "url": "cdnjs.com/libraries/pixi.js",
+        "function": "test_pixijs",
+        "feature1": [
+            ["PIXI", "WebGLRenderer"]
+        ]
+    },
+    {
+        "libname": "processing.js",
+        "url": "cdnjs.com/libraries/processing.js",
+        "function": "test_processingjs",
+        "versionfile": "processingjs.json",
+        "feature1": [
+            [
+                "Processing",
+                "arguments"
+            ],
+            [
+                "Processing",
+                "caller"
+            ]
+        ]
+    },
+    {
+        "libname": "prototype",
+        "url": "cdnjs.com/libraries/prototype",
+        "function": "test_prototype",
+        "feature1": [
+            [
+                "Prototype",
+                "BrowserFeatures"
+            ]
+        ]
+    },
+    {
+        "libname": "pusher",
+        "url": "cdnjs.com/libraries/pusher",
+        "function": "test_pusher",
+        "versionfile": "pusher.json",
+        "feature1": [
+            [
+                "Pusher",
+                "instances"
+            ],
+            [
+                "Pusher",
+                "isReady"
+            ]
+        ]
+    },
+    {
+        "libname": "qooxdoo",
+        "url": "cdnjs.com/libraries/qooxdoo",
+        "function": "test_qooxdoo",
+        "feature1": [
+            [
+                "q",
+                "$$qx"
+            ],
+            [
+                "q",
+                "array"
+            ]
+        ]
+    },
+    {
+        "libname": "raphael",
+        "url": "cdnjs.com/libraries/raphael",
+        "function": "test_raphael",
+        "versionfile": "raphael.json",
+        "feature1": [
+            [
+                "Raphael",
+                "el"
+            ],
+            [
+                "Raphael",
+                "easing_formulas"
+            ]
+        ]
+    },
+    {
+        "libname": "require.js",
+        "url": "cdnjs.com/libraries/require.js",
+        "function": "test_requirejs",
+        "feature1": [
+            [
+                "require",
+                "s"
+            ],
+            [
+                "require",
+                "jsExtRegExp"
+            ]
+        ],
+        "feature2": [["requirejs", "version"]]
+    },
+    {
+        "libname": "riot",
+        "url": "cdnjs.com/libraries/riot",
+        "function": "test_riot",
+        "versionfile": "riot.json",
+        "feature1": [
+            [
+                "$",
+                "observable"
+            ],
+            [
+                "$",
+                "route"
+            ]
+        ],
+        "feature2": [[
+            [
+                "riot",
+                "observable"
+            ],
+            [
+                "riot",
+                "render"
+            ]
+        ]],
+        "feature3": [
+            [
+                "riot",
+                "mount"
+            ]
+        ]
+    },
+    {
+        "libname": "sammy.js",
+        "url": "cdnjs.com/libraries/sammy.js",
+        "function": "test_sammyjs",
+        "feature1": [["Sammy", "EventContext"], ["Sammy", "VERSION"]]
+    },
+    {
+        "libname": "scrollmagic",
+        "url": "cdnjs.com/libraries/scrollmagic",
+        "function": "test_scrollmagic",
+        "feature1": [
+            ["ScrollMagic", "Controller"]
+        ]
+    },
+    {
+        "libname": "seajs",
+        "url": "cdnjs.com/libraries/seajs",
+        "function": "test_seajs",
+        "feature1": [
+            [
+                "seajs",
+                "version"
+            ],
+            [
+                "seajs",
+                "use"
+            ]
+        ]
+    },
+    {
+        "libname": "socket.io",
+        "url": "cdnjs.com/libraries/socket.io",
+        "function": "test_socketio",
+        "versionfile": "socketio.json",
+        "feature1": [
+            [
+                "io",
+                "managers"
+            ],
+            [
+                "io",
+                "protocol"
+            ]
+        ],
+        "feature2": [
+            [
+                "io",
+                "Manager"
+            ],
+            [
+                "io",
+                "Socket"
+            ]
+        ]
+    },
+    {
+        "libname": "spf",
+        "url": "cdnjs.com/libraries/spf",
+        "feature1": [
+            [
+                "spf",
+                "script"
+            ],
+            [
+                "spf",
+                "style"
+            ]
+        ]
+    },
+    {
+        "libname": "sugar",
+        "url": "cdnjs.com/libraries/sugar",
+        "function": "test_sugar",
+        "versionfile": "sugar.json",
+        "feature1": [
+            [
+                "English",
+                "modifiers"
+            ],
+            [
+                "English",
+                "months"
+            ]
+        ],
+        "feature2": [
+            [
+                "DateRange",
+                "SugarMethods"
+            ],
+            [
+                "DateRange",
+                "extend"
+            ]
+        ],
+        "feature3": [
+            [
+                "Sugar",
+                "Date"
+            ],
+            [
+                "Sugar",
+                "Number"
+            ]
+        ]
+    },
+    {
+        "libname": "three.js",
+        "url": "cdnjs.com/libraries/three.js",
+        "function": "test_threejs",
+        "feature1": [
+            ["THREE", "REVISION"]
+        ]
+    },
+    {
+        "libname": "tween.js",
+        "url": "cdnjs.com/libraries/tween.js",
+        "function": "test_tweenjs",
+        "versionfile": "tweenjs.json",
+        "feature1": [
+            [
+                "TWEEN",
+                "Easing"
+            ],
+            [
+                "TWEEN",
+                "Tween"
+            ]
+        ]
+    },
+    {
+        "libname": "two.js",
+        "url": "cdnjs.com/libraries/two.js",
+        "function": "test_twojs",
+        "feature1": [
+            [
+                "Two",
+                "Polygon"
+            ],
+            [
+                "Two",
+                "Group"
+            ]
+        ]
+    },
+    {
+        "libname": "underscore.js",
+        "url": "cdnjs.com/libraries/underscore.js",
+        "function": "test_underscorejs",
+        "feature1": [
+            [
+                "_",
+                "each"
+            ],
+            [
+                "_",
+                "VERSION"
+            ]
+        ]
+    },
+    {
+        "libname": "velocity",
+        "url": "cdnjs.com/libraries/velocity",
+        "function": "test_velocity",
+        "versionfile": "velocity.json",
+        "feature1": [
+            ["jQuery", "fn", "velocity"], ["$", "fn", "velocity"]
+        ],
+        "feature2": [
+            [
+                "Velocity",
+                "defaults"
+            ],
+            [
+                "Velocity",
+                "State"
+            ]
+        ]
+    },
+    {
+        "libname": "visibility.js",
+        "url": "cdnjs.com/libraries/visibility.js",
+        "versionfile": "visibilityjs.json",
+        "feature1": [
+            [
+                "Visibility",
+                "_doc"
+            ],
+            [
+                "Visibility",
+                "_timers"
+            ]
+        ]
+    },
+    {
+        "libname": "webfont",
+        "url": "cdnjs.com/libraries/webfont",
+        "versionfile": "webfont.json",
+        "feature1": [
+            [
+                "WebFont",
+                "load"
+            ]
+        ]
+    },
+    {
+        "libname": "yepnope",
+        "url": "cdnjs.com/libraries/yepnope",
+        "versionfile": "yepnope.json",
+        "feature1": [
+            [
+                "yepnope",
+                "arguments"
+            ],
+            [
+                "yepnope",
+                "caller"
+            ]
+        ]
+    },
+    {
+        "libname": "yui",
+        "url": "cdnjs.com/libraries/yui",
+        "versionfile": "yui.json",
+        "feature1": [
+            [
+                "YUI",
+                "Env"
+            ],
+            [
+                "YUI",
+                "config"
+            ]
+        ]
+    },
+    {
+        "libname": "zepto",
+        "url": "cdnjs.com/libraries/zepto",
+        "versionfile": "zepto.json",
+        "feature1": [
+            [
+                "Zepto",
+                "fn"
+            ],
+            [
+                "Zepto",
+                "ajaxSettings"
             ]
         ]
     }
