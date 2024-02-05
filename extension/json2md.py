@@ -1,6 +1,7 @@
 import os
 import json
 import MySQLdb
+import datetime
 
 
 connection = MySQLdb.connect(
@@ -53,13 +54,16 @@ for lib in libs:
     
 table.sort(key=byStar, reverse=True)    
 
+time_str = datetime.datetime.now().strftime("%d.%b %Y %H:%M:%S")
+
 template = f'''
 ## Collected Library List
 
 In total, there are {len(libs)} libraries collected by the tool. Among them, {v_cnt} are equipped with version features.
 
+Data update time: {time_str}
 
-| Library | GitHub Star | Version? | # Versions | Description |
+| Library | GitHub Star | Version Detection? | # Versions | Description |
 | ------- | ----------- | -------- | ---------- | ----------- |
 '''
 
@@ -70,7 +74,7 @@ writefile.close()
 writefile2 = open(OUT_FILE, 'a')
 for entry in table:
     if entry['url']:
-        libname_str = f"[{entry['libname']}](entry['url'])"
+        libname_str = f"[{entry['libname']}]({entry['url']})"
     else:
         libname_str = entry['libname']
 

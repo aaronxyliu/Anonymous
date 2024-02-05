@@ -2,56 +2,52 @@
 
 from urllib.request import Request, urlopen
 import json
-import pandas as pd
 import time
-import MySQLdb
+import ultraimport
+logger = ultraimport('__dir__/../utils/logger.py').getLogger()
+conn = ultraimport('__dir__/../utils/sqlHelper.py').ConnDatabase('Libraries')
 
 # Github API rate limit: 5000/hr
 # Token generation: https://github.com/settings/tokens
-GITHUB_TOKEN = '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'
+GITHUB_TOKEN = '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'
 OUTPUT_TABLE = 'libs_cdnjs'
-
-connection = MySQLdb.connect(
-    host= '127.0.0.1',
-    user='root',
-    passwd= '12345678',
-    db= 'Libraries',
-    autocommit = True
-)
-cursor = connection.cursor()
 
 def get_star(lib_info):
     try:
         raw_url = lib_info['repository']['url']
     except:
-        print(f'{libname} doesn\'t have repository information.')
-        return 0
+        logger.warning(f'{libname} doesn\'t have repository information.')
+        return 0, ''
 
     # Get star from Github API
     ptr = raw_url.find('github.com')
     if ptr == -1:
-        print('Not a github domain.')
-        return 0
+        logger.warning('Not a github domain.')
+        return 0, ''
 
     # Remove ".git" suffix
     if raw_url[-4:] == '.git':
         raw_url = raw_url[:-4]
-    github_api_url = f'https://api.github.com/repos{raw_url[ptr+10:]}'
+    if raw_url[-1] == '/':
+        raw_url = raw_url[:-1]
+
+    github_api_url = f'https://api.github.com/repos/{raw_url[ptr+11:]}'
+    github_url = f'github.com/{raw_url[ptr+11:]}'
     
     req = Request(github_api_url)
     req.add_header('Authorization', f'token {GITHUB_TOKEN}')
     try:
         repo_info = json.loads(urlopen(req).read())
     except:
-        print(f"{github_api_url} is an invalid url. Or github token is outdated.")
-        return 0
+        logger.warning(f"{github_api_url} is an invalid url. Or github token is outdated.")
+        return 0, github_url
     
     if repo_info['stargazers_count']:
         star = repo_info['stargazers_count']
-        return int(star)
+        return int(star), github_url
     else:
-        print('Failed to find the stargazers field.')
-        return 0
+        logger.warning('Failed to find the stargazers field.')
+        return 0, github_url
 
 res = urlopen(f'https://api.cdnjs.com/libraries')
 lib_list = json.loads(res.read())['results']
@@ -60,8 +56,8 @@ cnt = 0
 
 for lib_entry in lib_list:
     cnt += 1
-    if cnt <= 3879:
-        continue
+    # if cnt <= 3879:
+    #     continue
     libname = lib_entry['name']
     cdnjs = f'https://cdnjs.com/libraries/{libname}'
     res = urlopen(f'https://api.cdnjs.com/libraries/{libname}')
@@ -74,12 +70,10 @@ for lib_entry in lib_list:
     if version_list and len(version_list) > 1:
         version_num = len(lib_info['versions'])
         latest_version = lib_info['versions'][-1]
-    star = get_star(lib_info)    
-    sql = f'''INSERT INTO `{OUTPUT_TABLE}` 
-            (libname, url, cdnjs, star, description, `#versions`, `latest version`) 
-            VALUES (%s, %s, %s, %s, %s, %s, %s);'''
-    val = (libname, url, cdnjs, star, dscp, version_num, latest_version)
-    cursor.execute(sql, val)
-    connection.commit() 
-    print(f'{libname} finished. ({cnt} / {lib_num})')
+    star, github_url = get_star(lib_info)    
+    conn.insert(OUTPUT_TABLE\
+                , ['libname', 'url', 'cdnjs', 'github', 'star', 'description', '#versions', 'latest version']\
+                , (libname, url, cdnjs, github_url, star, dscp, version_num, latest_version))
+    logger.info(f'{libname} finished. ({cnt} / {lib_num})')
     time.sleep(0.5)
+    break

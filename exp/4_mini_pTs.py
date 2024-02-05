@@ -1,6 +1,6 @@
 # Minify pTree size for each version
 
-from tree import *
+from utils.tree import *
 import json
 import pandas as pd
 from database_conn import connect_to_localdb

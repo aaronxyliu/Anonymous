@@ -1,6 +1,11 @@
 # Test suite for the labeled tree algorithm
 
-from tree import *
+import ultraimport
+tree = ultraimport('__dir__/../utils/tree.py')
+Vertex = tree.Vertex
+Gamma = tree.Gamma
+LabeledTree = tree.LabeledTree
+
 
 def create_vertices(n):
     v = []
@@ -106,8 +111,7 @@ def print_Sm(G):
         print(G.trees[i].name + ':')
         print("    " + str(G.trees[i].Sm))
 
-
-if __name__ == '__main__':
+def test_suite1():
     G = create_test_trees()
     G.get_equivalence()
     G.get_trees_metas()
@@ -119,6 +123,18 @@ if __name__ == '__main__':
 
     G.strict_supertree_set_minify()
     print_Sm(G)
+
+def test_suite2():
+    G = create_test_trees()
+    G.get_trees_metas()
+    print_fpath(G.trees)
+
+    G2 = G.freq_subtree_mining(4)
+    G2.get_trees_metas()
+    print_fpath(G2.trees)
+
+if __name__ == '__main__':
+    test_suite1()
 
 
 

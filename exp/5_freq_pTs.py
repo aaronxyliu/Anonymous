@@ -1,6 +1,6 @@
 # Find the maximum frequrent subtree
 
-from tree import *
+from utils.tree import *
 import json
 import pandas as pd
 from database_conn import connect_to_localdb
