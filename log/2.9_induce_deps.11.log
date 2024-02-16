@@ -1,0 +1,18 @@
+06.Feb 2024 09:20:07 [DEBUG] Start examing 0: plottable.js
+06.Feb 2024 09:20:21 [WARNING]   [Dep Not Found] plottable.js: 0.22.0
+06.Feb 2024 09:20:21 [DEBUG] Start examing 1: plupload
+06.Feb 2024 09:20:22 [WARNING]   [Dep Not Found] plupload: 1.4.0
+06.Feb 2024 09:20:22 [DEBUG] Start examing 2: plyr
+06.Feb 2024 09:21:00 [DEBUG] Start examing 3: pnotify
+06.Feb 2024 09:21:00 [INFO]   [Dep Found] pnotify: 1.3.1 - jquery/2.2.4/jquery.min.js
+06.Feb 2024 09:21:00 [INFO]   [Dep Found] pnotify: 2.0.0 - jquery/2.2.4/jquery.min.js
+06.Feb 2024 09:21:01 [WARNING]   [Dep Not Found] pnotify: 2.1.0
+06.Feb 2024 09:21:01 [DEBUG] Start examing 4: polyglot.js
+06.Feb 2024 09:21:06 [DEBUG] Start examing 5: polymer
+06.Feb 2024 09:21:06 [ERROR] Web page error.
+06.Feb 2024 09:21:07 [ERROR] Web page error.
+06.Feb 2024 09:21:07 [ERROR] Web page error.
+06.Feb 2024 09:21:08 [ERROR] Web page error.
+06.Feb 2024 09:21:08 [ERROR] Web page error.
+06.Feb 2024 09:21:08 [ERROR] Web page error.
+06.Feb 2024 09:21:09 [ERROR] Web page error.

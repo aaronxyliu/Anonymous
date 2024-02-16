@@ -1,1 +1,1 @@
-{"1": {"libname": "jquery-handsontable", "filename": "jquery.handsontable.full.js", "url": "https://cdnjs.cloudflare.com/ajax/libs/jquery-handsontable/0.10.2/jquery.handsontable.full.js", "version": "0.10.2", "in_deps": [], "out_deps": []}}
+{"1": {"libname": "jquery-handsontable", "filename": "jquery.handsontable.full.js", "url": "https://cdnjs.cloudflare.com/ajax/libs/jquery-handsontable/0.10.2/jquery.handsontable.full.js", "version": "0.10.2", "in_deps": [], "out_deps": ["https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"], "success": true}}

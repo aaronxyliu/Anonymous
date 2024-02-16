@@ -41,6 +41,8 @@ def errMsg(msg):
 def generatePT(file_index, route):
     driver.get(f"http://127.0.0.1:6543/{route}/{file_index}")
 
+    WebDriverWait(driver, timeout=10).until(text_to_be_present_in_element((By.ID, "js-load"), 'All libraries are loaded!'))
+
     error_div = driver.find_element(By.ID, 'js-errors')
     if error_div.text:
         # Failed to load the library

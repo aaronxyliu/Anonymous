@@ -3,13 +3,14 @@
 from urllib.request import Request, urlopen
 import json
 import time
+import os
 import ultraimport
 logger = ultraimport('__dir__/../utils/logger.py').getLogger()
 conn = ultraimport('__dir__/../utils/sqlHelper.py').ConnDatabase('Libraries')
 
 # Github API rate limit: 5000/hr
 # Token generation: https://github.com/settings/tokens
-GITHUB_TOKEN = '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'
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 OUTPUT_TABLE = 'libs_cdnjs'
 
 def get_star(lib_info):
@@ -56,8 +57,6 @@ cnt = 0
 
 for lib_entry in lib_list:
     cnt += 1
-    # if cnt <= 3879:
-    #     continue
     libname = lib_entry['name']
     cdnjs = f'https://cdnjs.com/libraries/{libname}'
     res = urlopen(f'https://api.cdnjs.com/libraries/{libname}')
@@ -76,4 +75,7 @@ for lib_entry in lib_list:
                 , (libname, url, cdnjs, github_url, star, dscp, version_num, latest_version))
     logger.info(f'{libname} finished. ({cnt} / {lib_num})')
     time.sleep(0.5)
-    break
+
+
+conn.close()
+logger.close()

@@ -1,0 +1,1139 @@
+05.Feb 2024 18:25:14 [DEBUG] Start examing 0: gpu.js
+05.Feb 2024 18:25:31 [DEBUG] Start examing 1: grade-js
+05.Feb 2024 18:25:34 [DEBUG] Start examing 2: granim
+05.Feb 2024 18:25:37 [DEBUG] Start examing 3: grapesjs
+05.Feb 2024 18:25:38 [INFO]   [Dep Found] grapesjs: 0.0.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:25:38 [INFO]   [Dep Found] grapesjs: 0.0.51 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:25:38 [INFO]   [Dep Found] grapesjs: 0.1.0-alpha - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:25:39 [INFO]   [Dep Found] grapesjs: 0.1.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:10 [INFO]   [Dep Found] grapesjs: 0.2.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:11 [INFO]   [Dep Found] grapesjs: 0.2.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:15 [INFO]   [Dep Found] grapesjs: 0.3.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:15 [INFO]   [Dep Found] grapesjs: 0.3.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:16 [INFO]   [Dep Found] grapesjs: 0.3.10 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:16 [INFO]   [Dep Found] grapesjs: 0.3.12 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:17 [INFO]   [Dep Found] grapesjs: 0.3.13 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:17 [INFO]   [Dep Found] grapesjs: 0.3.14 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:17 [INFO]   [Dep Found] grapesjs: 0.3.17 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:18 [INFO]   [Dep Found] grapesjs: 0.3.18 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:18 [INFO]   [Dep Found] grapesjs: 0.3.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:18 [INFO]   [Dep Found] grapesjs: 0.3.20 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:19 [INFO]   [Dep Found] grapesjs: 0.3.21 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:19 [INFO]   [Dep Found] grapesjs: 0.3.23 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:19 [INFO]   [Dep Found] grapesjs: 0.3.24 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:20 [INFO]   [Dep Found] grapesjs: 0.3.25 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:20 [INFO]   [Dep Found] grapesjs: 0.3.27 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:21 [INFO]   [Dep Found] grapesjs: 0.3.30 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:21 [INFO]   [Dep Found] grapesjs: 0.3.32 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:21 [INFO]   [Dep Found] grapesjs: 0.3.33 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:22 [INFO]   [Dep Found] grapesjs: 0.3.34 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:22 [INFO]   [Dep Found] grapesjs: 0.3.35 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:22 [INFO]   [Dep Found] grapesjs: 0.3.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:23 [INFO]   [Dep Found] grapesjs: 0.3.40 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:23 [INFO]   [Dep Found] grapesjs: 0.3.41 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:23 [INFO]   [Dep Found] grapesjs: 0.3.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:24 [INFO]   [Dep Found] grapesjs: 0.3.50 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:24 [INFO]   [Dep Found] grapesjs: 0.3.55 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:24 [INFO]   [Dep Found] grapesjs: 0.3.57 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:25 [INFO]   [Dep Found] grapesjs: 0.3.6 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:25 [INFO]   [Dep Found] grapesjs: 0.3.67 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:25 [INFO]   [Dep Found] grapesjs: 0.3.68 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:26 [INFO]   [Dep Found] grapesjs: 0.3.7 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:26 [INFO]   [Dep Found] grapesjs: 0.3.70 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:27 [INFO]   [Dep Found] grapesjs: 0.3.71 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:27 [INFO]   [Dep Found] grapesjs: 0.3.8 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:27 [INFO]   [Dep Found] grapesjs: 0.4.15 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:28 [INFO]   [Dep Found] grapesjs: 0.4.17 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:28 [INFO]   [Dep Found] grapesjs: 0.4.23 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:28 [INFO]   [Dep Found] grapesjs: 0.4.25 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:29 [INFO]   [Dep Found] grapesjs: 0.4.30 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:29 [INFO]   [Dep Found] grapesjs: 0.4.33 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:30 [INFO]   [Dep Found] grapesjs: 0.4.38 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:30 [INFO]   [Dep Found] grapesjs: 0.4.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:30 [INFO]   [Dep Found] grapesjs: 0.4.8 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:31 [INFO]   [Dep Found] grapesjs: 0.5.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:31 [INFO]   [Dep Found] grapesjs: 0.5.12 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:31 [INFO]   [Dep Found] grapesjs: 0.5.15 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:32 [INFO]   [Dep Found] grapesjs: 0.5.17 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:32 [INFO]   [Dep Found] grapesjs: 0.5.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:32 [INFO]   [Dep Found] grapesjs: 0.5.20 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:33 [INFO]   [Dep Found] grapesjs: 0.5.23 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:33 [INFO]   [Dep Found] grapesjs: 0.5.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:34 [INFO]   [Dep Found] grapesjs: 0.5.30 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:34 [INFO]   [Dep Found] grapesjs: 0.5.32 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:35 [INFO]   [Dep Found] grapesjs: 0.5.35 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:35 [INFO]   [Dep Found] grapesjs: 0.5.37 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:36 [INFO]   [Dep Found] grapesjs: 0.5.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:36 [INFO]   [Dep Found] grapesjs: 0.5.40 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:36 [INFO]   [Dep Found] grapesjs: 0.5.41 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:37 [INFO]   [Dep Found] grapesjs: 0.5.7 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:26:44 [DEBUG] Start examing 4: gremlins.js
+05.Feb 2024 18:26:45 [DEBUG] Start examing 5: gridjs
+05.Feb 2024 18:26:45 [WARNING]   [Dep Not Found] gridjs: 1.14.0
+05.Feb 2024 18:26:45 [DEBUG] Start examing 6: gridstack.js
+05.Feb 2024 18:26:46 [WARNING]   [Dep Not Found] gridstack.js: 0.1.0
+05.Feb 2024 18:26:46 [DEBUG] Start examing 7: grommet
+05.Feb 2024 18:26:46 [WARNING]   [Dep Not Found] grommet: 0.2.0
+05.Feb 2024 18:26:46 [DEBUG] Start examing 8: gsap
+05.Feb 2024 18:27:14 [DEBUG] Start examing 9: gss-engine
+05.Feb 2024 18:27:16 [DEBUG] Start examing 10: gulp
+05.Feb 2024 18:27:17 [WARNING]   [Dep Not Found] gulp: 3.8.5
+05.Feb 2024 18:27:17 [DEBUG] Start examing 11: gumby
+05.Feb 2024 18:27:17 [WARNING]   [Dep Not Found] gumby: 2.2.0
+05.Feb 2024 18:27:17 [DEBUG] Start examing 12: gun
+05.Feb 2024 18:27:17 [WARNING]   [Dep Not Found] gun: 0.2019.1211
+05.Feb 2024 18:27:17 [DEBUG] Start examing 13: hack-font
+05.Feb 2024 18:27:18 [DEBUG] Start examing 14: Halfmoon
+05.Feb 2024 18:27:20 [DEBUG] Start examing 15: hamburgers
+05.Feb 2024 18:27:21 [DEBUG] Start examing 16: hammer.js
+05.Feb 2024 18:27:27 [DEBUG] Start examing 17: handlebars.js
+05.Feb 2024 18:27:42 [DEBUG] Start examing 18: handsontable
+05.Feb 2024 18:27:42 [INFO]   [Dep Found] handsontable: 0.10.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:27:43 [INFO]   [Dep Found] handsontable: 0.10.0-beta1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:27:43 [INFO]   [Dep Found] handsontable: 0.10.0-beta2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:27:43 [INFO]   [Dep Found] handsontable: 0.10.0-beta3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:27:44 [INFO]   [Dep Found] handsontable: 0.10.0-beta4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:27:44 [INFO]   [Dep Found] handsontable: 0.10.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:27:44 [INFO]   [Dep Found] handsontable: 0.10.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:27:45 [INFO]   [Dep Found] handsontable: 0.10.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:27:45 [INFO]   [Dep Found] handsontable: 0.10.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:27:45 [INFO]   [Dep Found] handsontable: 0.10.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:27:46 [INFO]   [Dep Found] handsontable: 0.11.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:27:46 [INFO]   [Dep Found] handsontable: 0.11.0-beta1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:27:47 [INFO]   [Dep Found] handsontable: 0.11.0-beta2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:27:47 [INFO]   [Dep Found] handsontable: 0.11.0-beta3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:27:47 [INFO]   [Dep Found] handsontable: 0.11.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:27:48 [INFO]   [Dep Found] handsontable: 0.11.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:27:48 [INFO]   [Dep Found] handsontable: 0.11.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:27:48 [INFO]   [Dep Found] handsontable: 0.11.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:14 [INFO]   [Dep Found] handsontable: 0.7.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:14 [INFO]   [Dep Found] handsontable: 0.7.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:15 [INFO]   [Dep Found] handsontable: 0.7.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:15 [INFO]   [Dep Found] handsontable: 0.8.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:16 [INFO]   [Dep Found] handsontable: 0.8.0-beta1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:16 [INFO]   [Dep Found] handsontable: 0.8.0-beta2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:16 [INFO]   [Dep Found] handsontable: 0.8.0-beta3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:16 [INFO]   [Dep Found] handsontable: 0.8.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:17 [INFO]   [Dep Found] handsontable: 0.8.10 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:17 [INFO]   [Dep Found] handsontable: 0.8.11 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:18 [INFO]   [Dep Found] handsontable: 0.8.12 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:18 [INFO]   [Dep Found] handsontable: 0.8.13 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:18 [INFO]   [Dep Found] handsontable: 0.8.14 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:18 [INFO]   [Dep Found] handsontable: 0.8.15 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:19 [INFO]   [Dep Found] handsontable: 0.8.16 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:19 [INFO]   [Dep Found] handsontable: 0.8.17 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:19 [INFO]   [Dep Found] handsontable: 0.8.18 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:20 [INFO]   [Dep Found] handsontable: 0.8.19 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:20 [INFO]   [Dep Found] handsontable: 0.8.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:21 [INFO]   [Dep Found] handsontable: 0.8.20 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:21 [INFO]   [Dep Found] handsontable: 0.8.21 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:21 [INFO]   [Dep Found] handsontable: 0.8.22 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:22 [INFO]   [Dep Found] handsontable: 0.8.23 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:22 [INFO]   [Dep Found] handsontable: 0.8.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:22 [INFO]   [Dep Found] handsontable: 0.8.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:23 [INFO]   [Dep Found] handsontable: 0.8.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:23 [INFO]   [Dep Found] handsontable: 0.8.6 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:23 [INFO]   [Dep Found] handsontable: 0.8.7 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:23 [INFO]   [Dep Found] handsontable: 0.8.8 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:24 [INFO]   [Dep Found] handsontable: 0.8.9 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:24 [INFO]   [Dep Found] handsontable: 0.9.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:24 [INFO]   [Dep Found] handsontable: 0.9.0-beta1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:25 [INFO]   [Dep Found] handsontable: 0.9.0-beta2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:25 [INFO]   [Dep Found] handsontable: 0.9.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:25 [INFO]   [Dep Found] handsontable: 0.9.10 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:26 [INFO]   [Dep Found] handsontable: 0.9.11 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:26 [INFO]   [Dep Found] handsontable: 0.9.12 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:26 [INFO]   [Dep Found] handsontable: 0.9.13 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:27 [INFO]   [Dep Found] handsontable: 0.9.14 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:27 [INFO]   [Dep Found] handsontable: 0.9.15 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:28 [INFO]   [Dep Found] handsontable: 0.9.16 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:28 [INFO]   [Dep Found] handsontable: 0.9.17 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:29 [INFO]   [Dep Found] handsontable: 0.9.18 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:29 [INFO]   [Dep Found] handsontable: 0.9.19 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:29 [INFO]   [Dep Found] handsontable: 0.9.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:30 [INFO]   [Dep Found] handsontable: 0.9.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:30 [INFO]   [Dep Found] handsontable: 0.9.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:31 [INFO]   [Dep Found] handsontable: 0.9.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:31 [INFO]   [Dep Found] handsontable: 0.9.6 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:31 [INFO]   [Dep Found] handsontable: 0.9.7 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:32 [INFO]   [Dep Found] handsontable: 0.9.8 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:32 [INFO]   [Dep Found] handsontable: 0.9.9 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:28:53 [DEBUG] Start examing 19: hashids
+05.Feb 2024 18:28:58 [DEBUG] Start examing 20: he
+05.Feb 2024 18:29:04 [DEBUG] Start examing 21: headjs
+05.Feb 2024 18:29:07 [DEBUG] Start examing 22: headroom
+05.Feb 2024 18:29:11 [DEBUG] Start examing 23: heatmap.js
+05.Feb 2024 18:29:12 [DEBUG] Start examing 24: helium-css
+05.Feb 2024 18:29:12 [DEBUG] Start examing 25: hellojs
+05.Feb 2024 18:29:40 [DEBUG] Start examing 26: heti
+05.Feb 2024 18:29:43 [DEBUG] Start examing 27: hexo-theme-butterfly
+05.Feb 2024 18:29:44 [WARNING]   [Dep Not Found] hexo-theme-butterfly: 3.8.1
+05.Feb 2024 18:29:44 [DEBUG] Start examing 28: highcharts
+05.Feb 2024 18:29:44 [WARNING]   [Dep Not Found] highcharts: 10.0.0
+05.Feb 2024 18:29:44 [DEBUG] Start examing 29: highland
+05.Feb 2024 18:30:04 [DEBUG] Start examing 30: highlight.js
+05.Feb 2024 18:30:12 [WARNING]   [Dep Not Found] highlight.js: 11.7.0
+05.Feb 2024 18:30:12 [DEBUG] Start examing 31: highmaps
+05.Feb 2024 18:30:14 [INFO]   [Dep Found] highmaps: 1.0.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:30:15 [INFO]   [Dep Found] highmaps: 1.1.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:30:16 [INFO]   [Dep Found] highmaps: 1.1.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:30:16 [INFO]   [Dep Found] highmaps: 1.1.10 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:30:17 [INFO]   [Dep Found] highmaps: 1.1.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:30:18 [INFO]   [Dep Found] highmaps: 1.1.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:30:18 [INFO]   [Dep Found] highmaps: 1.1.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:30:19 [INFO]   [Dep Found] highmaps: 1.1.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:30:20 [INFO]   [Dep Found] highmaps: 1.1.6 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:30:21 [INFO]   [Dep Found] highmaps: 1.1.7 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:30:21 [INFO]   [Dep Found] highmaps: 1.1.8 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:30:22 [INFO]   [Dep Found] highmaps: 1.1.9 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:30:34 [DEBUG] Start examing 32: highstock
+05.Feb 2024 18:30:35 [INFO]   [Dep Found] highstock: 1.2.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:30:35 [INFO]   [Dep Found] highstock: 1.3.10 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:30:36 [INFO]   [Dep Found] highstock: 1.3.7 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:30:36 [INFO]   [Dep Found] highstock: 2.0.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:30:37 [INFO]   [Dep Found] highstock: 2.0.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:30:38 [INFO]   [Dep Found] highstock: 2.0.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:30:38 [INFO]   [Dep Found] highstock: 2.0.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:30:38 [INFO]   [Dep Found] highstock: 2.1.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:30:39 [INFO]   [Dep Found] highstock: 2.1.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:30:39 [INFO]   [Dep Found] highstock: 2.1.10 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:30:40 [INFO]   [Dep Found] highstock: 2.1.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:30:40 [INFO]   [Dep Found] highstock: 2.1.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:30:41 [INFO]   [Dep Found] highstock: 2.1.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:30:42 [INFO]   [Dep Found] highstock: 2.1.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:30:42 [INFO]   [Dep Found] highstock: 2.1.6 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:30:43 [INFO]   [Dep Found] highstock: 2.1.7 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:30:43 [INFO]   [Dep Found] highstock: 2.1.8 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:30:44 [INFO]   [Dep Found] highstock: 2.1.9 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:30:55 [DEBUG] Start examing 33: hint.css
+05.Feb 2024 18:31:02 [DEBUG] Start examing 34: history.js
+05.Feb 2024 18:31:04 [WARNING]   [Dep Not Found] history.js: 1.7.1
+05.Feb 2024 18:31:04 [DEBUG] Start examing 35: history
+05.Feb 2024 18:31:38 [DEBUG] Start examing 36: hogan.js
+05.Feb 2024 18:31:40 [DEBUG] Start examing 37: holder
+05.Feb 2024 18:31:51 [WARNING]   [Dep Not Found] holder: 2.7.0
+05.Feb 2024 18:31:51 [DEBUG] Start examing 38: hopscotch
+05.Feb 2024 18:31:53 [WARNING]   [Dep Not Found] hopscotch: 0.2.0
+05.Feb 2024 18:31:53 [DEBUG] Start examing 39: hover.css
+05.Feb 2024 18:31:56 [DEBUG] Start examing 40: howler
+05.Feb 2024 18:32:26 [DEBUG] Start examing 41: htm
+05.Feb 2024 18:32:27 [WARNING]   [Dep Not Found] htm: 2.0.0
+05.Feb 2024 18:32:27 [DEBUG] Start examing 42: html-gl
+05.Feb 2024 18:32:29 [DEBUG] Start examing 43: html-minifier
+05.Feb 2024 18:33:16 [DEBUG] Start examing 44: html-to-image
+05.Feb 2024 18:33:28 [WARNING]   [Dep Not Found] html-to-image: 1.6.0
+05.Feb 2024 18:33:28 [DEBUG] Start examing 45: html2canvas
+05.Feb 2024 18:33:41 [DEBUG] Start examing 46: html2pdf.js
+05.Feb 2024 18:33:47 [WARNING]   [Dep Not Found] html2pdf.js: 0.6.0
+05.Feb 2024 18:33:47 [DEBUG] Start examing 47: html5-device-mockups
+05.Feb 2024 18:33:50 [DEBUG] Start examing 48: html5-qrcode
+05.Feb 2024 18:34:14 [WARNING]   [Dep Not Found] html5-qrcode: 2.3.5
+05.Feb 2024 18:34:14 [DEBUG] Start examing 49: html5shiv
+05.Feb 2024 18:34:19 [DEBUG] Start examing 50: htmx
+05.Feb 2024 18:34:21 [WARNING]   [Dep Not Found] htmx: 0.0.8
+05.Feb 2024 18:34:21 [DEBUG] Start examing 51: hyperapp
+05.Feb 2024 18:35:02 [WARNING]   [Dep Not Found] hyperapp: 2.0.0-beta.16
+05.Feb 2024 18:35:02 [DEBUG] Start examing 52: hyperHtml
+05.Feb 2024 18:35:09 [DEBUG] Start examing 53: iamdustan-smoothscroll
+05.Feb 2024 18:35:17 [DEBUG] Start examing 54: IBM-type
+05.Feb 2024 18:35:24 [DEBUG] Start examing 55: iCheck
+05.Feb 2024 18:35:25 [INFO]   [Dep Found] iCheck: 1.0.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:35:26 [INFO]   [Dep Found] iCheck: 1.0.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:35:27 [INFO]   [Dep Found] iCheck: 1.0.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:35:27 [DEBUG] Start examing 56: iconify
+05.Feb 2024 18:35:39 [DEBUG] Start examing 57: icono
+05.Feb 2024 18:35:39 [DEBUG] Start examing 58: iconoir
+05.Feb 2024 18:35:57 [DEBUG] Start examing 59: iframe-resizer
+05.Feb 2024 18:37:03 [DEBUG] Start examing 60: imager.js
+05.Feb 2024 18:37:08 [DEBUG] Start examing 61: imask
+05.Feb 2024 18:37:10 [WARNING]   [Dep Not Found] imask: 1.2.0
+05.Feb 2024 18:37:10 [DEBUG] Start examing 62: immer
+05.Feb 2024 18:37:27 [WARNING]   [Dep Not Found] immer: 7.0.13
+05.Feb 2024 18:37:27 [DEBUG] Start examing 63: immutable
+05.Feb 2024 18:37:28 [WARNING]   [Dep Not Found] immutable: 2.0.0
+05.Feb 2024 18:37:28 [DEBUG] Start examing 64: impress.js
+05.Feb 2024 18:37:29 [DEBUG] Start examing 65: incremental-dom
+05.Feb 2024 18:37:34 [DEBUG] Start examing 66: inferno-devtools
+05.Feb 2024 18:37:36 [WARNING]   [Dep Not Found] inferno-devtools: 1.0.0-beta38
+05.Feb 2024 18:37:36 [DEBUG] Start examing 67: inferno-shared
+05.Feb 2024 18:39:09 [DEBUG] Start examing 68: inferno-vnode-flags
+05.Feb 2024 18:41:14 [DEBUG] Start examing 69: inputmask
+05.Feb 2024 18:41:15 [INFO]   [Dep Found] inputmask: 3.3.10 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:41:16 [INFO]   [Dep Found] inputmask: 3.3.11 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:41:17 [INFO]   [Dep Found] inputmask: 3.3.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:41:18 [INFO]   [Dep Found] inputmask: 3.3.6 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:41:19 [INFO]   [Dep Found] inputmask: 3.3.7 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:41:20 [INFO]   [Dep Found] inputmask: 3.3.8 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:41:21 [INFO]   [Dep Found] inputmask: 3.3.9 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:41:22 [INFO]   [Dep Found] inputmask: 4.0.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:41:23 [INFO]   [Dep Found] inputmask: 4.0.0-beta.14 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:41:24 [INFO]   [Dep Found] inputmask: 4.0.0-beta.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:41:25 [INFO]   [Dep Found] inputmask: 4.0.0-beta.30 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:41:26 [INFO]   [Dep Found] inputmask: 4.0.0-beta.31 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:41:27 [INFO]   [Dep Found] inputmask: 4.0.0-beta.32 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:41:28 [INFO]   [Dep Found] inputmask: 4.0.0-beta.33 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:41:29 [INFO]   [Dep Found] inputmask: 4.0.0-beta.38 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:41:31 [INFO]   [Dep Found] inputmask: 4.0.0-beta.42 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:41:32 [INFO]   [Dep Found] inputmask: 4.0.0-beta.45 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:41:33 [INFO]   [Dep Found] inputmask: 4.0.0-beta.46 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:41:34 [INFO]   [Dep Found] inputmask: 4.0.0-beta.48 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:41:35 [INFO]   [Dep Found] inputmask: 4.0.0-beta.51 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:41:36 [INFO]   [Dep Found] inputmask: 4.0.0-beta.52 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:41:37 [INFO]   [Dep Found] inputmask: 4.0.0-beta.54 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:41:38 [INFO]   [Dep Found] inputmask: 4.0.0-beta.56 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:41:39 [INFO]   [Dep Found] inputmask: 4.0.0-beta.57 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:41:41 [INFO]   [Dep Found] inputmask: 4.0.0-beta.64 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:41:41 [INFO]   [Dep Found] inputmask: 4.0.0-beta.66 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:41:42 [INFO]   [Dep Found] inputmask: 4.0.0-beta.9 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:41:44 [INFO]   [Dep Found] inputmask: 4.0.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:41:45 [INFO]   [Dep Found] inputmask: 4.0.1-beta.24 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:41:46 [INFO]   [Dep Found] inputmask: 4.0.1-beta.29 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:41:47 [INFO]   [Dep Found] inputmask: 4.0.1-beta.36 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:41:48 [INFO]   [Dep Found] inputmask: 4.0.1-beta.37 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:41:49 [INFO]   [Dep Found] inputmask: 4.0.1-beta.38 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:41:50 [INFO]   [Dep Found] inputmask: 4.0.1-beta.39 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:41:51 [INFO]   [Dep Found] inputmask: 4.0.1-beta.6 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:41:52 [INFO]   [Dep Found] inputmask: 4.0.1-beta.7 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:41:53 [INFO]   [Dep Found] inputmask: 4.0.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:41:54 [INFO]   [Dep Found] inputmask: 4.0.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:41:56 [INFO]   [Dep Found] inputmask: 4.0.3-beta.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:41:57 [INFO]   [Dep Found] inputmask: 4.0.3-beta.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:41:58 [INFO]   [Dep Found] inputmask: 4.0.3-beta.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:41:59 [INFO]   [Dep Found] inputmask: 4.0.3-beta.6 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:42:00 [INFO]   [Dep Found] inputmask: 4.0.3-beta.7 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:42:01 [INFO]   [Dep Found] inputmask: 4.0.3-beta.8 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:42:02 [INFO]   [Dep Found] inputmask: 4.0.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:42:03 [INFO]   [Dep Found] inputmask: 4.0.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:42:04 [INFO]   [Dep Found] inputmask: 4.0.6 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:42:05 [INFO]   [Dep Found] inputmask: 4.0.7 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:42:06 [INFO]   [Dep Found] inputmask: 4.0.8 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:42:07 [INFO]   [Dep Found] inputmask: 4.0.9 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:42:45 [DEBUG] Start examing 70: instafeed.js
+05.Feb 2024 18:42:48 [DEBUG] Start examing 71: instant.page
+05.Feb 2024 18:42:59 [DEBUG] Start examing 72: instantclick
+05.Feb 2024 18:43:06 [DEBUG] Start examing 73: instascan
+05.Feb 2024 18:43:09 [WARNING]   [Dep Not Found] instascan: 0.0.2
+05.Feb 2024 18:43:09 [DEBUG] Start examing 74: interact.js
+05.Feb 2024 18:43:12 [WARNING]   [Dep Not Found] interact.js: 1.0.10
+05.Feb 2024 18:43:12 [DEBUG] Start examing 75: intercooler-js
+05.Feb 2024 18:43:14 [INFO]   [Dep Found] intercooler-js: 0.3.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:43:15 [INFO]   [Dep Found] intercooler-js: 0.3.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:43:16 [INFO]   [Dep Found] intercooler-js: 0.3.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:43:17 [INFO]   [Dep Found] intercooler-js: 0.4.10 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:43:18 [INFO]   [Dep Found] intercooler-js: 0.4.9 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:43:19 [INFO]   [Dep Found] intercooler-js: 0.9.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:43:20 [INFO]   [Dep Found] intercooler-js: 0.9.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:43:21 [INFO]   [Dep Found] intercooler-js: 0.9.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:43:22 [INFO]   [Dep Found] intercooler-js: 0.9.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:43:23 [INFO]   [Dep Found] intercooler-js: 0.9.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:43:24 [INFO]   [Dep Found] intercooler-js: 0.9.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:43:25 [INFO]   [Dep Found] intercooler-js: 0.9.6 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:43:27 [INFO]   [Dep Found] intercooler-js: 0.9.7 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:43:28 [INFO]   [Dep Found] intercooler-js: 1.0.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:43:29 [INFO]   [Dep Found] intercooler-js: 1.0.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:43:30 [INFO]   [Dep Found] intercooler-js: 1.0.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:43:31 [INFO]   [Dep Found] intercooler-js: 1.0.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:43:32 [INFO]   [Dep Found] intercooler-js: 1.1.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:43:33 [INFO]   [Dep Found] intercooler-js: 1.1.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:43:34 [INFO]   [Dep Found] intercooler-js: 1.1.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:43:36 [INFO]   [Dep Found] intercooler-js: 1.2.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:43:36 [INFO]   [Dep Found] intercooler-js: 1.2.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:43:38 [INFO]   [Dep Found] intercooler-js: 1.2.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:43:39 [INFO]   [Dep Found] intercooler-js: 1.2.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:43:39 [DEBUG] Start examing 76: intro.js
+05.Feb 2024 18:44:02 [DEBUG] Start examing 77: ionicons
+05.Feb 2024 18:45:01 [WARNING]   [Dep Not Found] ionicons: 5.2.0
+05.Feb 2024 18:45:01 [DEBUG] Start examing 78: Iosevka
+05.Feb 2024 18:45:08 [DEBUG] Start examing 79: iris-ws
+05.Feb 2024 18:45:24 [DEBUG] Start examing 80: is_js
+05.Feb 2024 18:45:39 [DEBUG] Start examing 81: iScroll
+05.Feb 2024 18:45:51 [DEBUG] Start examing 82: isomer
+05.Feb 2024 18:45:53 [DEBUG] Start examing 83: isomorphic-fetch
+05.Feb 2024 18:45:56 [WARNING]   [Dep Not Found] isomorphic-fetch: 2.1.1
+05.Feb 2024 18:45:56 [DEBUG] Start examing 84: iview
+05.Feb 2024 18:46:19 [WARNING]   [Dep Not Found] iview: 0.9.14
+05.Feb 2024 18:46:19 [DEBUG] Start examing 85: jade
+05.Feb 2024 18:47:03 [WARNING]   [Dep Not Found] jade: 0.30.0
+05.Feb 2024 18:47:03 [DEBUG] Start examing 86: jasmine
+05.Feb 2024 18:47:59 [DEBUG] Start examing 87: javascript-state-machine
+05.Feb 2024 18:48:01 [DEBUG] Start examing 88: jexcel
+05.Feb 2024 18:48:02 [INFO]   [Dep Found] jexcel: 1.0.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:48:04 [INFO]   [Dep Found] jexcel: 1.2.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:48:05 [INFO]   [Dep Found] jexcel: 1.2.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:48:06 [INFO]   [Dep Found] jexcel: 1.3.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:48:07 [INFO]   [Dep Found] jexcel: 1.5.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:48:21 [WARNING]   [Dep Not Found] jexcel: 3.2.5
+05.Feb 2024 18:48:21 [DEBUG] Start examing 89: jimp
+05.Feb 2024 18:49:37 [WARNING]   [Dep Not Found] jimp: 0.21.0
+05.Feb 2024 18:49:37 [DEBUG] Start examing 90: jointjs
+05.Feb 2024 18:49:44 [WARNING]   [Dep Not Found] jointjs: 0.8.1
+05.Feb 2024 18:49:44 [DEBUG] Start examing 91: jose
+05.Feb 2024 18:49:48 [WARNING]   [Dep Not Found] jose: 3.20.0
+05.Feb 2024 18:49:48 [DEBUG] Start examing 92: jplayer
+05.Feb 2024 18:49:49 [INFO]   [Dep Found] jplayer: 2.0.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:49:50 [INFO]   [Dep Found] jplayer: 2.1.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:49:51 [INFO]   [Dep Found] jplayer: 2.2.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:49:52 [INFO]   [Dep Found] jplayer: 2.3.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:49:54 [INFO]   [Dep Found] jplayer: 2.3.10 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:49:55 [INFO]   [Dep Found] jplayer: 2.3.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:49:56 [INFO]   [Dep Found] jplayer: 2.3.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:49:57 [INFO]   [Dep Found] jplayer: 2.3.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:49:59 [INFO]   [Dep Found] jplayer: 2.3.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:50:00 [INFO]   [Dep Found] jplayer: 2.3.6 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:50:01 [INFO]   [Dep Found] jplayer: 2.3.7 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:50:03 [INFO]   [Dep Found] jplayer: 2.3.8 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:50:04 [INFO]   [Dep Found] jplayer: 2.3.9 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:50:05 [INFO]   [Dep Found] jplayer: 2.4.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:50:07 [INFO]   [Dep Found] jplayer: 2.4.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:50:08 [INFO]   [Dep Found] jplayer: 2.4.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:50:09 [INFO]   [Dep Found] jplayer: 2.5.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:50:11 [INFO]   [Dep Found] jplayer: 2.5.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:50:12 [INFO]   [Dep Found] jplayer: 2.5.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:50:13 [INFO]   [Dep Found] jplayer: 2.5.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:50:15 [INFO]   [Dep Found] jplayer: 2.5.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:50:16 [INFO]   [Dep Found] jplayer: 2.5.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:50:17 [INFO]   [Dep Found] jplayer: 2.5.6 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:50:19 [INFO]   [Dep Found] jplayer: 2.6.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:50:20 [INFO]   [Dep Found] jplayer: 2.6.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:50:21 [INFO]   [Dep Found] jplayer: 2.6.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:50:23 [INFO]   [Dep Found] jplayer: 2.6.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:50:24 [INFO]   [Dep Found] jplayer: 2.6.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:50:25 [INFO]   [Dep Found] jplayer: 2.7.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:50:27 [INFO]   [Dep Found] jplayer: 2.7.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:50:28 [INFO]   [Dep Found] jplayer: 2.8.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:50:29 [INFO]   [Dep Found] jplayer: 2.8.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:50:30 [INFO]   [Dep Found] jplayer: 2.9.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:50:32 [INFO]   [Dep Found] jplayer: 2.9.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:50:33 [INFO]   [Dep Found] jplayer: 2.9.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:50:33 [DEBUG] Start examing 93: jqgrid
+05.Feb 2024 18:50:35 [INFO]   [Dep Found] jqgrid: 4.6.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:50:38 [WARNING]   [Dep Not Found] jqgrid: 5.4.0
+05.Feb 2024 18:50:38 [DEBUG] Start examing 94: jquery-backstretch
+05.Feb 2024 18:50:39 [INFO]   [Dep Found] jquery-backstretch: 2.0.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:50:40 [INFO]   [Dep Found] jquery-backstretch: 2.0.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:50:42 [INFO]   [Dep Found] jquery-backstretch: 2.1.15 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:50:44 [INFO]   [Dep Found] jquery-backstretch: 2.1.16 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:50:45 [INFO]   [Dep Found] jquery-backstretch: 2.1.17 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:50:46 [INFO]   [Dep Found] jquery-backstretch: 2.1.18 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:50:46 [DEBUG] Start examing 95: jquery-compat
+05.Feb 2024 18:50:47 [DEBUG] Start examing 96: jquery-cookie
+05.Feb 2024 18:50:48 [INFO]   [Dep Found] jquery-cookie: 1.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:50:49 [INFO]   [Dep Found] jquery-cookie: 1.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:50:50 [INFO]   [Dep Found] jquery-cookie: 1.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:50:52 [INFO]   [Dep Found] jquery-cookie: 1.2.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:50:53 [INFO]   [Dep Found] jquery-cookie: 1.3.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:50:54 [INFO]   [Dep Found] jquery-cookie: 1.3.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:50:55 [INFO]   [Dep Found] jquery-cookie: 1.4.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:50:57 [INFO]   [Dep Found] jquery-cookie: 1.4.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:50:57 [DEBUG] Start examing 97: jquery-datetimepicker
+05.Feb 2024 18:50:58 [INFO]   [Dep Found] jquery-datetimepicker: 1.0.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:50:59 [INFO]   [Dep Found] jquery-datetimepicker: 1.0.10 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:51:01 [INFO]   [Dep Found] jquery-datetimepicker: 1.0.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:51:02 [INFO]   [Dep Found] jquery-datetimepicker: 1.0.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:51:04 [INFO]   [Dep Found] jquery-datetimepicker: 1.0.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:51:05 [INFO]   [Dep Found] jquery-datetimepicker: 1.0.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:51:06 [INFO]   [Dep Found] jquery-datetimepicker: 1.0.7 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:51:08 [INFO]   [Dep Found] jquery-datetimepicker: 1.0.8 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:51:09 [INFO]   [Dep Found] jquery-datetimepicker: 1.0.9 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:51:10 [INFO]   [Dep Found] jquery-datetimepicker: 1.1.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:51:12 [INFO]   [Dep Found] jquery-datetimepicker: 1.1.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:51:13 [INFO]   [Dep Found] jquery-datetimepicker: 2.0.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:51:15 [INFO]   [Dep Found] jquery-datetimepicker: 2.0.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:51:16 [INFO]   [Dep Found] jquery-datetimepicker: 2.0.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:51:17 [INFO]   [Dep Found] jquery-datetimepicker: 2.0.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:51:19 [INFO]   [Dep Found] jquery-datetimepicker: 2.0.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:51:20 [INFO]   [Dep Found] jquery-datetimepicker: 2.0.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:51:22 [INFO]   [Dep Found] jquery-datetimepicker: 2.0.6 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:51:23 [INFO]   [Dep Found] jquery-datetimepicker: 2.0.7 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:51:25 [INFO]   [Dep Found] jquery-datetimepicker: 2.0.8 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:51:26 [INFO]   [Dep Found] jquery-datetimepicker: 2.0.9 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:51:27 [INFO]   [Dep Found] jquery-datetimepicker: 2.1.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:51:29 [INFO]   [Dep Found] jquery-datetimepicker: 2.1.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:51:30 [INFO]   [Dep Found] jquery-datetimepicker: 2.1.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:51:31 [INFO]   [Dep Found] jquery-datetimepicker: 2.1.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:51:32 [INFO]   [Dep Found] jquery-datetimepicker: 2.1.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:51:34 [INFO]   [Dep Found] jquery-datetimepicker: 2.1.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:51:35 [INFO]   [Dep Found] jquery-datetimepicker: 2.1.6 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:51:37 [INFO]   [Dep Found] jquery-datetimepicker: 2.1.7 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:51:38 [INFO]   [Dep Found] jquery-datetimepicker: 2.1.8 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:51:39 [INFO]   [Dep Found] jquery-datetimepicker: 2.1.9 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:51:41 [INFO]   [Dep Found] jquery-datetimepicker: 2.2.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:51:42 [INFO]   [Dep Found] jquery-datetimepicker: 2.2.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:51:44 [INFO]   [Dep Found] jquery-datetimepicker: 2.2.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:51:45 [INFO]   [Dep Found] jquery-datetimepicker: 2.2.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:51:46 [INFO]   [Dep Found] jquery-datetimepicker: 2.2.6 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:51:48 [INFO]   [Dep Found] jquery-datetimepicker: 2.2.7 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:51:49 [INFO]   [Dep Found] jquery-datetimepicker: 2.2.8 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:51:50 [INFO]   [Dep Found] jquery-datetimepicker: 2.2.9 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:51:52 [INFO]   [Dep Found] jquery-datetimepicker: 2.3.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:51:53 [INFO]   [Dep Found] jquery-datetimepicker: 2.3.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:51:55 [INFO]   [Dep Found] jquery-datetimepicker: 2.3.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:51:56 [INFO]   [Dep Found] jquery-datetimepicker: 2.3.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:51:57 [INFO]   [Dep Found] jquery-datetimepicker: 2.3.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:51:59 [INFO]   [Dep Found] jquery-datetimepicker: 2.3.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:52:00 [INFO]   [Dep Found] jquery-datetimepicker: 2.3.6 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:52:02 [INFO]   [Dep Found] jquery-datetimepicker: 2.3.7 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:52:03 [INFO]   [Dep Found] jquery-datetimepicker: 2.3.8 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:52:05 [INFO]   [Dep Found] jquery-datetimepicker: 2.3.9 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:52:06 [INFO]   [Dep Found] jquery-datetimepicker: 2.4.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:52:07 [INFO]   [Dep Found] jquery-datetimepicker: 2.4.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:52:09 [INFO]   [Dep Found] jquery-datetimepicker: 2.4.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:52:10 [INFO]   [Dep Found] jquery-datetimepicker: 2.4.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:52:11 [INFO]   [Dep Found] jquery-datetimepicker: 2.4.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:52:13 [INFO]   [Dep Found] jquery-datetimepicker: 2.4.6 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:52:14 [INFO]   [Dep Found] jquery-datetimepicker: 2.4.7 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:52:16 [INFO]   [Dep Found] jquery-datetimepicker: 2.4.8 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:52:17 [INFO]   [Dep Found] jquery-datetimepicker: 2.4.9 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:52:19 [INFO]   [Dep Found] jquery-datetimepicker: 2.5.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:52:20 [INFO]   [Dep Found] jquery-datetimepicker: 2.5.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:52:21 [INFO]   [Dep Found] jquery-datetimepicker: 2.5.10 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:52:23 [INFO]   [Dep Found] jquery-datetimepicker: 2.5.11 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:52:24 [INFO]   [Dep Found] jquery-datetimepicker: 2.5.12 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:52:25 [INFO]   [Dep Found] jquery-datetimepicker: 2.5.13 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:52:27 [INFO]   [Dep Found] jquery-datetimepicker: 2.5.14 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:52:28 [INFO]   [Dep Found] jquery-datetimepicker: 2.5.15 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:52:29 [INFO]   [Dep Found] jquery-datetimepicker: 2.5.16 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:52:31 [INFO]   [Dep Found] jquery-datetimepicker: 2.5.17 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:52:32 [INFO]   [Dep Found] jquery-datetimepicker: 2.5.18 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:52:33 [INFO]   [Dep Found] jquery-datetimepicker: 2.5.19 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:52:35 [INFO]   [Dep Found] jquery-datetimepicker: 2.5.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:52:36 [INFO]   [Dep Found] jquery-datetimepicker: 2.5.20 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:52:37 [INFO]   [Dep Found] jquery-datetimepicker: 2.5.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:52:39 [INFO]   [Dep Found] jquery-datetimepicker: 2.5.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:52:40 [INFO]   [Dep Found] jquery-datetimepicker: 2.5.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:52:41 [INFO]   [Dep Found] jquery-datetimepicker: 2.5.7 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:52:42 [INFO]   [Dep Found] jquery-datetimepicker: 2.5.8 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:52:44 [INFO]   [Dep Found] jquery-datetimepicker: 2.5.9 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:52:44 [DEBUG] Start examing 98: jquery-handsontable
+05.Feb 2024 18:52:45 [INFO]   [Dep Found] jquery-handsontable: 0.10.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:52:45 [DEBUG] Start examing 99: jquery-infinitescroll
+05.Feb 2024 18:52:47 [INFO]   [Dep Found] jquery-infinitescroll: 2.0.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:52:48 [INFO]   [Dep Found] jquery-infinitescroll: 2.0.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:52:49 [INFO]   [Dep Found] jquery-infinitescroll: 2.0b2.110713 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:52:51 [INFO]   [Dep Found] jquery-infinitescroll: 2.0b2.120519 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:52:52 [INFO]   [Dep Found] jquery-infinitescroll: 2.0b2.120520 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:52:53 [INFO]   [Dep Found] jquery-infinitescroll: 2.1.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:53:02 [DEBUG] Start examing 100: jquery-jcrop
+05.Feb 2024 18:53:03 [INFO]   [Dep Found] jquery-jcrop: 0.9.10 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:53:05 [INFO]   [Dep Found] jquery-jcrop: 0.9.12 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:53:06 [INFO]   [Dep Found] jquery-jcrop: 0.9.13 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:53:08 [INFO]   [Dep Found] jquery-jcrop: 0.9.14 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:53:09 [INFO]   [Dep Found] jquery-jcrop: 0.9.15 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:53:10 [INFO]   [Dep Found] jquery-jcrop: 0.9.9 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:53:12 [INFO]   [Dep Found] jquery-jcrop: 2.0.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:53:13 [INFO]   [Dep Found] jquery-jcrop: 2.0.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:53:15 [INFO]   [Dep Found] jquery-jcrop: 2.0.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:53:16 [INFO]   [Dep Found] jquery-jcrop: 2.0.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:53:18 [INFO]   [Dep Found] jquery-jcrop: 2.0.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:53:18 [DEBUG] Start examing 101: jQuery-Knob
+05.Feb 2024 18:53:19 [INFO]   [Dep Found] jQuery-Knob: 1.2.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:53:20 [INFO]   [Dep Found] jQuery-Knob: 1.2.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:53:22 [INFO]   [Dep Found] jQuery-Knob: 1.2.11 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:53:23 [INFO]   [Dep Found] jQuery-Knob: 1.2.12 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:53:24 [INFO]   [Dep Found] jQuery-Knob: 1.2.13 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:53:26 [INFO]   [Dep Found] jQuery-Knob: 1.2.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:53:27 [INFO]   [Dep Found] jQuery-Knob: 1.2.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:53:28 [INFO]   [Dep Found] jQuery-Knob: 1.2.8 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:53:30 [INFO]   [Dep Found] jQuery-Knob: 1.2.9 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:53:30 [DEBUG] Start examing 102: jquery-mobile
+05.Feb 2024 18:53:33 [WARNING]   [Dep Not Found] jquery-mobile: 1.2.0
+05.Feb 2024 18:53:33 [DEBUG] Start examing 103: jquery-mousewheel
+05.Feb 2024 18:53:34 [INFO]   [Dep Found] jquery-mousewheel: 3.0.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:53:36 [INFO]   [Dep Found] jquery-mousewheel: 3.0.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:53:37 [INFO]   [Dep Found] jquery-mousewheel: 3.0.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:53:39 [INFO]   [Dep Found] jquery-mousewheel: 3.0.6 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:53:40 [INFO]   [Dep Found] jquery-mousewheel: 3.1.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:53:42 [INFO]   [Dep Found] jquery-mousewheel: 3.1.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:53:43 [INFO]   [Dep Found] jquery-mousewheel: 3.1.10 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:53:44 [INFO]   [Dep Found] jquery-mousewheel: 3.1.11 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:53:46 [INFO]   [Dep Found] jquery-mousewheel: 3.1.12 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:53:48 [INFO]   [Dep Found] jquery-mousewheel: 3.1.13 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:53:49 [INFO]   [Dep Found] jquery-mousewheel: 3.1.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:53:50 [INFO]   [Dep Found] jquery-mousewheel: 3.1.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:53:52 [INFO]   [Dep Found] jquery-mousewheel: 3.1.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:53:53 [INFO]   [Dep Found] jquery-mousewheel: 3.1.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:53:55 [INFO]   [Dep Found] jquery-mousewheel: 3.1.6 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:53:56 [INFO]   [Dep Found] jquery-mousewheel: 3.1.7 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:53:58 [INFO]   [Dep Found] jquery-mousewheel: 3.1.8 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:53:59 [INFO]   [Dep Found] jquery-mousewheel: 3.1.9 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:53:59 [DEBUG] Start examing 104: jquery-noty
+05.Feb 2024 18:54:01 [INFO]   [Dep Found] jquery-noty: 2.0.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:54:02 [INFO]   [Dep Found] jquery-noty: 2.0.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:54:03 [INFO]   [Dep Found] jquery-noty: 2.0.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:54:04 [INFO]   [Dep Found] jquery-noty: 2.0.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:54:06 [INFO]   [Dep Found] jquery-noty: 2.1.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:54:07 [INFO]   [Dep Found] jquery-noty: 2.1.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:54:09 [INFO]   [Dep Found] jquery-noty: 2.1.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:54:10 [INFO]   [Dep Found] jquery-noty: 2.1.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:54:11 [INFO]   [Dep Found] jquery-noty: 2.1.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:54:13 [INFO]   [Dep Found] jquery-noty: 2.2.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:54:14 [INFO]   [Dep Found] jquery-noty: 2.2.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:54:16 [INFO]   [Dep Found] jquery-noty: 2.2.10 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:54:17 [INFO]   [Dep Found] jquery-noty: 2.2.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:54:18 [INFO]   [Dep Found] jquery-noty: 2.2.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:54:20 [INFO]   [Dep Found] jquery-noty: 2.2.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:54:21 [INFO]   [Dep Found] jquery-noty: 2.2.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:54:23 [INFO]   [Dep Found] jquery-noty: 2.2.6 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:54:24 [INFO]   [Dep Found] jquery-noty: 2.2.7 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:54:26 [INFO]   [Dep Found] jquery-noty: 2.2.8 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:54:27 [INFO]   [Dep Found] jquery-noty: 2.2.9 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:54:29 [INFO]   [Dep Found] jquery-noty: 2.3.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:54:30 [INFO]   [Dep Found] jquery-noty: 2.3.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:54:32 [INFO]   [Dep Found] jquery-noty: 2.3.10 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:54:33 [INFO]   [Dep Found] jquery-noty: 2.3.11 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:54:35 [INFO]   [Dep Found] jquery-noty: 2.3.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:54:36 [INFO]   [Dep Found] jquery-noty: 2.3.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:54:37 [INFO]   [Dep Found] jquery-noty: 2.3.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:54:39 [INFO]   [Dep Found] jquery-noty: 2.3.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:54:40 [INFO]   [Dep Found] jquery-noty: 2.3.6 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:54:42 [INFO]   [Dep Found] jquery-noty: 2.3.7 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:54:43 [INFO]   [Dep Found] jquery-noty: 2.3.8 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:54:45 [INFO]   [Dep Found] jquery-noty: 2.4.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:54:46 [INFO]   [Dep Found] jquery-noty: 2.4.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:54:52 [DEBUG] Start examing 105: jquery-placeholder
+05.Feb 2024 18:54:53 [INFO]   [Dep Found] jquery-placeholder: 1.8.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:54:55 [INFO]   [Dep Found] jquery-placeholder: 1.8.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:54:56 [INFO]   [Dep Found] jquery-placeholder: 1.8.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:54:57 [INFO]   [Dep Found] jquery-placeholder: 1.8.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:54:59 [INFO]   [Dep Found] jquery-placeholder: 1.8.6 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:55:00 [INFO]   [Dep Found] jquery-placeholder: 1.8.7 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:55:02 [INFO]   [Dep Found] jquery-placeholder: 2.0.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:55:03 [INFO]   [Dep Found] jquery-placeholder: 2.0.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:55:05 [INFO]   [Dep Found] jquery-placeholder: 2.0.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:55:06 [INFO]   [Dep Found] jquery-placeholder: 2.0.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:55:08 [INFO]   [Dep Found] jquery-placeholder: 2.0.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:55:10 [INFO]   [Dep Found] jquery-placeholder: 2.0.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:55:11 [INFO]   [Dep Found] jquery-placeholder: 2.0.6 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:55:13 [INFO]   [Dep Found] jquery-placeholder: 2.0.7 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:55:14 [INFO]   [Dep Found] jquery-placeholder: 2.0.8 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:55:15 [INFO]   [Dep Found] jquery-placeholder: 2.0.9 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:55:17 [INFO]   [Dep Found] jquery-placeholder: 2.1.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:55:18 [INFO]   [Dep Found] jquery-placeholder: 2.1.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:55:20 [INFO]   [Dep Found] jquery-placeholder: 2.1.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:55:21 [INFO]   [Dep Found] jquery-placeholder: 2.1.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:55:23 [INFO]   [Dep Found] jquery-placeholder: 2.2.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:55:24 [INFO]   [Dep Found] jquery-placeholder: 2.3.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:55:25 [INFO]   [Dep Found] jquery-placeholder: 2.3.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:55:25 [DEBUG] Start examing 106: jquery-scrollTo
+05.Feb 2024 18:55:27 [INFO]   [Dep Found] jquery-scrollTo: 1.4.10 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:55:28 [INFO]   [Dep Found] jquery-scrollTo: 1.4.11 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:55:29 [INFO]   [Dep Found] jquery-scrollTo: 1.4.12 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:55:31 [INFO]   [Dep Found] jquery-scrollTo: 1.4.13 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:55:32 [INFO]   [Dep Found] jquery-scrollTo: 1.4.14 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:55:33 [INFO]   [Dep Found] jquery-scrollTo: 1.4.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:55:34 [INFO]   [Dep Found] jquery-scrollTo: 1.4.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:55:36 [INFO]   [Dep Found] jquery-scrollTo: 1.4.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:55:37 [INFO]   [Dep Found] jquery-scrollTo: 1.4.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:55:38 [INFO]   [Dep Found] jquery-scrollTo: 1.4.6 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:55:39 [INFO]   [Dep Found] jquery-scrollTo: 1.4.7 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:55:40 [INFO]   [Dep Found] jquery-scrollTo: 1.4.8 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:55:42 [INFO]   [Dep Found] jquery-scrollTo: 1.4.9 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:55:44 [INFO]   [Dep Found] jquery-scrollTo: 2.0.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:55:46 [INFO]   [Dep Found] jquery-scrollTo: 2.0.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:55:47 [INFO]   [Dep Found] jquery-scrollTo: 2.1.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:55:49 [INFO]   [Dep Found] jquery-scrollTo: 2.1.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:55:50 [INFO]   [Dep Found] jquery-scrollTo: 2.1.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:55:52 [INFO]   [Dep Found] jquery-scrollTo: 2.1.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:55:52 [DEBUG] Start examing 107: jquery-timeago
+05.Feb 2024 18:55:53 [INFO]   [Dep Found] jquery-timeago: 0.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:55:55 [INFO]   [Dep Found] jquery-timeago: 0.10.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:55:56 [INFO]   [Dep Found] jquery-timeago: 0.10.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:55:58 [INFO]   [Dep Found] jquery-timeago: 0.11 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:56:00 [INFO]   [Dep Found] jquery-timeago: 0.11.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:56:01 [INFO]   [Dep Found] jquery-timeago: 0.11.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:56:02 [INFO]   [Dep Found] jquery-timeago: 0.11.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:56:04 [INFO]   [Dep Found] jquery-timeago: 0.11.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:56:05 [INFO]   [Dep Found] jquery-timeago: 0.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:56:07 [INFO]   [Dep Found] jquery-timeago: 0.3.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:56:08 [INFO]   [Dep Found] jquery-timeago: 0.3.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:56:10 [INFO]   [Dep Found] jquery-timeago: 0.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:56:11 [INFO]   [Dep Found] jquery-timeago: 0.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:56:15 [WARNING]   [Dep Not Found] jquery-timeago: 0.5.1
+05.Feb 2024 18:56:15 [DEBUG] Start examing 108: jquery-ui-bootstrap
+05.Feb 2024 18:56:17 [WARNING]   [Dep Not Found] jquery-ui-bootstrap: 0.5pre
+05.Feb 2024 18:56:17 [DEBUG] Start examing 109: jquery-validate
+05.Feb 2024 18:56:19 [INFO]   [Dep Found] jquery-validate: 1.10.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:56:21 [INFO]   [Dep Found] jquery-validate: 1.11.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:56:22 [INFO]   [Dep Found] jquery-validate: 1.11.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:56:23 [INFO]   [Dep Found] jquery-validate: 1.12.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:56:25 [INFO]   [Dep Found] jquery-validate: 1.13.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:56:26 [INFO]   [Dep Found] jquery-validate: 1.13.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:56:28 [INFO]   [Dep Found] jquery-validate: 1.14.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:56:29 [INFO]   [Dep Found] jquery-validate: 1.15.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:56:31 [INFO]   [Dep Found] jquery-validate: 1.15.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:56:32 [INFO]   [Dep Found] jquery-validate: 1.16.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:56:33 [INFO]   [Dep Found] jquery-validate: 1.17.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:56:35 [INFO]   [Dep Found] jquery-validate: 1.18.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:56:36 [INFO]   [Dep Found] jquery-validate: 1.19.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:56:37 [INFO]   [Dep Found] jquery-validate: 1.19.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:56:39 [INFO]   [Dep Found] jquery-validate: 1.19.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:56:40 [INFO]   [Dep Found] jquery-validate: 1.19.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:56:41 [INFO]   [Dep Found] jquery-validate: 1.19.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:56:43 [INFO]   [Dep Found] jquery-validate: 1.19.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:56:44 [INFO]   [Dep Found] jquery-validate: 1.20.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:56:46 [INFO]   [Dep Found] jquery-validate: 1.6.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:56:47 [INFO]   [Dep Found] jquery-validate: 1.7.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:56:49 [INFO]   [Dep Found] jquery-validate: 1.8.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:56:50 [INFO]   [Dep Found] jquery-validate: 1.8.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:56:52 [INFO]   [Dep Found] jquery-validate: 1.9.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:56:52 [DEBUG] Start examing 110: jquery-weui
+05.Feb 2024 18:56:54 [INFO]   [Dep Found] jquery-weui: 0.2.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:56:55 [INFO]   [Dep Found] jquery-weui: 0.2.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:56:57 [INFO]   [Dep Found] jquery-weui: 0.3.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:56:58 [INFO]   [Dep Found] jquery-weui: 0.4.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:57:00 [INFO]   [Dep Found] jquery-weui: 0.5.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:57:01 [INFO]   [Dep Found] jquery-weui: 0.5.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:57:03 [INFO]   [Dep Found] jquery-weui: 0.6.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:57:04 [INFO]   [Dep Found] jquery-weui: 0.6.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:57:05 [INFO]   [Dep Found] jquery-weui: 0.7.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:57:07 [INFO]   [Dep Found] jquery-weui: 0.7.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:57:08 [INFO]   [Dep Found] jquery-weui: 0.7.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:57:10 [INFO]   [Dep Found] jquery-weui: 0.8.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:57:11 [INFO]   [Dep Found] jquery-weui: 0.8.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:57:13 [INFO]   [Dep Found] jquery-weui: 0.8.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:57:14 [INFO]   [Dep Found] jquery-weui: 0.8.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:57:16 [INFO]   [Dep Found] jquery-weui: 1.0.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:57:17 [INFO]   [Dep Found] jquery-weui: 1.0.0-rc.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:57:19 [INFO]   [Dep Found] jquery-weui: 1.0.0-rc.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:57:20 [INFO]   [Dep Found] jquery-weui: 1.0.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:57:22 [INFO]   [Dep Found] jquery-weui: 1.1.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:57:23 [INFO]   [Dep Found] jquery-weui: 1.1.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:57:25 [INFO]   [Dep Found] jquery-weui: 1.1.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:57:26 [INFO]   [Dep Found] jquery-weui: 1.2.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:57:28 [INFO]   [Dep Found] jquery-weui: 1.2.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:57:28 [DEBUG] Start examing 111: jquery.adaptive-backgrounds
+05.Feb 2024 18:57:30 [INFO]   [Dep Found] jquery.adaptive-backgrounds: 1.0.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:57:32 [INFO]   [Dep Found] jquery.adaptive-backgrounds: 1.0.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:57:33 [INFO]   [Dep Found] jquery.adaptive-backgrounds: 1.0.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:57:33 [DEBUG] Start examing 112: jquery.colorbox
+05.Feb 2024 18:57:34 [INFO]   [Dep Found] jquery.colorbox: 1.3.20.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:57:36 [INFO]   [Dep Found] jquery.colorbox: 1.3.25 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:57:37 [INFO]   [Dep Found] jquery.colorbox: 1.3.26 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:57:40 [INFO]   [Dep Found] jquery.colorbox: 1.3.27 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:57:41 [INFO]   [Dep Found] jquery.colorbox: 1.3.28 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:57:43 [INFO]   [Dep Found] jquery.colorbox: 1.3.29 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:57:44 [INFO]   [Dep Found] jquery.colorbox: 1.3.30 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:57:46 [INFO]   [Dep Found] jquery.colorbox: 1.3.31 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:57:47 [INFO]   [Dep Found] jquery.colorbox: 1.3.32 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:57:50 [WARNING]   [Dep Not Found] jquery.colorbox: 1.3.33
+05.Feb 2024 18:57:50 [DEBUG] Start examing 113: jquery.devbridge-autocomplete
+05.Feb 2024 18:57:52 [INFO]   [Dep Found] jquery.devbridge-autocomplete: 1.2.10 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:57:54 [INFO]   [Dep Found] jquery.devbridge-autocomplete: 1.2.11 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:57:55 [INFO]   [Dep Found] jquery.devbridge-autocomplete: 1.2.12 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:57:56 [INFO]   [Dep Found] jquery.devbridge-autocomplete: 1.2.13 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:57:58 [INFO]   [Dep Found] jquery.devbridge-autocomplete: 1.2.14 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:57:59 [INFO]   [Dep Found] jquery.devbridge-autocomplete: 1.2.15 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:58:01 [INFO]   [Dep Found] jquery.devbridge-autocomplete: 1.2.16 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:58:02 [INFO]   [Dep Found] jquery.devbridge-autocomplete: 1.2.17 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:58:04 [INFO]   [Dep Found] jquery.devbridge-autocomplete: 1.2.18 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:58:06 [INFO]   [Dep Found] jquery.devbridge-autocomplete: 1.2.19 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:58:07 [INFO]   [Dep Found] jquery.devbridge-autocomplete: 1.2.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:58:09 [INFO]   [Dep Found] jquery.devbridge-autocomplete: 1.2.20 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:58:10 [INFO]   [Dep Found] jquery.devbridge-autocomplete: 1.2.21 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:58:12 [INFO]   [Dep Found] jquery.devbridge-autocomplete: 1.2.22 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:58:13 [INFO]   [Dep Found] jquery.devbridge-autocomplete: 1.2.23 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:58:15 [INFO]   [Dep Found] jquery.devbridge-autocomplete: 1.2.24 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:58:17 [INFO]   [Dep Found] jquery.devbridge-autocomplete: 1.2.25 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:58:18 [INFO]   [Dep Found] jquery.devbridge-autocomplete: 1.2.26 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:58:19 [INFO]   [Dep Found] jquery.devbridge-autocomplete: 1.2.27 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:58:21 [INFO]   [Dep Found] jquery.devbridge-autocomplete: 1.2.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:58:22 [INFO]   [Dep Found] jquery.devbridge-autocomplete: 1.2.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:58:24 [INFO]   [Dep Found] jquery.devbridge-autocomplete: 1.2.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:58:26 [INFO]   [Dep Found] jquery.devbridge-autocomplete: 1.2.6 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:58:27 [INFO]   [Dep Found] jquery.devbridge-autocomplete: 1.2.7 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:58:29 [INFO]   [Dep Found] jquery.devbridge-autocomplete: 1.2.8 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:58:30 [INFO]   [Dep Found] jquery.devbridge-autocomplete: 1.2.9 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:58:32 [INFO]   [Dep Found] jquery.devbridge-autocomplete: 1.3.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:58:33 [INFO]   [Dep Found] jquery.devbridge-autocomplete: 1.4.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:58:35 [INFO]   [Dep Found] jquery.devbridge-autocomplete: 1.4.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:58:36 [INFO]   [Dep Found] jquery.devbridge-autocomplete: 1.4.10 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:58:38 [INFO]   [Dep Found] jquery.devbridge-autocomplete: 1.4.11 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:58:39 [INFO]   [Dep Found] jquery.devbridge-autocomplete: 1.4.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:58:41 [INFO]   [Dep Found] jquery.devbridge-autocomplete: 1.4.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:58:42 [INFO]   [Dep Found] jquery.devbridge-autocomplete: 1.4.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:58:44 [INFO]   [Dep Found] jquery.devbridge-autocomplete: 1.4.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:58:45 [INFO]   [Dep Found] jquery.devbridge-autocomplete: 1.4.6 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:58:47 [INFO]   [Dep Found] jquery.devbridge-autocomplete: 1.4.7 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:58:48 [INFO]   [Dep Found] jquery.devbridge-autocomplete: 1.4.8 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:58:50 [INFO]   [Dep Found] jquery.devbridge-autocomplete: 1.4.9 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:58:50 [DEBUG] Start examing 114: jquery.form
+05.Feb 2024 18:58:51 [INFO]   [Dep Found] jquery.form: 3.09 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:58:53 [INFO]   [Dep Found] jquery.form: 3.19 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:58:55 [INFO]   [Dep Found] jquery.form: 3.20 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:58:56 [INFO]   [Dep Found] jquery.form: 3.24 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:58:58 [INFO]   [Dep Found] jquery.form: 3.25.0-2013.01.18 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:58:59 [INFO]   [Dep Found] jquery.form: 3.32 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:59:00 [INFO]   [Dep Found] jquery.form: 3.32.0-2013.04.09 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:59:02 [INFO]   [Dep Found] jquery.form: 3.36 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:59:04 [INFO]   [Dep Found] jquery.form: 3.37.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:59:05 [INFO]   [Dep Found] jquery.form: 3.45 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:59:07 [INFO]   [Dep Found] jquery.form: 3.45.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:59:08 [INFO]   [Dep Found] jquery.form: 3.46 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:59:10 [INFO]   [Dep Found] jquery.form: 3.46.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:59:11 [INFO]   [Dep Found] jquery.form: 3.49 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:59:13 [INFO]   [Dep Found] jquery.form: 3.50 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:59:14 [INFO]   [Dep Found] jquery.form: 3.51 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:59:16 [INFO]   [Dep Found] jquery.form: 4.0.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:59:17 [INFO]   [Dep Found] jquery.form: 4.0.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:59:19 [INFO]   [Dep Found] jquery.form: 4.1.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:59:21 [INFO]   [Dep Found] jquery.form: 4.2.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:59:22 [INFO]   [Dep Found] jquery.form: 4.2.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:59:23 [INFO]   [Dep Found] jquery.form: 4.2.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:59:25 [INFO]   [Dep Found] jquery.form: 4.3.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:59:25 [DEBUG] Start examing 115: jquery.gridster
+05.Feb 2024 18:59:27 [INFO]   [Dep Found] jquery.gridster: 0.1.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:59:28 [INFO]   [Dep Found] jquery.gridster: 0.2.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:59:30 [INFO]   [Dep Found] jquery.gridster: 0.2.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:59:31 [INFO]   [Dep Found] jquery.gridster: 0.3.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:59:33 [INFO]   [Dep Found] jquery.gridster: 0.4.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:59:34 [INFO]   [Dep Found] jquery.gridster: 0.4.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:59:36 [INFO]   [Dep Found] jquery.gridster: 0.4.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:59:38 [INFO]   [Dep Found] jquery.gridster: 0.4.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:59:39 [INFO]   [Dep Found] jquery.gridster: 0.4.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:59:41 [INFO]   [Dep Found] jquery.gridster: 0.5.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:59:42 [INFO]   [Dep Found] jquery.gridster: 0.5.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:59:44 [INFO]   [Dep Found] jquery.gridster: 0.5.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:59:45 [INFO]   [Dep Found] jquery.gridster: 0.5.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:59:47 [INFO]   [Dep Found] jquery.gridster: 0.5.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:59:49 [INFO]   [Dep Found] jquery.gridster: 0.5.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:59:50 [INFO]   [Dep Found] jquery.gridster: 0.5.6 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:59:50 [DEBUG] Start examing 116: jquery.imagesloaded
+05.Feb 2024 18:59:52 [INFO]   [Dep Found] jquery.imagesloaded: 2.1.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 18:59:56 [WARNING]   [Dep Not Found] jquery.imagesloaded: 3.1.8
+05.Feb 2024 18:59:56 [DEBUG] Start examing 117: jquery.isotope
+05.Feb 2024 18:59:57 [INFO]   [Dep Found] jquery.isotope: 1.5.25 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:00:08 [DEBUG] Start examing 118: jquery
+05.Feb 2024 19:01:11 [DEBUG] Start examing 119: jquery.lazyload
+05.Feb 2024 19:01:12 [INFO]   [Dep Found] jquery.lazyload: 1.8.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:01:13 [INFO]   [Dep Found] jquery.lazyload: 1.8.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:01:15 [INFO]   [Dep Found] jquery.lazyload: 1.9.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:01:17 [INFO]   [Dep Found] jquery.lazyload: 1.9.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:01:17 [DEBUG] Start examing 120: jquery.mask
+05.Feb 2024 19:01:18 [INFO]   [Dep Found] jquery.mask: 0.7.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:01:20 [INFO]   [Dep Found] jquery.mask: 0.9.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:01:21 [INFO]   [Dep Found] jquery.mask: 1.10.10 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:01:23 [INFO]   [Dep Found] jquery.mask: 1.10.11 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:01:25 [INFO]   [Dep Found] jquery.mask: 1.10.12 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:01:26 [INFO]   [Dep Found] jquery.mask: 1.10.13 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:01:28 [INFO]   [Dep Found] jquery.mask: 1.10.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:01:29 [INFO]   [Dep Found] jquery.mask: 1.10.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:01:31 [INFO]   [Dep Found] jquery.mask: 1.10.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:01:32 [INFO]   [Dep Found] jquery.mask: 1.10.6 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:01:34 [INFO]   [Dep Found] jquery.mask: 1.10.7 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:01:35 [INFO]   [Dep Found] jquery.mask: 1.10.8 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:01:37 [INFO]   [Dep Found] jquery.mask: 1.10.9 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:01:39 [INFO]   [Dep Found] jquery.mask: 1.11.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:01:40 [INFO]   [Dep Found] jquery.mask: 1.11.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:01:42 [INFO]   [Dep Found] jquery.mask: 1.11.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:01:44 [INFO]   [Dep Found] jquery.mask: 1.11.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:01:45 [INFO]   [Dep Found] jquery.mask: 1.11.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:01:47 [INFO]   [Dep Found] jquery.mask: 1.12.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:01:48 [INFO]   [Dep Found] jquery.mask: 1.13.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:01:50 [INFO]   [Dep Found] jquery.mask: 1.13.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:01:51 [INFO]   [Dep Found] jquery.mask: 1.13.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:01:53 [INFO]   [Dep Found] jquery.mask: 1.13.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:01:54 [INFO]   [Dep Found] jquery.mask: 1.13.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:01:56 [INFO]   [Dep Found] jquery.mask: 1.13.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:01:58 [INFO]   [Dep Found] jquery.mask: 1.13.6 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:01:59 [INFO]   [Dep Found] jquery.mask: 1.13.7 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:02:01 [INFO]   [Dep Found] jquery.mask: 1.13.8 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:02:02 [INFO]   [Dep Found] jquery.mask: 1.13.9 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:02:04 [INFO]   [Dep Found] jquery.mask: 1.14.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:02:05 [INFO]   [Dep Found] jquery.mask: 1.14.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:02:07 [INFO]   [Dep Found] jquery.mask: 1.14.10 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:02:08 [INFO]   [Dep Found] jquery.mask: 1.14.11 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:02:10 [INFO]   [Dep Found] jquery.mask: 1.14.12 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:02:11 [INFO]   [Dep Found] jquery.mask: 1.14.13 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:02:13 [INFO]   [Dep Found] jquery.mask: 1.14.14 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:02:14 [INFO]   [Dep Found] jquery.mask: 1.14.15 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:02:16 [INFO]   [Dep Found] jquery.mask: 1.14.16 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:02:17 [INFO]   [Dep Found] jquery.mask: 1.14.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:02:19 [INFO]   [Dep Found] jquery.mask: 1.14.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:02:21 [INFO]   [Dep Found] jquery.mask: 1.14.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:02:22 [INFO]   [Dep Found] jquery.mask: 1.14.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:02:24 [INFO]   [Dep Found] jquery.mask: 1.14.6 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:02:25 [INFO]   [Dep Found] jquery.mask: 1.14.7 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:02:27 [INFO]   [Dep Found] jquery.mask: 1.14.8 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:02:29 [INFO]   [Dep Found] jquery.mask: 1.14.9 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:02:29 [DEBUG] Start examing 121: jquery.matchHeight
+05.Feb 2024 19:02:30 [INFO]   [Dep Found] jquery.matchHeight: 0.5.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:02:32 [INFO]   [Dep Found] jquery.matchHeight: 0.5.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:02:33 [INFO]   [Dep Found] jquery.matchHeight: 0.5.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:02:35 [INFO]   [Dep Found] jquery.matchHeight: 0.6.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:02:36 [INFO]   [Dep Found] jquery.matchHeight: 0.7.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:02:38 [INFO]   [Dep Found] jquery.matchHeight: 0.7.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:02:40 [INFO]   [Dep Found] jquery.matchHeight: 0.7.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:02:40 [DEBUG] Start examing 122: jquery.nicescroll
+05.Feb 2024 19:02:41 [INFO]   [Dep Found] jquery.nicescroll: 3.5.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:02:43 [INFO]   [Dep Found] jquery.nicescroll: 3.5.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:02:45 [INFO]   [Dep Found] jquery.nicescroll: 3.5.6 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:02:46 [INFO]   [Dep Found] jquery.nicescroll: 3.6.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:02:47 [INFO]   [Dep Found] jquery.nicescroll: 3.6.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:02:49 [INFO]   [Dep Found] jquery.nicescroll: 3.6.6 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:02:50 [INFO]   [Dep Found] jquery.nicescroll: 3.6.7 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:02:52 [INFO]   [Dep Found] jquery.nicescroll: 3.6.8 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:02:54 [INFO]   [Dep Found] jquery.nicescroll: 3.6.8-fix - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:02:55 [INFO]   [Dep Found] jquery.nicescroll: 3.7.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:02:59 [WARNING]   [Dep Not Found] jquery.nicescroll: 3.7.2
+05.Feb 2024 19:02:59 [DEBUG] Start examing 123: jquery.payment
+05.Feb 2024 19:03:01 [INFO]   [Dep Found] jquery.payment: 1.0.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:03:02 [INFO]   [Dep Found] jquery.payment: 1.0.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:03:04 [INFO]   [Dep Found] jquery.payment: 1.0.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:03:05 [INFO]   [Dep Found] jquery.payment: 1.0.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:03:07 [INFO]   [Dep Found] jquery.payment: 1.1.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:03:09 [INFO]   [Dep Found] jquery.payment: 1.1.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:03:10 [INFO]   [Dep Found] jquery.payment: 1.1.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:03:12 [INFO]   [Dep Found] jquery.payment: 1.1.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:03:14 [INFO]   [Dep Found] jquery.payment: 1.1.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:03:16 [INFO]   [Dep Found] jquery.payment: 1.2.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:03:17 [INFO]   [Dep Found] jquery.payment: 1.2.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:03:19 [INFO]   [Dep Found] jquery.payment: 1.2.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:03:21 [INFO]   [Dep Found] jquery.payment: 1.2.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:03:22 [INFO]   [Dep Found] jquery.payment: 1.2.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:03:24 [INFO]   [Dep Found] jquery.payment: 1.3.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:03:26 [INFO]   [Dep Found] jquery.payment: 1.3.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:03:27 [INFO]   [Dep Found] jquery.payment: 1.3.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:03:29 [INFO]   [Dep Found] jquery.payment: 1.3.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:03:31 [INFO]   [Dep Found] jquery.payment: 1.4.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:03:32 [INFO]   [Dep Found] jquery.payment: 1.4.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:03:34 [INFO]   [Dep Found] jquery.payment: 1.4.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:03:35 [INFO]   [Dep Found] jquery.payment: 1.4.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:03:37 [INFO]   [Dep Found] jquery.payment: 1.4.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:03:39 [INFO]   [Dep Found] jquery.payment: 2.0.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:03:40 [INFO]   [Dep Found] jquery.payment: 3.0.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:03:40 [DEBUG] Start examing 124: jquery.perfect-scrollbar
+05.Feb 2024 19:03:42 [INFO]   [Dep Found] jquery.perfect-scrollbar: 0.2.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:03:44 [INFO]   [Dep Found] jquery.perfect-scrollbar: 0.2.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:03:46 [INFO]   [Dep Found] jquery.perfect-scrollbar: 0.2.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:03:47 [INFO]   [Dep Found] jquery.perfect-scrollbar: 0.2.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:03:49 [INFO]   [Dep Found] jquery.perfect-scrollbar: 0.2.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:03:51 [INFO]   [Dep Found] jquery.perfect-scrollbar: 0.3.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:03:53 [INFO]   [Dep Found] jquery.perfect-scrollbar: 0.3.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:03:54 [INFO]   [Dep Found] jquery.perfect-scrollbar: 0.3.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:03:56 [INFO]   [Dep Found] jquery.perfect-scrollbar: 0.3.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:03:58 [INFO]   [Dep Found] jquery.perfect-scrollbar: 0.4.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:04:00 [INFO]   [Dep Found] jquery.perfect-scrollbar: 0.4.10 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:04:02 [INFO]   [Dep Found] jquery.perfect-scrollbar: 0.4.11 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:04:03 [INFO]   [Dep Found] jquery.perfect-scrollbar: 0.4.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:04:05 [INFO]   [Dep Found] jquery.perfect-scrollbar: 0.4.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:04:07 [INFO]   [Dep Found] jquery.perfect-scrollbar: 0.4.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:04:09 [INFO]   [Dep Found] jquery.perfect-scrollbar: 0.4.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:04:10 [INFO]   [Dep Found] jquery.perfect-scrollbar: 0.4.6 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:04:12 [INFO]   [Dep Found] jquery.perfect-scrollbar: 0.4.7 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:04:14 [INFO]   [Dep Found] jquery.perfect-scrollbar: 0.4.8 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:04:15 [INFO]   [Dep Found] jquery.perfect-scrollbar: 0.4.9 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:04:17 [INFO]   [Dep Found] jquery.perfect-scrollbar: 0.5.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:04:18 [INFO]   [Dep Found] jquery.perfect-scrollbar: 0.5.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:04:20 [INFO]   [Dep Found] jquery.perfect-scrollbar: 0.5.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:04:22 [INFO]   [Dep Found] jquery.perfect-scrollbar: 0.5.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:04:24 [INFO]   [Dep Found] jquery.perfect-scrollbar: 0.5.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:04:25 [INFO]   [Dep Found] jquery.perfect-scrollbar: 0.5.6 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:04:27 [INFO]   [Dep Found] jquery.perfect-scrollbar: 0.5.7 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:04:29 [INFO]   [Dep Found] jquery.perfect-scrollbar: 0.5.8 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:04:30 [INFO]   [Dep Found] jquery.perfect-scrollbar: 0.5.9 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:05:02 [WARNING]   [Dep Not Found] jquery.perfect-scrollbar: 1.5.3
+05.Feb 2024 19:05:02 [DEBUG] Start examing 125: jquery.pjax
+05.Feb 2024 19:05:04 [INFO]   [Dep Found] jquery.pjax: 0.9 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:05:05 [INFO]   [Dep Found] jquery.pjax: 1.0.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:05:07 [INFO]   [Dep Found] jquery.pjax: 1.1.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:05:09 [INFO]   [Dep Found] jquery.pjax: 1.1.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:05:10 [INFO]   [Dep Found] jquery.pjax: 1.2.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:05:12 [INFO]   [Dep Found] jquery.pjax: 1.3.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:05:14 [INFO]   [Dep Found] jquery.pjax: 1.4.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:05:16 [INFO]   [Dep Found] jquery.pjax: 1.5.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:05:17 [INFO]   [Dep Found] jquery.pjax: 1.5.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:05:19 [INFO]   [Dep Found] jquery.pjax: 1.6.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:05:20 [INFO]   [Dep Found] jquery.pjax: 1.6.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:05:22 [INFO]   [Dep Found] jquery.pjax: 1.7.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:05:24 [INFO]   [Dep Found] jquery.pjax: 1.7.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:05:25 [INFO]   [Dep Found] jquery.pjax: 1.7.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:05:27 [INFO]   [Dep Found] jquery.pjax: 1.7.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:05:29 [INFO]   [Dep Found] jquery.pjax: 1.8.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:05:30 [INFO]   [Dep Found] jquery.pjax: 1.8.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:05:32 [INFO]   [Dep Found] jquery.pjax: 1.8.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:05:34 [INFO]   [Dep Found] jquery.pjax: 1.9.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:05:36 [INFO]   [Dep Found] jquery.pjax: 1.9.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:05:37 [INFO]   [Dep Found] jquery.pjax: 1.9.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:05:39 [INFO]   [Dep Found] jquery.pjax: 1.9.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:05:41 [INFO]   [Dep Found] jquery.pjax: 1.9.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:05:42 [INFO]   [Dep Found] jquery.pjax: 1.9.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:05:44 [INFO]   [Dep Found] jquery.pjax: 1.9.6 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:05:46 [INFO]   [Dep Found] jquery.pjax: 2.0.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:05:48 [INFO]   [Dep Found] jquery.pjax: 2.0.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:05:48 [DEBUG] Start examing 126: jquery.qrcode
+05.Feb 2024 19:05:49 [INFO]   [Dep Found] jquery.qrcode: 1.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:05:49 [DEBUG] Start examing 127: jquery.sticky
+05.Feb 2024 19:05:51 [INFO]   [Dep Found] jquery.sticky: 1.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:05:53 [INFO]   [Dep Found] jquery.sticky: 1.0.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:05:55 [INFO]   [Dep Found] jquery.sticky: 1.0.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:05:56 [INFO]   [Dep Found] jquery.sticky: 1.0.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:05:56 [DEBUG] Start examing 128: jquery.touchswipe
+05.Feb 2024 19:05:58 [INFO]   [Dep Found] jquery.touchswipe: 1.5.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:06:00 [INFO]   [Dep Found] jquery.touchswipe: 1.6.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:06:01 [INFO]   [Dep Found] jquery.touchswipe: 1.6.10 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:06:03 [INFO]   [Dep Found] jquery.touchswipe: 1.6.11 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:06:05 [INFO]   [Dep Found] jquery.touchswipe: 1.6.12 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:06:06 [INFO]   [Dep Found] jquery.touchswipe: 1.6.13 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:06:08 [INFO]   [Dep Found] jquery.touchswipe: 1.6.14 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:06:10 [INFO]   [Dep Found] jquery.touchswipe: 1.6.15 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:06:11 [INFO]   [Dep Found] jquery.touchswipe: 1.6.16 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:06:13 [INFO]   [Dep Found] jquery.touchswipe: 1.6.17 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:06:14 [INFO]   [Dep Found] jquery.touchswipe: 1.6.18 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:06:16 [INFO]   [Dep Found] jquery.touchswipe: 1.6.19 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:06:18 [INFO]   [Dep Found] jquery.touchswipe: 1.6.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:06:19 [INFO]   [Dep Found] jquery.touchswipe: 1.6.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:06:21 [INFO]   [Dep Found] jquery.touchswipe: 1.6.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:06:23 [INFO]   [Dep Found] jquery.touchswipe: 1.6.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:06:24 [INFO]   [Dep Found] jquery.touchswipe: 1.6.6 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:06:26 [INFO]   [Dep Found] jquery.touchswipe: 1.6.7 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:06:28 [INFO]   [Dep Found] jquery.touchswipe: 1.6.8 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:06:29 [INFO]   [Dep Found] jquery.touchswipe: 1.6.9 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:06:29 [DEBUG] Start examing 129: jquery.transit
+05.Feb 2024 19:06:31 [INFO]   [Dep Found] jquery.transit: 0.1.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:06:35 [WARNING]   [Dep Not Found] jquery.transit: 0.9.10
+05.Feb 2024 19:06:35 [DEBUG] Start examing 130: jquery_lazyload
+05.Feb 2024 19:06:37 [INFO]   [Dep Found] jquery_lazyload: 1.5.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:06:39 [INFO]   [Dep Found] jquery_lazyload: 1.6.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:06:40 [INFO]   [Dep Found] jquery_lazyload: 1.7.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:06:42 [INFO]   [Dep Found] jquery_lazyload: 1.7.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:06:43 [INFO]   [Dep Found] jquery_lazyload: 1.7.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:06:45 [INFO]   [Dep Found] jquery_lazyload: 1.8.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:06:47 [INFO]   [Dep Found] jquery_lazyload: 1.8.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:06:48 [INFO]   [Dep Found] jquery_lazyload: 1.8.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:06:50 [INFO]   [Dep Found] jquery_lazyload: 1.8.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:06:52 [INFO]   [Dep Found] jquery_lazyload: 1.8.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:06:54 [INFO]   [Dep Found] jquery_lazyload: 1.8.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:06:55 [INFO]   [Dep Found] jquery_lazyload: 1.9.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:06:57 [INFO]   [Dep Found] jquery_lazyload: 1.9.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:06:59 [INFO]   [Dep Found] jquery_lazyload: 1.9.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:07:01 [INFO]   [Dep Found] jquery_lazyload: 1.9.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:07:02 [INFO]   [Dep Found] jquery_lazyload: 1.9.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:07:04 [INFO]   [Dep Found] jquery_lazyload: 1.9.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:07:06 [INFO]   [Dep Found] jquery_lazyload: 1.9.6 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:07:07 [INFO]   [Dep Found] jquery_lazyload: 1.9.7 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:07:12 [DEBUG] Start examing 131: jqueryui-touch-punch
+05.Feb 2024 19:07:14 [INFO]   [Dep Found] jqueryui-touch-punch: 0.2.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:07:15 [INFO]   [Dep Found] jqueryui-touch-punch: 0.2.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:07:15 [DEBUG] Start examing 132: jqueryui
+05.Feb 2024 19:07:17 [INFO]   [Dep Found] jqueryui: 1.10.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:07:19 [INFO]   [Dep Found] jqueryui: 1.10.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:07:20 [INFO]   [Dep Found] jqueryui: 1.10.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:07:22 [INFO]   [Dep Found] jqueryui: 1.10.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:07:23 [INFO]   [Dep Found] jqueryui: 1.10.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:07:25 [INFO]   [Dep Found] jqueryui: 1.11.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:07:26 [INFO]   [Dep Found] jqueryui: 1.11.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:07:28 [INFO]   [Dep Found] jqueryui: 1.11.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:07:30 [INFO]   [Dep Found] jqueryui: 1.11.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:07:31 [INFO]   [Dep Found] jqueryui: 1.11.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:07:33 [INFO]   [Dep Found] jqueryui: 1.12.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:07:34 [INFO]   [Dep Found] jqueryui: 1.12.0-beta.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:07:36 [INFO]   [Dep Found] jqueryui: 1.12.0-rc.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:07:38 [INFO]   [Dep Found] jqueryui: 1.12.0-rc.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:07:40 [INFO]   [Dep Found] jqueryui: 1.12.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:07:45 [INFO]   [Dep Found] jqueryui: 1.13.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:07:47 [INFO]   [Dep Found] jqueryui: 1.8.13 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:07:49 [INFO]   [Dep Found] jqueryui: 1.8.16 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:07:50 [INFO]   [Dep Found] jqueryui: 1.8.17 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:07:52 [INFO]   [Dep Found] jqueryui: 1.8.18 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:07:54 [INFO]   [Dep Found] jqueryui: 1.8.19 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:07:55 [INFO]   [Dep Found] jqueryui: 1.8.21 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:07:57 [INFO]   [Dep Found] jqueryui: 1.8.23 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:07:58 [INFO]   [Dep Found] jqueryui: 1.8.24 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:08:00 [INFO]   [Dep Found] jqueryui: 1.9.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:08:02 [INFO]   [Dep Found] jqueryui: 1.9.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:08:03 [INFO]   [Dep Found] jqueryui: 1.9.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:08:03 [DEBUG] Start examing 133: js-beautify
+05.Feb 2024 19:10:10 [DEBUG] Start examing 134: js-cookie
+05.Feb 2024 19:10:37 [DEBUG] Start examing 135: js-sequence-diagrams
+05.Feb 2024 19:10:41 [WARNING]   [Dep Not Found] js-sequence-diagrams: 1.0.3
+05.Feb 2024 19:10:41 [DEBUG] Start examing 136: js-xss
+05.Feb 2024 19:11:39 [DEBUG] Start examing 137: js-yaml
+05.Feb 2024 19:12:24 [DEBUG] Start examing 138: jsbarcode
+05.Feb 2024 19:12:58 [DEBUG] Start examing 139: jsdiff
+05.Feb 2024 19:13:40 [DEBUG] Start examing 140: jsencrypt
+05.Feb 2024 19:13:56 [DEBUG] Start examing 141: jshint
+05.Feb 2024 19:14:26 [WARNING]   [Dep Not Found] jshint: 2.5.10
+05.Feb 2024 19:14:26 [DEBUG] Start examing 142: jslint
+05.Feb 2024 19:14:31 [WARNING]   [Dep Not Found] jslint: 2021.10.20
+05.Feb 2024 19:14:31 [DEBUG] Start examing 143: jsmpeg
+05.Feb 2024 19:14:33 [DEBUG] Start examing 144: jsnes
+05.Feb 2024 19:14:39 [DEBUG] Start examing 145: json-editor
+05.Feb 2024 19:15:43 [WARNING]   [Dep Not Found] json-editor: 2.0.0
+05.Feb 2024 19:15:43 [DEBUG] Start examing 146: json-schema-faker
+05.Feb 2024 19:16:56 [DEBUG] Start examing 147: json2
+05.Feb 2024 19:17:03 [DEBUG] Start examing 148: json5
+05.Feb 2024 19:17:08 [WARNING]   [Dep Not Found] json5: 0.0.0
+05.Feb 2024 19:17:08 [DEBUG] Start examing 149: jsondiffpatch
+05.Feb 2024 19:17:59 [DEBUG] Start examing 150: jsoneditor
+05.Feb 2024 19:20:28 [WARNING]   [Dep Not Found] jsoneditor: 8.5.0
+05.Feb 2024 19:20:28 [DEBUG] Start examing 151: jsonwebtoken
+05.Feb 2024 19:20:33 [WARNING]   [Dep Not Found] jsonwebtoken: 8.0.1
+05.Feb 2024 19:20:33 [DEBUG] Start examing 152: jspdf
+05.Feb 2024 19:20:48 [WARNING]   [Dep Not Found] jspdf: 1.1.135
+05.Feb 2024 19:20:48 [DEBUG] Start examing 153: jsrsasign
+05.Feb 2024 19:22:09 [WARNING]   [Dep Not Found] jsrsasign: 4.1.1
+05.Feb 2024 19:22:09 [DEBUG] Start examing 154: jss
+05.Feb 2024 19:25:43 [WARNING]   [Dep Not Found] jss: 9.8.2
+05.Feb 2024 19:25:43 [DEBUG] Start examing 155: jstree
+05.Feb 2024 19:25:45 [INFO]   [Dep Found] jstree: 3.0.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:25:47 [INFO]   [Dep Found] jstree: 3.0.0-beta10 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:25:49 [INFO]   [Dep Found] jstree: 3.0.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:25:51 [INFO]   [Dep Found] jstree: 3.0.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:25:53 [INFO]   [Dep Found] jstree: 3.0.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:25:56 [INFO]   [Dep Found] jstree: 3.0.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:25:58 [INFO]   [Dep Found] jstree: 3.0.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:26:00 [INFO]   [Dep Found] jstree: 3.0.6 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:26:02 [INFO]   [Dep Found] jstree: 3.0.7 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:26:04 [INFO]   [Dep Found] jstree: 3.0.8 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:26:06 [INFO]   [Dep Found] jstree: 3.0.9 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:26:08 [INFO]   [Dep Found] jstree: 3.1.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:26:11 [INFO]   [Dep Found] jstree: 3.1.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:26:13 [INFO]   [Dep Found] jstree: 3.2.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:26:15 [INFO]   [Dep Found] jstree: 3.2.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:26:17 [INFO]   [Dep Found] jstree: 3.3.0 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:26:19 [INFO]   [Dep Found] jstree: 3.3.1 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:26:21 [INFO]   [Dep Found] jstree: 3.3.10 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:26:23 [INFO]   [Dep Found] jstree: 3.3.11 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:26:25 [INFO]   [Dep Found] jstree: 3.3.12 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:26:27 [INFO]   [Dep Found] jstree: 3.3.13 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:26:29 [INFO]   [Dep Found] jstree: 3.3.14 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:26:31 [INFO]   [Dep Found] jstree: 3.3.15 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:26:33 [INFO]   [Dep Found] jstree: 3.3.16 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:26:35 [INFO]   [Dep Found] jstree: 3.3.2 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:26:37 [INFO]   [Dep Found] jstree: 3.3.3 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:26:39 [INFO]   [Dep Found] jstree: 3.3.4 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:26:41 [INFO]   [Dep Found] jstree: 3.3.5 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:26:43 [INFO]   [Dep Found] jstree: 3.3.6 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:26:45 [INFO]   [Dep Found] jstree: 3.3.7 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:26:47 [INFO]   [Dep Found] jstree: 3.3.8 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:26:50 [INFO]   [Dep Found] jstree: 3.3.9 - jquery/2.2.4/jquery.min.js
+05.Feb 2024 19:26:50 [DEBUG] Start examing 156: jszip
+05.Feb 2024 19:26:55 [WARNING]   [Dep Not Found] jszip: 0.1.0
+05.Feb 2024 19:26:55 [DEBUG] Start examing 157: jump.js
+05.Feb 2024 19:26:59 [WARNING]   [Dep Not Found] jump.js: 0.0.1
+05.Feb 2024 19:26:59 [DEBUG] Start examing 158: just-safe-get
+05.Feb 2024 19:27:04 [WARNING]   [Dep Not Found] just-safe-get: 2.1.1
+05.Feb 2024 19:27:04 [DEBUG] Start examing 159: KaTeX
+05.Feb 2024 19:28:30 [DEBUG] Start examing 160: keras-js
+05.Feb 2024 19:28:34 [DEBUG] Start examing 161: keymaster
+05.Feb 2024 19:28:35 [DEBUG] Start examing 162: keypress
+05.Feb 2024 19:28:47 [DEBUG] Start examing 163: kineticjs
+05.Feb 2024 19:28:57 [DEBUG] Start examing 164: knockout
+05.Feb 2024 19:29:17 [DEBUG] Start examing 165: konva
+05.Feb 2024 19:30:57 [WARNING]   [Dep Not Found] konva: 3.1.4
+05.Feb 2024 19:30:57 [DEBUG] Start examing 166: kotlin
+05.Feb 2024 19:32:51 [DEBUG] Start examing 167: ky
+05.Feb 2024 19:32:56 [WARNING]   [Dep Not Found] ky: 0.19.1
+05.Feb 2024 19:32:56 [DEBUG] Start examing 168: labella
+05.Feb 2024 19:33:07 [DEBUG] Start examing 169: Ladda
+05.Feb 2024 19:33:43 [DEBUG] Start examing 170: layer
+05.Feb 2024 19:33:49 [WARNING]   [Dep Not Found] layer: 1.8.5
+05.Feb 2024 19:33:49 [DEBUG] Start examing 171: layui
+05.Feb 2024 19:35:49 [DEBUG] Start examing 172: layzr.js
+05.Feb 2024 19:36:23 [DEBUG] Start examing 173: lazy.js
+05.Feb 2024 19:36:40 [DEBUG] Start examing 174: lazysizes
+05.Feb 2024 19:38:43 [DEBUG] Start examing 175: leader-line
+05.Feb 2024 19:38:57 [DEBUG] Start examing 176: leaflet
+05.Feb 2024 19:40:02 [DEBUG] Start examing 177: leaflet.markercluster
+05.Feb 2024 19:40:15 [WARNING]   [Dep Not Found] leaflet.markercluster: 0.2
+05.Feb 2024 19:40:15 [DEBUG] Start examing 178: less.js

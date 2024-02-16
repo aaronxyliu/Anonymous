@@ -1,1 +1,1 @@
-{"1": {"libname": "zoom.js", "filename": "zoom.js", "url": "https://cdnjs.cloudflare.com/ajax/libs/zoom.js/0.0.1/zoom.js", "version": "0.0.1", "in_deps": [], "out_deps": []}}
+{"1": {"libname": "zoom.js", "filename": "zoom.js", "url": "https://cdnjs.cloudflare.com/ajax/libs/zoom.js/0.0.1/zoom.js", "version": "0.0.1", "in_deps": [], "out_deps": ["https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"], "success": true}}

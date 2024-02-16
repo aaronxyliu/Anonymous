@@ -59,7 +59,9 @@ if __name__ == '__main__':
         app = config.make_wsgi_app()
     server = make_server('127.0.0.1', 6543, app)
     print('Website is hold on 127.0.0.1:6543')
-    print('More information refer to README. Try to visit: 127.0.0.1:6543/test/jquery/1')
+    print('Try to visit: http://127.0.0.1:6543/test/jquery/1')
+    print('If you want to load dependecies, try this: http://127.0.0.1:6543/test/jquery/1?dep1=jquery/3.7.1/jquery.min.js&dep2=underscore.js/1.13.6/underscore-min.js')
+    print('More information please refer to README.')
     server.serve_forever()
 
 

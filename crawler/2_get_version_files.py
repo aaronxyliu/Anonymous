@@ -193,6 +193,10 @@ for entry in res:
 
     libcnt += 1
 
+conn.close()
+logger.close()
+
+
 
     
             

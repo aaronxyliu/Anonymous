@@ -5,12 +5,42 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/core.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>
     <script src="${request.static_path('static/test_page.js')}"></script>
+    <script>
+        function loadScript(url, callback) {
+            // adding the script element to the head
+            const head = document.getElementsByTagName('head')[0];
+            const script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.src = url;
+            script.async = false;
+            script.onload = callback;
+            head.appendChild(script);
+        }
+
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        let index = 1;
+        while (true) {
+            const dep_path = urlParams.get('dep' + index.toString());
+            if (!dep_path)
+                break;
+            loadScript('https://cdnjs.cloudflare.com/ajax/libs/' + dep_path);
+            index += 1;
+        }
+
+        <tal:block tal:repeat="lib libs">
+        loadScript("${lib}");
+        </tal:block>
+
+        loadScript("${request.static_path('static/load_reminder.js')}");
+    </script>
 </head>
 <body>
     <h3>This is the test page.</h3>
     <h4>Library ${libname} (${version}) : ${filename} is loaded.</h4>
     <div id="version">${version}</div>
     <div id="js-errors"></div>
+    <div id="js-load"></div>
     <button onclick="getGlobalV();">Get Global Variables</button>
     <button onclick="createObjectTree(5, 500, true);">Generate pTree</button>
     <div id="tree-size"></div>
@@ -27,9 +57,7 @@
 </script>
 
 
-<tal:block tal:repeat="lib libs">
-    <!-- <script type="module" src="${lib}"></script> -->
-    <script type="text/javascript" src="${lib}"></script>
-</tal:block>
+
+
 
 </html>
