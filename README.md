@@ -21,10 +21,13 @@ $ ./env.sh
 ```
 
 2. Download latest version Chrome and the [Chromediver](https://developer.chrome.com/docs/chromedriver). Put the Chromedriver under the `/bin` folder and name it "chromedriver".
-3. Set up a local or remote ([PlanetScale](https://planetscale.com/) is free to use) database, and put the database connection information in the file `/utils/sqlHelper.py`'s function `ConnDatabase.__init__()`. Then create two databases, named "Libraries" and "1000-pTs"
-4. Create a `.env` file under the `\crawler` folder to contain your Github token used for crawling, which can be obtained [here](https://github.com/settings/tokens). The `.env` file format is as follows.
+3. Set up a local or remote ([PlanetScale](https://planetscale.com/) is free to use) database. Then create two databases, named "Libraries" and "1000-pTs"
+4. Create a `.env` file under the `\crawler` folder to contain your Github token used for crawling, which can be obtained [here](https://github.com/settings/tokens). The connection information of the database created in step 2 should also be put here. The `.env` file format is as follows.
 ```
 GITHUB_TOKEN=gtp_pxt68oJ3A8k6zaapxye9JIm2BEMUvt26xp21
+DB_HOST=127.0.0.1
+DB_USERNAME=root
+DB_PASSWORD=12345678
 ```
 
 
