@@ -11,8 +11,12 @@ class ConnDatabase:
         )
         self.cursor = self.connection.cursor()
     
-    def disconnect(self):
+    def close(self):
         self.connection.close()
+    
+    def create_if_not_exist(self, table_name: str, statement: str):
+        self.cursor.execute(f'''CREATE TABLE IF NOT EXISTS `{table_name}` ({statement});''')
+        self.connection.commit()
     
     def insert(self, table_name: str, fields: list, values: tuple):
         if len(fields) == 0:

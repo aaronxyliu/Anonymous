@@ -4,6 +4,8 @@ from urllib.request import Request, urlopen
 import json
 import time
 import os
+from dotenv import load_dotenv
+load_dotenv()
 import ultraimport
 logger = ultraimport('__dir__/../utils/logger.py').getLogger()
 conn = ultraimport('__dir__/../utils/sqlHelper.py').ConnDatabase('Libraries')
@@ -12,6 +14,8 @@ conn = ultraimport('__dir__/../utils/sqlHelper.py').ConnDatabase('Libraries')
 # Token generation: https://github.com/settings/tokens
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 OUTPUT_TABLE = 'libs_cdnjs'
+CRAWL_LIMIT = 10
+CRAWL_INTERVAL = 0.5    # sleep seconds between iterations
 
 def get_star(lib_info):
     try:
@@ -50,32 +54,47 @@ def get_star(lib_info):
         logger.warning('Failed to find the stargazers field.')
         return 0, github_url
 
-res = urlopen(f'https://api.cdnjs.com/libraries')
-lib_list = json.loads(res.read())['results']
-lib_num = len(lib_list)
-cnt = 0
 
-for lib_entry in lib_list:
-    cnt += 1
-    libname = lib_entry['name']
-    cdnjs = f'https://cdnjs.com/libraries/{libname}'
-    res = urlopen(f'https://api.cdnjs.com/libraries/{libname}')
-    lib_info = json.loads(res.read())
-    url = lib_info['homepage'] if 'homepage' in lib_info else None
-    dscp = lib_info['description'] if 'description' in lib_info else None
-    version_list = lib_info['versions']
-    version_num = 0
-    latest_version = None
-    if version_list and len(version_list) > 1:
-        version_num = len(lib_info['versions'])
-        latest_version = lib_info['versions'][-1]
-    star, github_url = get_star(lib_info)    
-    conn.insert(OUTPUT_TABLE\
-                , ['libname', 'url', 'cdnjs', 'github', 'star', 'description', '#versions', 'latest version']\
-                , (libname, url, cdnjs, github_url, star, dscp, version_num, latest_version))
-    logger.info(f'{libname} finished. ({cnt} / {lib_num})')
-    time.sleep(0.5)
+if __name__ == '__main__':
+    # Create databse table
+    conn.create_if_not_exist(OUTPUT_TABLE, '''
+        `libname` varchar(100) DEFAULT NULL,
+        `url` varchar(500) DEFAULT NULL,
+        `cdnjs` varchar(100) DEFAULT NULL,
+        `star` int DEFAULT NULL,
+        `description` varchar(10000) DEFAULT NULL,
+        `#versions` int DEFAULT NULL,
+        `latest version` varchar(100) DEFAULT NULL,
+        `github` varchar(500) DEFAULT NULL
+    ''')
+    res = urlopen(f'https://api.cdnjs.com/libraries')
+    lib_list = json.loads(res.read())['results']
+    lib_num = len(lib_list)
+    cnt = 0
+
+    for lib_entry in lib_list:
+        cnt += 1
+        if cnt > CRAWL_LIMIT:
+            break
+        libname = lib_entry['name']
+        cdnjs = f'https://cdnjs.com/libraries/{libname}'
+        res = urlopen(f'https://api.cdnjs.com/libraries/{libname}')
+        lib_info = json.loads(res.read())
+        url = lib_info['homepage'] if 'homepage' in lib_info else None
+        dscp = lib_info['description'] if 'description' in lib_info else None
+        version_list = lib_info['versions']
+        version_num = 0
+        latest_version = None
+        if version_list and len(version_list) > 1:
+            version_num = len(lib_info['versions'])
+            latest_version = lib_info['versions'][-1]
+        star, github_url = get_star(lib_info)    
+        conn.insert(OUTPUT_TABLE\
+                    , ['libname', 'url', 'cdnjs', 'github', 'star', 'description', '#versions', 'latest version']\
+                    , (libname, url, cdnjs, github_url, star, dscp, version_num, latest_version))
+        logger.info(f'{libname} finished. ({cnt} / {lib_num})')
+        time.sleep(CRAWL_INTERVAL)
 
 
-conn.close()
-logger.close()
+    conn.close()
+    logger.close()
