@@ -18,6 +18,14 @@ class ConnDatabase:
         self.cursor.execute(f'''CREATE TABLE IF NOT EXISTS `{table_name}` ({statement});''')
         self.connection.commit()
     
+    def create_new_table(self, table_name: str, statement: str):
+        # Drop table if exists
+        self.cursor.execute(f'DROP TABLE IF EXISTS `{table_name}`;')
+        self.connection.commit()
+
+        self.cursor.execute(f'''CREATE TABLE `{table_name}` ({statement});''')
+        self.connection.commit()
+    
     def insert(self, table_name: str, fields: list, values: tuple):
         if len(fields) == 0:
             return
@@ -47,3 +55,7 @@ class ConnDatabase:
     def fetchall(self, cmd: str) -> list:
         self.cursor.execute(cmd)
         return self.cursor.fetchall()
+    
+    def execute(self, cmd: str) -> None:
+        self.cursor.execute(cmd)
+        return self.connection.commit()

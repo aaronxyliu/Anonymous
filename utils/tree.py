@@ -53,6 +53,58 @@ class LabeledTree:
             self.root.par = None
             self.root.depth = 0
             self.__get_metas__(self.root, 0, [self.root.name])
+
+    def tojson(self):
+        return self.__LT2Json__(self.root)
+    
+    def __LT2Json__(self, root, par_v=None):
+        '''
+        Convert the labeled tree back to JSON object
+
+        Parameters:
+            root - the root of the labeled tree
+            par_v - parent vertex in JSON object type
+
+        Output:
+            root of the new tree in JSON object type
+        '''
+        if not root:
+            return None
+        assert(isinstance(root, Vertex))
+        v_obj = {
+            'n': root.name,
+            'd': root.label,
+            'c':[]
+        }
+        if par_v:
+            par_v['c'].append(v_obj)
+        for child in root.children:
+            self.__LT2Json__(child, v_obj)
+        return v_obj
+    
+    def fromjson(self, json_object: object) -> None:
+        self.root = self.__Json2LT__(json_object)
+    
+    def __Json2LT__(self, root, par_v=None):
+        '''
+        Convert JSON object to the labeled tree data structure defined in tree.py
+
+        Parameters:
+            root - the root of the JSON tree
+            par_v - parent vertex in "Vertex" type
+
+        Output:
+            root of the new tree in "Vertex"
+        '''
+        if not root:
+            return None
+        v = Vertex(root['n'], root['d'])
+        if par_v:
+            par_v.addc(v)
+        for child in root['c']:
+            self.__Json2LT__(child, v)
+        return v
+
     
     def __eq__(self, x):
         assert(isinstance(x, LabeledTree))

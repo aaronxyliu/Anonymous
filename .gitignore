@@ -6,4 +6,5 @@ pyvenv.cfg
 **/test.py
 **/test.json
 log/**
+temp/**
 lib

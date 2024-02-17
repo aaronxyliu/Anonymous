@@ -1,41 +1,34 @@
 ### Generate credit object trees
 
+import json
+import pandas as pd
+import os
+import sys
 from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.common.by import By
 from selenium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support.expected_conditions import text_to_be_present_in_element
-import json
-import pandas as pd
-import os
-import sys
-from database_conn import connect_to_localdb
 from TreeCredit import CreditCalculator
+import ultraimport
+logger = ultraimport('__dir__/../utils/logger.py').getLogger()
+conn = ultraimport('__dir__/../utils/sqlHelper.py').ConnDatabase('1000-pTs')
 
-
-### =================
-### Username: oxc4nocsf36d3y3n66t5
-### Password: pscale_pw_tR7bje9m71xCckmZLy9q4eoQAdd2hYzgVqBB2sI4rCr
-
-connection = connect_to_localdb('1000-pTs')
-cursor = connection.cursor()
-
+LOG_FOLDER = 'log/gen_pTs'
+if not os.path.exists(LOG_FOLDER):
+    os.makedirs(LOG_FOLDER)
+    logger.info(f"Folder '{LOG_FOLDER}' created successfully.")
 
 service = Service(executable_path="./bin/chromedriver")
 driver = webdriver.Chrome()
-# driver = webdriver.Chrome(service=service)
 
-MAX_DEPTH=4
-MAX_NODE=1000
+MAX_DEPTH = 4
+MAX_NODE = 1000
 
 TRIM_DEPTH = MAX_DEPTH                                                                          
 TRIM_NODE = MAX_NODE
 
-BLACK_LIST = []
-# password: ain-2023-10-05-f4fczz
-
-def errMsg(msg):
-    return f'\033[1;31mERROR: {msg}\033[0m'
+BLACK_LIST = []     # Blacklist vertex name in the pTree
 
 
 def generatePT(file_index, route):
@@ -46,7 +39,7 @@ def generatePT(file_index, route):
     error_div = driver.find_element(By.ID, 'js-errors')
     if error_div.text:
         # Failed to load the library
-        print(f"    {errMsg(f'{file_index} >> {error_div.text}')}")
+        logger.error(f'{file_index} >> {error_div.text}')
         return None, 0, 0, '', True
         
 
@@ -176,6 +169,8 @@ def updateOne(libname, file_index, limit_globalV=[]):
         if limit_globalV != None and len(limit_globalV) > 0:
             pt_stable = limitGlobalV(pt_stable, limit_globalV)
         pt = treeDiff(pt1, pt_stable)
+
+        # Trim the pTree
         CC = CreditCalculator(TRIM_DEPTH, TRIM_NODE, MAX_DEPTH)
         size, depth = CC.algorithm1(pt)
         pt = CC.expand(pt)
@@ -189,7 +184,7 @@ def updateOne(libname, file_index, limit_globalV=[]):
 
         # Create table if not exist
         SEP_TREE_TABLE = f'{libname}_version'
-        cursor.execute(f'''CREATE TABLE IF NOT EXISTS `{SEP_TREE_TABLE}` (
+        conn.create_if_not_exist(SEP_TREE_TABLE, '''
             `pTree` json DEFAULT NULL,
             `globalV_num` int DEFAULT NULL,
             `globalV` json DEFAULT NULL,
@@ -200,32 +195,26 @@ def updateOne(libname, file_index, limit_globalV=[]):
             `random_num` int DEFAULT NULL,
             `version` varchar(100) DEFAULT NULL,
             UNIQUE KEY `id` (`file_id`)
-            );''')
-        connection.commit()
-
+        ''')
 
         # If entry already exists, delete first
-        cursor.execute(f"SELECT size FROM `{SEP_TREE_TABLE}` WHERE file_id = '{file_index}';")
-        res = cursor.fetchone()
+        res = conn.fetchone(f"SELECT size FROM `{SEP_TREE_TABLE}` WHERE file_id = '{file_index}';")
         if res:  
-            cursor.execute(f"DELETE FROM `{SEP_TREE_TABLE}` WHERE file_id = '{file_index}';")
-            connection.commit()
+            conn.execute(f"DELETE FROM `{SEP_TREE_TABLE}` WHERE file_id = '{file_index}';")
 
         # Create new entry in SEP_TREE_TABLE
-        sql = f'''INSERT INTO `{SEP_TREE_TABLE}` 
-                (pTree, size, depth, globalV, globalV_num, circle_num, file_id, random_num, version) 
-                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s);'''
-        val = (json.dumps(pt), size, depth, json.dumps(globalV), len(globalV), circle_num2 - circle_num1, int(file_index), random_num, str(version))
-        cursor.execute(sql, val)
-        connection.commit()
-        print(f'    {file_index} entry added to `{SEP_TREE_TABLE}`.')
+        conn.insert(SEP_TREE_TABLE\
+            , ('pTree', 'size', 'depth', 'globalV', 'globalV_num', 'circle_num', 'file_id', 'random_num', 'version') \
+            , (json.dumps(pt), size, depth, json.dumps(globalV), len(globalV), circle_num2 - circle_num1, int(file_index), random_num, str(version)))
+
+        logger.info(f'    {file_index} entry added to `{SEP_TREE_TABLE}`.')
         return ['Y', '']
     
 
 
 def updateLibrary(libname, start_id = 0):
     if not f'{libname}.json' in os.listdir('static/libs_data'):
-        print(f'library {libname} has no record in the static/libs_data directory.')
+        logger.warning(f'library {libname} has no record in the static/libs_data directory.')
         return
 
     with open(f'static/libs_data/{libname}.json', 'r') as openfile:
@@ -242,14 +231,16 @@ def updateLibrary(libname, start_id = 0):
 
         version = file_list[file_index]['version']
 
-        print(f'  \033[1;32m{file_index} {libname} {version}:\033[0m')
+        logger.info(f'  {file_index} {libname} {version}')
 
         try:
             res = updateOne(libname, file_index)
             log.append([version] + res)
+        except KeyboardInterrupt:
+            pass
         except Exception as error:
             # handle the exception
-            print("    An exception occurred:", error)
+            logger.error("    An exception occurred:", error)
             log.append([version, 'N', 'Unknown fault.'])
         
     df = pd.DataFrame(log, columns =['Version', 'Success', 'Description']) 
@@ -277,12 +268,13 @@ def updateAll():
 
 if __name__ == '__main__':
     # Usage: > python3 gen_pTs.py <lib name>
+
     if len(sys.argv) > 1:
         updateLibrary(sys.argv[1])
     else:
         updateAll()
     driver.close()
-    connection.close()
+    conn.close()
 
 
 

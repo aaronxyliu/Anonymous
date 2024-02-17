@@ -127,23 +127,28 @@ class CreditCalculator:
             node_dict = node['d']
             if 'type' in node_dict:
                 node_dict['t'] = node_dict.pop('type')
-                match node_dict['t']:
-                    case 'undefined':
-                        node_dict['t'] = 1
-                    case 'null':
-                        node_dict['t'] = 2
-                    case 'array':
-                        node_dict['t'] = 3
-                    case 'string':
-                        node_dict['t'] = 4
-                    case 'object':
-                        node_dict['t'] = 5
-                    case 'function':
-                        node_dict['t'] = 6
-                    case 'number':
-                        node_dict['t'] = 7
-                    case 'boolean':
-                        node_dict['t'] = 8
+                TYPE_OPTIONS = ['undefined', 'null', 'array', 'string', 'object', 'function', 'number', 'boolean']
+                for i in range(len(TYPE_OPTIONS)):
+                    if node_dict['t'] == TYPE_OPTIONS[i]:
+                        node_dict['t'] = i + 1
+                        break
+                # match node_dict['t']:
+                #     case 'undefined':
+                #         node_dict['t'] = 1
+                #     case 'null':
+                #         node_dict['t'] = 2
+                #     case 'array':
+                #         node_dict['t'] = 3
+                #     case 'string':
+                #         node_dict['t'] = 4
+                #     case 'object':
+                #         node_dict['t'] = 5
+                #     case 'function':
+                #         node_dict['t'] = 6
+                #     case 'number':
+                #         node_dict['t'] = 7
+                #     case 'boolean':
+                #         node_dict['t'] = 8
             if 'value' in node_dict:
                 node_dict['v'] = node_dict.pop('value')
         if 'children' in node:

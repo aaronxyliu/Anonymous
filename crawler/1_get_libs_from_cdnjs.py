@@ -43,6 +43,8 @@ def get_star(lib_info):
     req.add_header('Authorization', f'token {GITHUB_TOKEN}')
     try:
         repo_info = json.loads(urlopen(req).read())
+    except KeyboardInterrupt:
+        pass
     except:
         logger.warning(f"{github_api_url} is an invalid url. Or github token is outdated.")
         return 0, github_url
