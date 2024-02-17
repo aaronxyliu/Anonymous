@@ -1,17 +1,16 @@
 # Find the maximum frequrent subtree
-
-from utils.tree import *
 import json
-import pandas as pd
 from database_conn import connect_to_localdb
 from functools import cmp_to_key
 import sys
 import os
+import ultraimport
+tree = ultraimport('__dir__/../utils/tree.py')
 
 connection = connect_to_localdb('1000-pTs')
 cursor = connection.cursor()
 
-OUTPUT_TABLE = 'max_freq_subtree'
+OUTPUT_TABLE = 'min_freq_subtree'
 
 # Used for feature recommendation
 PROP_NUMBER_LIMIT = 2
@@ -33,7 +32,7 @@ def Json2LT(root, par_v=None):
     '''
     if not root:
         return None
-    v = Vertex(root['n'], root['d'])
+    v = tree.Vertex(root['n'], root['d'])
     if par_v:
         par_v.addc(v)
     for child in root['c']:
@@ -54,7 +53,7 @@ def LT2Json(root, par_v=None):
     '''
     if not root:
         return None
-    assert(isinstance(root, Vertex))
+    assert(isinstance(root, tree.Vertex))
     v_obj = {
         'n': root.name,
         'd': root.label,
@@ -107,7 +106,7 @@ def recommend_properties(ptree, number, depth):
 
 
 
-def freq_pTs(libname, start_version=None, end_version=None):
+def freq_pTs(libname, mts):
     INPUT_TABLE = f'{libname}_version'
 
 
@@ -118,7 +117,7 @@ def freq_pTs(libname, start_version=None, end_version=None):
     #     print(f'Library {libname} doesn\'t have pTrees information stored in the database. Skipped.')
     #     return None
 
-    G = Gamma()
+    G = tree.Gamma()
 
     try:
         cursor.execute(f"SELECT `pTree`, `version`, `size` FROM `{INPUT_TABLE}`;")
@@ -127,58 +126,56 @@ def freq_pTs(libname, start_version=None, end_version=None):
         print(f'Library {libname} doesn\'t have pTrees information stored in the database. Skipped.')
         return None
 
-    if start_version == None:
-        start_version = str(res[0][1])
-    if end_version == None:
-        end_version = str(res[len(res) - 1][1])
-
     # Read pTrees from dataset
-    valid_version = False
     for entry in res:
         version = str(entry[1])
-        if version == start_version:
-            valid_version = True
         
-        if valid_version and entry[2] > 1:  # Omit empty pTree
+        if  entry[2] >= mts:  # Omit empty pTree
             pTree = Json2LT(json.loads(entry[0]))
-            G.addt(LabeledTree(pTree, version))
+            G.addt(tree.LabeledTree(pTree, version))
 
-        if version == end_version:
-            valid_version = False
 
     if len(G.trees) == 0:
         with open(f'log/freq_failed_libs.log', "a") as logfile:
             logfile.write(f'{libname}\n')
         return
 
-    # Generate the maximun frequent subtree
-    freqT = G.max_freq_subtree()
-    feature_properties = recommend_properties(freqT, PROP_NUMBER_LIMIT, PROP_DEPTH_LIMIT)
+    # Generate the minimum frequent subtree
+    min_freq_subtrees = G.freq_subtree_mining(mts)
+
+    # Save to dataset
+    features = []
+    for subtree in min_freq_subtrees.trees:
+        feature = recommend_properties(subtree, PROP_NUMBER_LIMIT, PROP_DEPTH_LIMIT)
+        features.append(feature)
+        sql = f'''INSERT INTO `{OUTPUT_TABLE}` 
+            (pTree, size, depth, libname, `version range`, `feature`) 
+            VALUES (%s, %s, %s, %s, %s, %s);'''
+        val = (json.dumps(LT2Json(subtree.root)), subtree.size, subtree.depth, libname, subtree.name, json.dumps(feature))
+        cursor.execute(sql, val)
+        connection.commit()
+        print(f'   Library {libname} ({subtree.name}) entry added to {OUTPUT_TABLE}.')
+        # print(str(feature_properties).replace('\'','"'))
+        # print('')
 
     # Ouput to file
     clean_libname = libname.replace('.', '').replace('-', '')
-    output_json.append({
+    lib_item = {
         "libname": libname,
         "url": f"https://cdnjs.com/libraries/{libname}",
         "function": f"test_{clean_libname}",
-        "versionfile": f"{clean_libname}.json",
-        "feature1": feature_properties
-    })
+        "versionfile": f"{clean_libname}.json"
+    }
+    for i in range(len(features)):
+        lib_item[f'feature{i+1}'] = features[i]
+    output_json.append(lib_item)
 
-    # Save to dataset
-    sql = f'''INSERT INTO `{OUTPUT_TABLE}` 
-            (pTree, size, depth, libname, `start version`, `end version`, `feature`) 
-            VALUES (%s, %s, %s, %s, %s, %s, %s);'''
-    val = (json.dumps(LT2Json(freqT.root)), freqT.size, freqT.depth, libname, start_version, end_version, json.dumps(feature_properties))
-    cursor.execute(sql, val)
-    connection.commit()
-    print(f'   Library {libname} ({start_version} ~ {end_version}) entry added to {OUTPUT_TABLE}.')
-    print(str(feature_properties).replace('\'','"'))
-    print('')
+    
+    
     
 
 
-def freqAll():
+def freqAll(mts):
     # Drop table if exists
     cursor.execute(f'DROP TABLE IF EXISTS `{OUTPUT_TABLE}`;')
     connection.commit()
@@ -189,8 +186,7 @@ def freqAll():
         `size` int DEFAULT NULL,
         `depth` int DEFAULT NULL,
         `libname` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
-        `start version` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
-        `end version` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+        `version range` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
         `feature` json DEFAULT NULL
         );''')
     connection.commit()
@@ -206,21 +202,20 @@ def freqAll():
 
     for fname in libfiles_list:
         libname = fname[:-5]
-        freq_pTs(libname)
+        freq_pTs(libname, mts)
     
     with open(f'extension/libraries.json', 'w') as f:
        json.dump(output_json, f, indent=4)
         
 
 if __name__ == '__main__':
-    # Usage: > python3 freq_pTs.py <lib name> <start version> <end version>
+    # Usage: > python3 freq_pTs.py <lib name> <mts> 
+    # Minimum tree size is set as 4 by default
 
     if len(sys.argv) == 2:
-        freq_pTs(sys.argv[1])
+        freq_pTs(sys.argv[1], 4)
     elif len(sys.argv) == 3:
         freq_pTs(sys.argv[1], sys.argv[2])
-    elif len(sys.argv) == 4:
-        freq_pTs(sys.argv[1], sys.argv[2], sys.argv[3])
     else:
-        freqAll()
+        freqAll(4)
     connection.close()

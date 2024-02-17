@@ -1,2 +1,0 @@
-with open(f'data/get_version_files.log', "a") as outfile:
-    outfile.write('hello\n')
