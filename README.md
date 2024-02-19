@@ -40,7 +40,7 @@ DB_PASSWORD=12345678
 example url: 127.0.0.1:6543/test/jquery/12
 # <6543>: port
 # <test>: basic route
-# <jquery>: library name, must match the file name in the "/static/libs_data/" folder
+# <jquery>: library name, must match the file name in the "/static/libs_data" folder
 # <12>: the 12th version
 ```
 5. Run `/exp/3_gen_pTs.py` to aumatically generate pTree for all libraries. pTrees will be uploaded to the local database. Log information will be stored to `/log/gen_pTs` folder.

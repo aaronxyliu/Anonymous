@@ -1,5 +1,6 @@
 # Classes implemented according to the Version Detection paper
 import time
+import json
 
 class Label:
     def __init__(self, _name):
@@ -43,6 +44,9 @@ class LabeledTree:
     def __init__(self, root=None, name=''):
         self.root = root    # @Vertex
         self.name = name
+    
+    def __str__(self):
+        return json.dumps(self.tojson(), indent=2)
 
     def get_metas(self):
         self.fpaths = []
@@ -296,6 +300,13 @@ class LabeledTree:
 class Gamma:
     def __init__(self):
         self.trees = []    # @List<LabeledTree>
+
+    def __str__(self) -> str:
+        print_content = ''
+        for i in range(len(self.trees)):
+            print_content += self.trees[i].name + ':\n'
+            print_content += self.trees[i].__str__() + '\n'
+        return print_content
     
     def addt(self, t):
         assert(isinstance(t, LabeledTree))

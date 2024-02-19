@@ -111,6 +111,8 @@ def print_Sm(G):
         print(G.trees[i].name + ':')
         print("    " + str(G.trees[i].Sm))
 
+
+
 def test_suite1():
     G = create_test_trees()
     G.get_equivalence()
@@ -126,15 +128,15 @@ def test_suite1():
 
 def test_suite2():
     G = create_test_trees()
-    G.get_trees_metas()
-    print_fpath(G.trees)
+    print(G)
 
     G2 = G.freq_subtree_mining(4)
-    G2.get_trees_metas()
-    print_fpath(G2.trees)
+    print(G2)
+
+    
 
 if __name__ == '__main__':
-    test_suite1()
+    test_suite2()
 
 
 
