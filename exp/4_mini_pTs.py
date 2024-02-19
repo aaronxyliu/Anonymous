@@ -68,7 +68,7 @@ def minify_pTs(libname):
     # Save minified pTrees to dataset
     for i in range(len(G.trees)):
         assert(len(G.trees) == len(G.mtrees))
-        mTree = G.mtrees[i].root
+        mTree = G.mtrees[i]
         version = G.mtrees[i].name
         Sm = G.trees[i].Sm
         version_list = G.trees[i].eq_name_list

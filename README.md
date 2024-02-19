@@ -23,7 +23,7 @@ $ chmod +x env.sh
 $ ./env.sh
 ```
 
-2. Download latest version Chrome and the matching version [Chromediver](https://developer.chrome.com/docs/chromedriver). Put the Chromedriver under the `/bin` folder and name it "chromedriver".
+2. Download latest version Chrome and the matching version [Chromedriver](https://developer.chrome.com/docs/chromedriver). Put the Chromedriver under the `/bin` folder and name it "chromedriver".
 3. Set up a local or remote ([PlanetScale](https://planetscale.com/) is free to use) database server. Then create two databases, named "Libraries" and "1000-pTs".
 4. Create a `.env` file under the root folder to contain your Github token used for crawling, which can be obtained [here](https://github.com/settings/tokens). The connection information of the database created in step 2 should also be put here. The `.env` file format is as follows.
 ```
