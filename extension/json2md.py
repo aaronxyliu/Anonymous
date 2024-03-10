@@ -59,7 +59,7 @@ time_str = datetime.datetime.now().strftime("%d.%b %Y %H:%M:%S")
 template = f'''
 ## Collected Library List
 
-In total, there are {len(libs)} libraries collected by the tool. Among them, {v_cnt} are equipped with version features.
+In total, there are {len(libs)} libraries collected by the tool. Among them, {v_cnt} are equipped with fine-grained version features.
 
 Data update time: {time_str}
 

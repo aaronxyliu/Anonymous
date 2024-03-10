@@ -12,12 +12,12 @@ $ python3 -m venv .
 $ source bin/activate
 ```
 
-You can use the `deactivate` command to quit current environment.
+The command `deactivate` can be used if you want to quit current environment.
 ```shell
 $ deactivate
 ```
 
-1. Use the shell script to quickly install all required Python packages.
+1. Use the shell script to quickly install all required Python packages. (This script is only valid for Mac. For Linux users, please change "brew" to "apt" in the shell script)
 ```shell
 $ chmod +x env.sh
 $ ./env.sh
